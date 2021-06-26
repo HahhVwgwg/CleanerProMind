@@ -1,0 +1,485 @@
+<resources>
+    <string name="title_home">Beranda</string>
+    <string name="title_persional">Profil</string>
+
+    <string name="rating">Menilai</string>
+    <string name="policy">KEBIJAKAN PRIBADI</string>
+
+    <string name="more_app">Lebih Banyak Aplikasi</string>
+    <string name="scan">Pindai</string>
+
+    <string name="setting">Pengaturan</string>
+    <string name="scan_wait">Harap tunggu saat memindai file ...</string>
+
+    <string name="language_setting">Bahasa</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Dihapus ... %d file</string>
+
+
+    <string name="scan_all_file">Pindai Semua File Lainnya</string>
+    <string name="scan_audio_file">Pindai Audio Duplikat</string>
+    <string name="scan_doc_file">Pindai Dokumen Duplikat</string>
+    <string name="scan_image_file">Pindai Gambar Duplikat</string>
+    <string name="scan_video_file">Pindai Video Duplikat</string>
+    <string name="analyzing">Menganalisa...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Ikuti petunjuk di bawah ini untuk memberikan izin untuk menghapus file yang dipilih.</string>
+    <string name="sd_content_2">Jika Anda tidak melihat kartu SD, coba ini.</string>
+    <string name="sd_title">Konfirmasi Akses Penyimpanan Eksternal</string>
+    <string name="no_file_found">Tidak Ada File Duplikat yang Ditemukan</string>
+    <string name="delete_content">Apakah Anda ingin menghapus file?</string>
+    <string name="delete_title">Konfirmasi Hapus</string>
+    <string name="file_removed">File Dihapus</string>
+    <string name="grant_permission">Memberikan ijin</string>
+    <string name="delete_now">Hapus sekarang</string>
+
+    <string name="rate_msg">Tim kami bekerja sangat keras untuk memberi Anda aplikasi gratis terbaik. Ulasan bintang 5 Anda bernilai lebih dari semua uang. Silakan tulis ulasan yang bagus di Google Play untuk mendorong saya.</string>
+    <string name="remind_later">Ingatkan nanti</string>
+    <string name="good_5_stars">Bagus, 5 bintang</string>
+    <string name="not_good">Tidak baik</string>
+    <string name="title_dialog_feed_back">Kirimkan umpan balik</string>
+    <string name="message_dialog_feed_back">Minta perbaikan bug dan terapkan fitur baru melalui email</string>
+    <string name="exit_app">Keluar</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Judul Umpan Balik</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Check out the App at: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">There is no email client installed.</string>
+    <string name="send_feedback">Send FeedBack...</string>
+    <string name="enter_feed">Enter your FeedBack</string>
+    <string name="thanksforrate">\"Thanks for rate and review ^^ \"</string>
+
+    <string name="junk_files">Bersihkan sampah</string>
+    <string name="junk">Sampah</string>
+    <string name="cpu_cooler">Dinginkan perangkat</string>
+    <string name="phone_booster">Akselerasi telepon</string>
+    <string name="antivirus">Antivirus</string>
+    <string name="power_saving">Hemat energi</string>
+    <string name="data_manager">pengelola data</string>
+    <string name="app_lock">Kunci Aplikasi</string>
+    <string name="smart_charge">Pengisian cerdas</string>
+    <string name="deep_clean">Pembersihan mendalam</string>
+    <string name="app_uninstall">Menghapus aplikasi</string>
+    <string name="game_booster">Akselerator game</string>
+    <string name="junk_files_btn">Bersih</string>
+    <string name="cpu_cooler_btn">Tenang</string>
+    <string name="phone_booster_btn">Mempercepat</string>
+    <string name="antivirus_btn">Pindai</string>
+    <string name="power_saving_btn">hemat</string>
+    <string name="app_lock_btn">Blok</string>
+    <string name="smart_charge_btn">Pindai</string>
+    <string name="notification_manager_btn">Memeriksa</string>
+    <string name="deep_clean_btn">Bersih</string>
+    <string name="app_uninstall_btn">Hapus</string>
+    <string name="game_booster_btn">Percepat permainan</string>
+
+    <string name="junk_files_dialog">Keluar tanpa membersihkan?</string>
+    <string name="cpu_cooler_dialog">Keluar tanpa pendinginan?</string>
+    <string name="phone_booster_dialog">Keluar tanpa akselerasi?</string>
+    <string name="antivirus_dialog">Keluar tanpa memindai?</string>
+    <string name="power_saving_dialog">Keluar tanpa mengoptimalkan baterai?</string>
+    <string name="app_lock_dialog">Keluar tanpa memblokir?</string>
+    <string name="smart_charge_dialog">Keluar tanpa mengoptimalkan baterai?</string>
+    <string name="notification_manager_dialog">Keluar tanpa verifikasi?</string>
+    <string name="deep_clean_dialog">Keluar tanpa membersihkan?</string>
+    <string name="app_uninstall_dialog">Keluar tanpa mencopot pemasangan aplikasi?</string>
+    <string name="game_booster_dialog">Keluar tanpa mempercepat game?</string>
+
+    <string name="game">Permainan</string>
+    <string name="notification_manager">Pengelola pemberitahuan</string>
+    <string name="app_lock_des">Lindungi data dan properti rahasia</string>
+    <string name="smart_charge_des">Mengingatkan Anda tentang status pengisian untuk menghindari pengisian yang berlebihan</string>
+    <string name="deep_clean_des">Bersihkan file Anda secara mendalam untuk mendapatkan kembali lebih banyak ruang</string>
+    <string name="app_uninstall_des">Hapus aplikasi yang tidak berguna dengan cepat</string>
+    <string name="game_booster_des">Akselerator game</string>
+    <string name="notification_manager_des">Hapus bilah notifikasi</string>
+    <string name="junk_files_des">Hapus data yang tidak perlu, sampah</string>
+    <string name="cpu_cooler_des">Kurangi suhu perangkat untuk menghemat daya baterai</string>
+    <string name="phone_booster_des">Tingkatkan kinerja, kosongkan memori</string>
+    <string name="antivirus_des">Pindai dan lindungi ponsel Anda secara real time</string>
+    <string name="power_saving_des">Hentikan aplikasi yang tidak digunakan untuk menghemat baterai</string>
+    <string name="no_ads_des">Periklanan tidak akan mengganggu Anda lagi</string>
+    <string name="premium_shield_des">Lindungi aplikasi Anda dengan akses premium</string>
+    <string name="additional_clean_des">Pembersihan perangkat premium</string>
+    <string name="all_functions_des">Pembersihan perangkat premium</string>
+    <string name="additional_speed_des">Percepat perangkat Anda lebih cepat dengan akses premium</string>
+    <string name="no_ads">Tanpa iklan</string>
+    <string name="premium_shield">Keamanan premium</string>
+    <string name="additional_clean">Pembersihan lebih dalam</string>
+    <string name="all_functions">Semua fungsi tersedia</string>
+    <string name="additional_speed">Bahkan lebih cepat</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[Pembersihan & akselerasi]]></string>
+    <string name="security_and_privacy"><![CDATA[Keamanan & privasi]]></string>
+    <string name="has_protected_your_phone">%s melindungi ponsel Anda %s дн.</string>
+    <string name="settings">Pengaturan</string>
+    <string name="feedback">Umpan balik</string>
+    <string name="upgrade">Memperbarui</string>
+    <string name="like_facebook">Beri kami nilai</string>
+    <string name="scaning">Memindai ……</string>
+    <string name="memory_kill_found">Aplikasi yang memakan banyak ruang ditemukan</string>
+    <string name="boost">Percepat pekerjaan</string>
+    <string name="empty_item_select">Anda harus memilih setidaknya satu item</string>
+    <string name="sm_edge_device_optimized">Perangkat Anda dioptimalkan</string>
+    <string name="clean">Bersih</string>
+    <string name="cooling">Tenang</string>
+    <string name="try_it">Meluncurkan</string>
+
+    <string name="protect_now">Lindungi sekarang</string>
+    <string name="save_now">Simpan sekarang</string>
+    <string name="further_optimize_cpu">Mengoptimalkan prosesor Anda</string>
+    <string name="cool_down">Tenang</string>
+    <string name="scaning_cpu">memindai cpu ...</string>
+    <string name="secretly_consuming_battery">Menguras baterai dengan cepat</string>
+    <string name="extend_battery_life">Tingkatkan masa pakai baterai</string>
+    <string name="analyzing_battery_usage">Analisis penggunaan baterai</string>
+    <string name="hibernation">"Hibernasi....."</string>
+    <string name="find_and_grant">Temukan %s dan mengizinkan akses %s</string>
+    <string name="grant_now">Izinkan sekarang</string>
+    <string name="grant_app_permission">Berikan akses ke sistem file</string>
+    <string name="permission_needed">Untuk mengoptimalkan ruang kosong</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Izin diperlukan</string>    
+    <string name="lockscreen_access_pattern_start">Menambahkan sel</string>
+        
+    <string name="lockscreen_access_pattern_detected">Template telah disimpan</string>    
+    <string name="lockscreen_access_pattern_cleared">Template telah dihapus</string>      
+    <string name="lock_recording_intro_header">Instal buka kunci aplikasi</string>
+    <string name="lock_settings_help_how_to_record">Cara menggambar pola buka kunci</string>
+
+    <string name="lock_recording_incorrect_too_short">Pola terlalu pendek</string>
+
+    <string name="lock_pattern_entered_header">Masukkan polanya</string>    
+    <string name="lock_need_to_confirm">Masukkan pola sekali lagi untuk mengonfirmasi</string>    
+
+    <string name="lock_need_to_unlock_wrong">Polanya tidak cocok. Mohon coba lagi</string>
+
+    <string name="password_gestrue_tips">Masukkan kode rahasia</string>    
+    <string name="password_error_count">Polanya tidak cocok. Mohon coba lagi</string>
+    <string name="lock_pattern_confirmed_header">Template tervalidasi</string>
+
+    <string name="password_question_01">Apa yang paling Anda ingat dalam hidup Anda?</string>
+    <string name="password_question_02">"Apa nama hewan peliharaan favoritmu?"</string>
+    <string name="password_question_03">Nama pacar anda</string>
+    <string name="password_question_04">Apa yang Anda impikan sebagai seorang anak?</string>
+    <string name="password_question_05">Jika Anda jatuh cinta dengan seseorang, siapa itu?</string>
+    <string name="password_question_06">"Apa nama guru sekolah menengah favoritmu?"</string>
+    <string name="password_question_07">Di mana Anda ingin mengunjungi sebagai seorang anak?</string>
+    <string name="password_question_08">Jika Anda dapat melakukan perjalanan ke masa lalu, masa mana yang Anda ingin kembali?</string>
+    <string name="password_question_09">Nama pacar anda</string>
+
+    <string name="security_settings">Pengaturan keamanan</string>
+    <string name="sercurity_question">Pertanyaan keamanan:</string>
+    <string name="answer">Jawaban:</string>
+    <string name="input_your_answer">Masukkan jawaban Anda</string>
+    <string name="answer_blank">Jawaban tidak boleh kosong</string>
+    <string name="password_answer_set_toast">Pertanyaan dan jawaban keamanan telah dibuat</string>
+    <string name="forgot_gesture">Lupa kunci</string>
+    <string name="answer_question_error">Periksa kesalahan tanggapan</string>
+    <string name="not_setup_answer_question">Tidak ada jawaban pertanyaan pengaturan</string>
+
+    <string-array name="lock_time_array">        
+        <item>15 detik</item>        
+        <item>30 detik</item>        
+        <item>1 menit</item>        
+        <item>3 menit</item>        
+        <item>5 menit</item>      
+        <item>10 menit</item>        
+        <item>30 menit</item>        
+        <item>Segera</item>    
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">Selamat datang di kunci aplikasi</string>
+    <string name="reset">Mulai ulang</string>
+    <string name="search_application">Cari di aplikasi</string>
+    <string name="lock_settings">Pengaturan kunci</string>
+    <string name="lock_immediately_after_locking_the_screen">Kunci aplikasi segera mengunci ponsel</string>
+    <string name="change_the_password">Ganti kata sandi</string>
+    <string name="hide_pattern">Sembunyikan pola</string>
+    <string name="search_applications">Cari di aplikasi &#8230;</string>
+    <string name="search_for">Cari &#8230;</string>
+    <string name="_1_minute">1 menit</string>
+    <string name="accessibility_service_description">Ketuk di kanan atas gunakan untuk layanan Aksesibilitas.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie">Selfie penyusup</string>
+    <string name="vibrate">Pilihan</string>
+    <string name="app_runing_background">Aplikasi sedang berjalan di latar belakang</string>
+    <string name="app_background_task">Menjalankan aplikasi di latar belakang</string>
+    <string name="create_password">Munculkan kata sandi</string>
+    <string name="create_pattern_lock">Munculkan sebuah pola</string>
+    <string name="on_off">HIDUP MATI</string>
+    <string name="skip_app_title">Aplikasi yang dipilih tidak akan dibatalkan selama pembersihan</string>
+    <string name="app_protect">Aplikasi dilindungi</string>
+    <string name="ram">Penyimpanan</string>
+    <string name="ready_boost">Siap berakselerasi</string>
+    <string name="create_shortcut">Buat pintasan</string>
+    <string name="notification_created_shortcut">Pintasan %s dibuat</string>
+    <string name="list_game">Daftar game</string>
+    <string name="select_game_to_boost">Pilih game untuk dipercepat</string>
+    <string name="app_not_exist">Aplikasi tidak ada</string>
+    <string name="game_add">Ditambahkan ke game: %s</string>
+    <string name="not_distub">Jangan ganggu</string>
+    <string name="hide_notification_all">Sembunyikan semua notifikasi saat bermain</string>
+    <string name="smart_charger_can_help">Pengisian daya pintar dapat membantu Anda</string>
+    <string name="optimize_chargin_progress">Optimalkan proses pengisian</string>
+    <string name="remind_charger">Ingatkan secara real time untuk membantu Anda menghindar \ n pengisian berlebihan</string>
+    <string name="turn_on">Nyalakan sekarang</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Dinyalakan</string>
+    <string name="brightness">Brightness</string>
+    <string name="auto">Auto</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Matikan</string>
+    <string name="synchronize">Tersinkronisasi</string>
+    <string name="charging_finished">Pengisian selesai</string>
+    <string name="auto_optimized">Dioptimalkan secara otomatis</string>
+    <string name="clean_up">Bersih</string>
+    <string name="pin">Hemat baterai</string>
+    <string name="power_full">Baterai terisi penuh</string>
+    <string name="battery_full_des">Pengisian daya selesai, putuskan sambungan sumbernya</string>
+    <string name="uninstall">Hapus</string>
+    <string name="other_app">Aplikasi lain</string>
+    <string name="clean_notifi">Pemberitahuan pembersihan</string>
+    <string name="social_app">Aplikasi sosial</string>
+    <string name="third_app">Aplikasi pihak ketiga</string>
+    <string name="spam_notification">Pemberitahuan spam:</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="just_now_time">Sekarang</string>
+    <string name="minute_ago">%s beberapa menit yang lalu</string>
+    <string name="Notificationbar_Spamnotification">Pemberitahuan spam:</string>
+    <string name="Notificationbarcleanup_Guide1">Urutkan pemberitahuan spam dan hapus dengan satu klik</string>
+    <string name="Notificationbarcleanup_RightNow">Hapus bilah notifikasi</string>
+    <string name="safety_scanning">Pindai keamanan</string>
+    <string name="security">Keamanan</string>
+
+    <string name="per_read_phone_title">Transfer data telepon</string>
+    <string name="per_access_location_title">Akses ke lokasi</string>
+    <string name="per_read_sms_title">Saya dapat membaca sms Anda</string>
+    <string name="per_send_sms_title">Anda dapat mengirim sms</string>
+    <string name="per_call_phone_title">Anda dapat menelepon</string>
+    <string name="per_outgoing_call_title">Dapat mengontrol panggilan keluar</string>
+    <string name="per_record_audio_title">Dapat merekam audio</string>
+    <string name="per_camera_title">Akses ke kamera</string>
+
+    <string name="per_read_phone_des">Aplikasi ini mengumpulkan dan mengirimkan data kartu SIM termasuk buku alamat, PIN seluler dan riwayat panggilan. Melakukannya dapat meningkatkan biaya transfer data dan menimbulkan risiko privasi TINGGI.</string>
+    <string name="per_access_location_des">Aplikasi ini dapat mengakses lokasi tepatnya dan berisiko bagi privasi Anda.</string>
+    <string name="per_read_sms_des">Aplikasi ini dapat membaca pesan SMS pribadi Anda dan membahayakan privasi Anda.</string>
+    <string name="per_send_sms_des">Aplikasi ini dapat mengirim SMS. Melakukannya dapat meningkatkan biaya transfer data dan menimbulkan risiko privasi TINGGI.</string>
+    <string name="per_call_phone_des">Aplikasi ini dapat memulai panggilan telepon tanpa melalui antarmuka pengguna Dialer sehingga pengguna dapat mengkonfirmasi panggilan tersebut. Melakukannya dapat meningkatkan biaya transfer data dan menimbulkan risiko privasi TINGGI.</string>
+    <string name="per_outgoing_call_des">Aplikasi ini dapat melihat nomor yang dipanggil selama panggilan keluar, dengan kemampuan untuk mengalihkan panggilan ke nomor lain atau menghentikan panggilan sepenuhnya. Melakukannya dapat meningkatkan biaya transfer data dan menimbulkan risiko privasi TINGGI.</string>
+    <string name="per_record_audio_des">Aplikasi ini dapat merekam audio dan merupakan ancaman bagi privasi Anda.</string>
+    <string name="per_camera_des">Aplikasi ini dapat mengakses kamera perangkat Anda dan menimbulkan risiko bagi privasi Anda.</string>
+    <string name="in_danger">Dalam bahaya</string>
+    <string name="resolve_all">Perbolehkan semua</string>
+    <string name="virus_app">Aplikasi virus</string>
+    <string name="issues_found">Ditemukan %s masalah</string>
+    <string name="skip_all">Lewati semua</string>
+    <string name="some_app_use_permission">Beberapa aplikasi menggunakan izin berbahaya</string>
+    <string name="app_dangerous">%s Aplikasi itu berbahaya</string>
+    <string name="version">Versi</string>
+    <string name="date">Tanggal: %s</string>
+    <string name="size">Ukuran: %s</string>
+    <string name="request_permission">Minta izin</string>
+    <string name="cancel">Pembatalan</string>
+    <string name="security_threats">Ancaman keamanan</string>
+    <string name="ignore">Mengabaikan</string>
+    <string name="skip_app_virus">«Aplikasi yang dipilih akan diabaikan saat memindai virus»</string>
+    <string name="while_list">Pemindaian daftar</string>
+    <string name="no_junk">Tidak ada file yang tidak diinginkan ditemukan</string>
+    <string name="obsolete_apk">APK tidak berguna</string>
+    <string name="system_cache">Cache sistem</string>
+    <string name="downloader_files">File yang diunggah </string>
+    <string name="large_files">File besar</string>
+    <string name="op_clean">Dihapus</string>
+    <string name="mb">MB</string>
+    <string name="notification_toggle">Pengalih notifikasi</string>
+    <string name="Calculating">Memindai ....</string>
+    <string name="notification_setting">PENGATURAN PEMBERITAHUAN</string>
+    <string name="junk_reminder">Ingatkan saya tentang sampah</string>
+    <string name="every_3days">Setiap 3 hari</string>
+    <string name="phone_boost_reminder">Pengingat Peningkatan Kecepatan Telepon</string>
+    <string name="remind_when_memory">Ingatkan bila penggunaan memori berlebihan</string>
+    <string name="cpu_cooler_reminder">Pengingat Pendingin CPU</string>
+    <string name="remind_me_when_cpu">Ingatkan saya jika prosesor terlalu panas</string>
+    <string name="battery_saver">Hemat baterai</string>
+    <string name="remind_me_when_app_draing">Ingatkan saya jika aplikasi kehabisan baterai</string>
+    <string name="app_install">Menginstal aplikasi</string>
+    <string name="delete_the_apk">Hapus file APK setelah menginstal aplikasi</string>
+    <string name="delete_the_residual">Hapus sampah sisa setelah mencopot pemasangan aplikasi</string>
+    <string name="antivirus_settings">PENGATURAN ANTI-VIRUS</string>
+    <string name="real_time_protection">perlindungan waktu nyata</string>
+    <string name="ignore_list">Daftar hitam</string>
+    <string name="do_not_distub">Jangan ganggu</string>
+    <string name="general_settings">PENGATURAN UMUM</string>
+    <string name="create_home_shortcut">Buat pintasan di layar beranda</string>
+    <string name="remove_app_unstall">hapus file instalasi untuk mengosongkan lebih banyak ruang.</string>
+    <string name="deleting">Hapus, tunggu ...</string>
+    <string name="scan_virus">Pemindaian virus .....</string>
+    <string name="start_use">Mulai menggunakan</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">Aplikasi ini aman</string>
+    <string name="app_virus_contain">Aplikasi ini mengandung virus</string>
+    <string name="ram_going_full">Memori penuh</string>
+    <string name="use_phone_boost">Gunakan pembersih telepon untuk mengosongkan ruang</string>
+    <string name="phone_is_hot">Ponsel terlalu panas</string>
+    <string name="use_cpu_cleaner">Dinginkan untuk membersihkan prosesor</string>
+    <string name="use_save_battery">Hemat baterai</string>
+    <string name="battery_low">Baterai lemah</string>
+    <string name="note">Catatan</string>
+    <string name="note_turn_off_notifi">Perangkat  %s tidak stabil jika sakelar notifikasi dinonaktifkan.</string>
+    <string name="turn_off">Matikan</string>
+    <string name="junk_reminder_frequency">Frekuensi pemberitahuan</string>
+    <string name="every_day">setiap hari</string>
+    <string name="every_7days">Setiap 7 hari</string>
+    <string name="never_reminder">Jangan pernah ingatkan</string>
+    <string name="start_at">Mulai di</string>
+    <string name="stop_at">Selesai</string>
+    <string name="detect_junk_file">File sampah ditemukan</string>
+    <string name="use_junk_file">Gunakan file fungsi funk untuk membersihkan</string>
+    <string name="fix">Memperbaiki</string>
+    <string name="optimize">Optimalkan</string>
+    <string name="save">Menyimpan</string>
+    <string name="selcet_file_to_clean">Pilih file yang akan dibersihkan</string>
+
+    <string name="floatint_windown_per">Izinkan pop-up</string>
+    <string name="accessibility_permission">Izinkan akses</string>
+    <string name="listener_notification_per">Izinkan pemberitahuan ditampilkan</string>
+    <string name="write_setting_per">Izinkan merekam</string>
+    <string name="usage_access_permission">Izinkan akses untuk menggunakan</string>
+    <string name="external_storage_permission">Izinkan akses ke memori eksternal perangkat</string>
+    <string name="write_setting_permission">"Berikan izin untuk mengubah pengaturan perangkat.</string>
+    <string name="listen_notification_permission">Berikan izin untuk melihat pemberitahuan perangkat</string>
+    <string name="overlay_permission">Berikan izin tampilan di aplikasi lain</string>
+    <string name="accessibility_setting_permission">Berikan izin untuk menggunakan Layanan Aksesibilitas</string>
+    <string name="splash_content">Ringan, cepat, dan cerdas</string>
+
+    <string name="result_cooler">Pendinginan berhasil diselesaikan.</string>
+    <string name="boost_result">Akselerasi dilakukan</string>
+    <string name="clean_result">Pembersihan selesai</string>
+    <string name="fast_charger_boosted_result">Pengisian cepat dipercepat</string>
+    <string name="antivirus_result">AMAN! Ancaman dihilangkan</string>
+    <string name="deep_clean_result">Lengkap!</string>
+    <string name="notification_manager_result">Jadi!</string>
+    <string name="dectect_apk_install">Ditemukan 1 apk install</string>
+    <string name="conduct_scan_virus">Periksa virus</string>
+    <string name="dectect_apk_uninstall">Menghapus 1 file apk terdeteksi</string>
+    <string name="conduct_cleanup">Membersihkan</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Produk Dibeli</string>
+    <string name="liked_app"> Suka aplikasinya?</string>
+    <string name="dontshowagain"><u>Jangan perlihatkan lagi</u></string>
+    <string name="rateplease">Peringkat Anda penting bagi kami!</string>
+    <string name="any_ideas">Ada ide tentang cara meningkatkan aplikasi?</string>
+    <string name="support">Menulis ke pengembang</string>
+    <string name="delete_selected">Menghapus (%s)</string>
+    <string name="exit">Keluar</string>
+    <string name="_24_12_20">Pembersihan terakhir: </string>
+    <string name="name">Christian Watson</string>
+    <string name="free">Versi: FREE</string>
+    <string name="share">Bagikan</string>
+    <string name="like">Beri kami nilai</string>
+    <string name="update">Memperbarui</string>
+    <string name="pro">Beli Versi PRO</string>
+    <string name="found">Ditemukan</string>
+    <string name="select_all">Pilih Semua</string>
+    <string name="deep_clean_text">Sangat bersih</string>
+    <string name="total_clean">Total bersih</string>
+    <string name="start_14_day_trial">Mulai uji coba 3 hari</string>
+    <string name="free_version_desc">Uji coba premium gratis akan berjalan selama 3 hari, lalu Anda akan dikenakan biaya $ 20 / tahun. Mulailah sekarang, Anda dapat membatalkannya kapan saja di Google Play.<u>Baca persyaratan penggunaan.</u></string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="do_you_really_want_to_exit">Apakah Anda benar-benar ingin keluar?</string>
+</resources>

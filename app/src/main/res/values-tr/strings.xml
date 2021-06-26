@@ -1,0 +1,375 @@
+<resources>
+    <string name="title_home">Ana sayfa</string>
+
+
+    <string name="rating">Değerlendirme</string>
+    <string name="policy">GİZLİLİK POLİTİKASI</string>
+
+    <string name="more_app">Daha fazla uygulama</string>
+    <string name="feedback">Geri bildirim</string>
+    <string name="scan">Tara</string>
+
+    <string name="setting">Ayarlar</string>
+    <string name="scan_wait">Dosya taraması yapılıyor ...</string>
+
+    <string name="language_setting">Dil seçimi</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">% ... silinmiş dosyalar</string>
+
+
+    <string name="scan_all_file">Tüm dosyaları tara</string>
+    <string name="scan_audio_file">Ses kayıtlarını tara</string>
+    <string name="scan_doc_file">Dokümanları tara</string>
+    <string name="scan_image_file">Fotoğrafları tara</string>
+    <string name="scan_video_file">Videoları tara</string>
+    <string name="analyzing">Analiz...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Aşağıdaki talimatlara dayanarak seçili dosyalara silme izni verebilirsiniz</string>
+    <string name="sd_content_2">SD-kart gözükmüyorsa buraya tıklamaya dene </string>
+    <string name="sd_title">Dahili depolamaya erişimi onayla</string>
+    <string name="no_file_found">Aynı olan dosyalar bulunamadı</string>
+    <string name="delete_content">Dosyayı silmek ister misiniz?</string>
+    <string name="delete_title">Silmeyi onayla</string>
+    <string name="file_removed">Dosyalar silindi</string>
+    <string name="grant_permission">İzin ver</string>
+    <string name="delete_now">Hemen sil</string>
+    <string name="rate_msg">Ekibimiz size en iyi ücretsiz uygulama sunmak için çok çalışıyor. 5 yıldızlı yorumunuz bizim için herhangi bir paradan daha değerlidir. Bizi mutlu edin, Google Play\'de güzel bir yorum yazın</string>
+    <string name="remind_later">Daha sonra hatırlat</string>
+    <string name="good_5_stars">Beğendim, 5 yıldız</string>
+    <string name="not_good">Beğenmedim</string>
+    <string name="title_dialog_feed_back">Yorum yap</string>
+    <string name="message_dialog_feed_back">E-postayla hata düzeltimini ve yeni özellik tanıtımını isteyin</string>
+    <string name="exit_app">Çıkış</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Uygulamayı kontrol et: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Posta istemcisi kurulu değil</string>
+    <string name="send_feedback">Yorumunu yolla...</string>
+    <string name="enter_feed">Yorum yap</string>
+    <string name="thanksforrate">\"Değerlendirmeniz için teşekkür ederiz^^ \"</string>
+
+    <string name="junk_files">Önemsiz dosyaları sil</string>
+    <string name="junk">Önemsiz</string>
+    <string name="cpu_cooler">Cihazı soğut</string>
+    <string name="phone_booster">Telefonu hızlandır</string>
+    <string name="antivirus">Antivirüs</string>
+    <string name="power_saving">Enerji tasarrufu</string>
+    <string name="data_manager">Veri yöneticisi</string>
+    <string name="smart_charge">Akıllı şarj</string>
+    <string name="deep_clean">Derin temizleme</string>
+    <string name="app_uninstall">Uygulamayı sil</string>
+    <string name="junk_files_btn">Temizle</string>
+    <string name="cpu_cooler_btn">Soğut</string>
+    <string name="phone_booster_btn">Hızlandır</string>
+    <string name="antivirus_btn">Tarama</string>
+    <string name="power_saving_btn">Tasarruf</string>
+    <string name="smart_charge_btn">Tara</string>
+    <string name="notification_manager_btn">Kontrol et</string>
+    <string name="deep_clean_btn">Temizle</string>
+    <string name="app_uninstall_btn">Sil</string>
+
+    <string name="junk_files_dialog">temizlik olmadan çıkın?</string>
+    <string name="cpu_cooler_dialog">Soğutma olmadan çıkın?</string>
+    <string name="phone_booster_dialog">artırılması olmadan çıkın?</string>
+    <string name="antivirus_dialog">taramadan çıkın?</string>
+    <string name="power_saving_dialog">Pil optimize çık?</string>
+    <string name="smart_charge_dialog">Bellek optimize çık?</string>
+    <string name="notification_manager_dialog">ckecking olmadan çıkın?</string>
+    <string name="deep_clean_dialog">Derin temizlik olmadan çıkın?</string>
+    <string name="app_uninstall_dialog">Uygulamanın deliting çık?</string>
+
+    <string name="notification_manager">Bildirim yöneticisi</string>
+    <string name="smart_charge_des">Aşırı şarj önlemesi</string>
+    <string name="deep_clean_des">Daha fazla yer açmak için dosyalarınızı temizleyin</string>
+    <string name="app_uninstall_des">Gereksiz dosyaları hızlı sil</string>
+    <string name="notification_manager_des">Bildirimleri temizle</string>
+    <string name="junk_files_des">Gereksiz dosyaları sil</string>
+    <string name="cpu_cooler_des">Pil gücünü korumak için cihaz sıcaklığını azalt</string>
+    <string name="phone_booster_des">Performansı artır, hafızayı boşalt</string>
+    <string name="antivirus_des">Telefonunu gerçek zamanlı olarak tara ve koru</string>
+    <string name="power_saving_des">Pil gücünden tasarruf etmek için kullanılmayan uygulamaları durdur</string>
+    <string name="no_ads_des">Reklam sizi artık rahatsız etmez</string>
+    <string name="premium_shield_des">Premium erişimle uygulamalırını koru</string>
+    <string name="additional_clean_des">Premium temizlik</string>
+    <string name="all_functions_des">Tüm yeni özelliklerinden ilk önce siz faydalanın</string>
+    <string name="additional_speed_des">Premium erişim ile cihazını hızlandır </string>
+    <string name="no_ads">Reklam yok</string>
+    <string name="premium_shield">Premium koruma</string>
+    <string name="additional_clean">Daha derin temizlik</string>
+    <string name="all_functions">Tüm özellikler mevcut</string>
+    <string name="additional_speed">Daha hızlı</string>
+
+    <string name="percent">%</string>
+    <string name="scaning">Tarama ……</string>
+    <string name="memory_kill_found">Çok yer kaplayan uygulamalar bulundu</string>
+    <string name="boost">Hızlandır</string>
+    <string name="empty_item_select">En az birini seç</string>
+    <string name="sm_edge_device_optimized">Cihazınız optimize edildi.</string>
+    <string name="clean">Temizle</string>
+    <string name="cooling">Soğut</string>
+    <string name="try_it">Başlat</string>
+
+    <string name="protect_now">Şimdi koru</string>
+    <string name="save_now">Şimdi kaydet</string>
+    <string name="further_optimize_cpu">İşlemciyi optimize et</string>
+    <string name="cool_down">Soğut</string>
+    <string name="scaning_cpu">CPU tarama ...</string>
+    <string name="secretly_consuming_battery">Şarjı hızlı tükeniyor</string>
+    <string name="extend_battery_life">Pil ömrünü uzat</string>
+    <string name="analyzing_battery_usage">Pil kullanımı analizi</string>
+    <string name="hibernation">"Hazırda bekletme....."</string>
+    <string name="find_and_grant">Bul %s ve erişime izin ver %s</string>
+    <string name="grant_now">Şimdi izin ver</string>
+    <string name="grant_app_permission">Boş alanı optimize etmek için dosya sistemine erişim sağla</string>
+    <string name="permission_needed">İzin gerekli</string><![CDATA[
+
+
+        
+
+
+        
+          
+
+
+
+
+
+        
+        
+
+
+
+     
+
+    ]]>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="on_off">AÇ KAPAT</string>
+    <string name="skip_app_title">Temizleme sırasında seçilen uygulamalar iptal edilmeyecek</string>
+    <string name="app_protect">Uygulama koruma altında</string>
+    <string name="notification_created_shortcut">Kısayol %s oluşturuldu</string>
+    <string name="list_game">Oyun listesi</string>
+    <string name="select_game_to_boost">Hızlandırmak için oyun seç</string>
+    <string name="smart_charger_can_help">Akıllı şarj size yardımcı olur</string>
+    <string name="optimize_chargin_progress">Şarj sürecinizi optimize edin</string>
+    <string name="remind_charger">şarjı hatırlatma</string>
+    <string name="turn_on">Şimdi aç</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Açık</string>
+    <string name="brightness">Parlaklık</string>
+    <string name="auto">Oto</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Kapalı</string>
+    <string name="synchronize">Senkronize edildi</string>
+    <string name="charging_finished">Şarj edildi</string>
+    <string name="auto_optimized">Otomatik şekilde optimize edildi</string>
+    <string name="clean_up">Temizle</string>
+    <string name="pin">Pil tasarrufu</string>
+    <string name="power_full">Pil tamamen şarj oldu</string>
+    <string name="battery_full_des">Şarj bitti. Lütfen kaynağın bağlantısını kes.</string>
+    <string name="uninstall">Sil</string>
+    <string name="clean_notifi">Bildirimleri sil</string>
+    <string name="social_app">Sosyal uygulama</string>
+    <string name="third_app">Üçüncü taraf uygulaması</string>
+    <string name="spam_notification">Spam bildirimi:</string>
+    <string name="no_data">Veri yok</string>
+    <string name="just_now_time">hemen</string>
+    <string name="minute_ago">%s dakika önce</string>
+    <string name="Notificationbar_Spamnotification">Spam bildirimi:</string>
+    <string name="Notificationbarcleanup_Guide1">Spam bildirimlerini seçin ve tek bir tıklama ile silin</string>
+    <string name="Notificationbarcleanup_RightNow">Bildirim panelini temizle</string>
+    <string name="safety_scanning">Güvenlik taraması</string>
+    <string name="security">Güvenlik</string>
+
+    <string name="per_read_phone_title">Telefon veri aktarımı</string>
+    <string name="per_access_location_title">Konum erişimi</string>
+    <string name="per_read_sms_title">Mesajları okuyabilir</string>
+    <string name="per_send_sms_title">Mesaj gönderilebilir</string>
+    <string name="per_call_phone_title">Arama yapılabilir</string>
+    <string name="per_outgoing_call_title">Giden çağrıları kontrol edebilir</string>
+    <string name="per_record_audio_title">Ses kayıdı yapabilir</string>
+    <string name="per_camera_title">Kameraya erişim</string>
+
+    <string name="per_read_phone_des">Bu uygulama, adres defteri, mobil PIN ve arama geçmişi dahil olmak üzere SIM kart verilerini toplar ve gönderir. Bunu yapmak, veri aktarım ücretlerini artırabilir ve YÜKSEK gizlilik riski oluşturabilir.</string>
+    <string name="per_access_location_des">Bu uygulama tam konumuna erişebilir ve gizliliğiniz için bir risk oluşturur.</string>
+    <string name="per_read_sms_des">Bu uygulama özel mesajlarınızı okuyabilir ve gizliliğiniz için risk oluşturur.</string>
+    <string name="per_send_sms_des">Bu uygulama SMS gönderebilir. Bu, veri aktarım ücretlerini artırabilir ve YÜKSEK gizlilik riski oluşturabilir.</string>
+    <string name="per_call_phone_des">Bu uygulama, Dialer kullanıcı arayüzünden geçmeden bir telefon görüşmesi başlatabilir, böylece kullanıcı aramayı onaylayabilir. Bu, veri aktarım ücretlerini artırabilir ve YÜKSEK gizlilik riski oluşturabilir.</string>
+    <string name="per_outgoing_call_des">Bu uygulama arama sırasında aranan numarayı görebilir, onu başka numaraya yönlendirebilir veya tamamen iptal edebilir. Bu,veri aktarım ücretlerini artırabilir ve YÜKSEK gizlilik riski oluşturabilir.</string>
+    <string name="per_record_audio_des">Bu uygulama ses kaydedebilir ve gizliliğiniz için bir tehdittir.</string>
+    <string name="per_camera_des">Bu uygulama, cihazınızın kamerasına erişebilir ve gizliliğiniz için risk oluşturur.</string>
+    <string name="in_danger">Tehlikede</string>
+    <string name="resolve_all">Hepsine izin ver</string>
+    <string name="issues_found">%s sorun bulundu</string>
+    <string name="cancel">İptal</string>
+    <string name="skip_app_virus">«Virüs tarama esnasında seçili uygulama yoksayılacak»</string>
+    <string name="while_list">Liste taraması</string>
+    <string name="no_junk">Gereksiz dosya bulunamadı</string>
+    <string name="obsolete_apk">Gereksiz APK</string>
+    <string name="system_cache">Sistem önbelleği</string>
+    <string name="downloader_files">Yüklenmiş dosyalar</string>
+    <string name="large_files">Büyük dosyalar</string>
+    <string name="op_clean">Temiz</string>
+    <string name="mb">MB</string>
+    <string name="Calculating">Tarama ....</string>
+    <string name="remove_app_unstall">Daha fazla alan için kurulum dosyalarını sil.</string>
+    <string name="deleting">Siliniyor, bekleyin...</string>
+    <string name="scan_virus">Virüs taraması.....</string>
+    <string name="start_use">Kullanmaya başla</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">Bu uygulama güvenli.</string>
+    <string name="app_virus_contain">Bu uygulamada virüs var.</string>
+    <string name="ram_going_full">Hafıza dolu</string>
+    <string name="use_phone_boost">Yer açmak için telefon temizleyiciyi kullan.</string>
+    <string name="phone_is_hot">Telefon çok ısındı</string>
+    <string name="use_cpu_cleaner">İşlemciyi temizlemek için soğut</string>
+    <string name="use_save_battery">Pil tasarrufu</string>
+    <string name="battery_low">Düşük pil</string>
+    <string name="detect_junk_file">Gereksiz dosyalar bulundu</string>
+    <string name="use_junk_file">Temizlemek için funk dosyasını kullan</string>
+    <string name="fix">Düzelt</string>
+    <string name="optimize">Optimize et</string>
+    <string name="save">Kaydet</string>
+    <string name="selcet_file_to_clean">Temizlemek için dosya seç</string>
+
+    <string name="floatint_windown_per">Pop-up\'lara izin ver</string>
+    <string name="accessibility_permission">Erişime izin ver</string>
+    <string name="listener_notification_per">Bildirimleri göstermeye izin ver</string>
+    <string name="write_setting_per">Ses kayıtı yapmaya izin ver</string>
+    <string name="usage_access_permission">Kullanmak için erişime izin ver</string>
+    <string name="external_storage_permission">Cihazın harici belleğinin erişimine izin ver</string>
+    <string name="write_setting_permission">"Cihaz ayarlarının değiştirilmesine izni ver</string>
+    <string name="listen_notification_permission">Cihaz bildirimlerini görüntülemesine izni ver</string>
+    <string name="overlay_permission">Diğer uygulamalarda görüntülenmeye izin ver</string>
+    <string name="accessibility_setting_permission">Erişilebilirlik hizmetlerinin kullanılmasına izin ver</string>
+    <string name="splash_content">Kolay, hızlı ve akıllı</string>
+
+    <string name="result_cooler">Soğutma başarılı bir şekilde tamamlandı</string>
+    <string name="boost_result">Hızlandırma yapıldı</string>
+    <string name="clean_result">Temizleme tamamlandı</string>
+    <string name="fast_charger_boosted_result">Hızlı şarj hızlandırıldı</string>
+    <string name="antivirus_result">GÜVENLİ! Tehdit ortadan kaldırıldı</string>
+    <string name="deep_clean_result">Tamamlandı!</string>
+    <string name="notification_manager_result">Bitmiş!</string>
+    <string name="dectect_apk_install">1 apk yüklemesi bulundu</string>
+    <string name="conduct_scan_virus">Virüs taraması yap</string>
+    <string name="dectect_apk_uninstall">1 silinmiş apk dosyası bulundu</string>
+    <string name="conduct_cleanup">Temizle</string>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Product Purchased</string>
+    <string name="liked_app">Uygulamayı beğendiniz mi?</string>
+    <string name="dontshowagain"><u>Bir daha gösterme</u></string>
+    <string name="rateplease">Değerlendirmeniz bizim için çok önemli!</string>
+    <string name="any_ideas">Uygulamayı nasıl daha iyi yapabiliriz?</string>
+    <string name="support">Geliştiricilere yaz</string>
+    <string name="delete_selected">Sil (%s)</string>
+    <string name="exit">Çık</string>
+    <string name="_24_12_20">Son temiz:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Sürüm: ÜCRETSİZ</string>
+    <string name="share">Paylaş</string>
+    <string name="like">Bizi değerlendir</string>
+    <string name="update">Yenile</string>
+    <string name="pro">PRO sürümünü satın al</string>
+    <string name="found">Bulundu</string>
+    <string name="select_all">Hepsini seç</string>
+    <string name="deep_clean_text">Derin temiz</string>
+    <string name="total_clean">Toplam temiz</string>
+    <string name="start_14_day_trial">3 günlük deneme sürecini başlat</string>
+    <string name="free_version_desc">Ücretsiz Premium deneme 3 gün sürecek, ardından yıllık $20 ücret alınacaktır. Şimdi başlayın, Google Play\'de istediğiniz zaman iptal edebilirsiniz.  <u>Kullanım şartlarını oku.</u></string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır </string>
+    <string name="do_you_really_want_to_exit">Çıkmak istediğinizden emin misiniz?</string>
+</resources>

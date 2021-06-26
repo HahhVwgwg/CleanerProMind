@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="72dp"
+        android:layout_height="72dp">
+
+        <ImageView
+            android:id="@+id/im_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_white"
+            android:padding="22dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_game_booster1"
+            android:translationZ="2dp"
+            app:tint="@color/colorViolet"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/iv_dot"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="end|top"
+            android:src="@drawable/dot"
+            android:translationZ="3dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="@color/color_a8a8a8"
+        android:textSize="14sp"
+        tools:text="App lock" />
+</LinearLayout>

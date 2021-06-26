@@ -1,0 +1,486 @@
+<resources>
+    <string name="title_home">Početna stranica</string>
+    <string name="title_persional">Profil</string>
+
+    <string name="rate_msg">Naš tim se mnogo trudi omogućiti vam najbolju besplatnu aplikaciju. Vaša recenzija s 5 zvjezdica dragocjenija je od bilo kojeg novca. Napišite dobru recenziju na Google Play-u da nas razveselite</string>
+    <string name="remind_later">Podsjeti kasnije</string>
+    <string name="good_5_stars">Sviđa mi se, 5 zvjezdica</string>
+    <string name="not_good">Ne sviđa mi se</string>
+    <string name="title_dialog_feed_back">Pošaljite povratnu vezu</string>
+    <string name="message_dialog_feed_back">Zatražite ispravke programskih pogrešaka i nove značajke e-poštom</string>
+    <string name="exit_app">Izlaz</string>
+
+
+    <string name="rating">Ocjena</string>
+    <string name="policy">POLITIKA PRIVATNOSTI</string>
+
+    <string name="more_app">Više aplikacija</string>
+    <string name="scan">Skeniranje</string>
+
+    <string name="setting">Postavke</string>
+    <string name="scan_wait">Pričekajte, skeniranje datoteka...</string>
+
+    <string name="language_setting">Jezik</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Izbrisano... %d datoteke</string>
+
+
+    <string name="scan_all_file">Skenirajte sve ostale datoteke</string>
+    <string name="scan_audio_file">Skenirajte duplikate zvuka</string>
+    <string name="scan_doc_file">Skenirajte duplikate dokumenata</string>
+    <string name="scan_image_file">Skenirajte duplikate fotografija</string>
+    <string name="scan_video_file">Skenirajte duplikate videozapisa</string>
+    <string name="analyzing">Analiza...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Slijedite upute u nastavku da biste odobrili brisanje odabranih datoteka</string>
+    <string name="sd_content_2">Ako ne vidite SD karticu, pokušajte kliknuti ovdje</string>
+    <string name="sd_title">Potvrdite pristup internoj pohrani</string>
+    <string name="no_file_found">Nisu pronađeni duplikati datoteka</string>
+    <string name="delete_content">Želite li izbrisati datoteku?</string>
+    <string name="delete_title">Potvrdite brisanje</string>
+    <string name="file_removed">Datoteke izbrisane</string>
+    <string name="grant_permission">Dopusti</string>
+    <string name="delete_now">Izbriši sada</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Provjerite aplikaciju: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Klijent e-pošte nije instaliran</string>
+    <string name="send_feedback">Poslati recenziju...</string>
+    <string name="enter_feed">Ostavite svoju recenziju</string>
+    <string name="thanksforrate">\"Zahvaljujemo na ocjeni i recenziji^^ \"</string>
+
+    <string name="junk_files">Očistiti smeće</string>
+    <string name="junk">Starudija</string>
+    <string name="cpu_cooler">Hlađenje uređaja</string>
+    <string name="phone_booster">Ubrzanje mobilnog uređaja</string>
+    <string name="antivirus">Antivirus</string>
+    <string name="power_saving">Ušteda energije</string>
+    <string name="data_manager">Upravitelj podataka</string>
+    <string name="app_lock">Zaključavanje aplikacije</string>
+    <string name="smart_charge">Pametno punjenje</string>
+    <string name="deep_clean">Dubinsko čišćenje</string>
+    <string name="app_uninstall">Deinstaliranje aplikacije</string>
+    <string name="game_booster">Akcelerator igre</string>
+    <string name="junk_files_btn">Očisti</string>
+    <string name="cpu_cooler_btn">Ohladiti</string>
+    <string name="phone_booster_btn">Ubrzaj</string>
+    <string name="antivirus_btn">Skeniraj</string>
+    <string name="power_saving_btn">Ušteda</string>
+    <string name="app_lock_btn">Zaključaj</string>
+    <string name="smart_charge_btn">Skeniraj</string>
+    <string name="notification_manager_btn">Provjeri</string>
+    <string name="deep_clean_btn">Očisti</string>
+    <string name="app_uninstall_btn">Ukloni</string>
+    <string name="game_booster_btn">Ubrzaj igru</string>
+
+    <string name="junk_files_dialog">Izlaz bez čišćenja?</string>
+    <string name="cpu_cooler_dialog">Izlaz bez hlađenja?</string>
+    <string name="phone_booster_dialog">Izlaz bez pojačani?</string>
+    <string name="antivirus_dialog">Izlaz bez skeniranja?</string>
+    <string name="power_saving_dialog">Izlaz bez optimizacije baterije?</string>
+    <string name="app_lock_dialog">Izlaz bez zaključavanja?</string>
+    <string name="smart_charge_dialog">Izlaz bez memorije optimizaciju?</string>
+    <string name="notification_manager_dialog">Izlaz bez ckecking?</string>
+    <string name="deep_clean_dialog">Izlaz bez dubinsko čišćenje?</string>
+    <string name="app_uninstall_dialog">Izlaz bez aplikacija deliting?</string>
+    <string name="game_booster_dialog">Izlaz bez igre jačanje?</string>
+
+    <string name="game">Igra</string>
+    <string name="notification_manager">Upravitelj obavijesti</string>
+    <string name="app_lock_des">Zaštitite povjerljive podatke i imovinu</string>
+    <string name="smart_charge_des">Podsjetiti vas o statusu punjenja kako biste izbjegli prekomjerno punjenje</string>
+    <string name="deep_clean_des">Dubinski očistite datoteke za oslobađanje još većeg prostora</string>
+    <string name="app_uninstall_des">Deinstalirajte nepotrebne aplikacije na brz način</string>
+    <string name="game_booster_des">Akcelerator igre</string>
+    <string name="notification_manager_des">Ukloniti traku obavijesti</string>
+    <string name="junk_files_des">Izbrišite nepotrebne podatke, smeće</string>
+    <string name="cpu_cooler_des">Smanjite temperaturu uređaja za uštedu baterije</string>
+    <string name="phone_booster_des">Povećajte produktivnost, oslobodite memoriju</string>
+    <string name="antivirus_des">Skenirajte i zaštitite svoj telefon u stvarnom vremenu</string>
+    <string name="power_saving_des">Zaustavite nekorišćene aplikacije za uštedu baterije</string>
+    <string name="no_ads_des">Reklame vas više neće uznemiravati</string>
+    <string name="premium_shield_des">Zaštitite svoje aplikacije Premium pristupom</string>
+    <string name="additional_clean_des">Premium čišćenje uređaja</string>
+    <string name="all_functions_des">Nabavite sve nove značajke prvi</string>
+    <string name="additional_speed_des">Dodatno ubrzajte vaš uređaj sa Premium pristupom</string>
+    <string name="no_ads">Bez reklama</string>
+    <string name="premium_shield">Premium sigurnost</string>
+    <string name="additional_clean">Dublje čišćenje</string>
+    <string name="all_functions">Sve značajke dostupne</string>
+    <string name="additional_speed">Još veća brzina</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[Čistoća i ubrzanje]]></string>
+    <string name="security_and_privacy"><![CDATA[Sigurnost i privatnost]]></string>
+    <string name="has_protected_your_phone">%s štiti vaš telefon %s dana</string>
+    <string name="settings">Postavke</string>
+    <string name="feedback">Povratna veza</string>
+    <string name="upgrade">Osvježite</string>
+    <string name="like_facebook">Ocijenite nas</string>
+    <string name="scaning">Skeniranje ……</string>
+    <string name="memory_kill_found">Pronađene aplikacije koje zauzimaju mnogo prostora</string>
+    <string name="boost">Ubrzajte radnju</string>
+    <string name="empty_item_select">Morate odabrati najmanje 1 stavku</string>
+    <string name="sm_edge_device_optimized">Vaš uređaj je optimiziran.</string>
+    <string name="clean">Očisti</string>
+    <string name="cooling">Ohladiti</string>
+    <string name="try_it">Pokreni</string>
+
+    <string name="protect_now">Zaštitite sada</string>
+    <string name="save_now">Spremite sada</string>
+    <string name="further_optimize_cpu">Optimizacija vašeg procesora</string>
+    <string name="cool_down">Ohladiti</string>
+    <string name="scaning_cpu">Skeniranje CPU-a ...</string>
+    <string name="secretly_consuming_battery">Brzo prazni bateriju</string>
+    <string name="extend_battery_life">Produžite vijek trajanja baterije</string>
+    <string name="analyzing_battery_usage">Analiza upotrebe baterije</string>
+    <string name="hibernation">"Hibernacija....."</string>
+    <string name="find_and_grant">Pronađite %s i dozvolite pristup %s</string>
+    <string name="grant_now">Dopustiti</string>
+    <string name="grant_app_permission">Omogućite pristup datotečnom sustavu radi optimizacije slobodnog prostora</string>
+    <string name="permission_needed">Potrebno dopuštenje</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Dodana ćelija</string>    
+    <string name="lockscreen_access_pattern_start">Nacrtajte obrazac za otključavanje</string>
+
+    <string name="lockscreen_access_pattern_detected">Predložak je spremljen</string>    
+    <string name="lockscreen_access_pattern_cleared">Predložak je uklonjen</string>      
+    <string name="lock_recording_intro_header">Instalirajte AppUnlock</string>
+    <string name="lock_settings_help_how_to_record">Kako nacrtati obrazac za otključavanje</string>
+
+    <string name="lock_recording_incorrect_too_short">Uzorak je prekratak</string>
+
+    <string name="lock_pattern_entered_header">Unesite svoj obrazac</string>    
+    <string name="lock_need_to_confirm">Ponovno unesite obrazac za potvrdu</string>    
+
+    <string name="lock_need_to_unlock_wrong">Uzorak se ne podudara. Molimo pokušajte ponovno.</string>
+
+    <string name="password_gestrue_tips">Unesite tajni kod</string>    
+    <string name="password_error_count">Lozinka se ne podudara. Molimo pokušajte ponovno.</string>
+    <string name="lock_pattern_confirmed_header">Predložak potvrđen</string>
+
+    <string name="password_question_01">Što je to što najviše pamtite u životu?</string>
+    <string name="password_question_02">"Kako se zove vaš kućni ljubimac?"</string>
+    <string name="password_question_03">Ime tvoje djevojke?</string>
+    <string name="password_question_04">O čemu ste sanjali kao dijete?</string>
+    <string name="password_question_05">Ako ste bili zaljubljeni u nekoga, tko je to bio?</string>
+    <string name="password_question_06">"Kako se zvao vaš omiljeni srednjoškolski profesor?"</string>
+    <string name="password_question_07">Koja ste mjesta željeli posjetiti kao dijete?</string>
+    <string name="password_question_08">Kad biste mogli putovati nazad u prošlost, u koje biste se vrijeme vratili?</string>
+    <string name="password_question_09">Ime tvog dečka?</string>
+
+    <string name="security_settings">Sigurnosne postavke</string>
+    <string name="sercurity_question">Sigurnosno pitanje:</string>
+    <string name="answer">Odgovor:</string>
+    <string name="input_your_answer">Unesite svoj odgovor</string>
+    <string name="answer_blank">Odgovor ne može biti prazan</string>
+    <string name="password_answer_set_toast">Sigurnosno pitanje i odgovor su uspostavljeni.</string>
+    <string name="forgot_gesture">Zaboravili ste lozinku</string>
+    <string name="answer_question_error">Greška u sigurnosnom odgovoru</string>
+    <string name="not_setup_answer_question">Nema postavki Pitanje-odgovor</string>
+
+    <string-array name="lock_time_array">        
+        <item>15 sekundi</item>        
+        <item>30 sekundi</item>        
+        <item>1 minuta</item>        
+        <item>3 minute</item>        
+        <item>5 minuta</item>      
+        <item>10 minuta</item>     
+        <item>30 minuta</item>        
+        <item>Hitno</item>    
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">Dobro došli u AppLock</string>
+    <string name="reset">Resetirajte</string>
+    <string name="search_application">Pretražite u aplikacijama</string>
+    <string name="lock_settings">Postavke zaključavanja</string>
+    <string name="lock_immediately_after_locking_the_screen">Zaključaj aplikaciju odmah nakon zaključavanja zaslona</string>
+    <string name="change_the_password">Promijenite lozinku</string>
+    <string name="hide_pattern">Sakrij uzorak</string>
+    <string name="search_applications">Pretražite u aplikacijama &#8230;</string>
+    <string name="search_for">Pretraži &#8230;</string>
+    <string name="_1_minute">1 minuta</string>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie">Uljez Selfie</string>
+    <string name="vibrate">Vibracija</string>
+    <string name="app_runing_background">Aplikacija radi u pozadini</string>
+    <string name="app_background_task">Pokretanje aplikacije u pozadini</string>
+    <string name="create_password">Stvorite lozinku</string>
+    <string name="create_pattern_lock">Stvorite uzorak</string>
+    <string name="on_off">UKLJUČENO-ISKLJUČENO</string>
+    <string name="skip_app_title">Odabrane aplikacije se neće otkazati tijekom čišćenja</string>
+    <string name="app_protect">Aplikacija zaštićena</string>
+    <string name="ram">Memorija</string>
+    <string name="ready_boost">Spremno za ubrzanje</string>
+    <string name="create_shortcut">Napravite prečac</string>
+    <string name="notification_created_shortcut">Prečac %s stvoren</string>
+    <string name="list_game">Popis igara</string>
+    <string name="select_game_to_boost">Odaberite igru za ubrzanje</string>
+    <string name="app_not_exist">Aplikacija ne postoji</string>
+    <string name="game_add">Dodano igrama: %s</string>
+    <string name="not_distub">Ne ometaj</string>
+    <string name="hide_notification_all">Sakrij sve obavijesti tijekom igranja</string>
+    <string name="smart_charger_can_help">Pametno punjenje vam može pomoći</string>
+    <string name="optimize_chargin_progress">Optimizirajte postupak punjenja</string>
+    <string name="remind_charger">Podsjeti u stvarnom vremenu kako biste izbjegli \ n prekomjerno punjenje</string>
+    <string name="turn_on">Uključi sada</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="on">Uključeno</string>
+    <string name="brightness">Svjetlina</string>
+    <string name="auto">Auto</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Isključeno</string>
+    <string name="synchronize">Sinkronizirano</string>
+    <string name="charging_finished">Punjenje završeno</string>
+    <string name="auto_optimized">Automatski optimizirano</string>
+    <string name="clean_up">Očisti</string>
+    <string name="pin">Ušteda baterije</string>
+    <string name="power_full">Baterija puna</string>
+    <string name="battery_full_des">Punjenje završeno. Molimo odspojite izvor.</string>
+    <string name="uninstall">Deinstaliraj</string>
+    <string name="other_app">Druga aplikacija</string>
+    <string name="clean_notifi">Obavijesti o čišćenju</string>
+    <string name="social_app">Društvena aplikacija</string>
+    <string name="third_app">Treća aplikacija</string>
+    <string name="spam_notification">Obavijest o neželjenoj pošti:</string>
+    <string name="no_data">Nema podataka</string>
+    <string name="just_now_time">Sada</string>
+    <string name="minute_ago">prije %s minuta</string>
+    <string name="Notificationbar_Spamnotification">Obavijest o neželjenoj pošti:</string>
+    <string name="Notificationbarcleanup_Guide1">Poredajte obavijesti o neželjenoj pošti i izbrišite ih jednim klikom</string>
+    <string name="Notificationbarcleanup_RightNow">Očisti traku obavijesti</string>
+    <string name="safety_scanning">Sigurnosno skeniranje</string>
+    <string name="security">Sigurnost</string>
+
+    <string name="per_read_phone_title">Telefonski prijenos podataka</string>
+    <string name="per_access_location_title">Pristup lokaciji</string>
+    <string name="per_read_sms_title">Mogu čitati vaše SMS poruke</string>
+    <string name="per_send_sms_title">Možete poslati SMS</string>
+    <string name="per_call_phone_title">Možete zvati</string>
+    <string name="per_outgoing_call_title">Možete nadzirati odlazne pozive</string>
+    <string name="per_record_audio_title">Možete snimati zvuk</string>
+    <string name="per_camera_title">Pristup kameri</string>
+
+    <string name="per_read_phone_des">Ova aplikacija prikuplja i šalje podatke sa SIM kartice, uključujući adresar, PIN za mobitel i povijest poziva. To može povećati troškove prijenosa podataka i predstavljati VISOKU opasnost po privatnost.</string>
+    <string name="per_access_location_des">Ova aplikacija može pristupiti svom točnom mjestu i predstavlja rizik za vašu privatnost.</string>
+    <string name="per_read_sms_des">Ova aplikacija može čitati vaše privatne SMS poruke i predstavlja rizik za vašu privatnost.</string>
+    <string name="per_send_sms_des">Ova aplikacija može slati SMS poruke. To može povećati troškove prijenosa podataka i predstavljati VISOKU opasnost po privatnost.</string>
+    <string name="per_call_phone_des">Ovaj program može započeti telefonski poziv bez prolaska kroz korisničko sučelje programa Dialer kako bi korisnik mogao potvrditi poziv. To može povećati troškove prijenosa podataka i predstavljati VISOKU opasnost po privatnost.</string>
+    <string name="per_outgoing_call_des">Ova aplikacija može vidjeti broj biran tijekom odlaznog poziva, uz mogućnost preusmjeravanja poziva na drugi broj ili potpunog prekida poziva. To može povećati troškove prijenosa podataka i predstavljati VISOKU opasnost po privatnost.</string>
+    <string name="per_record_audio_des">Ova aplikacija može snimati zvuk i predstavlja opasnost za vašu privatnost.</string>
+    <string name="per_camera_des">Ova aplikacija može pristupiti kameri vašeg uređaja i predstavlja rizik za vašu privatnost.</string>
+    <string name="in_danger">U opasnosti</string>
+    <string name="resolve_all">Dopusti sve</string>
+    <string name="virus_app">Virusna aplikacija</string>
+    <string name="issues_found">Nađeno %s problema</string>
+    <string name="skip_all">Preskoči sve</string>
+    <string name="some_app_use_permission">Neke aplikacije koriste opasna dopuštenja</string>
+    <string name="app_dangerous">%s Aplikacija je opasna</string>
+    <string name="version">Verzija</string>
+    <string name="date">Datum: %s</string>
+    <string name="size">Veličina: %s</string>
+    <string name="request_permission">Zahtjev za dozvolu</string>
+    <string name="cancel">Otkaži</string>
+    <string name="security_threats">Prijetnje sigurnosti</string>
+    <string name="ignore">Zanemari</string>
+    <string name="skip_app_virus">«Odabrana aplikacija će se zanemariti prilikom traženja virusa»</string>
+    <string name="while_list">Skeniranje popisa</string>
+    <string name="no_junk">Nisu pronađene nepotrebne datoteke</string>
+    <string name="obsolete_apk">Beskorisni APK</string>
+    <string name="system_cache">Predmemorija sustava</string>
+    <string name="downloader_files">Prenesene datoteke</string>
+    <string name="large_files">Velike datoteke</string>
+    <string name="op_clean">Očišćeno</string>
+    <string name="mb">MB</string>
+    <string name="notification_toggle">Prebacivanje obavijesti</string>
+    <string name="Calculating">Skeniranje ....</string>
+    <string name="notification_setting">POSTAVKE OBAVIJESTI</string>
+    <string name="junk_reminder">Podsjeti na smeće</string>
+    <string name="every_3days">Svaka 3 dana</string>
+    <string name="phone_boost_reminder">Podsjetnik za pojačavanje brzine mobilnog uređaja</string>
+    <string name="remind_when_memory">Podsjeti pri prekomjernoj upotrebi memorije</string>
+    <string name="cpu_cooler_reminder">Podsjetnik za hladnjak procesora</string>
+    <string name="remind_me_when_cpu">Podsjeti me pri pregrijavanju procesora</string>
+    <string name="battery_saver">Ušteda baterije</string>
+    <string name="remind_me_when_app_draing">Podsjeti me kad se aplikacije isprazne</string>
+    <string name="app_install">Instaliranje aplikacije</string>
+    <string name="delete_the_apk">Izbriši APK datoteku nakon instaliranja aplikacije</string>
+    <string name="delete_the_residual">Ukloni ostatke smeća nakon deinstaliranja aplikacije</string>
+    <string name="antivirus_settings">POSTAVKE ANTIVIRUSA</string>
+    <string name="real_time_protection">Zaštita u stvarnom vremenu</string>
+    <string name="ignore_list">Crna lista</string>
+    <string name="do_not_distub">Ne ometaj</string>
+    <string name="general_settings">OPĆE POSTAVKE</string>
+    <string name="create_home_shortcut">Napravite prečac na početnom zaslonu</string>
+    <string name="remove_app_unstall">izbrišite instalacijske datoteke za oslobađanje većeg prostora.</string>
+    <string name="deleting">Brisanje, pričekajte...</string>
+    <string name="scan_virus">Skeniranje virusa .....</string>
+    <string name="start_use">Počnite sa upotrebom</string>
+    <string name="ok">OK</string>
+    <string name="app_safe">Ova aplikacija je sigruna</string>
+    <string name="app_virus_contain">Ova aplikacija sadrži virus</string>
+    <string name="ram_going_full">Puna memorija</string>
+    <string name="use_phone_boost">Upotrijebite čistač telefona kako biste oslobodili prostor</string>
+    <string name="phone_is_hot">Mobilni uređaj pregrijan</string>
+    <string name="use_cpu_cleaner">Ohladiti za čišćenje procesora</string>
+    <string name="use_save_battery">Ušteda baterije</string>
+    <string name="battery_low">Slaba baterija</string>
+    <string name="note">Bilješka</string>
+    <string name="note_turn_off_notifi">Uređaj je %s nestabilan ako je prekidač za obavijesti onemogućen.</string>
+    <string name="turn_off">Isključi</string>
+    <string name="junk_reminder_frequency">Učestalost obavijesti</string>
+    <string name="every_day">Svaki dan</string>
+    <string name="every_7days">Svakih 7 dana</string>
+    <string name="never_reminder">Nikad ne podsjećaj</string>
+    <string name="start_at">Počni u</string>
+    <string name="stop_at">Završi u</string>
+    <string name="detect_junk_file">Pronađene nepotrebne datoteke</string>
+    <string name="use_junk_file">Za čišćenje koristi funk datoteku</string>
+    <string name="fix">Popravi</string>
+    <string name="optimize">Optimiziraj</string>
+    <string name="save">Spremi</string>
+    <string name="selcet_file_to_clean">Odaberite datoteku za čišćenje</string>
+
+    <string name="floatint_windown_per">Dopustite skočne prozore</string>
+    <string name="accessibility_permission">Dopustite pristup</string>
+    <string name="listener_notification_per">Omogućite prikazivanje obavijesti</string>
+    <string name="write_setting_per">Dopustite snimanje</string>
+    <string name="usage_access_permission">Omogućite pristup</string>
+    <string name="external_storage_permission">Omogućite pristup vanjskoj memoriji uređaja</string>
+    <string name="write_setting_permission">"Odobrite dozvolu za promjenu postavki uređaja.</string>
+    <string name="listen_notification_permission">Odobrite dopuštenje za pregled obavijesti uređaja</string>
+    <string name="overlay_permission">Dopustite prikaz u drugim aplikacijama</string>
+    <string name="accessibility_setting_permission">Dopustite upotrebu Usluge pristupačnosti</string>
+    <string name="splash_content">Lako, brzo i pametno</string>
+
+    <string name="result_cooler">Hlađenje uspješno.</string>
+    <string name="boost_result">Ubrzanje dovršeno</string>
+    <string name="clean_result">Čišćenje završeno</string>
+    <string name="fast_charger_boosted_result">Brzo punjenje</string>
+    <string name="antivirus_result">SIGURNO!Opasnost uklonjena.</string>
+    <string name="deep_clean_result">Dovršeno!</string>
+    <string name="notification_manager_result">Gotovo!</string>
+    <string name="dectect_apk_install">Pronađena 1 APK instalacija</string>
+    <string name="conduct_scan_virus">Potraži virus</string>
+    <string name="dectect_apk_uninstall">Izbrisana je 1 otkrivena APK datoteka</string>
+    <string name="conduct_cleanup">Počisti</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Product Purchased</string>
+    <string name="liked_app">Sviđa vam se aplikacija?</string>
+    <string name="dontshowagain"><u>Ne prikazuj više</u></string>
+    <string name="rateplease">Vaša nam je ocjena važna!</string>
+    <string name="any_ideas">Imate li ideju o tome kako poboljšati aplikaciju?</string>
+    <string name="support">Pišite programerima</string>i
+    <string name="delete_selected">Izbriši (%s)</string>
+    <string name="exit">Izađi</string>
+    <string name="_24_12_20">Posljednja čist:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Verzija: FREE</string>
+    <string name="share">Podijelite</string>
+    <string name="like">Ocijenite nas</string>
+    <string name="update">Osvježite</string>
+    <string name="pro">Kupite PRO verziju</string>
+    <string name="found">Pronađeno</string>
+    <string name="select_all">Odaberi sve</string>
+    <string name="deep_clean_text">Duboko čisto</string>
+    <string name="total_clean">Totalno čisto</string>
+    <string name="start_14_day_trial">Započnite probnu verziju od 3 dana</string>
+    <string name="free_version_desc">Besplatno probno razdoblje trajat će 3 dana, a potom će vam se naplaćivati ​​20 USD godišnje. Započnite sada, možete ga otkazati bilo kada na Google Play.  <u>Pročitajte uvjete korištenja.</u></string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="do_you_really_want_to_exit">Želite li doista izaći?</string>
+</resources>

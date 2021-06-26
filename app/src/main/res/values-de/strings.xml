@@ -1,0 +1,485 @@
+<resources>
+    <string name="title_home">Startseite</string>
+    <string name="title_persional">Profil</string>
+
+    <string name="rating">Bewerten</string>
+    <string name="policy">DATENSCHUTZPOLITIK</string>
+
+    <string name="more_app">Weitere App</string>
+    <string name="scan">Scannen</string>
+
+    <string name="setting">Einstellungen</string>
+    <string name="scan_wait">Bitte warten Sie während des Scannens von Dateien...</string>
+
+    <string name="language_setting">Sprache</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Gelöscht ... %d files</string>
+
+
+    <string name="scan_all_file">Alle anderen Dateien scannen</string>
+    <string name="scan_audio_file">Doppelte Audios scannen</string>
+    <string name="scan_doc_file">Doppelte Dokumente scannen</string>
+    <string name="scan_image_file">Doppelte Bilder scannen</string>
+    <string name="scan_video_file">Doppelte Videos scannen</string>
+    <string name="analyzing">Analysieren...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Bitte folgen Sie den nachstehenden Anweisungen, um die Erlaubnis zum Löschen ausgewählter Dateien zu erteilen.</string>
+    <string name="sd_content_2">Wenn Sie die SD-Karte nicht sehen, versuchen Sie Folgendes.</string>
+    <string name="sd_title">Zugriff auf externen Speicher bestätigen</string>
+    <string name="no_file_found">Keine doppelten Dateien gefunden</string>
+    <string name="delete_content">Wollen Sie die Datei löschen?</string>
+    <string name="delete_title">Löschen bestätigen</string>
+    <string name="file_removed">Dateien entfernt</string>
+    <string name="grant_permission">Erlaubnis erteilen</string>
+    <string name="delete_now">Jetzt löschen</string>
+
+    <string name="rate_msg">Unser Team arbeitet sehr hart daran, Ihnen die beste kostenlose App zu bieten. Ihre 5-Sterne-Bewertung ist mehr wert als alles Geld. Bitte schreiben Sie eine nette Bewertung in Google Play, um uns zu ermutigen.</string>
+    <string name="remind_later">Später erinnern</string>
+    <string name="good_5_stars">Gut, 5 Sterne</string>
+    <string name="not_good">Nicht gefallen</string>
+    <string name="title_dialog_feed_back">Rückmeldung senden</string>
+    <string name="message_dialog_feed_back">Fehlerbehebung und Implementierung neuer Funktionen per E-Mail anfordern</string>
+    <string name="exit_app">Beenden</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Testen Sie die App unter: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Es ist kein E-Mail-Client installiert.</string>
+    <string name="send_feedback">FeedBack senden...</string>
+    <string name="enter_feed">Hinterlassen Sie Ihr FeedBack</string>
+    <string name="thanksforrate">\"Danke für die Bewertung und Rezension ^^ \"</string>
+
+    <string name="junk_files">Müll löschen</string>
+    <string name="junk">Trödel</string>
+    <string name="cpu_cooler">Gerät abkühlen</string>
+    <string name="phone_booster">Handy-Beschleunigung</string>
+    <string name="antivirus">Antivirus</string>
+    <string name="power_saving">Energieeinsparung</string>
+    <string name="data_manager">Daten-Manager</string>
+    <string name="app_lock">App-Sperre</string>
+    <string name="smart_charge">Smartes Laden</string>
+    <string name="deep_clean">Grundreinigung</string>
+    <string name="app_uninstall">App löschen</string>
+    <string name="game_booster">Spiel-Beschleuniger</string>
+    <string name="junk_files_btn">Löschen</string>
+    <string name="cpu_cooler_btn">Abkühlen</string>
+    <string name="phone_booster_btn">Beschleunigen</string>
+    <string name="antivirus_btn">Scannen</string>
+    <string name="power_saving_btn">Sparen</string>
+    <string name="app_lock_btn">Blockieren</string>
+    <string name="smart_charge_btn">Scannen</string>
+    <string name="notification_manager_btn">Überprüfen</string>
+    <string name="deep_clean_btn">Reinigen</string>
+    <string name="app_uninstall_btn">Löschen</string>
+    <string name="game_booster_btn">Das Spiel beschleunigen</string>
+
+    <string name="junk_files_dialog">Verlassen, ohne die Reinigung?</string>
+    <string name="cpu_cooler_dialog">Verlassen ohne Kühlung?</string>
+    <string name="phone_booster_dialog">Verlassen, ohne die Förderung?</string>
+    <string name="antivirus_dialog">Verlassen, ohne das Scannen?</string>
+    <string name="power_saving_dialog">Beenden ohne Batterie Optimierung?</string>
+    <string name="app_lock_dialog">Verlassen ohne Verriegelung?</string>
+    <string name="smart_charge_dialog">Beenden ohne Speicheroptimierung?</string>
+    <string name="notification_manager_dialog">Verlassen, ohne ckecking?</string>
+    <string name="deep_clean_dialog">Verlassen, ohne Tiefenreinigung?</string>
+    <string name="app_uninstall_dialog">Beenden ohne App deliting?</string>
+    <string name="game_booster_dialog">Verlassen, ohne Spiel zu steigern?</string>
+
+    <string name="game">Spiel</string>
+    <string name="notification_manager">Benachrichtigungs-Manager</string>
+    <string name="app_lock_des">Vertrauliche Daten und Eigentum schützen</string>
+    <string name="smart_charge_des">An den Ladestatus erinnern, um ein Überladen zu vermeiden</string>
+    <string name="deep_clean_des">Führen Sie eine Grundreinigung durch, um noch mehr Speicherplatz freizugeben</string>
+    <string name="app_uninstall_des">Unnütze App schnell entfernen</string>
+    <string name="game_booster_des">Spiel-Beschleuniger</string>
+    <string name="notification_manager_des">Benachrichtigungsleiste leeren</string>
+    <string name="junk_files_des">Unnötige Daten, Müll löschen</string>
+    <string name="cpu_cooler_des">Reduzieren Sie die Gerätetemperatur, um Batteriestrom zu sparen</string>
+    <string name="phone_booster_des">Verbessern Sie die Leistung, geben Sie den Speicher frei</string>
+    <string name="antivirus_des">Scannen und schützen Sie Ihr Handy in Echtzeit</string>
+    <string name="power_saving_des">Stoppen Sie nicht verwendete Apps, um Akku zu sparen</string>
+    <string name="no_ads_des">Werbung wird Sie nicht mehr stören</string>
+    <string name="premium_shield_des">Schützen Sie Ihre Apps mit Premium-Zugang</string>
+    <string name="additional_clean_des">Premium-Gerätereinigung</string>
+    <string name="all_functions_des">Erhalten Sie alle neuen Funktionen sofort</string>
+    <string name="additional_speed_des">Beschleunigen Sie Ihr Gerät mit Premium-Zugang</string>
+    <string name="no_ads">Ohne Werbung</string>
+    <string name="premium_shield">Premium Sicherheit</string>
+    <string name="additional_clean">Tiefere Reinigung</string>
+    <string name="all_functions">Alle Funktionen sind verfügbar</string>
+    <string name="additional_speed">Noch mehr Geschwindigkeit</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[Reinigung & Beschleunigung]]></string>
+    <string name="security_and_privacy"><![CDATA[Sicherheit & Datenschutz]]></string>
+    <string name="has_protected_your_phone">%s schützt Ihr Handy für %s Tage</string>
+    <string name="settings">Einstellungen</string>
+    <string name="feedback">Rückmeldung</string>
+    <string name="upgrade">Update</string>
+    <string name="like_facebook">Bewerten</string>
+    <string name="scaning">Scannen......</string>
+    <string name="memory_kill_found">Platzraubende Anwendungen gefunden</string>
+    <string name="boost">Arbeit beschleunigen</string>
+    <string name="empty_item_select">Sie müssen mindestens ein Element auswählen</string>
+    <string name="sm_edge_device_optimized">Ihr Gerät ist optimiert</string>
+    <string name="clean">Löschen</string>
+    <string name="cooling">Abkühlen</string>
+    <string name="try_it">Starten</string>
+
+    <string name="protect_now">Jetzt schützen</string>
+    <string name="save_now">Jetzt speichern</string>
+    <string name="further_optimize_cpu">Optimierung des Prozessors</string>
+    <string name="cool_down">Abkühlen</string>
+    <string name="scaning_cpu">Scannen CPU ...</string>
+    <string name="secretly_consuming_battery">Leert die Batterie schnell</string>
+    <string name="extend_battery_life">Lebensdauer der Batterie erhöhen</string>
+    <string name="analyzing_battery_usage">Analyse der Batterienutzung</string>
+    <string name="hibernation">"Ruhezustand....."</string>
+    <string name="find_and_grant">Finden Sie Cleaner Pro 2021 und erlauben Sie den Zugriff</string>
+    <string name="grant_now">Erlauben</string>
+    <string name="grant_app_permission">Zugriff auf das Dateisystem gewähren, um den freien Speicherplatz zu optimieren</string>
+    <string name="permission_needed">Erlaubnis erforderlich</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Erlaubnis erforderlich</string>    
+    <string name="lockscreen_access_pattern_start">Entsperrmuster zeichnen</string>
+
+    <string name="lockscreen_access_pattern_detected">Die Vorlage wurde gespeichert</string>    
+    <string name="lockscreen_access_pattern_cleared">Vorlage wurde entfernt</string>      
+    <string name="lock_recording_intro_header">App-Entsperrung installieren</string>
+    <string name="lock_settings_help_how_to_record">So zeichnen Sie ein Entsperrmuster</string>
+
+    <string name="lock_recording_incorrect_too_short">Entsperrmuster ist zu kurz</string>
+
+    <string name="lock_pattern_entered_header">Geben Sie das Muster ein</string>    
+    <string name="lock_need_to_confirm">Geben Sie das Muster zur Bestätigung erneut ein</string>    
+
+    <string name="lock_need_to_unlock_wrong">Das Muster stimmt nicht überein. Bitte, versuchen Sie es erneut</string>
+
+    <string name="password_gestrue_tips">Geben Sie den Geheimcode ein</string>    
+    <string name="password_error_count">Das Muster stimmt nicht überein. Bitte, versuchen Sie es erneut</string>
+    <string name="lock_pattern_confirmed_header">Validierte Vorlage </string>
+
+    <string name="password_question_01">Woran erinnern Sie sich am meisten in Ihrem Leben?</string>
+    <string name="password_question_02">"Wie lautet der Name Ihres Lieblingstieres?"</string>
+    <string name="password_question_03">Name Ihrer Freundin</string>
+    <string name="password_question_04">Wovon haben Sie als Kind geträumt?</string>
+    <string name="password_question_05">Wenn Sie in jemanden verliebt wären, wer würde es sein?</string>
+    <string name="password_question_06">"Wie lautet der Name Ihres Lieblingslehrers an der High School?"</string>
+    <string name="password_question_07">Wo würden Sie als Kind gerne mal hinfahren?</string>
+    <string name="password_question_08">Wenn Sie in der Zeit zurückreisen könnten, in welche Zeit würden Sie gerne zurückkehren?</string>
+    <string name="password_question_09">Name Ihres Freundes</string>
+
+    <string name="security_settings">Sicherheitseinstellungen</string>
+    <string name="sercurity_question">Sicherheitsfrage:</string>
+    <string name="answer">Antwort:</string>
+    <string name="input_your_answer">Geben Sie Ihre Antwort ein</string>
+    <string name="answer_blank">Die Antwort kann nicht leer sein</string>
+    <string name="password_answer_set_toast">Sicherheitsfrage und -antwort wurden eingerichtet</string>
+    <string name="forgot_gesture">Schlüssel vergessen</string>
+    <string name="answer_question_error">Antwortfehler prüfen</string>
+    <string name="not_setup_answer_question">Keine Einstellungen Frage-Antwort</string>
+
+    <string-array name="lock_time_array">        
+        <item>15 Sekunden</item>        
+        <item>30 Sekunden</item>        
+        <item>1 Minute</item>        
+        <item>3 Minuten</item>        
+        <item>5 Minuten</item>      
+        <item>10 Minuten</item>        
+        <item>30 Minuten</item>        
+        <item>Dringend</item>    
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">Willkommen bei App-Lock</string>
+    <string name="reset">Neustart</string>
+    <string name="search_application">Suche in Apps</string>
+    <string name="lock_settings">Einstellungen sperren</string>
+    <string name="lock_immediately_after_locking_the_screen">lock_immediately_after_locking_the_screen</string>
+    <string name="change_the_password">Passwort ändern</string>
+    <string name="hide_pattern">Muster verstecken</string>
+    <string name="search_applications">Suche in Apps &#8230;</string>
+    <string name="search_for">Suchen &#8230;</string>
+    <string name="_1_minute">1 Minute</string>
+    <string name="accessibility_service_description">Tippen Sie oben rechts auf den Dienst Accessiblility.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie">Einbrecher Selfie</string>
+    <string name="vibrate">Auswahl</string>
+    <string name="app_runing_background">Die Anwendung läuft im Hintergrund</string>
+    <string name="app_background_task">Ausführen der Anwendung im Hintergrund</string>
+    <string name="create_password">Erfinden Sie ein Passwort</string>
+    <string name="create_pattern_lock">Entwickeln Sie ein Muster</string>
+    <string name="on_off">EIN AUS</string>
+    <string name="skip_app_title">Ausgewählte Apps werden während der Reinigung nicht abgebrochen</string>
+    <string name="app_protect">App ist geschützt</string>
+    <string name="ram">Speicher</string>
+    <string name="ready_boost">Bereit zum Beschleunigen</string>
+    <string name="create_shortcut">Shortcut erstellen</string>
+    <string name="notification_created_shortcut">Shortcut %s erstellt</string>
+    <string name="list_game">Spiel-Liste</string>
+    <string name="select_game_to_boost">Wählen Sie ein Spiel aus, um es zu beschleunigen</string>
+    <string name="app_not_exist">Applikation existiert nicht</string>
+    <string name="game_add">Zu den Spielen hinzugefügt: %s</string>
+    <string name="not_distub">Nicht stören</string>
+    <string name="hide_notification_all">Alle Benachrichtigungen während des Spiels ausblenden</string>
+    <string name="smart_charger_can_help">Smartes Laden kann Ihnen helfen</string>
+    <string name="optimize_chargin_progress">Optimieren Sie den Ladevorgang</string>
+    <string name="remind_charger">Erinnern Sie in Echtzeit, um eine Überladung zu vermeiden</string>
+    <string name="turn_on">Schalten Sie es jetzt ein</string>
+    <string name="wifi">WLAN</string>
+    <string name="on">Eingeschaltet</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="auto">Auto</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Ausgeschaltet</string>
+    <string name="synchronize">Synchronisiert</string>
+    <string name="charging_finished">Ladung abgeschlossen</string>
+    <string name="auto_optimized">Automatisch optimiert</string>
+    <string name="clean_up">Löschen</string>
+    <string name="pin">Batterieeinsparung</string>
+    <string name="power_full">Akku ist vollständig geladen</string>
+    <string name="battery_full_des">Der Ladevorgang ist beendet, schalten Sie bitte die Stromquelle ab</string>
+    <string name="uninstall">Löschen</string>
+    <string name="other_app">Andere Anwendung</string>
+    <string name="clean_notifi">Benachrichtigungen zur Reinigung</string>
+    <string name="social_app">Soziale App</string>
+    <string name="third_app">Drittanbieter-Anwendung</string>
+    <string name="spam_notification">Spam-Benachrichtigungen:</string>
+    <string name="no_data">Keine Daten</string>
+    <string name="just_now_time">sofort</string>
+    <string name="minute_ago">%s minute_ago</string>
+    <string name="Notificationbar_Spamnotification">Spam-Benachrichtigungen:</string>
+    <string name="Notificationbarcleanup_Guide1">Sortieren Sie die Spam-Benachrichtigung und löschen Sie sie mit einem Klick</string>
+    <string name="Notificationbarcleanup_RightNow">Benachrichtigungsleiste löschen</string>
+    <string name="safety_scanning">Sicherheit scannen</string>
+    <string name="security">Sicherheit</string>
+
+    <string name="per_read_phone_title">Handy-Datenübertragung</string>
+    <string name="per_access_location_title">Zugang zum Standort</string>
+    <string name="per_read_sms_title">Ich kann Ihre sms lesen</string>
+    <string name="per_send_sms_title">Sie können SMS versenden</string>
+    <string name="per_call_phone_title">Sie können anrufen</string>
+    <string name="per_outgoing_call_title">Es kann ausgehende Anrufe steuern</string>
+    <string name="per_record_audio_title">Es kann Audio aufnehmen</string>
+    <string name="per_camera_title">Zugriff auf die Kamera</string>
+
+    <string name="per_read_phone_des"> Diese Anwendung sammelt und sendet SIM-Kartendaten einschließlich Adressbuch, Handy-PIN und Anrufliste. Dies kann die Datenübertragungsgebühr erhöhen und stellt ein RIESIGES Datenschutzrisiko dar.</string>
+    <string name="per_access_location_des"> Diese Anwendung kann auf ihren genauen Standort zugreifen und stellt eine Gefahr für Ihre Privatsphäre dar.</string>
+    <string name="per_read_sms_des"> Diese Anwendung kann Ihre privaten SMS-Nachrichten lesen und stellt eine Gefahr für Ihre Privatsphäre dar.</string>
+    <string name="per_send_sms_des"> Diese App kann SMS senden. Dies kann die Datenübertragungsgebühren erhöhen und stellt ein HOHES Datenschutzrisiko dar.</string>
+    <string name="per_call_phone_des"> Diese Anwendung kann einen Telefonanruf initiieren, ohne die Benutzeroberfläche von Dialer zu durchlaufen, damit der Benutzer den Anruf bestätigen kann. Dies kann die Kosten für die Datenübertragung erhöhen und stellt ein HOHES Datenschutzrisiko dar.</string>
+    <string name="per_outgoing_call_des"> Diese Anwendung kann die während eines ausgehenden Anrufs gewählte Nummer sehen und hat die Möglichkeit, den Anruf an eine andere Nummer umzuleiten oder den Anruf vollständig zu unterbrechen. Dies kann die Gebühren für die Datenübertragung erhöhen und stellt ein HOHES Datenschutzrisiko dar.</string>
+    <string name="per_record_audio_des">Diese Anwendung kann Audio aufzeichnen und ist eine Bedrohung für Ihre Privatsphäre.</string>
+    <string name="per_camera_des">Diese App kann auf die Kamera Ihres Geräts zugreifen und stellt eine Gefahr für Ihre Privatsphäre dar.</string>
+    <string name="in_danger">In Gefahr</string>
+    <string name="resolve_all">Alle zulassen</string>
+    <string name="virus_app">Virus-Applikation</string>
+    <string name="issues_found">%s Probleme gefunden</string>
+    <string name="skip_all">Alles überspringen</string>
+    <string name="some_app_use_permission">Einige Apps verwenden gefährliche Berechtigungen</string>
+    <string name="app_dangerous">%s Applikation ist gefährlich</string>
+    <string name="version">Version</string>
+    <string name="date">Datum: %s</string>
+    <string name="size">Größe: %s</string>
+    <string name="request_permission">Antrag auf Genehmigung</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="security_threats">Sicherheitsbedrohungen</string>
+    <string name="ignore">Ignorieren</string>
+    <string name="skip_app_virus">"Die ausgewählte Anwendung wird bei der Virensuche ignoriert."</string>
+    <string name="while_list">Liste scannen</string>
+    <string name="no_junk">Keine unerwünschten Dateien gefunden</string>
+    <string name="obsolete_apk">Nutzlose APK</string>
+    <string name="system_cache">System-Cache</string>
+    <string name="downloader_files">Hochgeladene Dateien</string>
+    <string name="large_files">Große Dateien</string>
+    <string name="op_clean">Gelöscht</string>
+    <string name="mb">МB</string>
+    <string name="notification_toggle">Benachrichtigung umschalten</string>
+    <string name="Calculating">Scannen....</string>
+    <string name="notification_setting">BENACHRICHTIGUNGSEINSTELLUNGEN</string>
+    <string name="junk_reminder">Erinnern Sie an Müll</string>
+    <string name="every_3days">Alle 3 Tage</string>
+    <string name="phone_boost_reminder">Erinnerung an Telefon-Geschwindigkeitssteigerung</string>
+    <string name="remind_when_memory">Erinnern, wenn die Speichernutzung zu hoch ist</string>
+    <string name="cpu_cooler_reminder">CPU-Kühler-Erinnerung</string>
+    <string name="remind_me_when_cpu">Mich erinnern, wenn der Prozessor überhitzt ist</string>
+    <string name="battery_saver">Batterieeinsparung</string>
+    <string name="remind_me_when_app_draing">Mich erinnern, wenn Apps den Akku verbrauchen</string>
+    <string name="app_install">Installation der App</string>
+    <string name="delete_the_apk">Löschen Sie die APK-Datei nach der Installation der App</string>
+    <string name="delete_the_residual">Löschen von Restmüll nach Deinstallation einer App</string>
+    <string name="antivirus_settings">ANTI-VIRUS-EINSTELLUNGEN</string>
+    <string name="real_time_protection">Schutz in Echtzeit</string>
+    <string name="ignore_list">Schwarzliste</string>
+    <string name="do_not_distub">Nicht stören</string>
+    <string name="general_settings">ALLGEMEINE EINSTELLUNGEN</string>
+    <string name="create_home_shortcut">Erstellen einer Shortcut auf dem Startbildschirm</string>
+    <string name="remove_app_unstall">Löschen Sie Installationsdateien, um mehr Speicherplatz freizugeben.</string>
+    <string name="deleting">Löschen, warten...</string>
+    <string name="scan_virus">Virus-Scannen.....</string>
+    <string name="start_use">Start mit</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">Diese Applikation ist sicher</string>
+    <string name="app_virus_contain">Diese Applikation enthält einen Virus</string>
+    <string name="ram_going_full">Speicher gefüllt</string>
+    <string name="use_phone_boost">Verwenden Sie den Handy-Reiniger, um Speicherplatz freizugeben</string>
+    <string name="phone_is_hot">Das Handy ist überhitzt</string>
+    <string name="use_cpu_cleaner">Kühlen zum Reinigen des Prozessors</string>
+    <string name="use_save_battery">Batterieeinsparung</string>
+    <string name="battery_low">Niedriger Batteriestand</string>
+    <string name="note">Hinweis</string>
+    <string name="note_turn_off_notifi">Das Gerät %s ist instabil, wenn der Benachrichtigungsschalter deaktiviert ist.</string>
+    <string name="turn_off">Ausschalten</string>
+    <string name="junk_reminder_frequency">Häufigkeit der Benachrichtigungen</string>
+    <string name="every_day">Täglich</string>
+    <string name="every_7days">Alle 7 Tage</string>
+    <string name="never_reminder">Niemals erinnern</string>
+    <string name="start_at">Starten um</string>
+    <string name="stop_at">Stoppen um</string>
+    <string name="detect_junk_file">Junk-Dateien gefunden</string>
+    <string name="use_junk_file">Verwenden Sie die Funktionsdatei funk zum Aufräumen</string>
+    <string name="fix">Beheben</string>
+    <string name="optimize">Optimieren</string>
+    <string name="save">Speichern</string>
+    <string name="selcet_file_to_clean">Wählen Sie eine zu bereinigende Datei</string>
+
+    <string name="floatint_windown_per">Pop-ups zulassen</string>
+    <string name="accessibility_permission">Zugriff zulassen</string>
+    <string name="listener_notification_per">Anzeigen von Benachrichtigungen zulassen</string>
+    <string name="write_setting_per">Aufnahme zulassen</string>
+    <string name="usage_access_permission">Zugang zur Verwendung erlauben</string>
+    <string name="external_storage_permission">Zugriff auf den externen Speicher des Geräts zulassen</string>
+    <string name="write_setting_permission">Berechtigung zum Ändern von Geräteeinstellungen erteilen.</string>
+    <string name="listen_notification_permission">Berechtigung zum Anzeigen von Gerätebenachrichtigungen erteilen</string>
+    <string name="overlay_permission">Anzeigeberechtigung in anderen Apps erteilen</string>
+    <string name="accessibility_setting_permission">Erlaubnis zur Nutzung des Erreichbarkeitsdienstes erteilen</string>
+    <string name="splash_content">Leicht, schnell und intelligent</string>
+
+    <string name="result_cooler">Kühlung erfolgreich abgeschlossen.</string>
+    <string name="boost_result">Beschleunigung durchgeführt</string>
+    <string name="clean_result">Reinigung beendet</string>
+    <string name="fast_charger_boosted_result">Schnelles Laden beschleunigt</string>
+    <string name="antivirus_result">SICHER! Bedrohung beseitigt</string>
+    <string name="deep_clean_result">Erledigt!</string>
+    <string name="notification_manager_result">Erledigt!</string>
+    <string name="dectect_apk_install">1 apk-Installation erkannt</string>
+    <string name="conduct_scan_virus">Einen Virenscan durchführen</string>
+    <string name="dectect_apk_uninstall">Gelöschte 1 apk-Datei erkannt</string>
+    <string name="conduct_cleanup">Aufräumen</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service ist nicht verfügbar oder Subscription Update wird nicht unterstützt</string>
+    <string name="product_purchased">Gekauftes Produkt</string>
+    <string name="liked_app">Gefällt die App?</string>
+    <string name="dontshowagain"><u>Nicht mehr anzeigen</u></string>
+    <string name="rateplease">Ihre Bewertung ist für uns wichtig!</string>
+    <string name="any_ideas">Haben Sie Ideen, wie man die App verbessern kann?</string>
+    <string name="support">Schreiben an Entwickler</string>
+    <string name="delete_selected">Löschen (%s)</string>
+    <string name="exit">Abmelden</string>
+    <string name="_24_12_20">Letzte sauber:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Version: FREE</string>
+    <string name="share">Teilen</string>
+    <string name="like">Bewerten</string>
+    <string name="update">Update</string>
+    <string name="pro">PRO-Version kaufen</string>
+    <string name="found">Gefunden</string>
+    <string name="select_all">Wählen Sie Alle</string>
+    <string name="deep_clean_text">Tiefenreinigung</string>
+    <string name="total_clean">Gesamtreinigung</string>
+    <string name="start_14_day_trial">3-Tage-Testversion starten</string>
+    <string name="free_version_desc">Die kostenlose Premium-Testversion ist 3 Tage lang aktiv, danach werden Ihnen $20/Jahr berechnet. Starten Sie jetzt, Sie können es jederzeit auf Google Play abbrechen.  <u>Lesen Sie die Nutzungsbedingungen.</u></string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="do_you_really_want_to_exit">Willst du wirklich gehen??</string>
+</resources>

@@ -1,0 +1,321 @@
+<resources>
+    <string name="title_home">Nyumbani</string>
+
+
+    <string name="rating">Kiwango</string>
+    <string name="policy">SERA YA FARAGHA</string>
+
+    <string name="more_app">Programu za ziada</string>
+    <string name="feedback">Maoni</string>
+    <string name="scan">Scan</string>
+
+    <string name="setting">Mipangilio</string>
+    <string name="scan_wait">Tafadhali subiri wakati wa kuscan mafaili...</string>
+
+    <string name="language_setting">Lugha</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="rate_msg">Timu yetu inafanya kazi kwa bidii kukupa programu bora ya bure.  Ukaguzi wako wa nyota 5 una thamani zaidi ya pesa zote.  Tafadhali andika ukaguzi mzuri katika Google Play ili kunitia moyo.</string>
+    <string name="remind_later">Kumbusha baadaye</string>
+    <string name="good_5_stars">Vizuri, nyota 5</string>
+    <string name="not_good">Sio nzuri</string>
+    <string name="title_dialog_feed_back">Tuma maoni</string>
+    <string name="message_dialog_feed_back">Omba urekebishaji wa hitilafu na utekeleze vipengele vipya kupitia barua pepe</string>
+    <string name="exit_app">Toka</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Iangalie programu kwa: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Hakuna mteja wa barua pepe aliyewekwa.</string>
+    <string name="send_feedback">Tuma maoni...</string>
+    <string name="enter_feed">Ingiza maoni yako</string>
+    <string name="thanksforrate">\"asante kwa kiwango na uhakiki ^^ \"</string>
+
+    <string name="junk_files">Safisha takataka</string>
+    <string name="junk">Junk</string>
+    <string name="cpu_cooler">Poza kifaa</string>
+    <string name="phone_booster">Ongezo la kasi ya simu</string>
+    <string name="antivirus">Antivirus</string>
+    <string name="power_saving">Kuokoa nishati</string>
+    <string name="data_manager">Meneja wa data</string>
+    <string name="smart_charge">Kuchaji mahiri</string>
+    <string name="deep_clean">Safisho la kina</string>
+    <string name="app_uninstall">Ufutaji wa programu</string>
+    <string name="junk_files_btn">Safisha</string>
+    <string name="cpu_cooler_btn">Poza chini</string>
+    <string name="phone_booster_btn">Harakisha</string>
+    <string name="antivirus_btn">Skan</string>
+    <string name="power_saving_btn">Kuokoa</string>
+    <string name="smart_charge_btn">Skan</string>
+    <string name="notification_manager_btn">Angalia</string>
+    <string name="deep_clean_btn">Safisha</string>
+    <string name="app_uninstall_btn">Futa</string>
+
+    <string name="junk_files_dialog">Toka bila kusafisha?</string>
+    <string name="cpu_cooler_dialog">Toka bila baridi?</string>
+    <string name="phone_booster_dialog">Toka bila kuongeza?</string>
+    <string name="antivirus_dialog">Toka bila skanning?</string>
+    <string name="power_saving_dialog">Toka bila betri ya ufanisi?</string>
+    <string name="smart_charge_dialog">Toka bila kumbukumbu ya ufanisi?</string>
+    <string name="notification_manager_dialog">Toka bila ckecking?</string>
+    <string name="deep_clean_dialog">Toka bila kusafisha kina?</string>
+    <string name="app_uninstall_dialog">Toka bila programu deliting?</string>
+
+    <string name="notification_manager">Meneja wa taarifa</string>
+    <string name="smart_charge_des">Kukumbusha hali ya kuchaji ili kuepuka kuchaji zaidi</string>
+    <string name="deep_clean_des">Safisha faili zako kwa kina kudai nafasi zaidi</string>
+    <string name="app_uninstall_des">Ondoa programu isiyo na maana haraka</string>
+    <string name="notification_manager_des">Wazi bar ya taarifa</string>
+    <string name="junk_files_des">Futa data zisizo za lazima, takataka</string>
+    <string name="cpu_cooler_des">Punguza joto la kifaa kuokoa nguvu ya betri</string>
+    <string name="phone_booster_des">Boresha utendaji, hurisha kumbukumbu</string>
+    <string name="antivirus_des">Changanua na ulinde simu yako katika wakati halisi</string>
+    <string name="power_saving_des">Acha programu ambazo hazitumiki kuokoa betri</string>
+    <string name="no_ads_des">Utangazaji hautakusumbua tena</string>
+    <string name="premium_shield_des">Linda programu zako na upatikanaji wa jazi</string>
+    <string name="additional_clean_des">Kusafisha kifaa cha jazi</string>
+    <string name="all_functions_des">Pata huduma zote mpya kwanza</string>
+    <string name="additional_speed_des">Ongeza kasi ya kifaa chako haraka zaidi na upatikanaji wa jazi</string>
+    <string name="no_ads">Bila matangazo</string>
+    <string name="premium_shield">Usalama wa jazi</string>
+    <string name="additional_clean">Usafishaji zaidi</string>
+    <string name="all_functions">Kazi zote zinapatikana</string>
+    <string name="additional_speed">Kasi zaidi</string>
+
+    <string name="percent">%</string>
+    <string name="scaning">Scanning……</string>
+    <string name="memory_kill_found">Programu zinazochukua nafasi nyingi zimepatikana</string>
+    <string name="boost">Ongeza kasi ya kazi yako</string>
+    <string name="empty_item_select">Lazima uchague angalau bidhaa moja</string>
+    <string name="sm_edge_device_optimized">Kifaa chako kimeboreshwa</string>
+    <string name="clean">Safisha</string>
+    <string name="cooling">Poza chini</string>
+    <string name="try_it">Zindua</string>
+
+    <string name="protect_now">Linda sasa</string>
+    <string name="save_now">Okoa sasa</string>
+    <string name="further_optimize_cpu">Kuboresha processor yako</string>
+    <string name="cool_down">Poza chini</string>
+    <string name="scaning_cpu">Scanning CPU ...</string>
+    <string name="secretly_consuming_battery">Inamaliza betri haraka</string>
+    <string name="extend_battery_life">Ongeza maisha ya betri</string>
+    <string name="analyzing_battery_usage">Uchambuzi wa matumizi ya betri</string>
+    <string name="hibernation">"Kubumbwaa....."</string>
+    <string name="find_and_grant">Tafuta %s na ruhusu upatikanaji %s</string>
+    <string name="grant_now">Ruhusu sasa</string>
+    <string name="grant_app_permission">Toa upatikanaji kwa mfumo wa faili</string>
+    <string name="permission_needed">Kuboresha nafasi ya bure</string><![CDATA[
+
+        
+
+
+        
+          
+
+
+
+
+
+        
+        
+
+
+
+        
+
+    ]]>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="on_off">WASHA ZIMA</string>
+    <string name="skip_app_title">Programu zilizochaguliwa hazitafutwa wakati wa kusafisha</string>
+    <string name="app_protect">Programu imelindwa</string>
+    <string name="notification_created_shortcut">Njia ya mkato %s imetengenezwa</string>
+    <string name="list_game">Orodha ya mchezo</string>
+    <string name="select_game_to_boost">Chagua mchezo wa kuharakisha</string>
+    <string name="smart_charger_can_help">Uchaji mahiri unaweza kukusaidia</string>
+    <string name="optimize_chargin_progress">Boresha mchakato wa kuchaji</string>
+    <string name="remind_charger">Kumbusha katika hali halisi kusaidia kuepuka \ n chaji ya ziada</string>
+    <string name="turn_on">Washa sasa</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Imewashwa</string>
+    <string name="brightness">Mwangaza</string>
+    <string name="auto">Otomatiki</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Imezimwa</string>
+    <string name="synchronize">Imesawazishwa</string>
+    <string name="charging_finished">Kuchaji kumekamilika</string>
+    <string name="auto_optimized">imeboreshwa kiotomatiki</string>
+    <string name="clean_up">Futa</string>
+    <string name="pin">Kuokoa betri</string>
+    <string name="power_full">Betri imechaji kikamilifu</string>
+    <string name="battery_full_des">Kuchaji imeisha, tafadhali ondoa chanzo</string>
+    <string name="uninstall">Futa</string>
+    <string name="clean_notifi">Kusafisha taarifa</string>
+    <string name="social_app">Programu ya kijamii</string>
+    <string name="third_app">Programu ya mtu wa tatu</string>
+    <string name="spam_notification">Arifa za barua taka:</string>
+    <string name="no_data">Hakuna data</string>
+    <string name="just_now_time">Sasa hivi</string>
+    <string name="minute_ago">%s минут назад</string>
+    <string name="Notificationbar_Spamnotification">Taarifa za barua taka:</string>
+    <string name="Notificationbarcleanup_Guide1">Panga taarifa za barua taka na uzifute kwa kubonyeza mara moja</string>
+    <string name="Notificationbarcleanup_RightNow">Safisha bar ya arifa</string>
+    <string name="safety_scanning">Skana usalama</string>
+    <string name="security">Usalama</string>
+
+    <string name="per_read_phone_title">Uhamisho wa data ya simu</string>
+    <string name="per_access_location_title">Upatikanaji wa eneo</string>
+    <string name="per_read_sms_title">Naweza kusoma sms zako</string>
+    <string name="per_send_sms_title">Unaweza kutuma sms</string>
+    <string name="per_call_phone_title">Unaweza kupiga simu</string>
+    <string name="per_outgoing_call_title">Inweza kutawala simu zinazotoka</string>
+    <string name="per_record_audio_title">Inaweza kurekodi sauti</string>
+    <string name="per_camera_title">Upatikanaji wa kamera</string>
+
+    <string name="per_read_phone_des"> Programu hii inakusanya na kutuma data ya SIM ikiwa ni pamoja na kitabu cha anwani, PIN ya simu na historia ya simu.  Kufanya hivyo kunaweza kuongeza mashtaka ya kuhamisha data na kusababisha hatari kubwa ya faragha.</string>
+    <string name="per_access_location_des"> Programu hii inaweza kuipata eneo halisi na inahatarisha faragha yako.</string>
+    <string name="per_read_sms_des"> Programu hii inaweza kusoma SMS meseji zako za kibinafsi na inahatarisha faragha yako.</string>
+    <string name="per_send_sms_des"> Programu hii inaweza kutuma SMS. Kufanyika kwa hilo inaweza kuongeza malipo ya uhamishaji wa data na kusababisha hatari kubwa ya faragha.</string>
+    <string name="per_call_phone_des"> Programu hii inaweza kuanzisha simu bila kupitia kiolesura cha mtumiaji wa Dialer ili mtumiaji aweze kudhibitisha simu hiyo.  Kufanya hivyo kunaweza kuongeza mashtaka ya kuhamisha data na kusababisha hatari kubwa ya faragha.</string>
+    <string name="per_outgoing_call_des"> Programu hii inaweza kuona nambari iliyopigwa wakati wa simu inayotoka, na uwezo wa kuelekeza simu hiyo kwa nambari nyingine au kukatiza kabisa simu.  Kufanya hivyo kunaweza kuongeza mashtaka ya kuhamisha data na kusababisha hatari kubwa ya faragha.</string>
+    <string name="per_record_audio_des">Programu hii inaweza kurekordi sauti na ni tishio kwa faragha yako.</string>
+    <string name="per_camera_des">Programu hii inaweza upatikano wa kamera yako na inahatarisha faragha yako.</string>
+    <string name="in_danger">Katika hatari</string>
+    <string name="resolve_all">Ruhusu zote</string>
+    <string name="issues_found">Matatizo %s yamepatikana</string>
+    <string name="cancel">Ghairi</string>
+    <string name="skip_app_virus">"Programu iliyochaguliwa itapuuzwa wakati wa scanning ya virusi."</string>
+    <string name="while_list">Orodha scan</string>
+    <string name="no_junk">Hakuna faili zisizohitajika kupatikana</string>
+    <string name="obsolete_apk">APK isiyo na maana</string>
+    <string name="system_cache">Cache ya mfumo</string>
+    <string name="downloader_files">Faili zilizopakiwa</string>
+    <string name="large_files">Faili kubwa</string>
+    <string name="op_clean">Imesafishwa</string>
+    <string name="mb">МB</string>
+    <string name="Calculating">Scanning....</string>
+    <string name="remove_app_unstall">Futa faili za uwekaji kuongeza nafasi zaidi.</string>
+    <string name="deleting">Inafutwa, subiri...</string>
+    <string name="scan_virus">Scanning ya virusi.....</string>
+    <string name="start_use">Anza kutumia</string>
+    <string name="ok">Sawa</string>
+    <string name="app_safe">Programu hii iko salama</string>
+    <string name="app_virus_contain">Programu hii ina virusi</string>
+    <string name="ram_going_full">Kumbukumbu imejaa</string>
+    <string name="use_phone_boost">Tumia safishio la simu kuongeza nafasi</string>
+    <string name="phone_is_hot">Simu ina joto kupita kiasi</string>
+    <string name="use_cpu_cleaner">Poza kusafisha processor</string>
+    <string name="use_save_battery">Kuokoa betri</string>
+    <string name="battery_low">Betri ipo chini</string>
+    <string name="detect_junk_file">Faili taka zilipatikana</string>
+    <string name="use_junk_file">Tumia faili la kazi ya taka kusafisha</string>
+    <string name="fix">Tengeneza</string>
+    <string name="optimize">Boresha</string>
+    <string name="save">Okoa</string>
+    <string name="selcet_file_to_clean">Chagua faili la kusafisha</string>
+
+    <string name="floatint_windown_per">Ruhusu pop-ups</string>
+    <string name="accessibility_permission">Ruhusu upatikanaji</string>
+    <string name="listener_notification_per">Ruhusu kuonyesha taarifa</string>
+    <string name="write_setting_per">Ruhusu kurekodi</string>
+    <string name="usage_access_permission">Ruhusu upatikanaji wa kutumia</string>
+    <string name="external_storage_permission">Toa ruhusa kwa kumbukumbu ya nje ya kifaa</string>
+    <string name="write_setting_permission">Toa ruhusa ya kubadilisha mipangilio ya kifaa.</string>
+    <string name="listen_notification_permission">Toa ruhusa ya kuangalia arifa za kifaa</string>
+    <string name="overlay_permission">Toa ruhusa ya maonyesho kwenye programu zingine</string>
+    <string name="accessibility_setting_permission">Toa ruhusa kuruhusu huduma ya upatikanaji</string>
+    <string name="splash_content">Nyepesi, upesi na werevu</string>
+
+    <string name="result_cooler">Kupoza imekamilika kwa mafanikio.</string>
+    <string name="boost_result">Kuongezeka kwa kasi imefanyika</string>
+    <string name="clean_result">Usafishaji umekamilika</string>
+    <string name="fast_charger_boosted_result">Kuchaji kwa kasi imeharakishwa</string>
+    <string name="antivirus_result">SALAMA! Tishio limeondolewa</string>
+    <string name="deep_clean_result">Imekamilika!</string>
+    <string name="notification_manager_result">Imeisha!</string>
+    <string name="dectect_apk_install">Imepatikana apk 1 sakinisha</string>
+    <string name="conduct_scan_virus">Angalia virusi</string>
+    <string name="dectect_apk_uninstall">Imefutea faili la apk 1 imegunduliwa</string>
+    <string name="conduct_cleanup">Safisha</string>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Huduma ya malipo haipatikani au sasisho la Usajili halitumiki</string>
+    <string name="product_purchased">Bidhaa imenunuliwa</string>
+    <string name="liked_app">Unaipenda programu?</string>
+    <string name="dontshowagain"><u>Usionyeshe tena</u></string>
+    <string name="rateplease">Kiwango chako ni muhimu kwetu!</string>
+    <string name="any_ideas">Maoni yoyote juu ya jinsi ya kuboresha programu??</string>
+    <string name="support">Andika kwa waboreshaji</string>
+    <string name="delete_selected">Futa (%s)</string>
+    <string name="exit">Toka</string>
+    <string name="_24_12_20">Mwisho safi:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Toleo: BURE</string>
+    <string name="share">Gawa</string>
+    <string name="like">Tupe kiwango</string>
+    <string name="update">Sasisha</string>
+    <string name="pro">Nunua toleo la PRO</string>
+    <string name="found">Imepatikana</string>
+    <string name="select_all">Chagua zote</string>
+    <string name="deep_clean_text">Safi kabisa</string>
+    <string name="total_clean">Jumla safi</string>
+    <string name="start_14_day_trial">Anza jaribio la siku 3</string>
+    <string name="free_version_desc">Jaribio la bure la jazi litaendelea kwa siku 3, kisha utatozwa $ 20 / mwaka. Anza sasa, unaweza kughairi wakati wowote kwenye Google Play.  <u>Soma masharti ya matumizi</u></string>
+    <string name="yes">Ndiyo</string>
+    <string name="no">Hapana</string>
+    <string name="do_you_really_want_to_exit">Kweli unataka kutoka?</string>
+</resources>

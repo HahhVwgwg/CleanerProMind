@@ -1,0 +1,484 @@
+<resources>
+    <string name="title_home">Home</string>
+    <string name="title_persional">Profile</string>
+    <string name="rating">Irate</string>
+    <string name="policy">PRIVACY POLICY</string>
+
+    <string name="more_app">More App</string>
+    <string name="scan">Iscan</string>
+
+    <string name="setting">Settings</string>
+    <string name="scan_wait">Pakihintay habang iniiscan ang files...</string>
+
+    <string name="language_setting">Lengguahe</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Deleted ... %d files</string>
+
+
+    <string name="scan_all_file">Scan All Other Files</string>
+    <string name="scan_audio_file">Scan Duplicate Audios</string>
+    <string name="scan_doc_file">Scan Duplicate Docs</string>
+    <string name="scan_image_file">Scan Duplicate Images</string>
+    <string name="scan_video_file">Scan Duplicate Videos</string>
+    <string name="analyzing">Nagaanalyze...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Pakisundan ang instructions sa ibaba upang magbigay permission para madelete ang selected files.</string>
+    <string name="sd_content_2">Kung hindi mahanap ang SD card , subukan ito .</string>
+    <string name="sd_title">Confirm External Storage Access</string>
+    <string name="no_file_found">No Duplicate Files Found</string>
+    <string name="delete_content">Gusto mo bang idelete ang file?</string>
+    <string name="delete_title">Confirm Delete</string>
+    <string name="file_removed">Files Removed</string>
+    <string name="grant_permission">Payagan</string>
+    <string name="delete_now">Idelete na</string>
+
+    <string name="rate_msg">Ang aming grupo ay nagtatrabaho nang maiigi upang mabigyan ka nang pinakamainam na libreng application. Ang iyong 5-star review ay mas mahalaha pa sa lahat ng pera. Maaring maglagay ng mabuting mensahe sa Google Play para mapalakas ang loob ko.</string>
+    <string name="remind_later">Paalalahanan ako mamaya</string>
+    <string name="good_5_stars">Maganda, 5 stars</string>
+    <string name="not_good">Hindi maganda</string>
+    <string name="title_dialog_feed_back">Magbigay ng mensahe</string>
+    <string name="message_dialog_feed_back">Humingi ng bug fix at magimplement ng panibagong features via email</string>
+    <string name="exit_app">Umalis</string>
+
+
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Icheck ang App sa: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Walang email client na naka install.</string>
+    <string name="send_feedback">Magbigay ng FeedBack...</string>
+    <string name="enter_feed">Ilagay ang iyong FeedBack</string>
+    <string name="thanksforrate">\"Salamat sa iyong pagrate at review ^^ \"</string>
+
+    <string name="junk_files">Iclear ang trash</string>
+    <string name="junk">Basura</string>
+    <string name="cpu_cooler">Icool down ang device</string>
+    <string name="phone_booster">Pampabilis ng phone</string>
+    <string name="antivirus">Antivirus</string>
+    <string name="power_saving">Energy Saving</string>
+    <string name="data_manager">Data manager</string>
+    <string name="app_lock">App lock</string>
+    <string name="smart_charge">Mabisang pagchacharge</string>
+    <string name="deep_clean">Mainam na paglilinis</string>
+    <string name="app_uninstall">Nagtatanggal ng mga application</string>
+    <string name="game_booster">Pampabilis ng laro</string>
+    <string name="junk_files_btn">Iclear</string>
+    <string name="cpu_cooler_btn">Icool down</string>
+    <string name="phone_booster_btn">Pabilisin</string>
+    <string name="antivirus_btn">Iscan</string>
+    <string name="power_saving_btn">Nagtitipid</string>
+    <string name="app_lock_btn">Iblock</string>
+    <string name="smart_charge_btn">Iscan</string>
+    <string name="notification_manager_btn">Icheck</string>
+    <string name="deep_clean_btn">Linisin</string>
+    <string name="app_uninstall_btn">Alisin</string>
+    <string name="game_booster_btn">Pabilisin ang laro</string>
+
+    <string name="junk_files_dialog">Lumabas nang walang paglilinis?</string>
+    <string name="cpu_cooler_dialog">Lumabas nang walang paglamig?</string>
+    <string name="phone_booster_dialog">Lumabas nang walang pagpapalakas?</string>
+    <string name="antivirus_dialog">Lumabas nang walang pag-scan?</string>
+    <string name="power_saving_dialog">Lumabas nang baterya optimizing?</string>
+    <string name="app_lock_dialog">Lumabas nang walang pag-lock?</string>
+    <string name="smart_charge_dialog">Lumabas nang memory optimizing?</string>
+    <string name="notification_manager_dialog">Lumabas nang walang ckecking?</string>
+    <string name="deep_clean_dialog">Lumabas nang malalim paglilinis?</string>
+    <string name="app_uninstall_dialog">Lumabas nang hindi app deliting?</string>
+    <string name="game_booster_dialog">Lumabas nang walang game pagpapalakas?</string>
+
+    <string name="game">Laro</string>
+    <string name="notification_manager">Notification manager</string>
+    <string name="app_lock_des">Protektahan ang confidential data at property</string>
+    <string name="smart_charge_des">Paalala sa charging status para maiwasan ang overcharging</string>
+    <string name="deep_clean_des">Ideep clean ang iyong files upang makakuha ng mas maraming space</string>
+    <string name="app_uninstall_des">Tanggalin agad ang hindi kailangan na mga apps</string>
+    <string name="game_booster_des">Pampabilis ng laro</string>
+    <string name="notification_manager_des">Iclear ang notifications bar</string>
+    <string name="junk_files_des">Tanggalin ang hindi kailangan na data, garbage</string>
+    <string name="cpu_cooler_des">Bawasan ang device temperature para makatipid ng battery power</string>
+    <string name="phone_booster_des">Palakasin pa ang performance, free up memory</string>
+    <string name="antivirus_des">Iscan at protektahan iyong phone sa tamang oras</string>
+    <string name="power_saving_des">Patigilin ang mga hindi ginagamit na apps</string>
+    <string name="no_ads_des">Hindi ka na aabalahin ng advertising</string>
+    <string name="premium_shield_des">Protektahan iyong app gamit ang premium access</string>
+    <string name="additional_clean_des">Premium device cleaning</string>
+    <string name="all_functions_des">Kuhanin muna ang mga panibagong features</string>
+    <string name="additional_speed_des">Pabilisin pa iyong app gamit ang premium access</string>
+    <string name="no_ads">Walang advertising</string>
+    <string name="premium_shield">Premium security</string>
+    <string name="additional_clean">Deeper cleaning</string>
+    <string name="all_functions">Lahat nang functions ay available</string>
+    <string name="additional_speed">Dagdag bilis</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[Cleaning & acceleration]]></string>
+    <string name="security_and_privacy"><![CDATA[Security & privacy]]></string>
+    <string name="has_protected_your_phone">%s protects your phone %s дн.</string>
+    <string name="settings">Settings</string>
+    <string name="feedback">Mensahe</string>
+    <string name="upgrade">Update</string>
+    <string name="like_facebook">Irate kami</string>
+    <string name="scaning">Nagiiscan……</string>
+    <string name="memory_kill_found">Nahanap ang mga application na kumukuha ng malaking space</string>
+    <string name="boost">Pabilisin pa ang pag-gana</string>
+    <string name="empty_item_select">Pumili ng kahit isang item</string>
+    <string name="sm_edge_device_optimized">Ang iyong device ay optimized</string>
+    <string name="clean">Iclear</string>
+    <string name="cooling">Icool down</string>
+    <string name="try_it">Paganahin</string>
+
+    <string name="protect_now">Protektahan na</string>
+    <string name="save_now">Isave ngayon</string>
+    <string name="further_optimize_cpu">Inooptimize ang iyong processor</string>
+    <string name="cool_down">Icool down</string>
+    <string name="scaning_cpu">Nagiiscan...</string>
+    <string name="secretly_consuming_battery">Nadadrain ang battery ng mabilis</string>
+    <string name="extend_battery_life">Dagdagan ang buhay ng battery</string>
+    <string name="analyzing_battery_usage">Analysis para sa paggamit ng battery</string>
+    <string name="hibernation">"Pagpahinga....."</string>
+    <string name="find_and_grant">Hanapin %s at iallow access %s</string>
+    <string name="grant_now">Payagan na</string>
+    <string name="grant_app_permission">Magprovide access sa file system</string>
+    <string name="permission_needed"> ioptimize ang free space</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Kailangan ng permission</string>    
+    <string name="lockscreen_access_pattern_start">Naidagdag na cell</string>
+
+    <string name="lockscreen_access_pattern_detected">Nasave ang template</string>    
+    <string name="lockscreen_access_pattern_cleared">Tinanggal ang template</string>      
+    <string name="lock_recording_intro_header">Iinstall ang app unlock</string>
+    <string name="lock_settings_help_how_to_record">Paano gumawa ng unlock pattern</string>
+
+    <string name="lock_recording_incorrect_too_short">Masyadong maikli ang pattern</string>
+
+    <string name="lock_pattern_entered_header">Ilagay ang pattern</string>    
+    <string name="lock_need_to_confirm">Ilagay ang pattern ulit upang maconfirm</string>    
+
+    <string name="lock_need_to_unlock_wrong">Hindi tumugma ang pattern. Pakisubukan ulit</string>
+
+    <string name="password_gestrue_tips">Ilagay ang secret code</string>    
+    <string name="password_error_count">Hindi tumugma ang pattern. Pakisubukan ulit</string>
+    <string name="lock_pattern_confirmed_header">Navalidate na template </string>
+
+    <string name="password_question_01">Ano ang pinaka naalala mo sa iyong buhay?</string>
+    <string name="password_question_02">"Ano ang pangalan ng paborito mong alagang hayop?"</string>
+    <string name="password_question_03">Pangalan ng iyong kasintahan</string>
+    <string name="password_question_04">Ano ang pangarap mo noong bata ka pa?</string>
+    <string name="password_question_05">Kung mapapaibig ka sa isang tao, sino iyon?</string>
+    <string name="password_question_06">"Ano ang pangalan ng paborito mong guro?"</string>
+    <string name="password_question_07">Ano ang lugar na gusto mo bisitahin noong bata ka pa?</string>
+    <string name="password_question_08">Kung makakabalik ka sa nakaraan mga panahon, anong panahon ang babalikan mo?</string>
+    <string name="password_question_09">Pangalan ng iyong kasintahan</string>
+
+    <string name="security_settings">Security settings</string>
+    <string name="sercurity_question">Security question:</string>
+    <string name="answer">Sagot:</string>
+    <string name="input_your_answer">ilagay iyong sagot</string>
+    <string name="answer_blank">Bawal walang sagot</string>
+    <string name="password_answer_set_toast">Nailagay na ang security question at answer</string>
+    <string name="forgot_gesture">Nakalimutan ko ang key</string>
+    <string name="answer_question_error">Icheck ang response error</string>
+    <string name="not_setup_answer_question">No settings question answer</string>
+
+    <string-array name="lock_time_array">        
+        <item>15 seconds</item>        
+        <item>30 seconds</item>        
+        <item>1 minute</item>        
+        <item>3 minutes</item>        
+        <item>5 minutes</item>      
+        <item>10 minutes</item>        
+        <item>30 minutes</item>        
+        <item>Urgently</item>    
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">Welcome sa app lock</string>
+    <string name="reset">Reboot</string>
+    <string name="search_application">Isearch sa apps</string>
+    <string name="lock_settings">Lock settings</string>
+    <string name="lock_immediately_after_locking_the_screen">Ilock agad pagkatapos isarado ang screen</string>
+    <string name="change_the_password">Ibahin ang password</string>
+    <string name="hide_pattern">Itago ang pattern</string>
+    <string name="search_applications">Isearch sa applications &#8230;</string>
+    <string name="search_for">Isearch &#8230;</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="accessibility_service_description">Itap sa kanan para magamit ang accessibility service
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie">Intruder selfie</string>
+    <string name="vibrate">Selection</string>
+    <string name="app_runing_background">Ang application ay gumagana pa sa background</string>
+    <string name="app_background_task">Pinapagana ang application</string>
+    <string name="create_password">Gumawa ng password</string>
+    <string name="create_pattern_lock">Gumawa ng pattern</string>
+    <string name="on_off">BUKSAN PATAYIN</string>
+    <string name="skip_app_title">Ang nakaselect na apps ay hindi macacancel habang naglilinis</string>
+    <string name="app_protect">Protektado ang application</string>
+    <string name="ram">Memory</string>
+    <string name="ready_boost">Ready pabilisin</string>
+    <string name="create_shortcut">Gumawa ng shortcut</string>
+    <string name="notification_created_shortcut">Shortcut %s created</string>
+    <string name="list_game">Lista ng mga laro</string>
+    <string name="select_game_to_boost">Pumili ng laro para pabilisin</string>
+    <string name="app_not_exist">Wala ang application</string>
+    <string name="game_add">Idinagdag sa games: %s</string>
+    <string name="not_distub">Wag abalahin</string>
+    <string name="hide_notification_all">Itago ang notifications habang naglalaro</string>
+    <string name="smart_charger_can_help">Makatutulong ang Smart charging</string>
+    <string name="optimize_chargin_progress">Ioptimize ang charging process</string>
+    <string name="remind_charger">Paalala sa tamang oras upang maiwasan ang \ n overcharge</string>
+    <string name="turn_on">Buksan na</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Nakabukas</string>
+    <string name="brightness">Liwanag</string>
+    <string name="auto">Auto</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Nakapatay</string>
+    <string name="synchronize">Synchronized</string>
+    <string name="charging_finished">Tapos na ang pagcharge</string>
+    <string name="auto_optimized">Automatic na naoptimized</string>
+    <string name="clean_up">Iclear</string>
+    <string name="pin">Pagtipid ng battery</string>
+    <string name="power_full">Fully charged na ang battery</string>
+    <string name="battery_full_des">Tapos na ang pagcharge, maari nang tanggalin</string>
+    <string name="uninstall">Alisin</string>
+    <string name="other_app">Ibang application</string>
+    <string name="clean_notifi">Cleaning notifications</string>
+    <string name="social_app">Social app</string>
+    <string name="third_app">Third party application</string>
+    <string name="spam_notification">Spam notifications:</string>
+    <string name="no_data">No data</string>
+    <string name="just_now_time">Ngayon</string>
+    <string name="minute_ago">%s minuto ang nakalipas</string>
+    <string name="Notificationbar_Spamnotification">Spam notifications:</string>
+    <string name="Notificationbarcleanup_Guide1">Sort ang spam notification at idelete gamit isang click</string>
+    <string name="Notificationbarcleanup_RightNow">Iclear ang notification bar</string>
+    <string name="safety_scanning">Iscan para sa seguridad</string>
+    <string name="security">Safety</string>
+
+    <string name="per_read_phone_title">Phone data transfer</string>
+    <string name="per_access_location_title">Access sa location</string>
+    <string name="per_read_sms_title">Nababasa ko ang iyong sms</string>
+    <string name="per_send_sms_title">Pwede kang magsend ng sms</string>
+    <string name="per_call_phone_title">Pwede kang tumawag</string>
+    <string name="per_outgoing_call_title">Pwedeng kontrolin ang outgoing calls</string>
+    <string name="per_record_audio_title">Pwedeng irecord ang audio</string>
+    <string name="per_camera_title">Access sa camera</string>
+
+    <string name="per_read_phone_des"> Ang app na ito ay nangongolekta at nagsesend ng SIM card data kasama na ang address book, mobile PIN at call history. Kung gagamitin man ay maaring tumaas ang data transfer charges at pwedeng magpose ng HIGH privacy risk.</string>
+    <string name="per_access_location_des"> Ang application na ito ay kayang iaccess ang location na maaring risk sa iyong privacy.</string>
+    <string name="per_read_sms_des"> Ang application na ito ay kayang basahin ang mga private SMS mo na maaring risk sa iyong privacy.</string>
+    <string name="per_send_sms_des"> Ang app na ito ay kayang magsend ng SMS. Makakadagdag sa data transfer charges at pwedeng magpose ng HIGH privacy risk.</string>
+    <string name="per_call_phone_des"> Ang application na ito ay kayang makapag call kahit hindi na pumunta sa Dialer user interface para maconfirm ng user ang call. Makakadagdag sa data transfer charges at pwedeng magpose ng HIGH privacy risk.</string>
+    <string name="per_outgoing_call_des"> Ang application na ito ay kayang makakita ng dialed number habang patuloy ang outgoing call, na kayang iredirect ang call sa ibang number o completely na iinterrupt ang call. Makakadagdag sa data transfer charges at pwedeng magpose ng HIGH privacy risk.</string>
+    <string name="per_record_audio_des">Ang application na ito ay nagrerecord ng audio at delikado sa iyong privacy</string>
+    <string name="per_camera_des">Ang app na ito ay nakakaaccess sa camera at delikado sa iyong privacy</string>
+    <string name="in_danger">Delikado</string>
+    <string name="resolve_all">Iallow lahat</string>
+    <string name="virus_app">Virus application</string>
+    <string name="issues_found">Problems %s found</string>
+    <string name="skip_all">Skip lahat</string>
+    <string name="some_app_use_permission">Ang mga ibang delikadong apps ay gumagamit ng permission</string>
+    <string name="app_dangerous">%s Delikado ang application</string>
+    <string name="version">Version</string>
+    <string name="date">Data: %s</string>
+    <string name="size">Size: %s</string>
+    <string name="request_permission">Request para sa permission</string>
+    <string name="cancel">Cancel</string>
+    <string name="security_threats">Peligro sa seguridad</string>
+    <string name="ignore">Hayaan</string>
+    <string name="skip_app_virus">"Hahayaan ang mga napiling application pag nagiiscan ng mga virus."</string>
+    <string name="while_list">List scan</string>
+    <string name="no_junk">No unwanted files found</string>
+    <string name="obsolete_apk">Useless APK</string>
+    <string name="system_cache">System cache</string>
+    <string name="downloader_files">Uploaded files</string>
+    <string name="large_files">Large files</string>
+    <string name="op_clean">Cleared</string>
+    <string name="mb">МB</string>
+    <string name="notification_toggle">Notification toggle</string>
+    <string name="Calculating">Nagiiscan....</string>
+    <string name="notification_setting">NOTIFICATION SETTINGS</string>
+    <string name="junk_reminder">Paalala sa trash</string>
+    <string name="every_3days">Kada 3 araw</string>
+    <string name="phone_boost_reminder">Phone Speed Boost Reminder</string>
+    <string name="remind_when_memory">Paalala kapag sobra ang memory usage </string>
+    <string name="cpu_cooler_reminder">CPU Cooler Reminder</string>
+    <string name="remind_me_when_cpu">Paalalahanan ako kapag nagooverheat ang CPU</string>
+    <string name="battery_saver">Battery saving</string>
+    <string name="remind_me_when_app_draing">Paalalahanan ako pag nakakubos ng battery ang apps</string>
+    <string name="app_install">Iniinstall ang app</string>
+    <string name="delete_the_apk">Idelete ang APK file pagtapos mainstall ang app</string>
+    <string name="delete_the_residual">Idelete ang residual junk pagtapos mauninstall ang app</string>
+    <string name="antivirus_settings">ANTI-VIRUS SETTINGS</string>
+    <string name="real_time_protection">Real time protection</string>
+    <string name="ignore_list">Black list</string>
+    <string name="do_not_distub">Wag abalahin</string>
+    <string name="general_settings">GENERAL SETTINGS</string>
+    <string name="create_home_shortcut">Gumawa ng shortcut sa home screen</string>
+    <string name="remove_app_unstall">Idelete ang installation files upang makapag free up ng space.</string>
+    <string name="deleting">Nagdedelete, maghintay...</string>
+    <string name="scan_virus">Nagiiscan ng virus.....</string>
+    <string name="start_use">Simulan gamitin</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">Ang application ay ligtas gamitin</string>
+    <string name="app_virus_contain">May virus ang application na ito</string>
+    <string name="ram_going_full">Puno ang memory</string>
+    <string name="use_phone_boost">Gamitin ang phone cleaner para makadagdag ng space</string>
+    <string name="phone_is_hot">Overheated na ang phone</string>
+    <string name="use_cpu_cleaner">Icool para malinis ang processor</string>
+    <string name="use_save_battery">Battery saving</string>
+    <string name="battery_low">Low battery</string>
+    <string name="note">Note</string>
+    <string name="note_turn_off_notifi">Ang device ay unstable kapag nakapatay ang notification switch.</string>
+    <string name="turn_off">Patayin</string>
+    <string name="junk_reminder_frequency">Frequency of notifications</string>
+    <string name="every_day">Araw-araw</string>
+    <string name="every_7days">Kada 7 araw</string>
+    <string name="never_reminder">Bahala na</string>
+    <string name="start_at">Simulan sa</string>
+    <string name="stop_at">Tumigil sa</string>
+    <string name="detect_junk_file">Junk file nahanap</string>
+    <string name="use_junk_file">Gamitin ang junk function para maclean up ang file</string>
+    <string name="fix">Ayusin</string>
+    <string name="optimize">Ioptimize</string>
+    <string name="save">Isave</string>
+    <string name="selcet_file_to_clean">Pumili ng file para iclean up</string>
+
+    <string name="floatint_windown_per">Payagan ang pop-ups</string>
+    <string name="accessibility_permission">Payagan maaccess</string>
+    <string name="listener_notification_per">Payagan ang pagpapakita ng notifications</string>
+    <string name="write_setting_per">Payagan ang recording</string>
+    <string name="usage_access_permission">Payagan makagamit ang nakaaccess ng</string>
+    <string name="external_storage_permission">Payagan ang access sa external memory ng drive</string>
+    <string name="write_setting_permission">Magbigay permission para ibahin ang device settings.</string>
+    <string name="listen_notification_permission">Magbigay permission para iview ang device notification</string>
+    <string name="overlay_permission">Magbigay ng display permission sa ibang apps</string>
+    <string name="accessibility_setting_permission">Magbigay permission sa paggamit ng Accessibility Service</string>
+    <string name="splash_content">Magaang, mabilis at mabisa</string>
+
+    <string name="result_cooler">Natapos ang cooling process.</string>
+    <string name="boost_result">Natapos ang pagpapabilis</string>
+    <string name="clean_result">Natapos ang cleaning</string>
+    <string name="fast_charger_boosted_result">Napabilis pa ang fast charging</string>
+    <string name="antivirus_result">LIGTAS! Natanggal ang peligro</string>
+    <string name="deep_clean_result">Kumpleto!</string>
+    <string name="notification_manager_result">Finished!</string>
+    <string name="dectect_apk_install">Nahanap 1 apk install</string>
+    <string name="conduct_scan_virus">Icheck kung may virus</string>
+    <string name="dectect_apk_uninstall">Natanggal 1 apk file na detected</string>
+    <string name="conduct_cleanup">Clean up</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Ang Billing Service ay hindi available or ang Subscription update ay not supported</string>
+    <string name="product_purchased">Nabili ang product</string>
+    <string name="liked_app">Nagustuhan mo ba ang app?</string>
+    <string name="dontshowagain"><u>Wag nang ipakita pa ulit</u></string>
+    <string name="rateplease">Ang rating mo ay importante saamin!</string>
+    <string name="any_ideas">May idea ka ba upang mapabuti ang app?</string>
+    <string name="support">Magbigay mensahe sa mga developers</string>
+    <string name="delete_selected">Delete (%s)</string>
+    <string name="exit">Umalis</string>
+    <string name="_24_12_20">Huling malinis:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Bersyon: FREE</string>
+    <string name="share">Ishare</string>
+    <string name="like">Irate kami</string>
+    <string name="update">Update</string>
+    <string name="pro">Bilhin ang PRO version</string>
+    <string name="found">Found</string>
+    <string name="select_all">Piliin lahat</string>
+    <string name="deep_clean_text">Malalim na malinis</string>
+    <string name="total_clean">Kabuuang malinis</string>
+    <string name="start_14_day_trial">Simulan ang 3-day trial</string>
+    <string name="free_version_desc">Gagana ng 3 days ang Free Premium trial, at machacharge ka ng 20$/year. Simulan na, pwedeng icancel anytime sa Google Play. <u>Basahin ang terrms of use.</u></string>
+    <string name="yes">Oo</string>
+    <string name="no">Hindi</string>
+    <string name="do_you_really_want_to_exit">Sigurado ka ba na aalis ka?</string>
+</resources>

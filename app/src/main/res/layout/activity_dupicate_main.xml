@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_scan_gradient"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:alpha="0.2"
+        android:src="@drawable/bg_wave_blue"
+        app:tint="@color/white" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/av_clean_file"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        app:lottie_fileName="duplicate_scan.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="match_parent"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:textColor="@color/white"
+        android:text="@string/scaning"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:lines="1"
+        android:layout_below="@id/av_clean_file"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/im_iconApp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

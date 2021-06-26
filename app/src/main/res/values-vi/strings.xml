@@ -1,0 +1,485 @@
+<resources>
+    <string name="title_home">Trang Chủ</string>
+    <string name="title_persional">Hồ sơ</string>
+
+    <string name="rating">Đánh giá</string>
+    <string name="policy">CHÍNH SÁCH BẢO MẬT</string>
+
+    <string name="more_app">Nhiều ứng dụng hơn</string>
+    <string name="scan">Quét</string>
+
+    <string name="setting">Cài đặt</string>
+    <string name="scan_wait">Xin vui lòng chờ trong khi quá trình quét tệp đang diễn ra...</string>
+
+    <string name="language_setting">Ngôn ngữ</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Đã xóa ...% d tệp </string>
+
+
+    <string name="scan_all_file">Quét tất cả các tệp còn lại</string>
+    <string name="scan_audio_file">Quét âm thanh trùng lặp</string>
+    <string name="scan_doc_file">Quét tài liệu trùng lặp</string>
+    <string name="scan_image_file">Quét ảnh trùng lặp</string>
+    <string name="scan_video_file">Quét video trùng lặp</string>
+    <string name="analyzing">Phân tích...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Làm theo hướng dẫn bên dưới để cấp quyền xóa các tệp đã chọn</string>
+    <string name="sd_content_2">Nếu bạn không thể thấy thẻ SD của mình, hãy thử nhấp vào đây</string>
+    <string name="sd_title">Xác nhận quyền truy cập vào bộ nhớ trong</string>
+    <string name="no_file_found">Không tìm thấy tệp trùng lặp</string>
+    <string name="delete_content">Bạn có muốn xóa tệp không?</string>
+    <string name="delete_title">Xác nhận xóa</string>
+    <string name="file_removed">Tệp đã bị xóa</string>
+    <string name="grant_permission">Cho phép</string>
+    <string name="delete_now">Xóa ngay bây giờ</string>
+
+    <string name="rate_msg">Nhóm của chúng tôi làm việc rất chăm chỉ để mang đến cho bạn ứng dụng miễn phí tốt nhất. Đánh giá 5 sao của bạn có giá trị hơn bất kỳ số tiền nào đối với chúng tôi. Viết một bài đánh giá tốt trên Google Play để cổ vũ chúng tôi</string>
+    <string name="remind_later">Nhắc tôi sau</string>
+    <string name="good_5_stars">Đã thích, 5 sao</string>
+    <string name="not_good">Không thích</string>
+    <string name="title_dialog_feed_back">Gửi bình luận</string>
+    <string name="message_dialog_feed_back">Yêu cầu sửa lỗi và thêm các tính năng mới qua email</string>
+    <string name="exit_app">Thoát</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Kiểm tra ứng dụng: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Ứng dụng thư khách chưa được cài đặt.</string>
+    <string name="send_feedback">Gửi bình luận...</string>
+    <string name="enter_feed">Để lại đánh giá của bạn</string>
+    <string name="thanksforrate">\"Cảm ơn bạn đã để lại bình luận và đánh giá.^^ \"</string>
+
+    <string name="junk_files">Dọn dẹp rác</string>
+    <string name="junk">thuyền mành</string>
+    <string name="cpu_cooler">Làm mát thiết bị</string>
+    <string name="phone_booster">Tăng tốc thiết bị</string>
+    <string name="antivirus">Diệt vi rút</string>
+    <string name="power_saving">Tiết kiệm pin</string>
+    <string name="data_manager">Quản lý dữ liệu</string>
+    <string name="app_lock">Khóa ứng dụng</string>
+    <string name="smart_charge">Sạc thông minh</string>
+    <string name="deep_clean">Dọn dẹp sâu</string>
+    <string name="app_uninstall">Xóa ứng dụng</string>
+    <string name="game_booster">Tăng tốc trò chơi</string>
+    <string name="junk_files_btn">Tối ưu hóa</string>
+    <string name="cpu_cooler_btn">Giảm nhiệt</string>
+    <string name="phone_booster_btn">Tăng tốc</string>
+    <string name="antivirus_btn">Quét</string>
+    <string name="power_saving_btn">Tiết kiệm</string>
+    <string name="app_lock_btn">Khóa</string>
+    <string name="smart_charge_btn">Quét</string>
+    <string name="notification_manager_btn">Kiểm tra</string>
+    <string name="deep_clean_btn">Tối ưu hóa</string>
+    <string name="app_uninstall_btn">Xóa</string>
+    <string name="game_booster_btn">Tăng tốc trò chơi</string>
+
+    <string name="junk_files_dialog">Thoát mà không sạch?</string>
+    <string name="cpu_cooler_dialog">Thoát mà không làm mát?</string>
+    <string name="phone_booster_dialog">Thoát mà không tăng?</string>
+    <string name="antivirus_dialog">Thoát mà không quét?</string>
+    <string name="power_saving_dialog">Thoát ra mà không pin tối ưu hóa?</string>
+    <string name="app_lock_dialog">Thoát mà không khóa?</string>
+    <string name="smart_charge_dialog">Thoát ra mà không nhớ tối ưu hóa?</string>
+    <string name="notification_manager_dialog">Thoát mà không ckecking?</string>
+    <string name="deep_clean_dialog">Thoát mà không làm sạch sâu?</string>
+    <string name="app_uninstall_dialog">Thoát ra mà không ứng dụng deliting?</string>
+    <string name="game_booster_dialog">Thoát mà không trò chơi thúc đẩy?</string>
+
+    <string name="game">Trò chơi</string>
+    <string name="notification_manager">Quản lý thông báo</string>
+    <string name="app_lock_des">Bảo vệ dữ liệu và tải sản bí mật</string>
+    <string name="smart_charge_des">Nhắc nhở về trạng thái sạc để tránh sạc quá mức</string>
+    <string name="deep_clean_des">Dọn dẹp sâu các tệp để giải phóng thêm dung lượng</string>
+    <string name="app_uninstall_des">Xóa nhanh các ứng dụng không cần đến</string>
+    <string name="game_booster_des">Tăng tốc trò chơi</string>
+    <string name="notification_manager_des">Xóa bảng thông báo</string>
+    <string name="junk_files_des">Xóa dữ liệu không cần thiết,rác</string>
+    <string name="cpu_cooler_des">Giảm nhiệt độ thiết bị để tiết kiệm pin</string>
+    <string name="phone_booster_des">Tăng hiệu suất, giải phóng bộ nhớ</string>
+    <string name="antivirus_des">Quét và bảo vệ điện thoại trong thời gian thực</string>
+    <string name="power_saving_des">Dừng các ứng dụng không sử dụng để tiết kiệm pin</string>
+    <string name="no_ads_des">Quảng cáo sẽ không làm phiền bạn nữa</string>
+    <string name="premium_shield_des">Bảo vệ ứng dụng của bạn với quyền truy cập cao cấp</string>
+    <string name="additional_clean_des">Tối ưu hóa thiết bị cao cấp</string>
+    <string name="all_functions_des">Nhận tất cả các tính năng mới đầu tiên</string>
+    <string name="additional_speed_des">Tăng tốc thiết bị của bạn nhanh hơn với quyền truy cập cao cấp</string>
+    <string name="no_ads">Không quảng cáo</string>
+    <string name="premium_shield">Bảo mật cao cấp</string>
+    <string name="additional_clean">Dọn dẹp sâu hơn</string>
+    <string name="all_functions">Truy cập tất cả các chức năng</string>
+    <string name="additional_speed">Thêm nhiều tốc độ</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[Làm mới & tăng tốc]]></string>
+    <string name="security_and_privacy"><![CDATA[An toàn & bảo mật]]></string>
+    <string name="has_protected_your_phone">%s bảo vệ thiết bị của bạn %s ngày.</string>
+    <string name="settings">Cài đặt</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="upgrade">Làm mới</string>
+    <string name="like_facebook">Đánh giá chúng tôi</string>
+    <string name="scaning">Quét ……</string>
+    <string name="memory_kill_found">Các ứng dụng chiếm nhiều dung lượng</string>
+    <string name="boost">Tăng tốc công việc</string>
+    <string name="empty_item_select">Bạn phải chọn ít nhất 1 mục</string>
+    <string name="sm_edge_device_optimized">Thiết bị của bạn đã được tối ưu hóa.</string>
+    <string name="clean">Tối ưu hóa</string>
+    <string name="cooling">Làm mát</string>
+    <string name="try_it">Chạy</string>
+
+    <string name="protect_now">Bảo vệ ngay bây giờ</string>
+    <string name="save_now">Lưu bây giờ</string>
+    <string name="further_optimize_cpu">Tối ưu hóa bộ xử lý của bạn</string>
+    <string name="cool_down">Làm mát</string>
+    <string name="scaning_cpu">Quét bộ xử lý ...</string>
+    <string name="secretly_consuming_battery">Tiêu hao pin nhanh chóng</string>
+    <string name="extend_battery_life">Kéo dài tuổi thọ pin</string>
+    <string name="analyzing_battery_usage">Phân tích sử dụng pin</string>
+    <string name="hibernation">"Ngủ đông ....."</string>
+    <string name="find_and_grant">Tìm %s và cho phép truy cập %s</string>
+    <string name="grant_now">Cho phép bây giờ</string>
+    <string name="grant_app_permission">Cung cấp quyền truy cập vào hệ thống tệp để tối ưu hóa dung lượng trống</string>
+    <string name="permission_needed">Quyền yêu cầu</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Đã thêm ô</string>    
+    <string name="lockscreen_access_pattern_start">Vẽ hình mở khóa</string>
+
+    <string name="lockscreen_access_pattern_detected">Mẫu đã được lưu</string>    
+    <string name="lockscreen_access_pattern_cleared">Mẫu đã được xóa </string>      
+    <string name="lock_recording_intro_header">Cài đặt mở khóa ứng dụng</string>
+    <string name="lock_settings_help_how_to_record">Cách vẽ hình mở khóa</string>
+
+    <string name="lock_recording_incorrect_too_short">Mẫu quá ngắn</string>
+
+    <string name="lock_pattern_entered_header">Nhập hình mẫu của bạn</string>    
+    <string name="lock_need_to_confirm">Nhập lại mẫu để xác nhận</string>    
+
+    <string name="lock_need_to_unlock_wrong">Hình mẫu không phù hợp. Vui lòng thử lại</string>
+
+    <string name="password_gestrue_tips">Nhập mã bí mật</string>    
+    <string name="password_error_count">Mật khẩu không khớp. Vui lòng thử lại.</string>
+    <string name="lock_pattern_confirmed_header">Mẫu đã xác nhận</string>
+
+    <string name="password_question_01">Điều gì khiến bạn nhớ nhất trong cuộc  đời của mình?</string>
+    <string name="password_question_02">"Tên thú cưng yêu thích của bạn là gì?"</string>
+    <string name="password_question_03">Tên bạn gái của bạn?</string>
+    <string name="password_question_04">Ước mơ của bạn khi còn nhỏ?</string>
+    <string name="password_question_05">Nếu bạn đang yêu một ai đó, đó là ai?</string>
+    <string name="password_question_06">"Tên giáo viên trung học yêu thích của bạn là gì?"</string>
+    <string name="password_question_07">Bạn muốn đến thăm nơi nào khi còn nhỏ?</string>
+    <string name="password_question_08">Nếu bạn có thể du hành ngược thời gian, bạn muốn quay trở lại vào thời điểm nào?</string>
+    <string name="password_question_09">Tên bạn trai của bạn?</string>
+
+    <string name="security_settings">Cài đặt bảo mật</string>
+    <string name="sercurity_question">Câu hỏi bảo mật:</string>
+    <string name="answer">Câu trả lời:</string>
+    <string name="input_your_answer">Nhập câu trả lời của bạn</string>
+    <string name="answer_blank">Câu trả lời không được để trống</string>
+    <string name="password_answer_set_toast">Câu hỏi và câu trả lời bảo mật đã được thiết lập.</string>
+    <string name="forgot_gesture">Quên mật mã</string>
+    <string name="answer_question_error">Câu trả lời bảo mật sai</string>
+    <string name="not_setup_answer_question">Không thiết lập câu hỏi trả lời</string>
+
+    <string-array name="lock_time_array">        
+        <item>15 giây</item>        
+        <item>30 giây</item>        
+        <item>1 phút</item>        
+        <item>3 phút</item>        
+        <item>5 phút</item>      
+        <item>10 phút</item>        
+        <item>30 phút</item>        
+        <item>Khẩn cấp</item>    
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">Chào mừng bạn đến với Khóa ứng dụng</string>
+    <string name="reset">Khởi động lại</string>
+    <string name="search_application">Tìm kiếm trong ứng dụng</string>
+    <string name="lock_settings">Khóa cài đặt</string>
+    <string name="lock_immediately_after_locking_the_screen">Khóa ứng dụng ngay lập tức và khóa điện thoại</string>
+    <string name="change_the_password">Đổi mật khảu</string>
+    <string name="hide_pattern">Ẩn mẫu khóa</string>
+    <string name="search_applications">Tìm kiếm trong ứng dụng &#8230;</string>
+    <string name="search_for">Tìm &#8230;</string>
+    <string name="_1_minute">1 phút</string>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie">Ảnh tự chụp của kẻ xâm nhập</string>
+    <string name="vibrate">Rung</string>
+    <string name="app_runing_background">Ứng dụng chạy trong nền</string>
+    <string name="app_background_task">Chạy ứng dụng trong nền</string>
+    <string name="create_password">Đưa ra một mật khẩu</string>
+    <string name="create_pattern_lock">Đưa ra một hình mẫu</string>
+    <string name="on_off">Bật Tắt</string>
+    <string name="skip_app_title">Các ứng dụng đã chọn sẽ không dừng trong quá trình dọn dẹp</string>
+    <string name="app_protect">Ứng dụng được bảo vệ</string>
+    <string name="ram">Bộ nhớ</string>
+    <string name="ready_boost">Sẵn sàng tăng tốc</string>
+    <string name="create_shortcut">Tạo lối tắt</string>
+    <string name="notification_created_shortcut">Lối tắt %s được tạo</string>
+    <string name="list_game">Danh sách trò chơi</string>
+    <string name="select_game_to_boost">Chọn trò chơi để tăng tốc</string>
+    <string name="app_not_exist">Ứng dụng không tồn tại</string>
+    <string name="game_add">Đã thêm vào trò chơi: %s</string>
+    <string name="not_distub">Không làm phiền</string>
+    <string name="hide_notification_all">Ẩn tất cả các thông báo khi chơi</string>
+    <string name="smart_charger_can_help">Sạc thông minh có thể giúp bạn</string>
+    <string name="optimize_chargin_progress">Tối ưu hóa quy trình sạc của bạn</string>
+    <string name="remind_charger">Nhắc nhờ trong thời gian thực để giúp bạn tránh \ n sạc lại</string>
+    <string name="turn_on">Bật ngay bây giờ</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Đã bật</string>
+    <string name="brightness">Độ sáng</string>
+    <string name="auto">Tư động</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Đã tắt</string>
+    <string name="synchronize">Đồng bộ hóa</string>
+    <string name="charging_finished">Sạc xong</string>
+    <string name="auto_optimized">Tự động tối ưu hóa</string>
+    <string name="clean_up">Dọn dẹp</string>
+    <string name="pin">Tiết kiệm pin</string>
+    <string name="power_full">Pin đã được sạc đầy</string>
+    <string name="battery_full_des">Quá trình sạc đã kết thúc. Vui lòng ngắt nguồn.</string>
+    <string name="uninstall">Xóa</string>
+    <string name="other_app">Ứng dụng khác</string>
+    <string name="clean_notifi">Dọn dẹp thông báo</string>
+    <string name="social_app">Ứng dụng xã hội</string>
+    <string name="third_app">Ứng dụng bên thứ ba</string>
+    <string name="spam_notification">Thông báo thư rác:</string>
+    <string name="no_data">Không có dữ liệu</string>
+    <string name="just_now_time">Ngay bây giờ</string>
+    <string name="minute_ago">%s Phút trước</string>
+    <string name="Notificationbar_Spamnotification">Thông báo thư rác:</string>
+    <string name="Notificationbarcleanup_Guide1">Sắp xếp thông báo thư rác và xóa chúng bằng một cú nhấp chuột</string>
+    <string name="Notificationbarcleanup_RightNow">Dọn dẹp bảng thông báo</string>
+    <string name="safety_scanning">Quét bảo mật</string>
+    <string name="security">An toàn</string>
+
+    <string name="per_read_phone_title">Truyền dữ liệu điện thoại</string>
+    <string name="per_access_location_title">Quyền truy cập vị trí</string>
+    <string name="per_read_sms_title"> Tôi có thể đọc tin nhắn của bạn</string>
+    <string name="per_send_sms_title">Có thể gửi tin nhắn SMS</string>
+    <string name="per_call_phone_title">Có thể gọi</string>
+    <string name="per_outgoing_call_title">Có thể giám sát các cuộc gọi đi</string>
+    <string name="per_record_audio_title">Có thể ghi âm</string>
+    <string name="per_camera_title"> Truy cập máy ảnh</string>
+
+    <string name="per_read_phone_des">Ứng dụng này thu thập và gửi dữ liệu SIM bao gồm danh bạ, mã PIN di động và lịch sử cuộc gọi. Làm như vậy có thể làm tăng phí truyền dữ liệu và gây ra rủi ro bảo mật cao.</string>
+    <string name="per_access_location_des">Ứng dụng này có thể truy cập vị trí chính xác của nó và gây rủi ro cho quyền riêng tư của bạn.</string>
+    <string name="per_read_sms_des">Ứng dụng này có thể đọc tin nhắn SMS riêng tư của bạn và gây rủi ro cho quyền riêng tư của bạn.</string>
+    <string name="per_send_sms_des">Ứng dụng này có thể gửi tin nhắn SMS. Làm như vậy có thể làm tăng phí truyền dữ liệu và gây ra rủi ro bảo mật cao.</string>
+    <string name="per_call_phone_des">Ứng dụng này có thể bắt đầu cuộc gọi điện thoại mà không cần thông qua giao diện người dùng Dialer để người dùng có thể xác nhận cuộc gọi. Làm như vậy có thể làm tăng phí truyền dữ liệu và gây ra rủi ro bảo mật cao.</string>
+    <string name="per_outgoing_call_des">Ứng dụng này có thể xem được số trong cuộc gọi đi, với khả năng chuyển hướng cuộc gọi đến một số khác hoặc ngắt hoàn toàn cuộc gọi. Làm như vậy có thể làm tăng phí truyền dữ liệu và gây ra rủi ro bảo mật cao.</string>
+    <string name="per_record_audio_des">Ứng dụng này có thể ghi lại âm thanh và là mối đe dọa đối với quyền riêng tư của bạn.</string>
+    <string name="per_camera_des">Ứng dụng này có thể truy cập máy ảnh của thiết bị và gây rủi ro cho quyền riêng tư của bạn.</string>
+    <string name="in_danger">Gặp nguy hiểm</string>
+    <string name="resolve_all">Cho phép tất cả</string>
+    <string name="virus_app">Ứng dụng vi-rút</string>
+    <string name="issues_found">Tìm thấy %s vấn đề</string>
+    <string name="skip_all">Bỏ qua tất cả</string>
+    <string name="some_app_use_permission">Một số ứng dụng sử dụng các quyền truy cập nguy hiểm</string>
+    <string name="app_dangerous">%s Ứng dụng nguy hiểm</string>
+    <string name="version">Phiên bản</string>
+    <string name="date">Ngày: %s</string>
+    <string name="size">Kích cỡ: %s</string>
+    <string name="request_permission">Yêu cầu cho phép</string>
+    <string name="cancel">Hủy</string>
+    <string name="security_threats">Các mối đe dọa an ninh</string>
+    <string name="ignore">Bỏ qua</string>
+    <string name="skip_app_virus">«Ứng dụng đã chọn sẽ bị bỏ qua khi quét vi-rút»</string>
+    <string name="while_list">Quét danh sách</string>
+    <string name="no_junk">Không tìm thấy tệp không mong muốn</string>
+    <string name="obsolete_apk">APK vô dụng</string>
+    <string name="system_cache">Bộ nhớ đệm hệ thống</string>
+    <string name="downloader_files">Tệp đã tải lên</string>
+    <string name="large_files">Tệp lớn</string>
+    <string name="op_clean">Đã xóa</string>
+    <string name="mb">MB</string>
+    <string name="notification_toggle">Chuyển đổi thông báo</string>
+    <string name="Calculating">Quét ....</string>
+    <string name="notification_setting">CÀI ĐẶT THÔNG BÁO</string>
+    <string name="junk_reminder">Nhắc nhở để quét</string>
+    <string name="every_3days">3 ngày một lần</string>
+    <string name="phone_boost_reminder"> Nhắc nhở tăng tốc độ điện thoại</string>
+    <string name="remind_when_memory">Nhắc nhở khi sử dụng dung lượng bộ nhớ lớn</string>
+    <string name="cpu_cooler_reminder">Nhắc nhở làm mát bộ xử lý</string>
+    <string name="remind_me_when_cpu">Nhắc tôi khi bộ xử lý quá nóng</string>
+    <string name="battery_saver">Tiết kiệm pin</string>
+    <string name="remind_me_when_app_draing">Nhắc tôi khi ứng dụng chạy làm hao pin</string>
+    <string name="app_install">Cài đặt ứng dụng</string>
+    <string name="delete_the_apk">Xóa tệp APK sau khi cài đặt ứng dụng</string>
+    <string name="delete_the_residual">Xóa rác còn lại sau khi gỡ cài đặt ứng dụng</string>
+    <string name="antivirus_settings">CÀI ĐẶT CHỐNG VI RÚT</string>
+    <string name="real_time_protection">Bảo vệ trong chế độ thời gian thực</string>
+    <string name="ignore_list">Danh sách đen</string>
+    <string name="do_not_distub">Không làm phiền</string>
+    <string name="general_settings">CÀI ĐẶT CHUNG</string>
+    <string name="create_home_shortcut">Tạo lối tắt trên màn hình chính</string>
+    <string name="remove_app_unstall">xóa các tệp cài đặt để giải phóng thêm dung lượng.</string>
+    <string name="deleting">Đang xóa, đợi ...</string>
+    <string name="scan_virus">Quét vi rút .....</string>
+    <string name="start_use">Bắt đầu sử dụng</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">Ứng dụng này an toàn</string>
+    <string name="app_virus_contain">Ứng dụng này có chứa vi rút</string>
+    <string name="ram_going_full">Bộ nhớ đã đầy</string>
+    <string name="use_phone_boost">Sử dụng trình dọn dẹp điện thoại để giải phóng dung lượng</string>
+    <string name="phone_is_hot">Điện thoại quá nóng</string>
+    <string name="use_cpu_cleaner">Làm mát để làm sạch bộ xử lý</string>
+    <string name="use_save_battery">Tiết kiệm pin</string>
+    <string name="battery_low">Pin yếu</string>
+    <string name="note">Ghi chú</string>
+    <string name="note_turn_off_notifi">Thiết bị% s không ổn định nếu công tắc thông báo bị tắt.</string>
+    <string name="turn_off">Tắt</string>
+    <string name="junk_reminder_frequency">Tần suất thông báo</string>
+    <string name="every_day">Mỗi ngày</string>
+    <string name="every_7days">7 ngày một lần</string>
+    <string name="never_reminder">Không nhắc lại</string>
+    <string name="start_at">Bắt đầu vào</string>
+    <string name="stop_at">Kết thúc vào</string>
+    <string name="detect_junk_file">Đã tìm thấy tệp rác</string>
+    <string name="use_junk_file">Sử dụng tệp chức năng funk để dọn dẹp</string>
+    <string name="fix">Sửa</string>
+    <string name="optimize">Tối ưu</string>
+    <string name="save">Lưu</string>
+    <string name="selcet_file_to_clean">Chọn một tệp để xóa</string>
+
+    <string name="floatint_windown_per">Cho phép cửa sổ bật lên</string>
+    <string name="accessibility_permission">Cho phép truy cập</string>
+    <string name="listener_notification_per">Cho phép thông báo được hiển thị</string>
+    <string name="write_setting_per">Cho phép ghi</string>
+    <string name="usage_access_permission"> Cho phép truy cập để sử dụng</string>
+    <string name="external_storage_permission">Cho phép truy cập vào bộ nhớ ngoài của thiết bị</string>
+    <string name="write_setting_permission">"Cấp quyền thay đổi cài đặt thiết bị.</string>
+    <string name="listen_notification_permission">Cấp quyền xem thông báo thiết bị</string>
+    <string name="overlay_permission">Cấp quyền hiển thị trong các ứng dụng khác</string>
+    <string name="accessibility_setting_permission">Cấp quyền sử dụng dịch vụ trợ năng</string>
+    <string name="splash_content">Nhẹ, nhanh và thông minh</string>
+
+    <string name="result_cooler">Làm mát thành công.</string>
+    <string name="boost_result">Tăng tốc được thực hiện</string>
+    <string name="clean_result">Dọn dẹp xong</string>
+    <string name="fast_charger_boosted_result">Tăng tốc sạc nhanh</string>
+    <string name="antivirus_result">AN TOÀN! Đã loại bỏ mối đe dọa</string>
+    <string name="deep_clean_result">Đã hoàn thành!</string>
+    <string name="notification_manager_result">Đã kết thúc!</string>
+    <string name="dectect_apk_install">Đã tìm thấy 1 bản cài đặt apk</string>
+    <string name="conduct_scan_virus">Kiểm tra vi rút</string>
+    <string name="dectect_apk_uninstall">Đã phát hiện 1 tệp apk được xóa</string>
+    <string name="conduct_cleanup">Dọn dẹp</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Dịch vụ thanh toán không khả dụng hoặc cập nhật đăng ký không được hỗ trợ</string>
+    <string name="product_purchased">Sản phẩm đã mua</string>
+    <string name="liked_app">Thích ứng dụng?</string>
+    <string name="dontshowagain"><u>Không hiển thị trở lại</u></string>
+    <string name="rateplease">Đánh giá của bạn quan trọng đối với chúng tôi!</string>
+    <string name="any_ideas">Có ý tưởng về cách cải thiện ứng dụng?</string>
+    <string name="support">Viết cho các nhà phát triển</string>
+    <string name="delete_selected">Xóa (%s)</string>
+    <string name="exit">Lối ra</string>
+    <string name="_24_12_20">Sạch lần cuối:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Phiên bản: MIỄN PHÍ</string>
+    <string name="share">Chia sẻ</string>
+    <string name="like">Đánh giá chúng tôi</string>
+    <string name="update">Làm mới</string>
+    <string name="pro">Mua phiên bản PRO</string>
+    <string name="found">Tìm thấy</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="deep_clean_text">Sạch sâu</string>
+    <string name="total_clean">Tổng sạch</string>
+    <string name="start_14_day_trial">Bắt đầu dùng thử 3 ngày</string>
+    <string name="free_version_desc">Bản dùng thử Premium miễn phí sẽ chạy trong 3 ngày, sau đó bạn sẽ bị tính phí $ 20 / năm. Bắt đầu ngay bây giờ, bạn có thể hủy bất kỳ lúc nào trên Google Play. <u>Đọc các điều khoản sử dụng</u></string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="do_you_really_want_to_exit">Bạn chắc chắn muốn thoát ra?</string>
+</resources>

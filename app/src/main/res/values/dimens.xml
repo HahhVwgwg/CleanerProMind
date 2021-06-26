@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="text_details">10sp</dimen>
+    <dimen name="height_native_ads">280dip</dimen>
+
+
+    <dimen name="size_toolbar">15sp</dimen>
+
+    <dimen name="img_mark_size">70dip</dimen>
+
+    <dimen name="ts_20">17sp</dimen>
+    <dimen name="duplicate_space_medium">10dp</dimen>
+</resources>

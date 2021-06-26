@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1061312641917",
+    "project_id": "promind-cleaner-app",
+    "storage_bucket": "promind-cleaner-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061312641917:android:d1caac0d8abdfe4d44aa14",
+        "android_client_info": {
+          "package_name": "promind.cleaner.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061312641917-dsbn4ou830k1r8bic4ulnajj5ue0rafn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt9V8PSybPTaVoWAK9VFRUZhA1r5q33HY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061312641917-dsbn4ou830k1r8bic4ulnajj5ue0rafn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

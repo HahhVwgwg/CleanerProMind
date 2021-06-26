@@ -1,0 +1,483 @@
+<resources>
+    <string name="rating">Hinnang</string>
+    <string name="policy">KONFIDENTSIAALSUSPOLIITIKA</string>
+
+    <string name="more_app">Rohkem rakendusi</string>
+    <string name="scan">Skanneeri</string>
+
+    <string name="setting">Sätted</string>
+    <string name="scan_wait">Oodake, kuni teostatakse failide skanneerimist...</string>
+
+    <string name="language_setting">Keel</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Kustutatud... %d failid</string>
+
+
+    <string name="scan_all_file">Skanneerida ülejäänud faile</string>
+    <string name="scan_audio_file">Skanneerida audio dublikaate</string>
+    <string name="scan_doc_file">Skanneerida dokumentide dublikaate</string>
+    <string name="scan_image_file">Skanneerida fotode dublikaate</string>
+    <string name="scan_video_file">Skanneerida videote dublikaate</string>
+    <string name="analyzing">Analüüs...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Valitud failide kustutamiseks loa andmiseks järgige alltoodud juhiseid</string>
+    <string name="sd_content_2">Kui te ei näe oma SD-kaarti, proovige vajutada siia</string>
+    <string name="sd_title">Kinnitage juurdepääs sisemälule</string>
+    <string name="no_file_found">Duplikaatfaile ei leitud</string>
+    <string name="delete_content">Kas soovite faili kustutada?</string>
+    <string name="delete_title">Kinnita kustutamine</string>
+    <string name="file_removed">Failid on kustutatud</string>
+    <string name="grant_permission">Anna luba</string>
+    <string name="delete_now">Kustuta praegu</string>
+    <string name="title_home">Avalehele</string>
+    <string name="title_persional">Profiil</string>
+    <string name="rate_msg">Meie meeskond töötab väga palju, et pakkuda teile parim tasuta rakendus. Teie 5-tärniline tagasiside on meie jaoks rahast tähtsam. Kirjutage hea tagasiside Google Play-s, et meid rõõmustada </string>
+    <string name="remind_later">Tuleta meelde hiljem</string>
+    <string name="good_5_stars">Meeldis, 5 tärni</string>
+    <string name="not_good">Ei meeldinud</string>
+    <string name="title_dialog_feed_back">Saada tagasiside</string>
+    <string name="message_dialog_feed_back">Taotle vigade parandus ja uute funktsioonide lisamine e-posti teel</string>
+    <string name="exit_app">Välja</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Vaadake rakendust lingil: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Ei ole e-posti klienti paigaldatud</string>
+    <string name="send_feedback">Saada tagasisidet...</string>
+    <string name="enter_feed">Saada tagasisidet...</string>
+    <string name="thanksforrate">\"Täname määr ja ülevaatuse eest ^^ \"</string>
+
+    <string name="junk_files">Puhasta prügist</string>
+    <string name="junk">junk</string>
+    <string name="cpu_cooler">Jahuta seade</string>
+    <string name="phone_booster">Telefoni kiirendamine</string>
+    <string name="antivirus">Viirusetõrje</string>
+    <string name="power_saving">Energia säästmine</string>
+    <string name="data_manager">Andmete haldur</string>
+    <string name="app_lock">Rakenduste blokeerimine</string>
+    <string name="smart_charge">Tark laadija</string>
+    <string name="deep_clean">Sügav puhastus</string>
+    <string name="app_uninstall">Rakenduse kustutamine</string>
+    <string name="game_booster">Mängu kiirendaja</string>
+    <string name="junk_files_btn">Puhasta</string>
+    <string name="cpu_cooler_btn">Jahuta</string>
+    <string name="phone_booster_btn">Kiirenda</string>
+    <string name="antivirus_btn">Skanneeri</string>
+    <string name="power_saving_btn">Säästa</string>
+    <string name="app_lock_btn">Blokeeri</string>
+    <string name="smart_charge_btn">Skanneeri</string>
+    <string name="notification_manager_btn">Kontrolli</string>
+    <string name="deep_clean_btn">Puhasta</string>
+    <string name="app_uninstall_btn">Kustuta</string>
+    <string name="game_booster_btn">Kiirenda mäng</string>
+
+    <string name="junk_files_dialog">Väljuda puhastamist?</string>
+    <string name="cpu_cooler_dialog">Väljumiseks ilma jahutuseta?</string>
+    <string name="phone_booster_dialog">Väljuda suurendada?</string>
+    <string name="antivirus_dialog">Väljuda skaneerimise?</string>
+    <string name="power_saving_dialog">Exit ilma aku optimeerimise?</string>
+    <string name="app_lock_dialog">Väljuda lukustamine?</string>
+    <string name="smart_charge_dialog">Exit ilma mälu optimeerimise?</string>
+    <string name="notification_manager_dialog">Väljuda ckecking?</string>
+    <string name="deep_clean_dialog">Väljuda süvapuhastus?</string>
+    <string name="app_uninstall_dialog">Exit ilma app deliting?</string>
+    <string name="game_booster_dialog">Väljuda mängu tõstes?</string>
+
+    <string name="game">Mäng</string>
+    <string name="notification_manager">Teavituste haldur</string>
+    <string name="app_lock_des">Kaitske konfidentsiaalseid andmeid ja vara</string>
+    <string name="smart_charge_des">Tuletada teile meelde aku olekust, et vältida ülelaadimist</string>
+    <string name="deep_clean_des">Teostage failide põhjalik puhastus, et vabastada veelgi rohkem ruumi</string>
+    <string name="app_uninstall_des">Eemaldage kasutud rakendused kiiresti</string>
+    <string name="game_booster_des">Mängude kiirendaja</string>
+    <string name="notification_manager_des">Teadete paneeli puhastamine</string>
+    <string name="junk_files_des">Kustutada ebavajalikud andmed, prügi</string>
+    <string name="cpu_cooler_des">Vähendage seadme temperatuuri aku säästmise jaoks </string>
+    <string name="phone_booster_des">Suurendage jõudlust, vabastage mälu</string>
+    <string name="antivirus_des">Skanneerige ja kaitske oma telefoni reaalajas</string>
+    <string name="power_saving_des">Peatage rakendused, mida te ei kasuta, et säästa akut</string>
+    <string name="no_ads_des">Reklaamid ei hakka teid enam häirima</string>
+    <string name="premium_shield_des">Kaitske oma rakendusi esmaklassilise juurdepääsuga</string>
+    <string name="additional_clean_des">Esmaklassiline seadme puhastus</string>
+    <string name="all_functions_des">Saage kõik uued funktsioonid esimesena</string>
+    <string name="additional_speed_des">Kiirendage oma seadet kiiremini premium juurdepääsuga</string>
+    <string name="no_ads">Reklaamita</string>
+    <string name="premium_shield">Premium turvalisus</string>
+    <string name="additional_clean">Veel sügavam puhastus</string>
+    <string name="all_functions">Kõik funktsioonid on saadaval</string>
+    <string name="additional_speed">Veel rohkem kiirust</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[Puhtus & kiirendus]]></string>
+    <string name="security_and_privacy"><![CDATA[Turvalisus & konfidentsiaalsus]]></string>
+    <string name="has_protected_your_phone">%s kaitseb teie telefoni %s päeva</string>
+    <string name="settings">Sätted</string>
+    <string name="feedback">Tagasiside</string>
+    <string name="upgrade">Uuenda</string>
+    <string name="like_facebook">Hinda meid</string>
+    <string name="scaning">Skanneerimine ……</string>
+    <string name="memory_kill_found">Rakendused, mis nõuavad palju ruumi, on leitud</string>
+    <string name="boost">Kiirenda tööd</string>
+    <string name="empty_item_select">Te peate valima vähemalt 1 elemendi</string>
+    <string name="sm_edge_device_optimized">Teie seade on optimiseeritud.</string>
+    <string name="clean">Puhasta</string>
+    <string name="cooling">Jahuta</string>
+    <string name="try_it">Käivita</string>
+
+    <string name="protect_now">Kaitse nüüd</string>
+    <string name="save_now">Salvesta nüüd</string>
+    <string name="further_optimize_cpu">Teie protsessori optimiseerimine</string>
+    <string name="cool_down">Jahuta</string>
+    <string name="scaning_cpu">CP Skanneerimine ...</string>
+    <string name="secretly_consuming_battery">Tühjendab akut kiiresti</string>
+    <string name="extend_battery_life">Pikendage aku kasutusaega</string>
+    <string name="analyzing_battery_usage">Aku kasutamise analüüs</string>
+    <string name="hibernation">"Talveunerežiim ....."</string>
+    <string name="find_and_grant">Leidke %s ning lubage juurdepääs %s</string>
+    <string name="grant_now">Luba praegu</string>
+    <string name="grant_app_permission">Andke juurdepääs failisüsteemi juurde, et optimeerida vaba ruumi</string>
+    <string name="permission_needed">Vajalik luba</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Lisatud lahter</string>    
+    <string name="lockscreen_access_pattern_start">Joonista avamise muster</string>
+
+    <string name="lockscreen_access_pattern_detected">Mall on salvestatud</string>    
+    <string name="lockscreen_access_pattern_cleared">Mall on kustutatud</string>      
+    <string name="lock_recording_intro_header">Installige rakenduse avamine</string>
+    <string name="lock_settings_help_how_to_record">Kuidas joonistada avamismustrit</string>
+
+    <string name="lock_recording_incorrect_too_short">Liiga lühike muster</string>
+
+    <string name="lock_pattern_entered_header">Sisestage muster</string>    
+    <string name="lock_need_to_confirm">Kinnitamiseks sisestage muster veel kord</string>    
+
+    <string name="lock_need_to_unlock_wrong">Muster ei sobi. Palun proovige uuesti</string>
+
+    <string name="password_gestrue_tips">Sisestage salasõna</string>    
+    <string name="password_error_count">Parool ei sobi. Palun proovige uuesti.</string>
+    <string name="lock_pattern_confirmed_header">Kinnitatud mall </string>
+
+    <string name="password_question_01">Milline on teie elus kõige meeldejäävam hetk?</string>
+    <string name="password_question_02">"Teie lemmiklooma nimi?"</string>
+    <string name="password_question_03">Teie tüdruksõbra nimi?</string>
+    <string name="password_question_04">Millest unistasite lapsepõlves?</string>
+    <string name="password_question_05">Kui olite kellessegi armunud, siis kes see oli?</string>
+    <string name="password_question_06">"Mis on teie lemmikõpetaja nimi gümnaasiumis?"</string>
+    <string name="password_question_07">Millist kohta tahaksite külastada lapsena?</string>
+    <string name="password_question_08">Kui teil oleks võimalus minevikku naasta, millise ajavahemiku valiksite?</string>
+    <string name="password_question_09">Teie poiss-sõbra nimi?</string>
+
+    <string name="security_settings">Turvalisuse sätted</string>
+    <string name="sercurity_question">Kontrollküsimus:</string>
+    <string name="answer">Vastus:</string>
+    <string name="input_your_answer">Sisestage oma vastus</string>
+    <string name="answer_blank">Vastus ei saa olla tühi</string>
+    <string name="password_answer_set_toast">Kontrollküsimus ja -vastus on määratud.</string>
+    <string name="forgot_gesture">Unustasin võtme</string>
+    <string name="answer_question_error">Kontrollvastuse viga</string>
+    <string name="not_setup_answer_question">Ei ole sätteid küsimus vastus</string>
+
+    <string-array name="lock_time_array">        
+        <item>15 sekundit</item>        
+        <item>30 sekundit</item>        
+        <item>1 minut</item>        
+        <item>3 minutit</item>        
+        <item>5 minutit</item>      
+        <item>10 minutit</item>        
+        <item>30 minutit</item>        
+        <item>Kiiresti</item>    
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">Tere tulemast rakenduse blokeerimisse</string>
+    <string name="reset">Taaskäivita</string>
+    <string name="search_application">Otsi rakendustes</string>
+    <string name="lock_settings">Blokeeri sätted</string>
+    <string name="lock_immediately_after_locking_the_screen">Blokeeri rakendus ning kohe blokeeri ka telefon</string>
+    <string name="change_the_password">Vaheta parool</string>
+    <string name="hide_pattern">Peida muster</string>
+    <string name="search_applications">Otsing rakendustesх &#8230;</string>
+    <string name="search_for">Otsi &#8230;</string>
+    <string name="_1_minute">1 minut</string>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie">Sissetungija selfie</string>
+    <string name="vibrate">Vibratsioon</string>
+    <string name="app_runing_background">Rakendus töötab taustareziimis</string>
+    <string name="app_background_task">Rakendus töötab taustareziimis</string>
+    <string name="create_password">Mõtle välja parool</string>
+    <string name="create_pattern_lock">Mõtle välja muster</string>
+    <string name="on_off">SISSE  VÄLJA</string>
+    <string name="skip_app_title">Valitud rakendusi puhastamise ajal ei tühistata</string>
+    <string name="app_protect">Rakendus on kaitstud</string>
+    <string name="ram">Mälu</string>
+    <string name="ready_boost">Valmis kiirendama</string>
+    <string name="create_shortcut">Loo otsetee</string>
+    <string name="notification_created_shortcut">Otsetee %s loodud</string>
+    <string name="list_game">Mängude nimekiri</string>
+    <string name="select_game_to_boost">Vali mäng, mida kiirendada</string>
+    <string name="app_not_exist">Sellist rakendust ei ole olemas</string>
+    <string name="game_add">Lisatud mängudesse: %s</string>
+    <string name="not_distub">Mitte segada</string>
+    <string name="hide_notification_all">Peida kõik teavitused mängu ajaks</string>
+    <string name="smart_charger_can_help">Tark laadija saab teid aidata</string>
+    <string name="optimize_chargin_progress">Optimeerige laadimisprotsessi</string>
+    <string name="remind_charger">Tuleta meelde reaalajas, et vältida \ n ülelaadimist</string>
+    <string name="turn_on">Lülita sisse kohe</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Sees</string>
+    <string name="brightness">Heledus</string>
+    <string name="auto">Auto</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Väljas</string>
+    <string name="synchronize">Sünkroniseeritud</string>
+    <string name="charging_finished">Laadimine lõpetatud</string>
+    <string name="auto_optimized">Automaatselt optimeeritud</string>
+    <string name="clean_up">Puhasta</string>
+    <string name="pin">Aku säästmine</string>
+    <string name="power_full">Aku on täielikult laetud</string>
+    <string name="battery_full_des">Laadimine on lõppenud. Lülitage allikas välja.</string>
+    <string name="uninstall">Kustuta</string>
+    <string name="other_app">Muu rakendus</string>
+    <string name="clean_notifi">Teavituste puhastus</string>
+    <string name="social_app">Sotsiaalne rakendus</string>
+    <string name="third_app">Väline rakendus</string>
+    <string name="spam_notification">Rämpspostiteavitus:</string>
+    <string name="no_data">Ei ole andmeid</string>
+    <string name="just_now_time">Kohe praegu</string>
+    <string name="minute_ago">%s minutit tagasi</string>
+    <string name="Notificationbar_Spamnotification">Rämpspostiteavitus:</string>
+    <string name="Notificationbarcleanup_Guide1">Sorteerige rämpspostiteavitusi ja kustutage need ühe nupuvajutusega</string>
+    <string name="Notificationbarcleanup_RightNow">Puhasta teavituste paneel</string>
+    <string name="safety_scanning">Turvakontroll</string>
+    <string name="security">Turvalisus</string>
+
+    <string name="per_read_phone_title">Telefoni andmevahetus</string>
+    <string name="per_access_location_title">Juurdepääs asukohale</string>
+    <string name="per_read_sms_title">Saan lugeda teie sõnumeid</string>
+    <string name="per_send_sms_title">Võib saata sõnumeid</string>
+    <string name="per_call_phone_title">Võib helistada</string>
+    <string name="per_outgoing_call_title">Võib jälgida väljaminevaid kõnesid</string>
+    <string name="per_record_audio_title">Võib heli salvestada</string>
+    <string name="per_camera_title"> Juurdepääs kaamerale</string>
+
+    <string name="per_read_phone_des">See rakendus kogub ja saadab SIM-kaardi andmeid, sealhulgas aadressiraamat, mobiili PIN-kood ja kõneajalugu. See võib tõsta andmeedastustasusid ja kujutab endast KÕRGET konfidentsiaalsusriski.</string>
+    <string name="per_access_location_des">See rakendus pääseb ligi tema täpsele asukohale ja kujutab endast ohtu teie konfidentsiaalsusele.</string>
+    <string name="per_read_sms_des">See rakendus saab lugeda teie sõnumeid ja ohustab teie konfidentsiaalsust.</string>
+    <string name="per_send_sms_des">See rakendus saab saata sõnumeid. See võib tõsta andmeedastustasusid ja kujutada endast KÕRGET  konfidentsiaalsusriski.</string>
+    <string name="per_call_phone_des">See rakendus saab telefonikõne algatada Dialer kasutajaliidest läbimata, et kasutaja saaks kõne kinnitada. See võib tõsta andmeedastustasusid ja kujutada endast KÕRGET konfidentsiaalsusriski.</string>
+    <string name="per_outgoing_call_des">See rakendus näeb väljamineva kõne ajal valitud numbrit koos võimalusega suunata kõne teisele numbrile või kõne täielikult katkestada. See võib tõsta andmeedastustasusid ja kujutada endast KÕRGET konfidentsiaalsusriski.</string>
+    <string name="per_record_audio_des">See rakendus võib salvestada heli ja ohustab teie konfidentsiaalsust.</string>
+    <string name="per_camera_des">See rakendus pääseb juurde teie seadme kaamerale ja ohustab teie konfidentsiaalsust.</string>
+    <string name="in_danger">Ohus</string>
+    <string name="resolve_all">Lubada kõik</string>
+    <string name="virus_app">Viirust sisaldav rakendus</string>
+    <string name="issues_found">Leitud %s probleemi</string>
+    <string name="skip_all">Jäta vahele kõik</string>
+    <string name="some_app_use_permission">Mõni rakendus kasutab ohtlikke õigusi</string>
+    <string name="app_dangerous">%s Rakendus on ohtlik</string>
+    <string name="version">Versioon</string>
+    <string name="date">Kuupäev: %s</string>
+    <string name="size">Suurus: %s</string>
+    <string name="request_permission">Loa taotlemine</string>
+    <string name="cancel">Tühistamine</string>
+    <string name="security_threats">Julgeolekuohud</string>
+    <string name="ignore">Ignoreeri</string>
+    <string name="skip_app_virus">«Valitud rakendust ignoreeritakse viiruste otsimisel»</string>
+    <string name="while_list">Nimekirja skanneerimine</string>
+    <string name="no_junk">Ebavajalikke faile ei leitud</string>
+    <string name="obsolete_apk">Ebavajalikud APK</string>
+    <string name="system_cache">Süsteemi vahemälu</string>
+    <string name="downloader_files">Allalaaditud failid</string>
+    <string name="large_files">Mahukad failid</string>
+    <string name="op_clean">Puhastatud</string>
+    <string name="mb">MB</string>
+    <string name="notification_toggle">Teavituste lüliti</string>
+    <string name="Calculating">Skanneerimine ....</string>
+    <string name="notification_setting">TEAVITUSTE SÄTTED</string>
+    <string name="junk_reminder">Tuleta meelde prügist</string>
+    <string name="every_3days">Iga 3 päeva tagant</string>
+    <string name="phone_boost_reminder">Meeldetuletus telefoni kiiruse suurendamiseks</string>
+    <string name="remind_when_memory">Tuleta meelde, kui mälu kasutus on liiga suur</string>
+    <string name="cpu_cooler_reminder">Protsessori jahuti meeldetuletus</string>
+    <string name="remind_me_when_cpu">Tuleta meelde, kui protsessor ülekuumeneb</string>
+    <string name="battery_saver">Aku säästmine</string>
+    <string name="remind_me_when_app_draing">Tuleta meelde, kui rakendused tühjendavad akut</string>
+    <string name="app_install">Rakenduse installimine</string>
+    <string name="delete_the_apk">Pärast rakenduse installimist kustutage APK-fail</string>
+    <string name="delete_the_residual">Pärast rakenduse desinstallimist eemaldage allesjäänud prügi</string>
+    <string name="antivirus_settings">VIIRUSETÕRJE SÄTTED</string>
+    <string name="real_time_protection">Reaalajas kaitse</string>
+    <string name="ignore_list">Must nimekiri</string>
+    <string name="do_not_distub">Mitte segada</string>
+    <string name="general_settings">ÜLDSÄTTED</string>
+    <string name="create_home_shortcut">Looge peaekraanil otsetee</string>
+    <string name="remove_app_unstall">ruumi vabastamiseks kustutage installimisfailid.</string>
+    <string name="deleting">Kustutan, palun oodake ...</string>
+    <string name="scan_virus">Viiruste skanneerimine .....</string>
+    <string name="start_use">Alusta kasutamist</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">See rakendus on turvaline</string>
+    <string name="app_virus_contain">See rakendus sisaldab viirust</string>
+    <string name="ram_going_full">Mälu on täis</string>
+    <string name="use_phone_boost">Ruumi vabastamiseks kasutage telefoni puhastusvahendit</string>
+    <string name="phone_is_hot">Telefon on ülekuumenenud</string>
+    <string name="use_cpu_cleaner">Jahutage, et puhastada protsessor</string>
+    <string name="use_save_battery">Aku säästmine</string>
+    <string name="battery_low">Madal akutase</string>
+    <string name="note">Märkus</string>
+    <string name="note_turn_off_notifi">Seadme  %s töö ei ole stabiilne, kui teavituste lüliti on välja lülitatud.</string>
+    <string name="turn_off">Lülita välja</string>
+    <string name="junk_reminder_frequency">Teavituste sagedus</string>
+    <string name="every_day">Iga päev</string>
+    <string name="every_7days">Iga 7 päeva tagant</string>
+    <string name="never_reminder">Ära kunagi tuleta meelde</string>
+    <string name="start_at">Alusta</string>
+    <string name="stop_at">Lõpeta</string>
+    <string name="detect_junk_file">Tuvastatud ebavajalikud failid</string>
+    <string name="use_junk_file">Puhastamiseks kasutage funktsiooni funk faili</string>
+    <string name="fix">Paranda</string>
+    <string name="optimize">Optimeeri</string>
+    <string name="save">Salvesta</string>
+    <string name="selcet_file_to_clean">Valige fail puhastamiseks</string>
+
+    <string name="floatint_windown_per">Luba hüpikaknad</string>
+    <string name="accessibility_permission">Luba juurdepääs</string>
+    <string name="listener_notification_per">Luba teavituste kuvamine</string>
+    <string name="write_setting_per">Luba salvestamine</string>
+    <string name="usage_access_permission"> Luba juurdepääs kasutamiseks</string>
+    <string name="external_storage_permission">Luba juurdepääs seadme välismälule</string>
+    <string name="write_setting_permission">"Andke luba seadme seadete muutmiseks.</string>
+    <string name="listen_notification_permission">Andke luba seadme teavituste vaatamiseks</string>
+    <string name="overlay_permission">Andke kuvamisluba teistes rakendustes</string>
+    <string name="accessibility_setting_permission">Andke juurdepääsetavusteenuse kasutamiseks luba</string>
+    <string name="splash_content">Kerge, kiire ja nutikas</string>
+
+    <string name="result_cooler">Jahutamine on edukalt lõpule viidud.</string>
+    <string name="boost_result">Kiirendus sooritatud</string>
+    <string name="clean_result">Puhastamine on lõppenud</string>
+    <string name="fast_charger_boosted_result">Kiire laadimine kiirenes</string>
+    <string name="antivirus_result">OHUTU! Oht on kõrvaldatud</string>
+    <string name="deep_clean_result">Lõpetatud!</string>
+    <string name="notification_manager_result">Lõpetatud!</string>
+    <string name="dectect_apk_install">Leiti installitud 1 apk fail</string>
+    <string name="conduct_scan_virus">Teostada viiruste kontroll</string>
+    <string name="dectect_apk_uninstall">Leiti 1 kustutatud apk</string>
+    <string name="conduct_cleanup">Teosta puhastus</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Product Purchased</string>
+    <string name="liked_app">Kas meeldib rakendus?</string>
+    <string name="dontshowagain"><u>Ära enam näita</u></string>
+    <string name="rateplease">Teie hinnang on meie jaoks oluline!</string>
+    <string name="any_ideas">Kas teil on ideid rakenduse täiustamiseks?</string>
+    <string name="support">Kirjuta arendajatele</string>
+    <string name="delete_selected">Kustuta (%s)</string>
+    <string name="exit">Välju</string>
+    <string name="_24_12_20">Viimase puhas:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Versioon: FREE</string>
+    <string name="share">Jaga</string>
+    <string name="like">Hinda meid</string>
+    <string name="update">Uuenda</string>
+    <string name="pro">Osta PRO versioon</string>
+    <string name="found">Leitud</string>
+    <string name="select_all">Valige kõik</string>
+    <string name="deep_clean_text">Sügavpuhastus</string>
+    <string name="total_clean">Kokku puhastus</string>
+    <string name="start_14_day_trial">Alusta 3-päevast prooviversiooni</string>
+    <string name="free_version_desc">Tasuta premiaalne prooviversioon on aktiivne 3 päeva vältel, mille järel võetakse teilt tasu 20$./aastas. Alustage kohe, te saate selle tühistada igal ajal Google Play-s.  <u>Tutvuge kasutustingimustega</u></string>
+    <string name="yes">Jah</string>
+    <string name="no">Ei</string>
+    <string name="do_you_really_want_to_exit">Olete kindel, et soovite väljuda?</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_phone_booster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_26sdp">
+
+            <include
+                android:id="@+id/layout_padding"
+                layout="@layout/layout_toolbar" />
+
+            <TextView
+                android:id="@+id/tv_num_appskill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="48dp"
+                android:textStyle="bold"
+                tools:text="65" />
+
+            <TextView
+                android:id="@+id/tv_content_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/memory_kill_found"
+                android:textColor="@color/white_80"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            android:background="@color/color_ffffff"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingTop="25dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="2"
+                tools:listitem="@layout/item_app_select" />
+
+            <TextView
+                android:id="@+id/tv_boost"
+                style="@style/button"
+                android:text="@string/boost" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <promind.cleaner.app.core.service.widgets.RocketScanView
+        android:id="@+id/rocketScanView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <promind.cleaner.app.core.service.widgets.CpuScanView
+        android:id="@+id/cpuScanView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <promind.cleaner.app.core.service.widgets.PowerScanView
+        android:id="@+id/powerScanView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,374 @@
+<resources>
+    <string name="title_home">Domů</string>
+    <string name="rating">Hodnocení</string>
+    <string name="policy">OCHRANA OSOBNÍCH ÚDAJŮ</string>
+
+    <string name="more_app">Více aplikací </string>
+    <string name="feedback">Zpětná vazba</string>
+    <string name="scan">Skanovat</string>
+
+    <string name="setting">Nastavení</string>
+    <string name="scan_wait">Počkejte, dokud probíhá skanování souborů ...</string>
+
+    <string name="language_setting">Jazyk</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Smazané... %d soubory</string>
+
+
+    <string name="scan_all_file">Skanovat vše ostatní soubory </string>
+    <string name="scan_audio_file">Skanovat duplikaty audio</string>
+    <string name="scan_doc_file">Skanovat duplikaty dokumentů </string>
+    <string name="scan_image_file">Skanovat duplikaty foto</string>
+    <string name="scan_video_file">Skanovat duplikaty video </string>
+    <string name="analyzing">Analýza...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Sledujte návodu dole, aby zpřistupnili smazání vybráných souborů </string>
+    <string name="sd_content_2">Pokud nevidíte SD-kartu, zkuste stisknout tady</string>
+    <string name="sd_title">Dovolte přistup k vnitřnímu uložiště </string>
+    <string name="no_file_found">Opakovatelné soubory nejsou nalezeny </string>
+    <string name="delete_content">Chcete smazat soubor?</string>
+    <string name="delete_title">Potvrdit smazání </string>
+    <string name="file_removed">Soubory jsou smazány</string>
+    <string name="grant_permission">Zpřistupnit</string>
+    <string name="delete_now">Smazat teď</string>
+
+    <string name="junk_files">Vyčistit koš</string>
+    <string name="junk">Haraburdí</string>
+    <string name="cpu_cooler">Ochladit zařízení</string>
+    <string name="phone_booster">Zrychlovač mobilu</string>
+    <string name="antivirus">Antivír</string>
+    <string name="power_saving">Šetření energie</string>
+    <string name="data_manager">Manažér dat</string>
+    <string name="smart_charge">Chytré nabíjení</string>
+    <string name="deep_clean">Hluboké čištění</string>
+    <string name="app_uninstall">Smazaní aplikaci</string>
+    <string name="junk_files_btn">Vyčistit</string>
+    <string name="cpu_cooler_btn">Ochladit</string>
+    <string name="phone_booster_btn">Zrychlit</string>
+    <string name="antivirus_btn">Skanovat</string>
+    <string name="power_saving_btn">Šetřit</string>
+    <string name="smart_charge_btn">Skanovat</string>
+    <string name="notification_manager_btn">Zkontrolovat</string>
+    <string name="deep_clean_btn">Vyčistit</string>
+    <string name="app_uninstall_btn">Smazat</string>
+
+    <string name="junk_files_dialog">Opuštění bez čištění?</string>
+    <string name="cpu_cooler_dialog">Opuštění bez chlazení?</string>
+    <string name="phone_booster_dialog">Opuštění bez zvýšení?</string>
+    <string name="antivirus_dialog">Opuštění bez skenování?</string>
+    <string name="power_saving_dialog">Návrat bez optimalizace baterie?</string>
+    <string name="smart_charge_dialog">Exit bez paměťového optimalizace?</string>
+    <string name="notification_manager_dialog">Opuštění bez ckecking?</string>
+    <string name="deep_clean_dialog">Ukončit bez hloubkové čištění?</string>
+    <string name="app_uninstall_dialog">Návrat bez aplikace deliting?</string>
+
+    <string name="notification_manager">Manažér upozornění</string>
+    <string name="smart_charge_des">Připomenout o stavu batérky, aby minovali přílišné nabíjení</string>
+    <string name="deep_clean_des">Proveďte hluboké čištění souborů, aby uvolnili více místa</string>
+    <string name="app_uninstall_des">Rychle smažte nepotřebné aplikace</string>
+    <string name="notification_manager_des">Vyčistit panél upozornění</string>
+    <string name="junk_files_des">Smazat nepotřebná data</string>
+    <string name="cpu_cooler_des">Snižte teplotu zařízení pro šetření batérky</string>
+    <string name="phone_booster_des">Zvyšte výkon, uvolňte paměť</string>
+    <string name="antivirus_des">Skanujte a zabezpečte svůj mobil v řežimu reálného času</string>
+    <string name="power_saving_des">Zastavte nepoužité aplikace, aby ušetřili batérku</string>
+    <string name="no_ads_des">Reklama již nebude vás trápit</string>
+    <string name="premium_shield_des">Ochraňte své aplikace pomoci premium přístupu</string>
+    <string name="additional_clean_des">Premium čištění zařízení</string>
+    <string name="all_functions_des">Získávejte nové funkce jako první</string>
+    <string name="additional_speed_des">Zrychlíte vaše zařízení pomoci premium přístupu</string>
+    <string name="no_ads">Není reklama</string>
+    <string name="premium_shield">Premium bezpečnost</string>
+    <string name="additional_clean">Ještě větší čištění</string>
+    <string name="all_functions">Jsou přístupné všechny funkce</string>
+    <string name="additional_speed">Větší rychlost</string>
+
+    <string name="percent">%</string>
+    <string name="scaning">Skanování……</string>
+    <string name="memory_kill_found">Jsou nalezeny aplikace, použivajicí hodně místa</string>
+    <string name="boost">Zrychlit fungování</string>
+    <string name="empty_item_select">Musíte si vybrat alespoň 1 složku</string>
+    <string name="sm_edge_device_optimized">Vaše zařízení je optimizováno.</string>
+    <string name="clean">Vyčistit</string>
+    <string name="cooling">Ochladit</string>
+    <string name="try_it">Start</string>
+
+    <string name="protect_now">Ochranit teď</string>
+    <string name="save_now">Uložit teď</string>
+    <string name="further_optimize_cpu">Optimizace vašeho procesoru</string>
+    <string name="cool_down">Ochladit</string>
+    <string name="scaning_cpu">Skanování CPU ...</string>
+    <string name="secretly_consuming_battery">Špatně působí na batérku</string>
+    <string name="extend_battery_life">Zvětšit dobu působení batérky</string>
+    <string name="analyzing_battery_usage">Analýza použivání batérky</string>
+    <string name="hibernation">"Hybernace ....."</string>
+    <string name="find_and_grant">Najděte %s a dovolte přístup %s</string>
+    <string name="grant_now">Zpřístupnit teď</string>
+    <string name="grant_app_permission">Zpřístupníte souborový systém pro optimizaci volného místa</string>
+    <string name="permission_needed">Je nutné dovolení</string><![CDATA[
+
+    
+
+
+    
+      
+
+
+
+
+
+    
+    
+
+
+
+    
+
+]]>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="on_off">ZAP VYP</string>
+    <string name="skip_app_title">Vybráné aplikace nebudou zrušeny v době čištění</string>
+    <string name="app_protect">Aplikace je chráněna</string>
+    <string name="notification_created_shortcut">Ikona %s je vytvořena</string>
+    <string name="list_game">Seznam her</string>
+    <string name="select_game_to_boost">Vyberte si hru pro zrychlování</string>
+    <string name="smart_charger_can_help">Chytré nabíjení může vám pomoct</string>
+    <string name="optimize_chargin_progress">Optimizujte proces nabíjení</string>
+    <string name="remind_charger">Připomínat v online řežimu, aby přejeli \ n přeplnění batérky</string>
+    <string name="turn_on">Zapni teď</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Zapnuto</string>
+    <string name="brightness">Jasnost</string>
+    <string name="auto">Auto</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Vypnuto</string>
+    <string name="synchronize">Synchronizováno</string>
+    <string name="charging_finished">Nabíjení je ukončeno</string>
+    <string name="auto_optimized">Automaticky optimizováno</string>
+    <string name="clean_up">Vyčistit</string>
+    <string name="pin">Šetření batérky</string>
+    <string name="power_full">Batérka je plná</string>
+    <string name="battery_full_des">Nabíjení je ukončeno. Prosím vypněte zdroj.</string>
+    <string name="uninstall">Smazat</string>
+    <string name="clean_notifi">Čištění upozornění</string>
+    <string name="social_app">Sociální aplikace</string>
+    <string name="third_app">Cizí aplikace</string>
+    <string name="spam_notification">Upozornění spamu:</string>
+    <string name="no_data">Nejsou data</string>
+    <string name="just_now_time">právě teď</string>
+    <string name="minute_ago">%s minut zpět</string>
+    <string name="Notificationbar_Spamnotification">Upozornění spamu:</string>
+    <string name="Notificationbarcleanup_Guide1">Roztřiďte upozornění spamu a smažte je pomoci jednoho kliku</string>
+    <string name="Notificationbarcleanup_RightNow">Vyčistit panél upozornění</string>
+    <string name="safety_scanning">Skanování bezpečnosti</string>
+    <string name="security">Bezpečnost</string>
+
+    <string name="per_read_phone_title">Přenos dat mobilu</string>
+    <string name="per_access_location_title">Přístup k geolokaci</string>
+    <string name="per_read_sms_title">Můžu číst vaši sms</string>
+    <string name="per_send_sms_title">Lze odesílat sms</string>
+    <string name="per_call_phone_title">Lze volat</string>
+    <string name="per_outgoing_call_title">Může kontrolovat odchozí hovor</string>
+    <string name="per_record_audio_title">Může natáčet audio</string>
+    <string name="per_camera_title"> Přístup ke kameře</string>
+
+    <string name="per_read_phone_des">Tato aplikace sbírá a odesílá údaje SIM-karty, patří tam kontakty, PIN-kód a historie volání. To může zvýšit plat pro přenos dat a představuje OBROVSKÉ riziko úniku dat.</string>
+    <string name="per_access_location_des">Tato aplikace může získat přístup k přesné geolokaci a představuje riziko pro vaši osobní údaje.</string>
+    <string name="per_read_sms_des">Tato aplikace může číst vaši SMS-zprávy a představuje riziko pro vaši osobní údaje.</string>
+    <string name="per_send_sms_des">Tato aplikace může odesílat SMS. To může zvýšit plat pro přenos dat a představuje OBROVSKÉ riziko úniku dat.</string>
+    <string name="per_call_phone_des">Tato aplikace může způsobit samostatné volání bez použití uživatelské platformy Dialer, aby uživatel mohl přijmout volání. To může zvýšit plat pro přenos dat a představuje OBROVSKÉ riziko úniku dat.</string>
+    <string name="per_outgoing_call_des">Tato aplikace může vidět telefonní číslo, na které volají, s možností změnit tot číslo nebo úplně zrušit volání. To může zvýšit plat pro přenos dat a představuje OBROVSKÉ riziko úniku dat.</string>
+    <string name="per_record_audio_des">Tato aplikace může natáčet audio a představuje riziko pro vaši osobní údaje.</string>
+    <string name="per_camera_des">Tato aplikace může získat přístup ke kameře zařízení a představuje riziko pro vaši osobní údaje.</string>
+    <string name="in_danger">V ohrožení</string>
+    <string name="resolve_all">Dovolit vše</string>
+    <string name="issues_found">Nalezeno %s problému</string>
+    <string name="cancel">Zrušit</string>
+    <string name="skip_app_virus">«Vybráná aplikace bude ignorována při kontrole vírů»</string>
+    <string name="while_list">Skanování seznamu</string>
+    <string name="no_junk">Nepotřebné soubory nejsou nalezeny</string>
+    <string name="obsolete_apk">Zastaralé APK</string>
+    <string name="system_cache">Systémový cash</string>
+    <string name="downloader_files">Nainstalováné soubory</string>
+    <string name="large_files">Velké soubory</string>
+    <string name="op_clean">Vyčistěno</string>
+    <string name="mb">MB</string>
+    <string name="Calculating">Skanování ....</string>
+    <string name="remove_app_unstall">smažte instalační soubory, aby se uvolnilo více místa.</string>
+    <string name="deleting">Smazání, čekejte ...</string>
+    <string name="scan_virus">Skanování vírů .....</string>
+    <string name="start_use">Začit používat</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">Tato aplikace je bezpečná</string>
+    <string name="app_virus_contain">Tato aplikace obsahuje vír</string>
+    <string name="ram_going_full">Paměť je přeplněna</string>
+    <string name="use_phone_boost">Používejte čištění mobilu, aby se uvolnilo místo</string>
+    <string name="phone_is_hot">Mobil je horký</string>
+    <string name="use_cpu_cleaner">Ochlaďte pro čištění procesoru </string>
+    <string name="use_save_battery">Šetření batérky</string>
+    <string name="battery_low">Nedostatečné nabíjení batérky</string>
+    <string name="detect_junk_file">Nalezeny nepotřebné soubory</string>
+    <string name="use_junk_file">Použivejte soubor funkce funk pro čištění</string>
+    <string name="fix">Opravit</string>
+    <string name="optimize">Optimalizovat</string>
+    <string name="save">Uložit</string>
+    <string name="selcet_file_to_clean">Vyberte soubor pro čištění</string>
+
+    <string name="floatint_windown_per">Zpřistupnit pop up okna</string>
+    <string name="accessibility_permission">Zpřistupnit</string>
+    <string name="listener_notification_per">Zpřistupnit zobrazení upozornění</string>
+    <string name="write_setting_per">Zpřistupnit natáčení</string>
+    <string name="usage_access_permission">Zpřistupnit použivání</string>
+    <string name="external_storage_permission">Zpřistupnit vnější paměť zařízení</string>
+    <string name="write_setting_permission">"Dovolit přístup pro změnu nastavení zařízení.</string>
+    <string name="listen_notification_permission">Zpřistupnit prohlednutí upozornění zařízení</string>
+    <string name="overlay_permission">Zpřistupnit zobrazení v jiných aplikacích </string>
+    <string name="accessibility_setting_permission">Zpřistupnit použivání služby speciálních možnosti</string>
+    <string name="splash_content">Snadný, rychlý a chytrý </string>
+
+    <string name="result_cooler">Ochlazení je vyplněno úspěšně.</string>
+    <string name="boost_result">Zrychlovýní je vyplněno</string>
+    <string name="clean_result">Čištění je ukončeno</string>
+    <string name="fast_charger_boosted_result">Nabíjení je zrychlováno</string>
+    <string name="antivirus_result">BEZPEČNÉ! Hrozba je zlikvidována</string>
+    <string name="deep_clean_result">Ukončeno!</string>
+    <string name="notification_manager_result">Ukončený!</string>
+    <string name="dectect_apk_install">Nalezen 1 apk instalaci</string>
+    <string name="conduct_scan_virus">Provést kontrolu na víry</string>
+    <string name="dectect_apk_uninstall">Nalezen smazaný 1 apk  soubor</string>
+    <string name="conduct_cleanup">Provést uklid</string>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Product Purchased</string>
+    <string name="liked_app">Líbí se aplikace?</string>
+    <string name="dontshowagain"><u>Více nezobrazovat</u></string>
+    <string name="rateplease">Vaše hodnocení je moc důležitá pro nás!</string>
+    <string name="any_ideas">Máte nápady jak zlepšit aplikaci?</string>
+    <string name="support">Napsat vývojáři</string>
+    <string name="delete_selected">Smazat (%s)</string>
+    <string name="exit">Odhlásit se</string>
+    <string name="_24_12_20">Poslední čisté:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Verze: FREE</string>
+    <string name="share">Sdílet</string>
+    <string name="like">Ohodnotit nás</string>
+    <string name="update">Obnovit</string>
+    <string name="pro">Koupit PRO verze</string>
+    <string name="found">Vyhledano</string>
+    <string name="select_all">Vybrat vše</string>
+    <string name="deep_clean_text">Hluboce čisté</string>
+    <string name="total_clean">Celkově čisté</string>
+    <string name="start_14_day_trial">"Zkusit 3denní demo verze "</string>
+    <string name="free_version_desc">Zkušební bezplatná verze bude přistupna během 3 dnů, dále bude stát 20$./rok. Začněte přímo teď , jinak máte možnost zrušit to v jakýkoliv okamžik na Google Play.. Seznamte se <u> s pravidly použivání.</u></string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="do_you_really_want_to_exit">Opravdu si chcete odhlásit?</string>
+
+
+    <string name="rate_msg">Náš tým hodně pracuje, aby představil vám nejlepší aplikaci zadarmo. Vaše 5-hvězdíčkové hodnocení bude pro nás nejlepší odmenou. Napište prosím pro náši podporu pěkné hodnocení na Google Play </string>
+    <string name="remind_later">Připomenout později</string>
+    <string name="good_5_stars">Líbí se, 5 hvězd</string>
+    <string name="not_good">Nelíbí se</string>
+    <string name="title_dialog_feed_back">Odeslat hodnocení</string>
+    <string name="message_dialog_feed_back">Požádat o opravu chyb a integraci nových funkcí prostřednictvím elektronické pošty</string>
+    <string name="exit_app">Odhlásit se</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Zkontrolujte aplikaci: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Poštový klient není nainstalován.</string>
+    <string name="send_feedback">Odeslat hodnocení...</string>
+    <string name="enter_feed">Nechte svoje hodnocení</string>
+    <string name="thanksforrate">\"Děkujeme za hodnocení a komentář^^ \"</string>
+</resources>

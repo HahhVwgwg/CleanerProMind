@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2F6FA</color>
+    <color name="colorPrimaryDark">#ED75AC</color>
+    <color name="colorAccent">#ED75AC</color>
+    <color name="colorViolet">#B070F8</color>
+
+    <color name="white_blur">#bf9c9c9c</color>
+
+    <!-- Use with black text -->
+    <color name="gray">#8f8f8f</color>
+    <color name="background">#fcfcfc</color>
+
+    <color name="text_color">#ff666666</color>
+    <color name="color_ads">#B070F8</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="stocke_card">#5E58595A</color>
+
+    <color name="light_transparent">#16000000</color>
+
+    <!--new color-->
+    <color name="white">#ffffffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="white_55">#8CFFFFFF</color>
+    <color name="white_80">#ccffffff</color>
+
+    <color name="black">#000</color>
+    <color name="color_a8a8a8">#808080</color>
+    <color name="color_f9f8fd">#FAFCFF</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_7ca3ff">#7ca3ff</color>
+    <color name="color_4254ff">#B070F8</color>
+    <color name="color_3657be">#3657be</color>
+    <color name="color_eff2f5">#eff2f5</color>
+    <color name="color_173e58">#173e58</color>
+    <color name="color_9E9E9E">#9E9E9E</color>
+    <color name="color_ff7674">#ff7674</color>
+    <color name="black_alpha_70">#b3000000</color>
+    <color name="color_00e3ad">#00e3ad</color>
+    <color name="color_ff79a2">#ff79a2</color>
+    <color name="color_b365ff">#b365ff</color>
+    <color name="color_ffa800">#ED75AC</color>
+    <color name="color_6ad390">#6ad390</color>
+    <color name="color_3fb5cf">#3fb5cf</color>
+    <color name="color_3a3a3a3">#a3a3a3</color>
+    <color name="color_f62c2a">#f62c2a</color>
+    <color name="color_D2221">#BD2221</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+
+    <color name="color_00b6c5">#00b6c5</color>
+    <color name="color_3f7af8">#3f7af8</color>
+
+    <color name="color_b26ff7">#B26FF7</color>
+</resources>

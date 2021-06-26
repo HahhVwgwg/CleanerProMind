@@ -1,0 +1,352 @@
+<resources>
+    <string name="title_home"> होम </string>
+
+
+    <string name="rating"> मूल्यांकन करें </string>
+    <string name="policy"> गोपनीयता नीति </string>
+
+    <string name="more_app"> और ज्यादा एप्लीकेशन </string>
+    <string name="feedback"> प्रतिपुष्टि </string>
+    <string name="scan"> स्कैन </string>
+
+    <string name="setting"> सेटिंग्स </string>
+    <string name="scan_wait"> कृपया फ़ाइलों को स्कैन करते समय प्रतीक्षा करें...</string>
+
+    <string name="language_setting"> भाषा: </string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format"> नष्ट कर दी गई फाइलें </string>
+
+
+    <string name="scan_all_file"> अन्य सभी फ़ाइलों को स्कैन करें </string>
+    <string name="scan_audio_file"> स्कैन डुप्लिकेट ऑडियोज </string>
+    <string name="scan_doc_file"> स्कैन डुप्लिकेट डॉक्स </string>
+    <string name="scan_image_file"> स्कैन डुप्लिकेट छवियाँ </string>
+    <string name="scan_video_file"> स्कैन डुप्लिकेट वीडियो </string>
+    <string name="analyzing"> विश्लेषण करना...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 के बी </string>
+
+    <string name="sd_content_1"> चयनित फ़ाइलों को हटाने की अनुमति देने के लिए कृपया नीचे दिए गए निर्देशों का पालन करें.</string>
+    <string name="sd_content_2"> यदि आप एसडी कार्ड नहीं देखते हैं, तो यह कोशिश करें.</string>
+    <string name="sd_title"> बाह्य संग्रहण पहुँच की पुष्टि करें </string>
+    <string name="no_file_found"> कोई डुप्लिकेट फ़ाइलें नहीं मिलीं </string>
+    <string name="delete_content"> क्या आप फ़ाइल को हटाना चाहते हैं?</string>
+    <string name="delete_title"> हटाने की पुष्टि करें </string>
+    <string name="file_removed"> फाइलें निकाली गईं </string>
+    <string name="grant_permission"> अनुदान अनुमति </string>
+    <string name="delete_now"> इसे अभी मिटाओ </string>
+
+    <string name="rate_msg"> हमारी टीम आपको सबसे अच्छा मुफ्त आवेदन देने के लिए बहुत मेहनत कर रही है। आपकी 5-स्टार की समीक्षा सभी पैसे से अधिक है। कृपया मुझे प्रोत्साहित करने के लिए Google Play में एक अच्छी समीक्षा लिखें.</string>
+    <string name="remind_later"> बाद में याद दिलाना </string>
+    <string name="good_5_stars"> बहुत अच्छा , ५ सितारे </string>
+    <string name="not_good"> अच्छा नहीं </string>
+    <string name="title_dialog_feed_back"> प्रतिक्रिया भेजें </string>
+    <string name="message_dialog_feed_back"> एप्लीकेशन के परेशानियों को ठीक करने और ईमेल के माध्यम से नई सुविधाओं को लागू करने का अनुरोध करें </string>
+    <string name="exit_app"> अंत </string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at"> एप्लिकेशन को यहां देखें: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email"> कोई ईमेल क्लाइंट स्थापित नहीं है.</string>
+    <string name="send_feedback"> प्रतिक्रिया भेजें...</string>
+    <string name="enter_feed"> अपना फीडबैक दर्ज करें </string>
+    <string name="thanksforrate">\" दर और समीक्षा के लिए धन्यवाद ^^ \"</string>
+
+
+    <string name="junk_files"> साफ कचरा  </string>
+    <string name="junk">कचरा</string>
+    <string name="cpu_cooler"> डिवाइस को ठंडा करें </string>
+    <string name="phone_booster"> फ़ोन त्वरण </string>
+    <string name="antivirus"> एंटीवायरस </string>
+    <string name="power_saving"> ऊर्जा की बचत </string>
+    <string name="data_manager"> डाटा प्रबंधक </string>
+    <string name="smart_charge"> स्मार्ट चार्जिंग </string>
+    <string name="deep_clean"> गहराई से सफाई </string>
+    <string name="app_uninstall"> किसी एप्लिकेशन को हटाना </string>
+    <string name="junk_files_btn"> स्पष्ट </string>
+    <string name="cpu_cooler_btn"> ठंडा होना </string>
+    <string name="phone_booster_btn"> गति बढ़ाए </string>
+    <string name="antivirus_btn"> जांच </string>
+    <string name="power_saving_btn"> सुरक्षित करें </string>
+    <string name="smart_charge_btn"> जांच </string>
+    <string name="notification_manager_btn"> चेक </string>
+    <string name="deep_clean_btn"> साफ़ </string>
+    <string name="app_uninstall_btn"> हटाइये </string>
+
+    <string name="junk_files_dialog">सफाई के बिना बाहर निकलें?</string>
+    <string name="cpu_cooler_dialog">ठंडा बिना बाहर निकलें?</string>
+    <string name="phone_booster_dialog">बढ़ाने के बिना बाहर निकलें?</string>
+    <string name="antivirus_dialog">स्कैनिंग के बिना बाहर निकलें?</string>
+    <string name="power_saving_dialog">बैटरी अनुकूलन के बिना बाहर निकलें?</string>
+    <string name="smart_charge_dialog">स्मृति अनुकूलन के बिना बाहर निकलें?</string>
+    <string name="notification_manager_dialog">ckecking बिना बाहर निकलें?</string>
+    <string name="deep_clean_dialog">गहरी सफाई के बिना बाहर निकलें?</string>
+    <string name="app_uninstall_dialog">एप्लिकेशन deliting बिना बाहर निकलें?</string>
+
+    <string name="notification_manager"> नोटिफिकेशन मैनेजर </string>
+    <string name="smart_charge_des"> ओवरचार्जिंग से बचने के लिए आपको चार्जिंग स्टेटस की याद दिलाएं </string>
+    <string name="deep_clean_des"> और अधिक स्थान को पुनः प्राप्त करने के लिए अपनी फ़ाइलों को डीप क्लीन करें </string>
+    <string name="app_uninstall_des"> बेकार ऐप को जल्दी से हटा दें </string>
+    <string name="notification_manager_des"> स्पष्ट नोटिफिकेशन बार </string>
+    <string name="junk_files_des"> अनावश्यक डेटा, कचरा हटाएं </string>
+    <string name="cpu_cooler_des"> बैटरी की शक्ति को बचाने के लिए डिवाइस का तापमान कम करें </string>
+    <string name="phone_booster_des"> प्रदर्शन सुधारिए, मेमोरी बढ़ाइए memory</string>
+    <string name="antivirus_des"> स्कैन और वास्तविक समय में अपने फोन की रक्षा </string>
+    <string name="power_saving_des"> बैटरी बचाने के लिए अप्रयुक्त ऐप्स बंद करें </string>
+    <string name="no_ads_des"> विज्ञापन अब आपको परेशान नहीं करेगा </string>
+    <string name="premium_shield_des"> प्रीमियम एक्सेस के साथ अपने ऐप्स को सुरक्षित रखें </string>
+    <string name="additional_clean_des"> प्रीमियम उपकरण की सफाई </string>
+    <string name="all_functions_des"> पहले सभी नई सुविधाएँ प्राप्त करें </string>
+    <string name="additional_speed_des"> प्रीमियम एक्सेस के साथ अपने डिवाइस को तेज गति दें </string>
+    <string name="no_ads"> बिना विज्ञापन के </string>
+    <string name="premium_shield"> प्रीमियम सुरक्षा </string>
+    <string name="additional_clean"> गहरी सफाई </string>
+    <string name="all_functions"> सभी कार्य उपलब्ध हैं </string>
+    <string name="additional_speed"> और भी अधिक गति </string>
+
+    <string name="percent">%</string>
+    <string name="scaning"> जांच ……</string>
+    <string name="memory_kill_found"> बहुत सारे स्थान लेने वाले अनुप्रयोग पाए जाते हैं </string>
+    <string name="boost"> काम में तेजी लाएं </string>
+    <string name="empty_item_select"> आपको कम से कम एक आइटम का चयन करना होगा </string>
+    <string name="sm_edge_device_optimized"> आपका डिवाइस अनुकूलित है </string>
+    <string name="clean"> साफ़ </string>
+    <string name="cooling"> ठंडा होना </string>
+    <string name="try_it"> लांच </string>
+
+    <string name="protect_now"> अब सुरक्षित करें </string>
+    <string name="save_now"> अभी सेव करे </string>
+    <string name="further_optimize_cpu"> अपने प्रोसेसर का अनुकूलन </string>
+    <string name="cool_down"> ठंडा करें </string>
+    <string name="scaning_cpu"> जांच सीपीयू ...</string>
+    <string name="secretly_consuming_battery">पावर लेने वाली क्षुधा</string>
+    <string name="extend_battery_life"> बैटरी बढ़ाइए </string>
+    <string name="analyzing_battery_usage"> बैटरी उपयोग विश्लेषण </string>
+    <string name="hibernation">" हाइबरनेशन....."</string>
+    <string name="find_and_grant"> % S खोजें और पहुँच की अनुमति दें %s</string>
+    <string name="grant_now"> अब अनुमति दें </string>
+    <string name="grant_app_permission"> फ़ाइल सिस्टम तक पहुँच प्रदान करें </string>
+    <string name="permission_needed"> मुक्त स्थान का अनुकूलन करने के लिए </string>
+
+    <string name="accessibility_service_description"> सरल उपयोग सेवा के लिए शीर्ष सही उपयोग पर टैप करें।</string>
+
+    <string name="on_off"> चालू  बंद </string>
+    <string name="skip_app_title"> सफाई के दौरान चयनित एप्लिकेशन रद्द नहीं किए जाएंगे </string>
+    <string name="app_protect"> आवेदन सुरक्षित है </string>
+    <string name="notification_created_shortcut"> शॉर्टकट बनाया </string>
+    <string name="list_game"> गेम लिस्ट </string>
+    <string name="select_game_to_boost"> तेजी लाने के लिए एक खेल का चयन करें </string>
+    <string name="smart_charger_can_help"> स्मार्ट चार्जिंग आपकी मदद कर सकती है </string>
+    <string name="optimize_chargin_progress"> चार्जिंग प्रक्रिया का अनुकूलन करें </string>
+    <string name="remind_charger">ओवरचार्जिंग से बचने में मदद के लिए वास्तविक समय में याद दिलाएं</string>
+    <string name="turn_on"> अब इसे चालू करें </string>
+    <string name="wifi"> वाई - फाई </string>
+    <string name="on">  चालू है </string>
+    <string name="brightness"> चमक </string>
+    <string name="auto"> ऑटो </string>
+    <string name="bluetooth"> ब्लूटूथ </string>
+    <string name="off"> बंद कर दिया </string>
+    <string name="synchronize"> सिंक्रनाइज़ </string>
+    <string name="charging_finished"> चार्ज पूरा हुआ </string>
+    <string name="auto_optimized"> स्वचालित रूप से अनुकूलित </string>
+    <string name="clean_up"> स्पष्ट </string>
+    <string name="pin"> बैटरी बचाना </string>
+    <string name="power_full"> बैटरी पूरी तरह चार्ज है </string>
+    <string name="battery_full_des"> चार्ज खत्म हो गया है, कृपया स्रोत को डिस्कनेक्ट करें </string>
+    <string name="uninstall"> हटाएं </string>
+    <string name="clean_notifi"> सफाई की सूचनाएं </string>
+    <string name="social_app"> सामाजिक ऐप </string>
+    <string name="third_app"> तीसरे पक्ष के आवेदन </string>
+    <string name="spam_notification"> स्पैम सूचनाएँ:</string>
+    <string name="no_data"> कोई डाटा उपलब्ध नहीं है </string>
+    <string name="just_now_time"> अभी से ही </string>
+    <string name="minute_ago">% मिनट पहले </string>
+    <string name="Notificationbar_Spamnotification"> स्पैम सूचनाएँ:</string>
+    <string name="Notificationbarcleanup_Guide1"> स्पैम अधिसूचना को क्रमबद्ध करें और उन्हें एक क्लिक के साथ हटाएं </string>
+    <string name="Notificationbarcleanup_RightNow"> स्पष्ट सूचना पट्टी </string>
+    <string name="safety_scanning"> स्कैन सुरक्षा </string>
+    <string name="security"> सुरक्षा </string>
+
+    <string name="per_read_phone_title"> फोन डाटा ट्रांसफर </string>
+    <string name="per_access_location_title"> स्थान तक पहुंच </string>
+    <string name="per_read_sms_title"> मैं आपकी एसएमएस पढ़ सकता हूँ </string>
+    <string name="per_send_sms_title"> आप भेज सकते हैं एसएमएस </string>
+    <string name="per_call_phone_title"> आप कॉल कर सकते हैं </string>
+    <string name="per_outgoing_call_title"> यह बहार जाते हुए कॉल को नियंत्रित कर सकता है </string>
+    <string name="per_record_audio_title"> यह ऑडियो रिकॉर्ड कर सकता है </string>
+    <string name="per_camera_title"> कैमरे तक पहुंच </string>
+
+    <string name="per_read_phone_des"> यह ऐप पता पुस्तिका, मोबाइल पिन और कॉल इतिहास सहित सिम कार्ड डेटा एकत्र करता है और भेजता है। ऐसा करने से डेटा हस्तांतरण शुल्क बढ़ सकता है और एक उच्च गोपनीयता जोखिम उत्पन्न हो सकता है।.</string>
+    <string name="per_access_location_des"> यह एप्लिकेशन इसके सटीक स्थान तक पहुंच सकता है और आपकी गोपनीयता के लिए खतरा बन सकता है.</string>
+    <string name="per_read_sms_des"> यह एप्लिकेशन आपके निजी एसएमएस संदेशों को पढ़ सकता है और आपकी गोपनीयता के लिए खतरा बन सकता है.</string>
+    <string name="per_send_sms_des"> यह ऐप एसएमएस भेज सकता है। ऐसा करने से डेटा ट्रांसफर शुल्क बढ़ सकता है और एक उच्च गोपनीयता जोखिम पैदा हो सकता है.</string>
+    <string name="per_call_phone_des"> यह एप्लिकेशन डायलर उपयोगकर्ता इंटरफ़ेस से गुजरे बिना फोन कॉल शुरू कर सकता है ताकि उपयोगकर्ता कॉल की पुष्टि कर सके। ऐसा करने से डेटा ट्रांसफर शुल्क बढ़ सकता है और एक उच्च गोपनीयता जोखिम पैदा हो सकता है।</string>
+    <string name="per_outgoing_call_des"> यह एप्लिकेशन एक आउटगोइंग कॉल के दौरान डायल किए गए नंबर को देख सकता है, जिसमें कॉल को किसी अन्य नंबर पर पुनर्निर्देशित करने या कॉल को पूरी तरह से बाधित करने की क्षमता है। ऐसा करने से डेटा ट्रांसफर शुल्क बढ़ सकता है और एक उच्च गोपनीयता जोखिम पैदा हो सकता है.</string>
+    <string name="per_record_audio_des"> यह एप्लिकेशन ऑडियो रिकॉर्ड कर सकता है और आपकी गोपनीयता के लिए खतरा है.</string>
+    <string name="per_camera_des"> यह ऐप आपके डिवाइस के कैमरे तक पहुंच सकता है और आपकी गोपनीयता के लिए खतरा पैदा करता है.</string>
+    <string name="in_danger"> खतरे में </string>
+    <string name="resolve_all"> सभी को अनुमति</string>
+    <string name="issues_found"> समस्या मिली </string>
+    <string name="cancel"> रद्द करना </string>
+    <string name="skip_app_virus">" वायरस के लिए स्कैन करते समय चयनित एप्लिकेशन को अनदेखा किया जाएगा।"</string>
+    <string name="while_list"> सूची स्कैन करें </string>
+    <string name="no_junk"> कोई अवांछित फाइल नहीं मिली </string>
+    <string name="obsolete_apk"> बेकार एपीके </string>
+    <string name="system_cache"> सिस्टम कैश </string>
+    <string name="downloader_files"> अपलोड की गई फाइलें </string>
+    <string name="large_files"> बड़ी फाइलें </string>
+    <string name="op_clean"> साफ़ किया गया </string>
+    <string name="mb"> एम् बी </string>
+    <string name="Calculating"> जांच हो रहा है...</string>
+    <string name="remove_app_unstall"> अधिक स्थान खाली करने के लिए स्थापना फ़ाइलों को हटाएँ.</string>
+    <string name="deleting"> हटाना, प्रतीक्षा करना...</string>
+    <string name="scan_virus"> वायरस स्कैनिंग.....</string>
+    <string name="start_use"> इस्तेमाल करना शुरू किजिए </string>
+    <string name="ok"> ठीक है </string>
+    <string name="app_safe"> यह एप्लिकेशन सुरक्षित है </string>
+    <string name="app_virus_contain"> इस एप्लिकेशन में एक वायरस है </string>
+    <string name="ram_going_full"> मेमोरी पूर्ण </string>
+    <string name="use_phone_boost"> जगह को खाली करने के लिए फोन क्लीनर का उपयोग करें </string>
+    <string name="phone_is_hot"> फोन गर्म हो गया है </string>
+    <string name="use_cpu_cleaner"> प्रोसेसर को साफ करने के लिए अच्छा है </string>
+    <string name="use_save_battery"> बैटरी बचाना </string>
+    <string name="battery_low"> बैटरी समाप्त होने वाला है </string>
+    <string name="detect_junk_file"> जंक फाइलें मिलीं </string>
+    <string name="use_junk_file"> साफ करने के लिए फंक फंक्शन फाइल का उपयोग करें </string>
+    <string name="fix"> ठीक करे </string>
+    <string name="optimize"> अनुकूलन </string>
+    <string name="save"> सेव </string>
+    <string name="selcet_file_to_clean"> साफ करने के लिए एक फ़ाइल का चयन करें </string>
+
+    <string name="floatint_windown_per"> पॉप-अप की अनुमति दें </string>
+    <string name="accessibility_permission"> उपयोग की अनुमति दें </string>
+    <string name="listener_notification_per"> सूचनाएं दिखाने की अनुमति दें </string>
+    <string name="write_setting_per"> रिकॉर्डिंग की अनुमति दें </string>
+    <string name="usage_access_permission"> उपयोग करने की अनुमति दें </string>
+    <string name="external_storage_permission"> डिवाइस की बाहरी मेमोरी तक पहुंच की अनुमति दें </string>
+    <string name="write_setting_permission"> उपकरण सेटिंग्स बदलने की अनुमति दें।</string>
+    <string name="listen_notification_permission"> उपकरण सूचनाओं को देखने की अनुमति दें </string>
+    <string name="overlay_permission"> अन्य एप्लिकेशन में प्रदर्शन की अनुमति दें </string>
+    <string name="accessibility_setting_permission"> पहुँच सेवा का उपयोग करने की अनुमति दें </string>
+    <string name="splash_content"> हल्के, तेज और स्मार्ट </string>
+
+    <string name="result_cooler">ठंडा कर दिया गया है।</string>
+    <string name="boost_result"> त्वरण प्रदर्शन किया </string>
+    <string name="clean_result"> सफाई खत्म </string>
+    <string name="fast_charger_boosted_result"> फास्ट चार्जिंग त्वरित </string>
+    <string name="antivirus_result"> सुरक्षित! खतरा खत्म हो गया </string>
+    <string name="deep_clean_result"> पूरा हुआ!</string>
+    <string name="notification_manager_result"> ख़त्म होना!</string>
+    <string name="dectect_apk_install"> पाया 1 एपीके स्थापित </string>
+    <string name="conduct_scan_virus"> वायरस के लिए जाँच करें </string>
+    <string name="dectect_apk_uninstall"> हटाए गए 1 एपीके फ़ाइल का पता चला </string>
+    <string name="conduct_cleanup"> सफाई </string>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported"> बिलिंग सेवा उपलब्ध नहीं है या सदस्यता अद्यतन समर्थित नहीं है </string>
+    <string name="product_purchased"> उत्पाद खरीदा गया </string>
+    <string name="liked_app"> ऐप पसंद आया?</string>
+    <string name="dontshowagain"><u> फिर से मत दिखाना </u></string>
+    <string name="rateplease"> आपका दर हमारे लिए महत्वपूर्ण है!</string>
+    <string name="any_ideas"> एप्लिकेशन को बेहतर बनाने के बारे में कोई विचार?</string>
+    <string name="support"> डेवलपर्स को लिखें </string>
+    <string name="delete_selected">हटाना (%s)</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="_24_12_20">अंतिम साफ:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">संस्करण: नि: शुल्क</string>
+    <string name="share"> साझा </string>
+    <string name="like">दर हमें</string>
+    <string name="update">अपडेट करें</string>
+    <string name="pro">प्रो संस्करण खरीदें</string>
+    <string name="found">मिल गया</string>
+    <string name="select_all">सभी चुनें</string>
+    <string name="deep_clean_text">गहरी सफाई</string>
+    <string name="total_clean">कुल साफ</string>
+    <string name="start_14_day_trial">3-दिवसीय परीक्षण शुरू करें</string>
+    <string name="free_version_desc">नि: शुल्क प्रीमियम परीक्षण 3 दिनों तक चलेगा, फिर आपसे $ 20 / वर्ष का शुल्क लिया जाएगा। अभी शुरू करें, आप इसे कभी भी Google Play पर रद्द कर सकते हैं। <u>उपयोग की शर्तों को पढ़ें</u></string>
+    <string name="yes"> हाँ </string>
+    <string name="no"> नहीं </string>
+    <string name="do_you_really_want_to_exit">क्या आप वास्तव में बाहर निकलना चाहते हैं?</string>
+</resources>

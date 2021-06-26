@@ -1,0 +1,481 @@
+<resources>
+    <string name="app_name">クリーナープロ 2021</string>
+
+    <string name="title_home">ホーム</string>
+    <string name="title_persion">プロフィール</string>
+
+    <string name="junk_files">クリア</string>
+    <string name="junk">ジャンク</string>
+    <string name="cpu_cooler">クール</string>
+    <string name="phone_booster">加速する</string>
+    <string name="antivirus">アンチウイルス</string>
+    <string name="power_saving">貯金</string>
+    <string name="data_manager">データマネージャ</string>
+    <string name="app_lock">応募パスワード</string>
+    <string name="smart_charge">スマートチャージ</string>
+    <string name="deep_clean">重複</string>
+    <string name="app_uninstall">アプリのアンインストール</string>
+    <string name="game_booster">ゲームブースター</string>
+    <string name="junk_files_btn">クリア</string>
+    <string name="cpu_cooler_btn">クール</string>
+    <string name="phone_booster_btn">加速するe</string>
+    <string name="antivirus_btn">スキャン</string>
+    <string name="power_saving_btn">保存</string>
+    <string name="app_lock_btn">ロック</string>
+    <string name="smart_charge_btn">最適化</string>
+    <string name="notification_manager_btn">チェック</string>
+    <string name="deep_clean_btn">クリア</string>
+    <string name="app_uninstall_btn">アンインストール</string>
+    <string name="game_booster_btn">ゲームのスピードアップ</string>
+
+    <string name="junk_files_dialog">クリアせずに終了しますか？</string>
+    <string name="cpu_cooler_dialog">冷却せずに終了するか</string>
+    <string name="phone_booster_dialog">スピードを上げずに終了するか</string>
+    <string name="antivirus_dialog">スキャンせずに終了しますか</string>
+    <string name="power_saving_dialog">バッテリーの最適化を行わずに終了しますか？ </string>
+    <string name="app_lock_dialog">ロックせずに終了するか</string>
+    <string name="smart_charge_dialog">バッテリーを最適化せずに終了しますか？ </string>
+    <string name="notification_manager_dialog">チェックせずに終了するか</string>
+    <string name="deep_clean_dialog">クリーニングせずに終了するか</string>
+    <string name="app_uninstall_dialog">アプリをアンインストールせずに終了しますか？ </string>
+    <string name="game_booster_dialog">ゲームを高速化せずに終了しますか？ </string>
+
+    <string name="game">ゲーム</string>
+    <string name="notification_manager">通知しない</string>
+    <string name="app_lock_des">プライバシーの確保</string>
+    <string name="smart_charge_des">バッテリー駆動時間を長くする</string>
+    <string name="deep_clean_des">より多くのスペースを確保する</string>
+    <string name="app_uninstall_des">すべてのアプリ、または選択されたアプリ</string>
+    <string name="game_booster_des">ゲームアクセラレータ</string>
+    <string name="notification_manager_des">通知パネルをクリアする</string>
+    <string name="junk_files_des">ジャンクファイルの削除</string>
+    <string name="cpu_cooler_des">デバイスの温度を下げる</string>
+    <string name="Phone_booster_des">生産性の向上</string>
+    <string name="antivirus_des">リアルタイム保護</string>
+    <string name="power_saving_des">使用していないアプリケーションを停止する</string>
+    <string name="no_ads_des">広告を表示しない</string>
+    <string name="premium_shield_des">強化されたデータ保護</string>
+    <string name="additional_clean_des">プレミアム・デバイス・クリーニング</string>
+    <string name="all_functions_des">すべての機能を最初に取得する</string>
+    <string name="additional_speed_des">強力なデバイスアクセラレーション</string>
+    <string name="no_ads">広告を表示しない</string>
+    <string name="premium_shield">プレミアム・セキュリティ</string>
+    <string name="additional_clean">より徹底したクリーニング</string>
+    <string name="all_functions">すべての機能が利用可能</string>
+    <string name="additional_speed">更なるスピード</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[清潔感と加速感]]></string>
+    <string name="security_and_privacy"><![CDATA[セキュリティとプライバシー]]></string>
+    <string name="has_protected_your_phone">%sがあなたの携帯電話を%s日間保護します</string>
+    <string name="settings">設定</string>
+    <string name="feedback">フィードバック</string>
+    <string name="upgrade">更新</string>
+    <string name="like_facebook">私たちを評価する</string>
+    <string name="scaning">スキャン ......</string>
+    <string name="memory_kill_found">CPUメモリを使用するアプリケーション</string>
+    <string name="boost">加速する</string>
+    <string name="empty_item_select">最低でも1つのアイテムを選択する必要があります</string>
+    <string name="sm_edge_device_optimized">バッテリーの最適化</string>
+    <string name="clean">クリア</string>
+    <string name="cooling">クール</string>
+    <string name="try_it">スタートアップ</string>
+
+    <string name="protect_now">今を守る</string>
+    <string name="save_now">今すぐ保存</string>
+    <string name="further_optimize_cpu">cpuに負荷をかけるアプリケーション</string>
+    <string name="cool_down">クール</string>
+    <string name="scanning_cpu">CPUのスキャン...</string>
+    <string name="secretly_consuming_battery">電力を大量に消費するアプリケーション</string>
+    <string name="extend_battery_life">無効にする (%s)</string>
+    <string name="analyzing_battery_usage">電池の使用状況の分析</string>
+    <string name="hibernation">"冬眠 ....."</string>
+    <string name="find_and_grant">%sを検索して、%sにアクセスを許可する</string>
+    <string name="grant_now">許可を与える</string>
+    <string name="grant_app_permission">空き容量を最適化するためにファイルシステムへのアクセスを許可する</string>
+    <string name="permission_need">パーミッションを要求する</string>
+
+    <string name="lockscreen_access_pattern_cell_added">追加されたセル</string>
+    <string name="lockscreen_access_pattern_start">ロック解除のパターンを描く</string>
+    <string name="lockscreen_access_pattern_detected">パターンが保存されました</string>
+    <string name="lockscreen_access_pattern_cleared">テンプレートが削除されました</string>
+    <string name="lock_recording_intro_header">アプリケーションのロックを設定する</string>
+    <string name="lock_settings_help_how_to_record">ロック解除パターンの描き方</string>
+    <string name="lock_recording_incorrect_too_short">グラフィックキーが短すぎる</string>
+    <string name="lock_pattern_entered_header">グラフィックキーを入力する</string>
+    <string name="lock_need_to_confirm">確認のためにもう一度グラフィックキーを入力する</string>
+    <string name="lock_need_to_unlock_wrong">グラフィックキーが一致しません。もう一度お試しください</string>
+    <string name="password_gestrue_tips">秘密のコードを入力する</string>
+    <string name="password_error_count">パスワードが一致しません。再度お試しください。</string>
+    <string name="lock_pattern_confirmed_header">確認されたパターン </string>
+
+    <string name="password_question_01">自分の人生で一番印象に残っていることは何ですか？ </string>
+    <string name="password_question_02">「あなたのペットの名前は何ですか？</string>
+    <string name="password_question_03">あなたの彼女の名前は？</string>
+    <string name="password_question_04">子供の頃の夢は何でしたか？</string>
+    <string name="password_question_05">好きな人がいたとしたら、それは誰ですか？ </string>
+    <string name="password_question_06">「高校時代に好きだった先生の名前は何ですか」</string>
+    <string name="password_question_07">子供の頃、どこに行きたいと思っていましたか？ </string>
+    <string name="password_question_08">もしも過去に戻れるとしたら、どの時代に戻りたいですか？ </string>
+    <string name="password_question_09">あなたの彼氏の名前は？ </string>
+
+    <string name="security_settings">セキュリティの設定</string>
+    <string name="sercurity_question">コントロールに関する質問: </string>
+    <string name="answer">返信:</string>
+    <string name="input_your_answer">答えを入力してください</string>
+    <string name="answer_blank">答えを空白にすることはできません</string>
+    <string name="password_answer_set_toast">質問と回答が設定されていることを確認する</string>
+    <string name="forgot_gesture">キーを忘れてしまった</string>
+    <string name="answer_question_error">チェック・レスポンス・エラー>となります</string>
+    <string name="not_setup_answer_question">設定していない質問の回答</string>
+    <string-array name="lock_time_array">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分</item>
+        <item>3分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>30分</item>
+        <item>急募</item>
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">アプリロックへようこそ</string>
+    <string name="reset">リロード</string>
+    <string name="search_application">アプリで検索する</string>
+    <string name="lock_settings">ロックの設定</string>
+    <string name="lock_immediately_after_locking_the_screen">ロックアプリがすぐに携帯電話をロックする</string>
+    <string name="change_the_password">パスワードの変更</string>
+    <string name="hide_pattern">パターンを隠す</string>
+    <string name="search_applications">アプリで検索 &#8230;</string>
+    <string name="search_for">を検索します。 &#8230;</string>
+    <string name="_1_minute">1分</string>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie">侵入者の自撮り写真</string>
+    <string name="vibrate">バイブレーション</string>
+    <string name="app_runing_background">アプリケーションがバックグラウンドで動作する</string>
+    <string name="app_background_task">バックグラウンドで動作しているアプリケーション</string>
+    <string name="create_password">パスワードの作成</string>
+    <string name="create_pattern_lock">パターンの作成</string>
+    <string name="on_off">オンオフ</string>
+    <string name="skip_app_title">選択したアプリが掃除中にキャンセルされない</string>
+    <string name="app_protect">アプリケーションは保護されています</string>
+    <string name="ram">メモリ</string>
+    <string name="ready_boost">スピードアップの準備</string>
+    <string name="create_shortcut">ショートカットの作成</string>
+    <string name="notification_created_shortcut">ラベル %s で作成されています。</string>
+    <string name="list_game">ゲームリスト</string>
+    <string name="select_game_to_boost">加速するゲームを選択する</string>
+    <string name="app_not_exist">アプリケーションが存在しません</string>
+    <string name="game_add">ゲームに追加されました: %s</string>
+    <string name="not_distub">邪魔しないでください</string>
+    <string name="hide_notification_all">再生中にすべての通知を隠す</string>
+    <string name="smart_charger_can_help">スマートチャージはあなたを助けます</string>
+    <string name="optimized_chargin_progress">充電プロセスの最適化</string>
+    <string name="remind_charger">バッテリーの寿命を延ばす</string>
+    <string name="turn_on">今すぐ電源を入れてください。</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">含まれています</string>
+    <string name="brightness">明るさ</string>
+    <string name="auto">自動</string>
+    <string name="bluetooth">ブルートゥース</string>
+    <string name="off">オフ</string>
+    <string name="synchronize">同期する</string>
+    <string name="charging_finished">充電が完了しました</string>
+    <string name="auto_optimized">自動的に最適化されます</string>
+    <string name="clean_up">クリア</string>
+    <string name="pin">バッテリーの節約</string>
+    <string name="power_full">バッテリーが完全に充電された状態</string>
+    <string name="battery_full_des">充電は終わりました。ソースを切断してください。</string>
+    <string name="uninstall">削除</string>
+    <string name="other_app">その他のアプリ</string>
+    <string name="clean_notifi">通知のクリア</string>
+    <string name="social_app">ソーシャルアプリ</string>
+    <string name="third_app">サイドアプリ</string>
+    <string name="spam_notification">スパムの通知:</string>
+    <string name="no_data">データがない</string>
+    <string name="just_now_time">今</string>
+    <string name="minute_ago">%s分前</string>
+    <string name="Notificationbar_Spamnotification">スパムの通知</string>
+    <string name="Notificationbarcleanup_Guide1">ワンクリックで通知{nを並べ替えたり、削除したりすることができます</string>
+    <string name="Notificationbarcleanup_RightNow">通知をロックする</string>
+    <string name="security_scanning">セキュリティ・スキャン</string>
+    <string name="security">セキュリティ</string>
+
+    <string name="per_read_phone_title">携帯電話のデータ</string>
+    <string name="per_access_location_title">ロケーションアクセス</string>
+    <string name="per_read_sms_title">あなたの文章を読むことができます</string>
+    <string name="per_send_sms_title">あなたは、テキスト</string>
+    <string name="per_call_phone_title">あなたは呼び出すことができます</string>
+    <string name="per_outgoing_call_title">発信のコントロールが可能</string>
+    <string name="per_record_audio_title">オーディオを録音できる</string>
+    <string name="per_camera_title">カメラへのアクセス</string>
+
+    <string name="per_read_phone_des">本アプリは、アドレス帳、携帯暗証番号、通話履歴などのSIMカードデータを収集・送信します。これにより、データ転送料が増加する可能性があり、また、大きなプライバシーリスクが発生します。</string>
+    <string name="per_access_location_des">このアプリは、その正確な位置情報にアクセスすることができ、お客様のプライバシーに大きなリスクをもたらします。</string>
+    <string name="per_read_sms_des">このアプリはあなたのプライベートなSMSメッセージを読むことができ、あなたのプライバシーを危険にさらします。</string>
+    <string name="per_send_sms_des">このアプリは、SMSメッセージを送信することができます。</string>
+    <string name="per_call_phone_des">このアプリは、ユーザーが通話を確認できるように、Dialerユーザーインターフェイスをバイパスして電話をかけることができます。これにより、データ転送料が増加し、プライバシーに関する大きなリスクが発生します。</string>
+    <string name="per_outgoing_call_des">このアプリケーションは、発信時にダイヤルされた番号を確認し、別の番号にリダイレクトしたり、通話を完全に終了させたりする機能を備えています。これにより、データ通信料が増加し、プライバシーが大きく損なわれる可能性があります。</string>
+    <string name="per_record_audio_des">このアプリは、音声を録音することができ、お客様のプライバシーに大きなリスクをもたらします。</string>
+    <string name="per_camera_des">このアプリは、デバイスのカメラにアクセスすることができ、お客様のプライバシーを脅かす可能性があります。</string>
+    <string name="in_danger">脅威を発見</string>
+    <string name="resolve_all">消去</string>
+    <string name="virus_app">バイラルアプリケーション</string>
+    <string name="issues_found">%s デバイスのセキュリティ脅威が検出されました。</string>
+    <string name="skip_all">すべてをスキップ</string>
+    <string name="some_app_use_permission">一部のアプリが安全でないパーミッションを使用している</string>
+    <string name="app_dangerous">%sアプリは危険です</string>
+    <string name="version">バージョン</string>
+    <string name="date">日付: %s</string>
+    <string name="size">サイズ: %s</string>
+    <string name="request_permission">リクエストパーミッション</string>
+    <string name="cancel">キャンセル</string>
+    <string name="security_threats">セキュリティ上の脅威</string>
+    <string name="ignore">無視する</string>
+    <string name="skip_app_virus">"選択したアプリはウイルスチェック時に無視されます"</string>
+    <string name="while_list">スキャンリスト</string>
+    <string name="no_junk">不要なファイルは見つかりませんでした</string>
+    <string name="obsolete_apk">使い古されたAPK</string>
+    <string name="system_cache">システムキャッシュ</string>
+    <string name="downloader_files">ダウンロードしたファイル</string>
+    <string name="large_files">ビッグファイル</string>
+    <string name="op_clean">ゴミ %s を消去する</string>
+    <string name="mb">MBが見つかりました</string>
+    <string name="notification_toggle">通知の切り替え</string>
+    <string name="Calculating">スキャン ....</string>
+    <string name="notification_setting">通知の設定</string>
+    <string name="junk_reminder">ジャンク通知</string>
+    <string name="every_3days">3日に1回</string>
+    <string name="Phone_boost_reminder">電話のスピードを上げるためのリマインド</string>
+    <string name="remind_when_memory">メモリを使いすぎたときに思い出す</string>
+    <string name="cpu_cooler_reminder">CPUクーラーに関するリマインダー</string>
+    <string name="remind_me_when_cpu">CPUが過熱したときに知らせてくれる</string>
+    <string name="battery_saver">バッテリーセーバー</string>
+    <string name="remind_me_when_app_draining">アプリがバッテリーを消耗したときに通知する</string>
+    <string name="app_install">アプリをインストールする</string>
+    <string name="delete_the_apk">アプリのインストール後にAPKファイルを削除する</string>
+    <string name="delete_the_residual">アプリをアンインストールした後、残りのゴミを消去する</string>
+    <string name="antivirus_settings">アンチウイルスの設定</string>
+    <string name="real_time_protection">リアルタイム保護</string>
+    <string name="ignore_list">ブラックリスト</string>
+    <string name="do_not_distub">悩まないでください。</string>
+    <string name="general_settings">一般的な設定</string>
+    <string name="create_home_shortcut">ホームにショートカットを作成する</string>
+    <string name="remove_app_unstall">インストールファイルを削除して、より多くのスペースを確保する</string>
+    <string name="deleting">削除して待つ ...</string>
+    <string name="scan_virus">ウイルススキャン .....</string>
+    <string name="start_use">使用開始</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">このアプリは安全です</string>
+    <string name="app_virus_contain">このアプリにはウイルスが含まれています</string>
+    <string name="ram_going_full">メモリのオーバーフロー</string>
+    <string name="use_phone_boost">携帯電話のクリーンアップを利用して容量を確保する</string>
+    <string name="phone_is_hot">携帯電話のオーバーヒート</string>
+    <string name="use_cpu_cleaner">CPUをクリアにする</string>
+    <string name="use_save_battery">バッテリーを節約する</string>
+    <string name="battery_low">ローバッテリー</string>
+    <string name="note">ノート</string>
+    <string name="note_turn_off_notifi">通知スイッチをオフにすると、デバイス %s のパフォーマンスが不安定になる</string>
+    <string name="turn_off">電源を切る</string>
+    <string name="junk_reminder_frequency">通知の頻度</string>
+    <string name="every_day">毎日です。</string>
+    <string name="every_7days">7日ごと</string>
+    <string name="never_reminder">思い出すことのない</string>
+    <string name="start_at">で開始</string>
+    <string name="stop_at">で終了</string>
+    <string name="detect_junk_file">ジャンクファイルを検出する</string>
+    <string name="use_junk_file">クリーンアップにファンクファイルを使用する</string>
+    <string name="fix">修正</string>
+    <string name="optimization">最適化</string>
+    <string name="save">保存</string>
+    <string name="selcet_file_to_clean">クリーニングするファイルの選択</string>
+
+    <string name="floatint_windown_per">ポップアップウィンドウを有効にする</string>
+    <string name="accessibility_permission">アクセスを有効にする</string>
+    <string name="listener_notification_per">通知の表示を有効にする</string>
+    <string name="write_setting_per">書き込みを許可する</string>
+    <string name="usage_access_permission">使用法のアクセスを許可する</string>
+    <string name="external_storage_permission">外部デバイスのメモリへのアクセスを許可する</string>
+    <string name="write_setting_permission">アプリケーションにはファイルシステムへのアクセスが必要です</string>
+    <string name="listen_notification_permission">デバイスの通知ビューア権限を有効にする</string>
+    <string name="overlay_permission">このアプリケーションでは、デバイスの設定にアクセスする必要があります。</string>
+    <string name="accessibility_setting_permission">このアプリケーションでは、デバイスの設定にアクセスする必要があります。</string>
+    <string name="splash_content">軽く、速く、スマートに</string>
+
+    <string name="result_cooler">CPU冷却</string>
+    <string name="boost_result">PUオプティマイズ</string>
+    <string name="clean_result">CPUのクリーニングが完了しました</string>
+    <string name="fast_charger_boosted_result">バッテリーの最適化</string>
+    <string name="antivirus_result">脅威の排除</string>
+    <string name="deep_clean_result">重複部分の削除</string>
+    <string name="notification_manager_result">通知機能を解除しました。</string>
+    <string name="dect_apk_install">1つのapkインストールが見つかりました</string>
+    <string name="conduct_scan_virus">ウイルスのチェック</string>
+    <string name="dect_apk_uninstall">削除された1つのapkファイルを検出</string>
+    <string name="conduct_cleanup">掃除をする</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Product Purchased</string>
+    <string name="liked_app">そのアプリが好きですか？</string>
+    <string name="dontshowagain"><u>もう見せない</u></string>
+    <string name="rateplease">あなたの評価は私たちにとって重要です！</string>
+    <string name="any_ideas">このアプリを改善するためのアイデアはありますか？ </string>
+    <string name="support">開発者への書き込み</string>
+    <string name="delete_selected">削除 (%s)</string>
+    <string name="exit">ログアウト</string>
+    <string name="_24_12_20">最後に掃除したのは：</string>
+    <string name="name">クリスティン・ワトソン</string>
+    <string name="free">バージョン: FREE</string>
+    <string name="share">共有</string>
+    <string name="like">私たちを評価する</string>
+    <string name="update">アップデート</string>
+    <string name="pro">PRO版を購入する</string>
+    <string name="found">で見つけました。</string>
+    <string name="select_all">すべてを選択する</string>
+    <string name="deep_clean_text">ディープ・クリーニング</string>
+    <string name="total_clean">すべてをクリアする</string>
+    <string name="start_14_day_trial">3日間のトライアルを開始する</string>
+    <string name="free_version_desc">無料トライアルは14日間有効で、それ以降は年間10ドルの課金となります。今すぐ始められます。Google Playでいつでも解約できます。<u>利用規約</u> </string>
+    <string name="yes">はい</string>
+    <string name="no">ない</string>
+    <string name="do_you_really_want_to_exit">本当に出たいのか？</string>
+
+    <string name="rate_msg">私たちのチームは、最高の無料アプリを提供するために一生懸命働いています。あなたの5つ星レビューは、私たちにとってどんなお金よりも価値のあるものです。Google Playに良いレビューを書いて、私たちを応援してください</string>
+    <string name="remind_later">あとで思い出してください</string>
+    <string name="good_5_stars">お気に入りの、5つ星</string>
+    <string name="not_good">好きになれなかった</string>
+    <string name="title_dialog_feed_back">フィードバックを送信する</string>
+    <string name="message_dialog_feed_back">メールでのバグ修正や新機能の実装を依頼する</string>
+    <string name="exit_app">出口</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">アプリケーションのチェック: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">メールクライアントがインストールされていません</string>
+    <string name="send_feedback">フィードバックを送信する...</string>
+    <string name="enter_feed">ご意見をお聞かせください</string>
+    <string name="thanksforrate">³"評価・レビューありがとうございました^^ \"</string>
+
+    <string name="reating">評価</string>
+    <string name="policy">プライバシーポリシー</string>
+
+    <string name="more_app">その他のアプリケーション</string>
+    <string name="scan">スキャン</string>
+
+    <string name="setting">設定</string>
+    <string name="scan_wait">スキャンされるファイルを待つ</string>
+
+    <string name="language_setting">言語</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Českee</item>
+        //de
+        <item>Deutsch</item>
+        //en
+        <item>英語</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>インドネシア</item>
+        // it
+        <item>イタリア語</item>
+        // tieng pl
+        <item>ポルスキー</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>ロシア語</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமி்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="False">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">削除... %dファイル</string>
+
+
+    <string name="scan_all_file">他のすべてのファイルのスキャン</string>
+    <string name="scan_audio_file">重複するオーディオをスキャンする</string>
+    <string name="scan_doc_file">複製されたドキュメントのスキャン</string>
+    <string name="scan_image_file">複製された写真のスキャン</string>
+    <string name="scan_video_file">複製されたビデオのスキャン</string>
+    <string name="analyzing">分析...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">以下の指示にチェックを入れて、選択したファイルの削除を許可する</string>
+    <string name="sd_content_2">SDカードが表示されない場合は、こちらをクリックしてみてください</string>
+    <string name="sd_title">内部ストレージへのアクセスを確認</string>
+    <string name="no_file_found">反復的なファイルが見つかりません</string>
+    <string name="delete_content">ファイルを削除しますか？</string>
+    <string name="delete_title">削除を確認する</string>
+    <string name="file_removed">削除されたファイル</string>
+    <string name="grant_permission">許可を与える</string>
+    <string name="delete_now">クリア</string>
+</resources>

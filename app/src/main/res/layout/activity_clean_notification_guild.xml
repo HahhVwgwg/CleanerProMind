@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <include
+        android:id="@+id/layout_padding"
+        layout="@layout/layout_toolbar" />
+
+    <ImageView
+        android:id="@+id/iv_phone"
+        android:layout_width="320dp"
+        android:layout_height="500dp"
+        android:layout_above="@id/layout_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-75dp"
+        android:paddingStart="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_notification_clean_guide_phone" />
+
+    <LinearLayout
+        android:layout_width="172dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/iv_phone"
+        android:layout_alignTop="@+id/iv_phone"
+        android:layout_alignEnd="@+id/iv_phone"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/rounded_white_10"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center_vertical"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/rounded_violet"
+            android:padding="3dp"
+            android:src="@drawable/ic_notification_manager"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Notificationbar_Spamnotification"
+            android:textColor="@color/colorViolet"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_start_0_0"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignTop="@+id/iv_phone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:src="@drawable/iv_notification_clean_guide_star"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_start_0_1"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignTop="@+id/iv_phone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="46dp"
+        android:src="@drawable/iv_notification_clean_guide_star"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_start_0_2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignTop="@+id/iv_phone"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/iv_notification_clean_guide_star"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_start_1_0"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignTop="@+id/iv_phone"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/iv_notification_clean_guide_star"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_start_1_1"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignTop="@+id/iv_phone"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="136dp"
+        android:src="@drawable/iv_notification_clean_guide_star"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_start_1_2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_above="@+id/layout_bottom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="110dp"
+        android:src="@drawable/iv_notification_clean_guide_star"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_start_1_3"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_above="@+id/layout_bottom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/iv_notification_clean_guide_star"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_top_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:paddingStart="55dp"
+            android:paddingEnd="55dp"
+            android:text="@string/Notificationbarcleanup_Guide1"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_open"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="40dp"
+            android:text="@string/Notificationbarcleanup_RightNow"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

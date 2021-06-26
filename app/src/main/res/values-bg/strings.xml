@@ -1,0 +1,377 @@
+<resources>
+    <string name="title_home">Начало</string>
+
+
+    <string name="rating">Оценка</string>
+    <string name="policy">ПОЛИТИКА ЗА ПОВЕРИТЕЛНОСТ</string>
+
+    <string name="more_app">Още приложения</string>
+    <string name="feedback">Обратна връзка</string>
+    <string name="scan">Сканиране</string>
+
+    <string name="setting">Настройки</string>
+    <string name="scan_wait">Изчакайте файловете да се сканират...</string>
+
+    <string name="language_setting">Език</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Изтрити... %d файлы</string>
+
+
+    <string name="scan_all_file">Сканиране на всички други файлове</string>
+    <string name="scan_audio_file">Сканиране на дублиран звук</string>
+    <string name="scan_doc_file">Сканиране на дублиращи се документи</string>
+    <string name="scan_image_file">Сканиране на дублирани снимки</string>
+    <string name="scan_video_file">Сканиране на дублиращи се видеоклипове</string>
+    <string name="analyzing">Анализ...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Следвайте инструкциите по-долу, за да предоставите разрешение за изтриване на избраните файлове</string>
+    <string name="sd_content_2">Ако не виждате SD картата, опитайте да кликнете тук</string>
+    <string name="sd_title">Потвърждаване на достъпа до вътрешното хранилище</string>
+    <string name="no_file_found">Не са намерени повтарящи се файлове</string>
+    <string name="delete_content">Искате ли да изтриете файла?</string>
+    <string name="delete_title">Потвърждаване на премахването</string>
+    <string name="file_removed">Файловете са изтрити</string>
+    <string name="grant_permission">Дайте разрешение</string>
+    <string name="delete_now">Изтриване сега</string>
+
+    <string name="junk_files">Изчистете боклука</string>
+    <string name="junk">боклуци</string>
+    <string name="cpu_cooler">Охлаждане на устройство</string>
+    <string name="phone_booster">Ускоряване на телефона</string>
+    <string name="antivirus">Антивирус</string>
+    <string name="power_saving">Спестяване на енергия</string>
+    <string name="data_manager">Мениджър на данни</string>
+    <string name="smart_charge">Умно зареждане</string>
+    <string name="deep_clean">Дълбоко почистване</string>
+    <string name="app_uninstall">Премахване на приложението</string>
+    <string name="junk_files_btn">Почистване</string>
+    <string name="cpu_cooler_btn">Охлаждане</string>
+    <string name="phone_booster_btn">Ускоряване </string>
+    <string name="antivirus_btn">Сканиране</string>
+    <string name="power_saving_btn">Икономизир</string>
+    <string name="smart_charge_btn">Сканиране</string>
+    <string name="notification_manager_btn">Проверка</string>
+    <string name="deep_clean_btn">Почистване</string>
+    <string name="app_uninstall_btn">Премахнете</string>
+
+    <string name="junk_files_dialog">Излезте без почистване?</string>
+    <string name="cpu_cooler_dialog">Излезте без охлаждане?</string>
+    <string name="phone_booster_dialog">Излезте без повишаване?</string>
+    <string name="antivirus_dialog">Излезте без сканиране?</string>
+    <string name="power_saving_dialog">Изход без оптимизиране на батерията?</string>
+    <string name="smart_charge_dialog">Изход без памет оптимизиране?</string>
+    <string name="notification_manager_dialog">Излезте без ckecking?</string>
+    <string name="deep_clean_dialog">Излезте без дълбоко почистване?</string>
+    <string name="app_uninstall_dialog">Изход без приложение deliting?</string>
+
+    <string name="notification_manager">Мениджър на известията</string>
+    <string name="smart_charge_des">Напомня ви за състоянието на зареждане, за да се перезаряде</string>
+    <string name="deep_clean_des">Дълбоко почиствани файлове, за да освободите още повече място</string>
+    <string name="app_uninstall_des">Бързо премахване на безполезни приложения</string>
+    <string name="notification_manager_des">Изчистване на лентата за известия</string>
+    <string name="junk_files_des">Изтриване на ненужни данни, боклук</string>
+    <string name="cpu_cooler_des">Намалете температурата на устройството, за да спестите живота на батерията</string>
+    <string name="phone_booster_des">Увеличете производителността, освободете паметта си</string>
+    <string name="antivirus_des">Сканирайте и защитавайте телефона си в реално време</string>
+    <string name="power_saving_des">Спиране на неизползваните приложения, за да се запази живота на батерията</string>
+    <string name="no_ads_des">Рекламата няма да ви притеснява повече</string>
+    <string name="premium_shield_des">Защитете приложенията си с премиум достъп</string>
+    <string name="additional_clean_des">Първокласно почистващо устройство</string>
+    <string name="all_functions_des">Първо да получите всички нови функции</string>
+    <string name="additional_speed_des">Ускорете устройството си по-бързо с първокласен достъп</string>
+    <string name="no_ads">Без реклама</string>
+    <string name="premium_shield">Първокласна сигурност</string>
+    <string name="additional_clean">По-дълбоко почистване</string>
+    <string name="all_functions">Всички функции са налични</string>
+    <string name="additional_speed">Дори по-висока скорост</string>
+
+    <string name="percent">%</string>
+    <string name="scaning">Сканиране ……</string>
+    <string name="memory_kill_found">Приложения, заемащи много място намерени</string>
+    <string name="boost">Ускоряване на работа</string>
+    <string name="empty_item_select">Трябва да изберете поне 1 елемент</string>
+    <string name="sm_edge_device_optimized">Устройството ви е оптимизирано.</string>
+    <string name="clean">Почистване</string>
+    <string name="cooling">Охлаждане</string>
+    <string name="try_it">Стартирайне</string>
+
+    <string name="protect_now">Защитете сега</string>
+    <string name="save_now">Запиши сега</string>
+    <string name="further_optimize_cpu">Оптимизиране на процесора</string>
+    <string name="cool_down">Охлаждане</string>
+    <string name="scaning_cpu">Сканиране на процесора ...</string>
+    <string name="secretly_consuming_battery">Бързо изтощава батерията</string>
+    <string name="extend_battery_life">Увеличаване на живота на батерията</string>
+    <string name="analyzing_battery_usage">Анализ на използването на батерията</string>
+    <string name="hibernation">"Гибернация ....."</string>
+    <string name="find_and_grant">Намерете %s и да се позволи достъп до %s</string>
+    <string name="grant_now">Разреши сега</string>
+    <string name="grant_app_permission">Дайте достъп до файловата система, за да оптимизирате пространството си</string>
+    <string name="permission_needed">Изисква се разрешение</string><![CDATA[
+
+        
+
+
+        
+          
+
+
+
+
+
+        
+
+        
+
+
+
+        
+
+    ]]>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="on_off">ВКЛ ИЗКЛ</string>
+    <string name="skip_app_title">Выбранные приложения не будут отменены во время очистки</string>
+    <string name="app_protect">Приложението е защитено</string>
+    <string name="notification_created_shortcut">пряк път %s създаден</string>
+    <string name="list_game">Списък на игрите</string>
+    <string name="select_game_to_boost">Изберете игра, за да се ускори</string>
+    <string name="smart_charger_can_help">Интелигентното зареждане може да ви помогне</string>
+    <string name="optimize_chargin_progress">Оптимизиране на процеса на зареждане</string>
+    <string name="remind_charger">Напомням в реално време, за да ви помогне да избегнете \ n презареждане</string>
+    <string name="turn_on">Включи го сега</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Включено</string>
+    <string name="brightness">Яркостта</string>
+    <string name="auto">Автоматично</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Изключено</string>
+    <string name="synchronize">Синхронизирани</string>
+    <string name="charging_finished">Зареждането завърши</string>
+    <string name="auto_optimized">Автоматично оптимизиран</string>
+    <string name="clean_up">Изчисти</string>
+    <string name="pin">Спестявания на батерията</string>
+    <string name="power_full">Батерията е напълно заредена</string>
+    <string name="battery_full_des">Зареждането свърши. Изключете източника.</string>
+    <string name="uninstall">Премахнете</string>
+    <string name="clean_notifi">Известия за почистване</string>
+    <string name="social_app">Социално приложение</string>
+    <string name="third_app">Приложение на други производители</string>
+    <string name="spam_notification">Известие за спам:</string>
+    <string name="no_data">Няма данни</string>
+    <string name="just_now_time">точно сега</string>
+    <string name="minute_ago">%s преди минути</string>
+    <string name="Notificationbar_Spamnotification">Уведомления за спам:</string>
+    <string name="Notificationbarcleanup_Guide1">Сортиране на спам известия и изтривайте с едно докосване</string>
+    <string name="Notificationbarcleanup_RightNow">Изчистване на лентата за известия</string>
+    <string name="safety_scanning">Сканиране за сигурност</string>
+    <string name="security">Сигурност</string>
+
+    <string name="per_read_phone_title">Прехвърляне на данни от телефона</string>
+    <string name="per_access_location_title">Достъп до местоположение</string>
+    <string name="per_read_sms_title">Мога да чета текстовете ти.</string>
+    <string name="per_send_sms_title">Можете да изпращате sms</string>
+    <string name="per_call_phone_title">можете да се обадите</string>
+    <string name="per_outgoing_call_title">Може да контролира изходящите повиквания</string>
+    <string name="per_record_audio_title">Може да записва звук</string>
+    <string name="per_camera_title"> Достъп до камерата</string>
+
+    <string name="per_read_phone_des">Това приложение събира и изпраща данни от SIM картата, включително адресната книга, мобилния ПИН и историята на обажданията.Това може да увеличи таксите за пренос на данни и да създаде ВИСОКИ риск за поверителността.</string>
+    <string name="per_access_location_des">Това приложение може да получи достъп до точното си местоположение и представлява риск за вашата поверителност.</string>
+    <string name="per_read_sms_des">Това приложение може да чете вашите лични SMS съобщения и представлява риск за вашата поверителност.</string>
+    <string name="per_send_sms_des">Това приложение може да изпраща SMS. Това може да увеличи таксата за пренос на данни и да представлява риск за поверителността на данните.</string>
+    <string name="per_call_phone_des">Това приложение може да инициира телефонно обаждане, без да преминава през потребителския интерфейс на Dialer, така че потребителят да може да потвърди обаждането. Това може да увеличи таксите за пренос на данни и да създаде ВИСОКИ риск за поверителността.</string>
+    <string name="per_outgoing_call_des">Това приложение може да вижда набрания номер по време на изходящо повикване, с възможност за пренасочване на повикване към друг номер или напълно прекъсване на разговора. Това може да увеличи таксите за пренос на данни и да създаде ВИСОКИ риск за поверителността.</string>
+    <string name="per_record_audio_des">Това приложение може да записва аудио и представлява заплаха за вашата поверителност.</string>
+    <string name="per_camera_des">Това приложение може да получите достъп до камерата на устройството ви и представлява риск за вашата поверителност.</string>
+    <string name="in_danger">В опасност</string>
+    <string name="resolve_all">Позволете всичко</string>
+    <string name="issues_found">Намерени %s Проблеми</string>
+    <string name="cancel">Отмените</string>
+    <string name="skip_app_virus">«Избраното приложение ще бъде игнорирано при тестване за вируси»</string>
+    <string name="while_list">Сканиране на списъка</string>
+    <string name="no_junk">Не са намерени ненужни файлове</string>
+    <string name="obsolete_apk">Безполезени APK</string>
+    <string name="system_cache">Системен кеш</string>
+    <string name="downloader_files">Изтеглени файлове</string>
+    <string name="large_files">Големи файлове</string>
+    <string name="op_clean">Почистват</string>
+    <string name="mb">МБ</string>
+    <string name="Calculating">Сканиране....</string>
+    <string name="remove_app_unstall">Изтриване на инсталационните файлове, за да освободите повече място.</string>
+    <string name="deleting">Премахване, изчакайте ...</string>
+    <string name="scan_virus">Сканиране на вируси .....</string>
+    <string name="start_use">Започнете да използвате</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">Това приложение е безопасно</string>
+    <string name="app_virus_contain">Това приложение съдържа вирус</string>
+    <string name="ram_going_full">Паметта е препълнена</string>
+    <string name="use_phone_boost">Използване на телефона за почистване, за да се направи място</string>
+    <string name="phone_is_hot">Прегряване на телефона</string>
+    <string name="use_cpu_cleaner">Охладете, за да почистите процесора</string>
+    <string name="use_save_battery">Спестявания на батерията</string>
+    <string name="battery_low">Изтощена батерия</string>
+    <string name="detect_junk_file">Намерени са ненужни файлове</string>
+    <string name="use_junk_file">Използвайте функционен файл на funk за почистване</string>
+    <string name="fix">Поправете</string>
+    <string name="optimize">Оптимизиране</string>
+    <string name="save">Запишете</string>
+    <string name="selcet_file_to_clean">Изберете файл за почистване</string>
+
+    <string name="floatint_windown_per">Разрешаване на изскачащи прозорци</string>
+    <string name="accessibility_permission">Разреши достъп</string>
+    <string name="listener_notification_per">Позволяване на показването на известията</string>
+    <string name="write_setting_per">Позволяване на запис</string>
+    <string name="usage_access_permission"> Разрешаване на достъп за използване</string>
+    <string name="external_storage_permission">Разрешаване на достъп до външна памет на устройството</string>
+    <string name="write_setting_permission">"Дайте разрешение за промяна на настройките на устройството.</string>
+    <string name="listen_notification_permission">Дайте разрешение за преглед на известията от устройството ви</string>
+    <string name="overlay_permission">Дайте разрешение за показване в други приложения</string>
+    <string name="accessibility_setting_permission">Дайте разрешение за използване на услугата за достъпност</string>
+    <string name="splash_content">Лесно, бързо и интелигентно</string>
+
+    <string name="result_cooler">Охлаждането е успешно.</string>
+    <string name="boost_result">Извършено ускорение</string>
+    <string name="clean_result">Почистването свърши</string>
+    <string name="fast_charger_boosted_result">Ускорено бързо зареждане</string>
+    <string name="antivirus_result">БЕЗОПАСНО! Заплахата елиминирана</string>
+    <string name="deep_clean_result">Завършен!</string>
+    <string name="notification_manager_result">Готово!</string>
+    <string name="dectect_apk_install">Намерено 1 apk инсталиране</string>
+    <string name="conduct_scan_virus">Проверете за вируси</string>
+    <string name="dectect_apk_uninstall">Изтрит 1 apk намерен файл</string>
+    <string name="conduct_cleanup">Почистете</string>
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Product Purchased</string>
+    <string name="liked_app">Харесвате приложението?</string>
+    <string name="dontshowagain"><u>Не показвай повече</u></string>
+    <string name="rateplease">Вашето оценяване е важно за нас!</string>
+    <string name="any_ideas">Идеи как да се подобри приложението?</string>
+    <string name="support">Пишете на разработчиците</string>
+    <string name="delete_selected">Изтрий (%s)</string>
+    <string name="exit">Изход</string>
+    <string name="_24_12_20">Последно чисто:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Версия: БЕЗПЛАТНО</string>
+    <string name="share">Споделям</string>
+    <string name="like">Оценете ни</string>
+    <string name="update">Обновяване</string>
+    <string name="pro">Купете PRO версия</string>
+    <string name="found">Намерен</string>
+    <string name="select_all">Изберете всичко</string>
+    <string name="deep_clean_text">Дълбоко почистване</string>
+    <string name="total_clean">Пълно почистване на отпадъци</string>
+    <string name="start_14_day_trial">Започнете 3-дневен пробен период</string>
+    <string name="free_version_desc">Безплатният пробен период ще продължи 3 дни, след което ще бъдете таксувани с $ 20 / година. Започнете сега, можете да го анулирате по всяко време в Google Play. <u>Прочетете условията за ползване.</u></string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="do_you_really_want_to_exit">Наистина искаш да се измъкнеш?</string>
+
+    <string name="rate_msg">Екипът ни работи много усърдно,  за да ви предостави най-доброто безплатно приложение. Вашият 5-звезден преглед е по-скъп за нас от всички пари. Напишете добър преглед на Google Play, да ни подкрепят </string>
+    <string name="remind_later">Напомни ми по-късно</string>
+    <string name="good_5_stars">Хареса, 5 звезди</string>
+    <string name="not_good">Не ми хареса</string>
+    <string name="title_dialog_feed_back">Изпращане на обратна връзка</string>
+    <string name="message_dialog_feed_back">Искане за корекции на грешки и нови функции за електронна поща</string>
+    <string name="exit_app">Изход</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Проверка на приложението: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Пощенският клиент не е инсталиран.</string>
+    <string name="send_feedback">Изпращане на обратна връзка...</string>
+    <string name="enter_feed">Оставете отзивите си</string>
+    <string name="thanksforrate">\"Благодаря за оценката и обратната връзка^^ \"</string>
+
+</resources>

@@ -1,0 +1,485 @@
+<resources>
+    <string name="title_home">Додому</string>
+    <string name="title_persional">Профіль</string>
+
+    <string name="rating">Оцінка</string>
+    <string name="policy">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ</string>
+
+    <string name="more_app">Більше додатків</string>
+    <string name="scan">Сканувати</string>
+
+    <string name="setting">Налаштунки</string>
+    <string name="scan_wait">Зачекайте, поки виконується сканування файлів...</string>
+
+    <string name="language_setting">Мова</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Видаленні... %d файли</string>
+
+
+    <string name="scan_all_file">Сканувати усі  файли що залишились</string>
+    <string name="scan_audio_file">Сканувати дублікати аудіо</string>
+    <string name="scan_doc_file">Сканувати дублікати документів</string>
+    <string name="scan_image_file">Сканувати дублікати фото</string>
+    <string name="scan_video_file">Сканувати дублікати відео</string>
+    <string name="analyzing">Аналіз...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Дотримуйтеся інструкції нижче, щоб надати дозвіл на видалення вибраних файлів</string>
+    <string name="sd_content_2">Як що  ви не бачите SD-карту, спробуйте натиснути тут</string>
+    <string name="sd_title">Підтвердте доступ до внутрішнього  сховища</string>
+    <string name="no_file_found">Повторюваних файлів не знайдено</string>
+    <string name="delete_content">Ви хочете видалити файл?</string>
+    <string name="delete_title">Подтвердіть видалення</string>
+    <string name="file_removed">Файли видаленні</string>
+    <string name="grant_permission">Дати дозвіл</string>
+    <string name="delete_now">Видалити зараз</string>
+
+    <string name="rate_msg">Наша команда богато працює, щоб надати вам найкращий безкоштовний додаток. Ваш 5-зірковий відгук для нас дорожче будь - яких грошей. Напишіть гарний відгук в Google Play, щоб нас підбадьорити </string>
+    <string name="remind_later">Нагадати пізніше</string>
+    <string name="good_5_stars">Сподобалося, 5 зірок</string>
+    <string name="not_good">Не сподобалося</string>
+    <string name="title_dialog_feed_back">Відправити відгук</string>
+    <string name="message_dialog_feed_back">Запит на виправлення помилок та впровадження нових функцій по єлектронній пошті</string>
+    <string name="exit_app">Вихід</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Перевірте додаток: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Поштовий клієнт не встановлено.</string>
+    <string name="send_feedback">Відправити відгук...</string>
+    <string name="enter_feed">Залиште свій відгук</string>
+    <string name="thanksforrate">\"Спасибо за оценку и отзыв^^ \"</string>
+
+    <string name="junk_files">Очистити сміття</string>
+    <string name="junk">барахло</string>
+    <string name="cpu_cooler">Охолодити пристрій</string>
+    <string name="phone_booster">Прискорення телефону</string>
+    <string name="antivirus">Антивірус</string>
+    <string name="power_saving">Єкономія єнергії</string>
+    <string name="data_manager">Менеджер даних</string>
+    <string name="app_lock">Блокування додатку</string>
+    <string name="smart_charge">Розумна зарядка</string>
+    <string name="deep_clean">Глибоке очищення</string>
+    <string name="app_uninstall">Видалення додатку</string>
+    <string name="game_booster">Прискорювач гри</string>
+    <string name="junk_files_btn">Очистити</string>
+    <string name="cpu_cooler_btn">Охолодити</string>
+    <string name="phone_booster_btn">Прискорювач</string>
+    <string name="antivirus_btn">Сканувати</string>
+    <string name="power_saving_btn">Єкономити</string>
+    <string name="app_lock_btn">Блокувати</string>
+    <string name="smart_charge_btn">Сканувати</string>
+    <string name="notification_manager_btn">Перевірити</string>
+    <string name="deep_clean_btn">Очистити</string>
+    <string name="app_uninstall_btn">Видалити</string>
+    <string name="game_booster_btn">Прискорити гру</string>
+
+    <string name="junk_files_dialog">Вихід без очищення?</string>
+    <string name="cpu_cooler_dialog">Вихід без охолодження?</string>
+    <string name="phone_booster_dialog">Вихід без підвищення?</string>
+    <string name="antivirus_dialog">Вихід без сканування?</string>
+    <string name="power_saving_dialog">Вихід без батареї оптимізації?</string>
+    <string name="app_lock_dialog">Вихід без блокування?</string>
+    <string name="smart_charge_dialog">Вихід без оптимізації пам\'яті?</string>
+    <string name="notification_manager_dialog">Вихід без ckecking?</string>
+    <string name="deep_clean_dialog">Вихід без глибокого очищення?</string>
+    <string name="app_uninstall_dialog">Вихід без додатка deliting?</string>
+    <string name="game_booster_dialog">Вихід без гри підвищення?</string>
+
+    <string name="game">Гра</string>
+    <string name="notification_manager">Менеджер повідомлень</string>
+    <string name="app_lock_des">Захистіть конфіденційні дані і власність</string>
+    <string name="smart_charge_des">Нагадати вам про стан зарядки, щоб запобігти перезарядження</string>
+    <string name="deep_clean_des">Проведіть глибоке очищення файлів, щоб звільнити ще більше місця</string>
+    <string name="app_uninstall_des">Швидко видаляйте марні додатки</string>
+    <string name="game_booster_des">Прискорювач ігор</string>
+    <string name="notification_manager_des">Очистити панель керування</string>
+    <string name="junk_files_des">Видаліть непотрібні дані, сміття</string>
+    <string name="cpu_cooler_des">Зменшити температуру пристрою для єкономії заряду батареї</string>
+    <string name="phone_booster_des">Підвищіть продуктивність, звільніть пам\'ять</string>
+    <string name="antivirus_des">Скануйте та захищайте свій телефон у режимі реального часу</string>
+    <string name="power_saving_des">Зупиніть невикористовувані додатки, щоб заощадити заряд батареї</string>
+    <string name="no_ads_des">Реклама вас більше не буде турбувати</string>
+    <string name="premium_shield_des">Захистіть свої додатки з преміум доступом</string>
+    <string name="additional_clean_des">Премиум очищення пристрою</string>
+    <string name="all_functions_des">Отримувайте усі нові функції першими</string>
+    <string name="additional_speed_des">Прискорьте ваш пристрій швидше з преміум доступом</string>
+    <string name="no_ads">Без реклами</string>
+    <string name="premium_shield">Преміум безпека</string>
+    <string name="additional_clean">Більш глибоке очищення</string>
+    <string name="all_functions">Доступні усі функції</string>
+    <string name="additional_speed">Ще більше швидкості</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[Чистота & прискорення]]></string>
+    <string name="security_and_privacy"><![CDATA[Безпека & конфіденційність]]></string>
+    <string name="has_protected_your_phone">%1$s захищає ваш телефон %1$s дн.</string>
+    <string name="settings">Налаштування</string>
+    <string name="feedback">Зворотній зв\'язок</string>
+    <string name="upgrade">Оновити</string>
+    <string name="like_facebook">Оцінити нас</string>
+    <string name="scaning">Сканування ……</string>
+    <string name="memory_kill_found">Додатки які займають багато місця знайдені</string>
+    <string name="boost">Прискорити роботу</string>
+    <string name="empty_item_select">Ви повинні вибрати хоча б 1 єлемент</string>
+    <string name="sm_edge_device_optimized">Ваш пристрій оптимізовано.</string>
+    <string name="clean">Очистити</string>
+    <string name="cooling">Охолодити</string>
+    <string name="try_it">Запустити</string>
+
+    <string name="protect_now">Захистити зараз</string>
+    <string name="save_now">Зберегти зараз</string>
+    <string name="further_optimize_cpu">Оптимізація вашого процесору</string>
+    <string name="cool_down">Охолодити</string>
+    <string name="scaning_cpu">Сканування ЦП …</string>
+    <string name="secretly_consuming_battery">Швидко разряджує батарею</string>
+    <string name="extend_battery_life">Збільшити термін придатності батареї</string>
+    <string name="analyzing_battery_usage">Аналіз використання батареї</string>
+    <string name="hibernation">"Гібернація ....."</string>
+    <string name="find_and_grant">Знайдіть %1$s та дозвольте доступ %2$s</string>
+    <string name="grant_now">Дозволити зараз</string>
+    <string name="grant_app_permission">Надати доступ до файлової системи для оптимізації вільного місця</string>
+    <string name="permission_needed">Потрібен дозвіл</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Додано єлемент</string>    
+    <string name="lockscreen_access_pattern_start">Намалювати графічний ключ разблокування</string>
+
+    <string name="lockscreen_access_pattern_detected">Шаблон збережено</string>    
+    <string name="lockscreen_access_pattern_cleared">Шаблон  видалено </string>      
+    <string name="lock_recording_intro_header">Встановіть разблокування додатку</string>
+    <string name="lock_settings_help_how_to_record">Як намалювати графічний ключ для разблокування</string>
+
+    <string name="lock_recording_incorrect_too_short">Дуже короткий графічний ключ</string>
+
+    <string name="lock_pattern_entered_header">Введіть графічний ключ</string>    
+    <string name="lock_need_to_confirm">Введіть графічний ключ ще раз, щоб підтвердити</string>    
+
+    <string name="lock_need_to_unlock_wrong">Графічний ключ не збігається. Будь ласка, спробуйте ще раз</string>
+
+    <string name="password_gestrue_tips">Введіть таємний код</string>    
+    <string name="password_error_count">Пароль не співпадає. Будь ласка, спробуйте ще раз.</string>
+    <string name="lock_pattern_confirmed_header">Підтвержений шаблон </string>
+
+    <string name="password_question_01">Що вам найбільше  запам\'яталося у житті?</string>
+    <string name="password_question_02">"Як звуть вашого улюбленного вихованця?"</string>
+    <string name="password_question_03">Им\'я твоєї дівчини?</string>
+    <string name="password_question_04">Про що ви мріяли у дитинстві?</string>
+    <string name="password_question_05">Як що ви були закохані в будь кого, хто це був?</string>
+    <string name="password_question_06">"Як звати вашого улюбленного вчителя у старшій школі?"</string>
+    <string name="password_question_07">Де ви хотіли побувати у дитинстві?</string>
+    <string name="password_question_08">Як щоб ви могли б відправитися у минуле, в який час ви б хотили повернутися ?</string>
+    <string name="password_question_09">Им\'я твого хлопця?</string>
+
+    <string name="security_settings">Налаштунки безпеки</string>
+    <string name="sercurity_question">Контрольне питання:</string>
+    <string name="answer">Відповідь:</string>
+    <string name="input_your_answer">Введіть свою відповідь</string>
+    <string name="answer_blank">Відповідь не може бути порожньою</string>
+    <string name="password_answer_set_toast">Контрольне питання та відповідь були встановленні.</string>
+    <string name="forgot_gesture">Забули ключ</string>
+    <string name="answer_question_error">Помилка контрольної відповіді</string>
+    <string name="not_setup_answer_question">Немає налаштунків питання відповідь</string>
+
+    <string-array name="lock_time_array">        
+        <item>15 секунд</item>        
+        <item>30 секунд</item>        
+        <item>1 хвилина</item>        
+        <item>3 хвилини</item>        
+        <item>5 хвилин</item>      
+        <item>10 хвилин</item>        
+        <item>30 хвилин</item>        
+        <item>Терміново</item>    
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">Ласкаво просимо у  блокування додатку</string>
+    <string name="reset">Перезавантажити</string>
+    <string name="search_application">Шукати в додатках</string>
+    <string name="lock_settings">Заблокувати налаштунки</string>
+    <string name="lock_immediately_after_locking_the_screen">Заблокувати додаток зараз же заблокувати телефон</string>
+    <string name="change_the_password">Смінити пароль</string>
+    <string name="hide_pattern">Сховатиграфічний ключ</string>
+    <string name="search_applications">Пошук у додатках &#8230;</string>
+    <string name="search_for">Шукати &#8230;</string>
+    <string name="_1_minute">1 минута</string>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie">Селфі зловмисника</string>
+    <string name="vibrate">Вібрація</string>
+    <string name="app_runing_background">Додаток працює у фоновому режимі</string>
+    <string name="app_background_task">Робота додатку у фоновому режимі</string>
+    <string name="create_password">Придумате пароль</string>
+    <string name="create_pattern_lock">Придумайте графічний ключ</string>
+    <string name="on_off">ВВК/ ВИМК</string>
+    <string name="skip_app_title">Вибрані додатки не будуть скасовані під час очіщювання</string>
+    <string name="app_protect">Додаток захищено</string>
+    <string name="ram">Пам\'ять</string>
+    <string name="ready_boost">Готовий прискоритися</string>
+    <string name="create_shortcut">Создати ярлик</string>
+    <string name="notification_created_shortcut">Ярлик %s создан</string>
+    <string name="list_game">Список ігр</string>
+    <string name="select_game_to_boost">Виберіть гру для прискорення</string>
+    <string name="app_not_exist">Додатку не існує</string>
+    <string name="game_add">Додано до ігор: %s</string>
+    <string name="not_distub">Не турбувати</string>
+    <string name="hide_notification_all">Приховувати усі повідомлення під час гри</string>
+    <string name="smart_charger_can_help">Розумна зарядка допоможе вам</string>
+    <string name="optimize_chargin_progress">Оптимізуйте процес зарядки</string>
+    <string name="remind_charger">Нагадувати у режиму реального часу, щоб допомогти запобігти \ n перезарядження</string>
+    <string name="turn_on">Включи зараз</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Увімкнено</string>
+    <string name="brightness">Яскравість</string>
+    <string name="auto">Авто</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Вимкнено</string>
+    <string name="synchronize">Синхронізовано</string>
+    <string name="charging_finished">Зарядка завершена</string>
+    <string name="auto_optimized">Автоматично оптимізований</string>
+    <string name="clean_up">Очистити</string>
+    <string name="pin">Єкономія батареї</string>
+    <string name="power_full">Батарея повністю заряджена</string>
+    <string name="battery_full_des">Зарядка закінчилася. Будь ласка, вимкніть джерело.</string>
+    <string name="uninstall">Видалити</string>
+    <string name="other_app">Інший додаток</string>
+    <string name="clean_notifi">Очищення повідомлень</string>
+    <string name="social_app">Соціальний додаток</string>
+    <string name="third_app">Сторонній додаток</string>
+    <string name="spam_notification">Повідомлення про спам:</string>
+    <string name="no_data">Немає даних</string>
+    <string name="just_now_time">прямо зараз</string>
+    <string name="minute_ago">%s хвилин тому</string>
+    <string name="Notificationbar_Spamnotification">Повідомлення про спам:</string>
+    <string name="Notificationbarcleanup_Guide1">Отсортуйте повідомлення про спам та видалите їх одним натиском</string>
+    <string name="Notificationbarcleanup_RightNow">Очистіть панель повідомлень</string>
+    <string name="safety_scanning">Сканування безпеки</string>
+    <string name="security">Безпека</string>
+
+    <string name="per_read_phone_title">Передача даних телефону</string>
+    <string name="per_access_location_title">Доступ до місця розташування</string>
+    <string name="per_read_sms_title">Можу читати ваші смс</string>
+    <string name="per_send_sms_title">Можливо відправляти смс</string>
+    <string name="per_call_phone_title">Можливо дзвонити</string>
+    <string name="per_outgoing_call_title">Може контролювати вихідні дзвонки</string>
+    <string name="per_record_audio_title">Може записувати аудіо</string>
+    <string name="per_camera_title"> Доступ до камери</string>
+
+    <string name="per_read_phone_des">Цей додаток збирає та відправляє дані SIM-карти, включно  адресну книгу, мобильний PIN-код та історію дзвінков. Це може збільшити плату за передачу даних та являє собою  ВИСОКИЙ ризик для конфіденційності.</string>
+    <string name="per_access_location_des">Цей додаток може получити доступ до його місця розташування та являє собою ризик для вашої конфіденційності.</string>
+    <string name="per_read_sms_des">Цей додаток може читати ваші особисті  SMS-повідомлення та являє  собою ризик для вашої конфіденційності.</string>
+    <string name="per_send_sms_des">Цей додаток може відправляти SMS. Це може збільшити плату за передачу даних та  являє собою ВИСОКИЙ ризик для конфіденційності.</string>
+    <string name="per_call_phone_des">Цей додаток може ініціювати телефонний дзвонок, минаючи користувальницький інтерфейс Dialer, щоб користувач міг підтвердити дзвінок. Це може збільшити плату за передачу даних и являє собою ВИСОКИЙ ризик для конфіденційності.</string>
+    <string name="per_outgoing_call_des">Цей додаток може бачити номер, який набирається під час  вихідного дзвінка, з можливістю перенаправити дзвінок на інший номер або повністю перервати дзвінок. Це може збільшити плату за передачу даних та являє собою ВИСОКИЙ ризик для конфіденційності.</string>
+    <string name="per_record_audio_des">Цей додаток може записувати  аудіо та становить небезпеку для вашої конфіденційності.</string>
+    <string name="per_camera_des">Цей додаток може получити доступ до камери пристрою та являє собою ризик для вашої конфіденційності.</string>
+    <string name="in_danger">В небеспеці</string>
+    <string name="resolve_all">Дозволити все</string>
+    <string name="virus_app">Вірусний додаток</string>
+    <string name="issues_found">Знайдено %s проблем</string>
+    <string name="skip_all">Пропустити все</string>
+    <string name="some_app_use_permission">Деякі додатки використовують небеспечні дозволи</string>
+    <string name="app_dangerous">%s Додаток небезпечний</string>
+    <string name="version">Версія</string>
+    <string name="date">Дата: %s</string>
+    <string name="size">Размір: %s</string>
+    <string name="request_permission">Запит дозволу</string>
+    <string name="cancel">Відміна</string>
+    <string name="security_threats">Загроза безпеці</string>
+    <string name="ignore">Ігнорувати</string>
+    <string name="skip_app_virus">«Вибраний додаток буде проігнаровано при проверці на віруси»</string>
+    <string name="while_list">Сканування списку</string>
+    <string name="no_junk">Непотрібних файлів не знайдено</string>
+    <string name="obsolete_apk">Марний APK</string>
+    <string name="system_cache">Сістемний кеш</string>
+    <string name="downloader_files">Завантажені файли</string>
+    <string name="large_files">Великі файли</string>
+    <string name="op_clean">Очищений</string>
+    <string name="mb">МБ</string>
+    <string name="notification_toggle">Перемикач повідомлень</string>
+    <string name="Calculating">Сканування ....</string>
+    <string name="notification_setting">НАЛАШТУНКИ ПОВІДОМЛЕНЬ</string>
+    <string name="junk_reminder">Нагадувати про сміття</string>
+    <string name="every_3days">Кожні 3 дні</string>
+    <string name="phone_boost_reminder">Нагадування про підвищення швидкості телефону</string>
+    <string name="remind_when_memory">Нагадувати при надмірному використанні пам\'яти</string>
+    <string name="cpu_cooler_reminder">Нагадування про кулер процесору</string>
+    <string name="remind_me_when_cpu">Нагадувати мені про перегрів процесору</string>
+    <string name="battery_saver">Єкономия заряда батареї</string>
+    <string name="remind_me_when_app_draing">Нагадувати мені, як що додатки розряджають акумулятор</string>
+    <string name="app_install">Встановка додатку</string>
+    <string name="delete_the_apk">Видалите файл APK після встановлення додатку</string>
+    <string name="delete_the_residual">Видаліть залишкове сміття після видалення додатку</string>
+    <string name="antivirus_settings">НАЛАШТУНКИ АНТИВІРУСУ</string>
+    <string name="real_time_protection">Захист у режимі реального часу</string>
+    <string name="ignore_list">Чорный список</string>
+    <string name="do_not_distub">Не турбувати</string>
+    <string name="general_settings">ЗАГАЛЬНІ НАЛАШТУНКИ</string>
+    <string name="create_home_shortcut">Створити ярлик на головному єкрані</string>
+    <string name="remove_app_unstall">видаліть інсталяційні файли, щоб збільшити  місце.</string>
+    <string name="deleting">Видалення, зачекайте …</string>
+    <string name="scan_virus">Сканування вірусів .....</string>
+    <string name="start_use">Почати використовувати</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">Цей додаток безпечний</string>
+    <string name="app_virus_contain">Цей додаток має віруси</string>
+    <string name="ram_going_full">Пам\'ять переповненна</string>
+    <string name="use_phone_boost">Використовуйте очищування телефону, щоб звільнити місто</string>
+    <string name="phone_is_hot">Телефон перегрівся</string>
+    <string name="use_cpu_cleaner">Охолоджуйте, щоб очистити процесор</string>
+    <string name="use_save_battery">Єкономія заряду батареї</string>
+    <string name="battery_low">Низкий заряд батареї</string>
+    <string name="note">Примітка</string>
+    <string name="note_turn_off_notifi">Робота пристрою  %s не стабільна, як що перемикач повідомлень вимкнено.</string>
+    <string name="turn_off">Вимкнути</string>
+    <string name="junk_reminder_frequency">Частота повідомлень</string>
+    <string name="every_day">Кожен день</string>
+    <string name="every_7days">Кожні  7 днів</string>
+    <string name="never_reminder">Ніколи не нагадувати</string>
+    <string name="start_at">Начати в</string>
+    <string name="stop_at">Закінчити в</string>
+    <string name="detect_junk_file">Виявлені непотрібні  файли</string>
+    <string name="use_junk_file">Використовуйте файл функції funk для очищення</string>
+    <string name="fix">Виправити</string>
+    <string name="optimize">Оптимізувати</string>
+    <string name="save">Зберегти</string>
+    <string name="selcet_file_to_clean">Виберить файл для очищування</string>
+
+    <string name="floatint_windown_per">Дозволити спливаючи вікна</string>
+    <string name="accessibility_permission">Дозволити доступ</string>
+    <string name="listener_notification_per">Дозволити показ повідомлень</string>
+    <string name="write_setting_per">Дозволити запис</string>
+    <string name="usage_access_permission"> Дозволити доступ використання</string>
+    <string name="external_storage_permission">Дозволити доступ до зовнишньої пам\'яти пристрою</string>
+    <string name="write_setting_permission">"Надати дозвіл на зміну налаштунків пристрою.</string>
+    <string name="listen_notification_permission">Надати дозвіл на перегляд повідомлень пристрою</string>
+    <string name="overlay_permission">Надати дозвіл на відображеннях у інших додатках</string>
+    <string name="accessibility_setting_permission">Надати дозвіл на використання служби спеціальних можливостей</string>
+    <string name="splash_content">Легкий, швидкий та розумний</string>
+
+    <string name="result_cooler">Охолодження виконано успішно.</string>
+    <string name="boost_result">Виконано прискорення</string>
+    <string name="clean_result">Очищування закінчено</string>
+    <string name="fast_charger_boosted_result">Прискорена швидка зарядка</string>
+    <string name="antivirus_result">БЕЗПЕЧНО!Загроза  усунена</string>
+    <string name="deep_clean_result">Завершено!</string>
+    <string name="notification_manager_result">Закінчений!</string>
+    <string name="dectect_apk_install">Виявлено 1 apk встановлення</string>
+    <string name="conduct_scan_virus">Провести перевірку на віруси</string>
+    <string name="dectect_apk_uninstall">Виявлено видаленний 1 apk  файл</string>
+    <string name="conduct_cleanup">Провести прибирання</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Product Purchased</string>
+    <string name="liked_app">Подобається додаток?</string>
+    <string name="dontshowagain"><u>Більше не показувати</u></string>
+    <string name="rateplease">Ваша оцінка важлива для нас!</string>
+    <string name="any_ideas">Є ідеі як поліпшити додаток?</string>
+    <string name="support">Написати розробникам</string>
+    <string name="delete_selected">Видалити  (%s)</string>
+    <string name="exit">Вийти </string>
+    <string name="_24_12_20">Останній чистий:</string>
+    <string name="name">Крістін Ватсон</string>
+    <string name="free">Версія: FREE</string>
+    <string name="share">Поділитися</string>
+    <string name="like">Оцінити нас</string>
+    <string name="update">Оновити</string>
+    <string name="pro">Купити PRO Версію</string>
+    <string name="found">Знайдено</string>
+    <string name="select_all">Обрати все</string>
+    <string name="deep_clean_text">Глибоке очищення</string>
+    <string name="total_clean">Повне очищення сміття</string>
+    <string name="start_14_day_trial">"Почати 3-денну пробну версію "</string>
+    <string name="free_version_desc">Безкоштовна преміальна пробна версія буде активована протягом  3 днів,потім з вас буде зніматися плата у розмірі 20$/рік.Розпочни прямо зараз, ви зможете відмінити в будь який час в Google Play.  Ознайомтесь з <u> правилами використання</u></string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="do_you_really_want_to_exit">Ви дійсно хочете вийти?</string>
+</resources>

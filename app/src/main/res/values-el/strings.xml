@@ -1,0 +1,485 @@
+<resources>
+    <string name="title_home">Αρχή</string>
+    <string name="title_persional">Προφίλ</string>
+
+    <string name="rating">Εκτίμηση</string>
+    <string name="policy">ΠΟΛΙΤΙΚΉ ΕΜΠΙΣΤΕΥΤΙΚΌΤΗΤΑΣ</string>
+
+    <string name="more_app">Περισσότερες εφαρμογές</string>
+    <string name="scan">Σάρωση</string>
+
+    <string name="setting">Ρυθμίσεις</string>
+    <string name="scan_wait">Παρακαλώ περιμένετε, η σάρωση αρχείων είναι σε εξέλιξη ...</string>
+
+    <string name="language_setting">Γλώσσα</string>
+    <string-array name="arrLanguage">
+        //tieng cs
+        <item>Česky</item>
+        //de
+        <item>Deutsch</item>
+        // en
+        <item>English</item>
+        //es
+        <item>Español</item>
+        //fr
+        <item>Français</item>
+        //in
+        <item>Indonesia</item>
+        // it
+        <item>Italiano</item>
+        // tieng pl
+        <item>Polski</item>
+        // pt
+        <item>Português</item>
+
+        //nga
+        <item>Русский</item>
+
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+
+        //A rap
+        <item>العربية</item>
+        //Thai lan
+        <item>ไทย</item>
+
+
+        //Tieng bengali bn
+        <item>বাঙালি</item>
+
+
+        //Tieng hindi hi
+        <item>हिन्दी</item>
+
+        //Tieng tamil ta
+        <item>தமிழ்</item>
+
+
+    </string-array>
+    <string name="dat" translatable="false">dat</string>
+    <string name="bmp" translatable="false">bmp</string>
+    <string name="cache" translatable="false">cache</string>
+    <string name="css" translatable="false">css</string>
+    <string name="doc" translatable="false">doc</string>
+    <string name="docx" translatable="false">docx</string>
+    <string name="flac" translatable="false">flac</string>
+    <string name="gif" translatable="false">gif</string>
+    <string name="html" translatable="false">html</string>
+    <string name="jpeg" translatable="false">jpeg</string>
+    <string name="jpg" translatable="false">jpg</string>
+    <string name="js" translatable="false">js</string>
+    <string name="m4a" translatable="false">m4a</string>
+    <string name="mkv" translatable="false">mkv</string>
+    <string name="mp3" translatable="false">mp3</string>
+    <string name="mp4" translatable="false">mp4</string>
+    <string name="nomedia" translatable="false">nomedia</string>
+    <string name="ogg" translatable="false">ogg</string>
+    <string name="pdf" translatable="false">pdf</string>
+
+    <string name="txt" translatable="false">txt</string>
+    <string name="vcf" translatable="false">Vcf Files</string>
+    <string name="wav" translatable="false">wav</string>
+    <string name="webm" translatable="false">webm</string>
+    <string name="xlsx" translatable="false">xlsx</string>
+    <string name="xml" translatable="false">xml</string>
+    <string name="zip" translatable="false">Zip Files</string>
+
+    <string name="_3gp" translatable="false">3gp</string>
+    <string name="aac" translatable="false">aac</string>
+    <string name="amr" translatable="false">amr</string>
+    <string name="apk" translatable="false">Apk Files</string>
+    <string name="emptyshow" translatable="false">emptyshow</string>
+    <string name="png" translatable="false">png</string>
+
+    <string name="deleted_number_format">Διαγραφόμενα... %d αρχεία</string>
+
+
+    <string name="scan_all_file">Σάρωση όλων των άλλων αρχείων</string>
+    <string name="scan_audio_file">Σάρωση διπλού ήχων</string>
+    <string name="scan_doc_file">Σάρωση διπλών εγγράφων</string>
+    <string name="scan_image_file">Σάρωση διπλών φωτογραφιών</string>
+    <string name="scan_video_file">Σάρωση των διπλότυπων βίντεο</string>
+    <string name="analyzing">Ανάλυση...</string>
+    <string name="path" translatable="false">/storage/emulated/0/Yolo.doc</string>
+    <string name="_30_kb" translatable="false">30 KB</string>
+
+    <string name="sd_content_1">Ακολουθήστε τις παρακάτω οδηγίες για να παραχωρήσετε άδεια διαγραφής επιλεγμένων αρχείων</string>
+    <string name="sd_content_2">Εάν δεν βλέπετε την κάρτα SD, κάντε κλικ εδώ</string>
+    <string name="sd_title">Επιβεβαιώστε την πρόσβαση στον εσωτερικό χώρο αποθήκευσης</string>
+    <string name="no_file_found">Δεν βρέθηκαν διπλά αρχεία</string>
+    <string name="delete_content">Θέλετε να διαγράψετε το αρχείο;</string>
+    <string name="delete_title">Επιβεβαίωση διαγραφής</string>
+    <string name="file_removed">Τα αρχεία διαγράφηκαν</string>
+    <string name="grant_permission">Παραχώριση άδειας</string>
+    <string name="delete_now">Διαγραφή τώρα</string>
+
+    <string name="rate_msg">Η ομάδα μας προσπαθεί με όλη της δύναμη για να σας δώσει την καλύτερο δωρεάν app. Η κριτική σας 5 αστέρων αξίζει περισσότερο από όλα τα χρήματα. Παρακαλούμε γράψτε μια ωραία κριτική στο Google Play για να μας ενθαρρύνετε.</string>
+    <string name="remind_later">Υπενθύμιση αργότερα</string>
+    <string name="good_5_stars">Καλά, 5 αστέρια</string>
+    <string name="not_good">Όχι καλά</string>
+    <string name="title_dialog_feed_back">Στείλτε την ανάδρασή σας</string>
+    <string name="message_dialog_feed_back">Ζητήστε διόρθωση σφαλμάτων και εφαρμόστε νέες λειτουργίες μέσω του email</string>
+    <string name="exit_app">Έξοδος</string>
+
+    // Title mail and email feed back
+    <string name="Title_email" translatable="false">Title FeedBack</string>
+    <string name="email_feedback" translatable="false">emailne@gmail.com</string>
+
+    <string name="checkout_at">Δείτε την εφαρμογή στο: https://play.google.com/store/apps/details?id=%s</string>
+    <string name="no_email">Δεν έχει εγκατασταθεί πελάτης email.</string>
+    <string name="send_feedback">Αποστολή FeedBack...</string>
+    <string name="enter_feed">Εισαγάγετε το FeedBack</string>
+    <string name="thanksforrate">\"Ευχαριστούμε για την αξιολόγηση και την κριτική ^^ \"</string>
+
+    <string name="junk_files">Καθάριση σκουπιδιών</string>
+    <string name="junk">Σκουπίδι</string>
+    <string name="cpu_cooler">Ψύξη της συσκευής</string>
+    <string name="phone_booster">Επιτάχυνση του κινητού</string>
+    <string name="antivirus">Antivirus</string>
+    <string name="power_saving">Εξοικονόμιση της μπαταρίας</string>
+    <string name="data_manager">Διαχειριστής δεδομένων</string>
+    <string name="app_lock">Κλείδωμα εφαρμογών</string>
+    <string name="smart_charge">Έξυπνη φόρτιση</string>
+    <string name="deep_clean">Βαθύς καθαρισμός</string>
+    <string name="app_uninstall">Διαγραφή εφαρμογής</string>
+    <string name="game_booster">Επιταχυντής παιχνιδιών</string>
+    <string name="junk_files_btn">Καθαρισμός</string>
+    <string name="cpu_cooler_btn">Ψύξη</string>
+    <string name="phone_booster_btn">Επιτάχυνση</string>
+    <string name="antivirus_btn">Σάρωση</string>
+    <string name="power_saving_btn">Εξοικονόμιση</string>
+    <string name="app_lock_btn">Κλείδωμα</string>
+    <string name="smart_charge_btn">Σάρωση</string>
+    <string name="notification_manager_btn">Έλεγχος</string>
+    <string name="deep_clean_btn">Καθαρισμός</string>
+    <string name="app_uninstall_btn">Διαγραφή</string>
+    <string name="game_booster_btn">Επιτάχυνση παιχνιδιού</string>
+
+    <string name="junk_files_dialog">Έξοδος χωρίς καθαρισμό;</string>
+    <string name="cpu_cooler_dialog">Έξοδος χωρίς ψύξη;</string>
+    <string name="phone_booster_dialog">Έξοδος χωρίς την ενίσχυση;</string>
+    <string name="antivirus_dialog">Έξοδος χωρίς σάρωση;</string>
+    <string name="power_saving_dialog">Έξοδος χωρίς βελτιστοποίηση της μπαταρίας;</string>
+    <string name="app_lock_dialog">Έξοδος χωρίς ασφάλιση;</string>
+    <string name="smart_charge_dialog">Έξοδος χωρίς τη βελτιστοποίηση της μνήμης;</string>
+    <string name="notification_manager_dialog">Έξοδος χωρίς ckecking;</string>
+    <string name="deep_clean_dialog">Έξοδος χωρίς βαθύ καθαρισμό;</string>
+    <string name="app_uninstall_dialog">Έξοδος χωρίς εφαρμογή deliting;</string>
+    <string name="game_booster_dialog">Έξοδος χωρίς παιχνιδιού ενίσχυση;</string>
+
+    <string name="game">Παιχνίδι</string>
+    <string name="notification_manager">Διαχειριστής ειδοποιήσεων</string>
+    <string name="app_lock_des">Προστασία εμπιστευτικών δεδομένων και ιδιοκτησίας</string>
+    <string name="smart_charge_des">Υπενθύμιση για την κατάσταση φόρτισης για να αποφύγετε την υπερφόρτιση</string>
+    <string name="deep_clean_des">Καθαρίστε βαθιά τα αρχεία σας για να ελευθερώσετε ακόμη περισσότερο χώρο</string>
+    <string name="app_uninstall_des">Αφαιρέστε γρήγορα άχρηστες εφαρμογές</string>
+    <string name="game_booster_des">Επιταχυντής παιχνιδιών</string>
+    <string name="notification_manager_des">Εκκαθάριση πίνακα ειδοποιήσεων</string>
+    <string name="junk_files_des">Διαγραφή περιττών δεδομένων, σκουπιδιών</string>
+    <string name="cpu_cooler_des">Μείωση τη θερμοκρασίας της συσκευής για την εξοικονόμηση ενέργειας μπαταρίας</string>
+    <string name="phone_booster_des">Αυξήστε την απόδοση, ελευθερώστε τη μνήμη</string>
+    <string name="antivirus_des">Σάρωση και προστασία του τηλεφώνου σας online</string>
+    <string name="power_saving_des">Διακοπή αχρησιμοποίητων εφαρμογών για την εξοικονόμηση ενέργειας μπαταρίας</string>
+    <string name="no_ads_des">Η διαφήμιση δεν θα σας ενοχλεί πια</string>
+    <string name="premium_shield_des">Προστατέψτε τις εφαρμογές σας με premium πρόσβαση</string>
+    <string name="additional_clean_des">Premium καθαρισμός συσκευών</string>
+    <string name="all_functions_des">Λάβετε πρώτα όλες τις νέες λειτουργίες</string>
+    <string name="additional_speed_des">Κάντε τη συσκευή σας πιο γρήγορη με premium πρόσβαση</string>
+    <string name="no_ads">Χωρίς διαφήμιση</string>
+    <string name="premium_shield">Premium ασφάλεια</string>
+    <string name="additional_clean">Βαθύτερος καθαρισμός</string>
+    <string name="all_functions">Όλες οι λειτουργίες είναι διαθέσιμες</string>
+    <string name="additional_speed">Ακόμα μεγαλύτερη ταχύτητα</string>
+
+    <string name="percent">%</string>
+    <string name="clean_and_boost"><![CDATA[Καθαρότητα & επιτάχυνση]]></string>
+    <string name="security_and_privacy"><![CDATA[Ασφάλεια & Εμπιστευτικότητα]]></string>
+    <string name="has_protected_your_phone">%s προστατεύει το κινητό σας %s μέρες.</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="feedback">Ανατροφοδότηση</string>
+    <string name="upgrade">Ανανέωση</string>
+    <string name="like_facebook">Αξιολογήστε μας</string>
+    <string name="scaning">Σάρωση ……</string>
+    <string name="memory_kill_found">Οι εφαρμογές που καταλαμβάνουν τη μνύμη βρέθηκαν</string>
+    <string name="boost">Επιτάχυνση της εργασίας</string>
+    <string name="empty_item_select">Πρέπει να επιλέξετε τουλάχιστον 1 στοιχείο</string>
+    <string name="sm_edge_device_optimized">Η συσκευή σας έχει βελτιστοποιηθεί.</string>
+    <string name="clean">Εκκαθάριση</string>
+    <string name="cooling">Ψύξη</string>
+    <string name="try_it">Έναρξη</string>
+
+    <string name="protect_now">Προστατέψτε τώρα</string>
+    <string name="save_now">Αποθήκευση τώρα</string>
+    <string name="further_optimize_cpu">Βελτιστοποίηση του επεξεργαστή σας</string>
+    <string name="cool_down">Ψύξη</string>
+    <string name="scaning_cpu">Σάρωση του CPU ...</string>
+    <string name="secretly_consuming_battery">Αποφορτίζει γρήγορα την μπαταρία</string>
+    <string name="extend_battery_life">Παρατείνετε τη διάρκεια ζωής της μπαταρίας</string>
+    <string name="analyzing_battery_usage">Ανάλυση χρήσης της μπαταρίας</string>
+    <string name="hibernation">"Αδρανοποίηση ....."</string>
+    <string name="find_and_grant">Βρείτε %s και επιτρέψτε την πρόσβαση %s</string>
+    <string name="grant_now">Επιτρέψτε τωρα</string>
+    <string name="grant_app_permission">Παρέχετε πρόσβαση στο σύστημα αρχείων για βελτιστοποίηση του ελεύθερου χώρου</string>
+    <string name="permission_needed">Απαιτείται έγκριση</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Το κελί προστέθηκε</string>    
+    <string name="lockscreen_access_pattern_start">Σχεδίαση μοτίβου ξεκλειδώματος</string>
+
+    <string name="lockscreen_access_pattern_detected">Το πρότυπο έχει αποθηκευτεί</string>    
+    <string name="lockscreen_access_pattern_cleared">Το πρότυπο καταργήθηκε </string>      
+    <string name="lock_recording_intro_header">Εγκαταστήστε το ξεκλείδωμα εφαρμογής</string>
+    <string name="lock_settings_help_how_to_record">Πώς να σχεδιάσω ένα μοτίβο ξεκλειδώματος</string>
+
+    <string name="lock_recording_incorrect_too_short">Πολύ σύντομο κλειδί</string>
+
+    <string name="lock_pattern_entered_header">Εισαγάγετε το κλειδί σας</string>    
+    <string name="lock_need_to_confirm">Εισαγάγετε ξανά το κλειδί για επιβεβαίωση</string>    
+
+    <string name="lock_need_to_unlock_wrong">Το κλειδί δεν ταιριάζει. Παρακαλώ προσπαθήστε ξανά</string>
+
+    <string name="password_gestrue_tips">Εισαγάγετε τον κωδικό</string>    
+    <string name="password_error_count">Ο κωδικός πρόσβασης δεν ταιριάζει. Παρακαλώ προσπαθήστε ξανά.</string>
+    <string name="lock_pattern_confirmed_header">Το πρότυπο επιβεβαιώθηκε </string>
+
+    <string name="password_question_01">Τι θυμάσαι περισσότερο στη ζωή σου;</string>
+    <string name="password_question_02">"Πώς λέγεται το αγαπημένο σου κατοικίδιο;"</string>
+    <string name="password_question_03">Το όνομα της φίλης σου;</string>
+    <string name="password_question_04">Τι ονειρευτήκατε στη παιδική σας ηλικία;</string>
+    <string name="password_question_05">Αν ερωτευόσασταν κάποιον, ποιος ήταν;</string>
+    <string name="password_question_06">"Ποιο είναι το όνομα του αγαπημένου σας δασκάλου στο γυμνάσιο;"</string>
+    <string name="password_question_07">Πού θα θέλατε να πάτε ως παιδί;</string>
+    <string name="password_question_08">Εάν μπορούσατε να ταξιδέψετε πίσω στο χρόνο, που θα θέλατε να επιστρέψετε;</string>
+    <string name="password_question_09">Το όνομα του φίλου σου;</string>
+
+    <string name="security_settings">Ρυθμίσεις ασφαλείας</string>
+    <string name="sercurity_question">Ερώτηση ασφαλείας:</string>
+    <string name="answer">Απάντηση:</string>
+    <string name="input_your_answer">Εισαγάγετε την απάντησή σας</string>
+    <string name="answer_blank">Η απάντηση δεν μπορεί να είναι κενή</string>
+    <string name="password_answer_set_toast">Η ερώτηση και η απάντηση ασφαλείας έχουν καθοριστεί.</string>
+    <string name="forgot_gesture">Ξέχασα το κλειδί</string>
+    <string name="answer_question_error">Σφάλμα απάντησης της ασφάλειας</string>
+    <string name="not_setup_answer_question">Δεν υπάρχουν ρυθμίσεις απάντηση ερώτηση</string>
+
+    <string-array name="lock_time_array">        
+        <item>15 δευτερόλεπτα</item>        
+        <item>30 δευτερόλεπτα</item>        
+        <item>1 λεπτό</item>        
+        <item>3 λεπτά</item>        
+        <item>5 λεπτά</item>      
+        <item>10 λεπτά</item>        
+        <item>30 λεπτά</item>        
+        <item>Σύντομα</item>    
+    </string-array>
+
+    <string name="welcome_to_the_app_lock">Καλώς ορίσατε στο App Lock</string>
+    <string name="reset">Επανεκκίνηση</string>
+    <string name="search_application">Αναζήτηση σε εφαρμογές</string>
+    <string name="lock_settings">Κλείδωμα ρυθμίσεων</string>
+    <string name="lock_immediately_after_locking_the_screen">Κλείδωμα εφαρμογής κλείδωμα αμέσως του κινητού</string>
+    <string name="change_the_password">Αλλαγή κώδικα</string>
+    <string name="hide_pattern">Απόκρυψη μοτίβου</string>
+    <string name="search_applications">Αναζήτηση σε εφαρμογές &#8230;</string>
+    <string name="search_for">Αναζήτηση &#8230;</string>
+    <string name="_1_minute">1 λεπτό</string>
+    <string name="accessibility_service_description">Tap on top right use to Accessiblility service.
+\n
+\nThis will allow Super Cleaner to:
+\n
+\n- Deep clean hidden junk
+\n- Hibernate draining apps
+\n
+\nYou will have to accept Android system warinings when enabling Accessibility service. Clean master will not use these for any orther purpose than listed here.</string>
+    <string name="intruder_selfie"> Selfie του εισβολέα</string>
+    <string name="vibrate">Δόνηση</string>
+    <string name="app_runing_background">Η εφαρμογή εκτελείται στο παρασκήνιο</string>
+    <string name="app_background_task">Η εργασία εφαρμογής εκτελείται στο παρασκήνιο</string>
+    <string name="create_password">Σχεδίαση κώδικα</string>
+    <string name="create_pattern_lock">Σχεδίαση ένος μοτίβου</string>
+    <string name="on_off">ON OFF</string>
+    <string name="skip_app_title">Οι επιλεγμένες εφαρμογές δεν θα αφαιρεθούν κατά τον καθαρισμό</string>
+    <string name="app_protect">Η εφαρμογή προστατεύτηκε</string>
+    <string name="ram">Μνήμη</string>
+    <string name="ready_boost">Έτοιμο για επιτάχυνση</string>
+    <string name="create_shortcut">Δημιουργία εικονίδιου</string>
+    <string name="notification_created_shortcut">Εικονίδιο %s δημιουργήθηκε</string>
+    <string name="list_game">Λίστα παιχνιδιών</string>
+    <string name="select_game_to_boost">Επιλέξτε ένα παιχνίδι για την επιτάχυνση</string>
+    <string name="app_not_exist">Η εφαρμογή δεν υπάρχει</string>
+    <string name="game_add">Προστέθηκε στα παιχνίδια: %s</string>
+    <string name="not_distub">Μην ενοχλείτε</string>
+    <string name="hide_notification_all">Απόκρυψη όλων των ειδοποιήσεων ενώ παίζετε</string>
+    <string name="smart_charger_can_help">Η έξυπνη φόρτιση μπορεί να σας βοηθήσει</string>
+    <string name="optimize_chargin_progress">Βελτιστοποιήστε τη διαδικασία φόρτισης</string>
+    <string name="remind_charger">Online υπενθύμιση για να αποφύγετε \ n υπερφόρτιση</string>
+    <string name="turn_on">Ενεργοποίησε τώρα</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="on">Ενεργοποιήθηκε</string>
+    <string name="brightness">Φωτεινότητα</string>
+    <string name="auto">Αυτο</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="off">Απενεργοποιήθηκε</string>
+    <string name="synchronize">Έχει συγχρονιστεί</string>
+    <string name="charging_finished">Η φόρτιση ολοκληρώθηκε</string>
+    <string name="auto_optimized">Βελτιστοποιήθηκε αυτόματα</string>
+    <string name="clean_up">Εκκαθάριση</string>
+    <string name="pin">Εξοικονόμηση μπαταρίας</string>
+    <string name="power_full">Η μπαταρία είναι πλήρως φορτισμένη</string>
+    <string name="battery_full_des">Η φόρτιση ολοκληρώθηκει. Αποσυνδέστε την πηγή.</string>
+    <string name="uninstall">Διαγραφή</string>
+    <string name="other_app">Άλλη εφαρμογή</string>
+    <string name="clean_notifi">Καθαρισμός ειδοποιήσεων</string>
+    <string name="social_app">Κοινωνική εφαρμογή</string>
+    <string name="third_app">Εφαρμογή τρίτων</string>
+    <string name="spam_notification">Ειδοποίηση ανεπιθύμητου:</string>
+    <string name="no_data">Δεν υπάρχουν δεδομένα</string>
+    <string name="just_now_time">τώρα αμέσως</string>
+    <string name="minute_ago">%s λεπτά πριν</string>
+    <string name="Notificationbar_Spamnotification">Ειδοποίηση ανεπιθύμητου:</string>
+    <string name="Notificationbarcleanup_Guide1">Ταξινόμηση ανεπιθύμητων ειδοποιήσεων και διαγραφή τους με ένα κλικ</string>
+    <string name="Notificationbarcleanup_RightNow">Εκκαθάριση πίνακα ειδοποιήσεων</string>
+    <string name="safety_scanning">Σάρωση ασφαλείας</string>
+    <string name="security">Ασφάλεια</string>
+
+    <string name="per_read_phone_title">Μεταφορά δεδομένων τηλεφώνου</string>
+    <string name="per_access_location_title">Πρόσβαση στη τοποθεσία</string>
+    <string name="per_read_sms_title">Μπορούν να διαβάσουν τα sms σας</string>
+    <string name="per_send_sms_title">Μπορείτε να στείλετε SMS</string>
+    <string name="per_call_phone_title">Μπορείτε να καλέσετε</string>
+    <string name="per_outgoing_call_title">Μπορεί να παρακολουθεί εξερχόμενες κλήσεις</string>
+    <string name="per_record_audio_title">Μπορεί να καταγράφει ήχο</string>
+    <string name="per_camera_title">Πρόσβαση στη κάμερα</string>
+
+    <string name="per_read_phone_des">Αυτή η εφαρμογή συλλέγει και στέλνει δεδομένα κάρτας SIM, όπως βιβλίο διευθύνσεων, PIN κινητού τηλεφώνου και ιστορικό κλήσεων. Αυτό μπορεί να αυξήσει τις χρεώσεις μεταφοράς δεδομένων και να δημιουργήσει ΥΨΗΛΟ κίνδυνο για εμπιστευτικότητα.</string>
+    <string name="per_access_location_des">Αυτή η εφαρμογή έχει πρόσβαση στην ακριβή τοποθεσία σας και ενέχει κίνδυνο για την εμπιστευτικότητά σας.</string>
+    <string name="per_read_sms_des">Αυτή η εφαρμογή μπορεί να διαβάσει τα προσωπικά σας μηνύματα SMS και θέτει σε κίνδυνο την εμπιστευτικότητά σας.</string>
+    <string name="per_send_sms_des">Αυτή η εφαρμογή μπορεί να στείλει SMS. Αυτό μπορεί να αυξήσει τις χρεώσεις μεταφοράς δεδομένων και να δημιουργήσει ΥΨΗΛΟ κίνδυνο για εμπιστευτικότητα.</string>
+    <string name="per_call_phone_des">Αυτή η εφαρμογή μπορεί να ξεκινήσει μια τηλεφωνική κλήση χωρίς να περάσει από τη διεπαφή χρήστη του Dialer, έτσι ώστε ο χρήστης να μπορεί να επιβεβαιώσει την κλήση. Αυτό μπορεί να αυξήσει τις χρεώσεις μεταφοράς δεδομένων και να δημιουργήσει ΥΨΗΛΟ κίνδυνο για εμπιστευτικότητα.</string>
+    <string name="per_outgoing_call_des">Αυτή η εφαρμογή μπορεί να δει τον αριθμό που καλεί κατά τη διάρκεια μιας εξερχόμενης κλήσης, με τη δυνατότητα να ανακατευθύνει την κλήση σε άλλο αριθμό ή να διακόψει εντελώς την κλήση. Αυτό μπορεί να αυξήσει τις χρεώσεις μεταφοράς δεδομένων και να δημιουργήσει ΥΨΗΛΟ κίνδυνο για εμπιστευτικότητα.</string>
+    <string name="per_record_audio_des">Αυτή η εφαρμογή μπορεί να καταγράφει ήχο και αποτελεί κίνδυνο για την εμπιστευτικότητά σας.</string>
+    <string name="per_camera_des">Αυτή η εφαρμογή έχει πρόσβαση στην κάμερα της συσκευής σας και ενέχει κίνδυνο για την εμπιστευτικότητά σας.</string>
+    <string name="in_danger">Σε κίνδυνο</string>
+    <string name="resolve_all">Επιτρέπονται όλα</string>
+    <string name="virus_app">Ιογενής εφαρμογή</string>
+    <string name="issues_found">Βρέθηκαν %s προβλήματα</string>
+    <string name="skip_all">Παράλειψη όλων</string>
+    <string name="some_app_use_permission">Ορισμένες εφαρμογές χρησιμοποιούν επικίνδυνα δικαιώματα</string>
+    <string name="app_dangerous">%s Η εφαρμογή είναι επικίνδυνη</string>
+    <string name="version">Εκδοχή</string>
+    <string name="date">Ημερομηνία: %s</string>
+    <string name="size">Μέγεθος: %s</string>
+    <string name="request_permission">Ζήτηση άδειας</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="security_threats">Απειλές για την ασφάλεια</string>
+    <string name="ignore">Αγνόηση</string>
+    <string name="skip_app_virus">«Η επιλεγμένη εφαρμογή θα αγνοηθεί κατά τη σάρωση των ιών»</string>
+    <string name="while_list">Σάρωση της λίστας</string>
+    <string name="no_junk">Δεν βρέθηκαν ανεπιθύμητα αρχεία</string>
+    <string name="obsolete_apk">Άχρηστα APK</string>
+    <string name="system_cache">Προσωρινή μνήμη συστήματος</string>
+    <string name="downloader_files">Κατεβασμένα αρχεία</string>
+    <string name="large_files">Μεγάλα αρχεία</string>
+    <string name="op_clean">Εκκαθαρίστηκε</string>
+    <string name="mb">MB</string>
+    <string name="notification_toggle">Εναλλαγή ειδοποίησης</string>
+    <string name="Calculating">Σάρωση ....</string>
+    <string name="notification_setting">ΡΥΘΜΊΣΕΙΣ ΕΙΔΟΠΟΙΉΣΕΩΝ</string>
+    <string name="junk_reminder">Υπενθύμιση για περιττά</string>
+    <string name="every_3days">Κάθε 3 μέρες</string>
+    <string name="phone_boost_reminder">Υπενθύμιση αύξησης ταχύτητας τηλεφώνου</string>
+    <string name="remind_when_memory">Υπενθύμιση όταν η χρήση μνήμης είναι υπερβολική</string>
+    <string name="cpu_cooler_reminder">Υπενθύμιση για ψύκτη του CPU</string>
+    <string name="remind_me_when_cpu">Υπενθύμιση όταν ο επεξεργαστής υπερθερμαίνεται</string>
+    <string name="battery_saver">Εξοικονόμηση μπαταρίας</string>
+    <string name="remind_me_when_app_draing">Υπενθύμιση όταν οι εφαρμογές εξαντλούν τη μπαταρία</string>
+    <string name="app_install">Εγκατάσταση εφαρμογής</string>
+    <string name="delete_the_apk">Διαγραφή του αρχείου APK μετά την εγκατάσταση της εφαρμογής</string>
+    <string name="delete_the_residual">Αφαίρεση υπολειμμάτων μετά την απεγκατάσταση μιας εφαρμογής</string>
+    <string name="antivirus_settings">ΡΥΘΜΊΣΕΙΣ ΑΝΤΙΏΝ</string>
+    <string name="real_time_protection">Online προστασία</string>
+    <string name="ignore_list">Λίστα αγνόησης</string>
+    <string name="do_not_distub">Μην ενοχλείτε</string>
+    <string name="general_settings">ΓΕΝΙΚΈΣ ΡΥΘΜΊΣΕΙΣ</string>
+    <string name="create_home_shortcut">Δημιουργία εικονιδιού στην αρχική οθόνη</string>
+    <string name="remove_app_unstall">Διαγράψτε αρχεία εγκατάστασης για να ελευθερώσετε περισσότερο χώρο.</string>
+    <string name="deleting">Διαγραφή, περιμένετε ...</string>
+    <string name="scan_virus">Σάρωση ιών .....</string>
+    <string name="start_use">Ξεκίνηση χρήσης</string>
+    <string name="ok">ΟΚ</string>
+    <string name="app_safe">Αυτή η εφαρμογή είναι ασφαλής</string>
+    <string name="app_virus_contain">Αυτή η εφαρμογή περιέχει έναν ιό</string>
+    <string name="ram_going_full">Η μνήμη είναι γεμάτη</string>
+    <string name="use_phone_boost">Χρησιμοποιήστε καθαριστικό τηλεφώνου για να ελευθερώσετε χώρο</string>
+    <string name="phone_is_hot">Το τηλέφωνο υπερφορτώθηκε</string>
+    <string name="use_cpu_cleaner">Ψύξτε για να καθαρίσετε τον επεξεργαστή</string>
+    <string name="use_save_battery">Εξοικονόμηση μπαταρίας</string>
+    <string name="battery_low">Χαμηλή μπαταρία</string>
+    <string name="note">Σημείωση</string>
+    <string name="note_turn_off_notifi">Λειτουργία συσκευής  %s δεν είναι σταθερή εάν η εναλλαγή ειδοποιήσεων είναι απενεργοποιημένος.</string>
+    <string name="turn_off">Απενεργοποίηση</string>
+    <string name="junk_reminder_frequency">Συχνότητα ειδοποιήσεων</string>
+    <string name="every_day">Κάθε μέρα</string>
+    <string name="every_7days">Κάθε 7 μέρες</string>
+    <string name="never_reminder">Ποτέ μην το υπενθυμίζετε</string>
+    <string name="start_at">Ξεκίνηση σε</string>
+    <string name="stop_at">Τέλος σε</string>
+    <string name="detect_junk_file">Βρέθηκαν περιττά αρχεία</string>
+    <string name="use_junk_file">Χρησιμοποιήστε το αρχείο λειτουργίας junk για εκκαθάριση</string>
+    <string name="fix">Διόρθωση</string>
+    <string name="optimize">Βελτιστοποίηση</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="selcet_file_to_clean">Επιλέξτε ένα αρχείο για εκκαθάριση</string>
+
+    <string name="floatint_windown_per">Να επιτρέπονται τα αναδυόμενα παράθυρα</string>
+    <string name="accessibility_permission">Άδεια πρόσβασης</string>
+    <string name="listener_notification_per">Να επιτρέπεται η εμφάνιση ειδοποιήσεων</string>
+    <string name="write_setting_per">Να επιτρέπεται η καταγραφή</string>
+    <string name="usage_access_permission"> Να επιτρέπεται η πρόσβαση στη χρήση</string>
+    <string name="external_storage_permission">Επιτρέψτε την πρόσβαση σε εξωτερική μνήμη της συσκευής</string>
+    <string name="write_setting_permission">"Παραχώρηση άδειας για αλλαγή των ρυθμίσεων της συσκευής.</string>
+    <string name="listen_notification_permission">Παραχώρηση άδειας για προβολή ειδοποιήσεων συσκευής</string>
+    <string name="overlay_permission">Παραχώρηση άδειας εμφάνισης σε άλλες εφαρμογές</string>
+    <string name="accessibility_setting_permission">Παραχώρηση άδειας χρήσης της Υπηρεσίας Προσβασιμότητας</string>
+    <string name="splash_content">Ελαφρύς, γρήγορος και έξυπνος</string>
+
+    <string name="result_cooler">Η ψύξη ολοκληρώθηκε με επιτυχία.</string>
+    <string name="boost_result">Η επιτάχυνση πραγματοποιήθηκε</string>
+    <string name="clean_result">Ο καθαρισμός ολοκληρώθηκε</string>
+    <string name="fast_charger_boosted_result">Επιταχύνθηκε η γρήγορη φόρτιση</string>
+    <string name="antivirus_result">ΑΣΦΑΛΏΣ! Η απειλή εξαλείφθηκε</string>
+    <string name="deep_clean_result">Ολοκληρώθηκε!</string>
+    <string name="notification_manager_result">Ολοκληρωμένος!</string>
+    <string name="dectect_apk_install">Βρέθηκε 1 apk εγκαταστάσης</string>
+    <string name="conduct_scan_virus">Εκτέλεση ελέγχου των ιών</string>
+    <string name="dectect_apk_uninstall">Βρέθηκε 1 διαγραφόμενο αρχείο apk</string>
+    <string name="conduct_cleanup">Καθαρισμός</string>
+
+    <string name="link_store_more_app">https://play.google.com/store/apps/developer?id=</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="billing_or_subscription_not_supported">Billing Service is Not available or Subscription update not supported</string>
+    <string name="product_purchased">Product Purchased</string>
+    <string name="liked_app">Σας αρέσει το app;</string>
+    <string name="dontshowagain"><u>Να μην εμφανιστεί ξανά</u></string>
+    <string name="rateplease">Η αξιολόγισή σας είναι πολύ σημαντική για εμάς!</string>
+    <string name="any_ideas">Κάποιες ιδέες για το πώς να βελτιώσουμε την εφαρμογή;</string>
+    <string name="support">Παραπομπή στους προγραμματιστές</string>
+    <string name="delete_selected">Κατάργηση (%s)</string>
+    <string name="exit">Εξοδος</string>
+    <string name="_24_12_20">Τελευταία καθαρό:</string>
+    <string name="name">@string/app_name</string>
+    <string name="free">Έκδοση: FREE</string>
+    <string name="share">Μοιρασιά</string>
+    <string name="like">Βαθμολογήστε μας</string>
+    <string name="update">Ενημέρωση</string>
+    <string name="pro">Αγοράστε την έκδοση PRO</string>
+    <string name="found">Βρέθηκαν</string>
+    <string name="select_all">Επιλογή όλωνl</string>
+    <string name="deep_clean_text">Βαθιά καθαρή</string>
+    <string name="total_clean">Σύνολο καθαρή</string>
+    <string name="start_14_day_trial">Ξεκίνηση της δοκιμής 3 ημερών</string>
+    <string name="free_version_desc">Η δωρεάν δοκιμαστική έκδοση premium θα διαρκέσει για 3 ημέρες και στη συνέχεια θα χρεωθείτε 20 $/έτος. Ξεκινώντας τώρα, μπορείτε να το ακυρώσετε ανά πάσα στιγμή στο Google Play  <u>Διαβάστε τους όρους χρήσης.</u></string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="do_you_really_want_to_exit">Θέλετε πραγματικά να αποσυνδεθείτε</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="26dp">
+
+        <include
+            android:id="@+id/layout_padding"
+            layout="@layout/layout_toolbar" />
+
+        <TextView
+            android:id="@+id/tv_total_issues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            tools:text="66" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in_danger"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/color_f9f8fd"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/issuesCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp"
+                    android:drawableTop="@drawable/ic_warning"
+                    android:drawablePadding="15dp"
+                    android:gravity="center"
+                    android:text="@string/issues_found" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_resolve_all"
+                style="@style/button"
+                android:text="@string/resolve_all" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <promind.cleaner.app.core.service.widgets.AntivirusScanView
+        android:id="@+id/antivirusScanView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/layout_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
