@@ -4,6 +4,8 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.ContextCompat
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import promind.cleaner.app.core.service.service.ServiceManager
 
 class AutoRebootReceiver : BroadcastReceiver() {
@@ -20,7 +22,12 @@ class AutoRebootReceiver : BroadcastReceiver() {
             || action.equals("android.net.wifi.STATE_CHANGE", ignoreCase = true)
         ) {
             val intent2 = Intent(context, ServiceManager::class.java)
-            ContextCompat.startForegroundService(context, intent2)
+
+            try {
+                ContextCompat.startForegroundService(context, intent2)
+            } catch (e: Exception) {
+                FirebaseCrashlytics.getInstance().recordException(e)
+            }
         }
     }
 }

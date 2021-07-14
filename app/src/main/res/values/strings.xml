@@ -95,6 +95,8 @@
     <string name="png" translatable="false">png</string>
 
     <string name="deleted_number_format">Deleted ... %d files</string>
+    <string name="show_ads_format">Advertising (%d) - while you wait</string>
+
 
 
     <string name="scan_all_file">Scan All Other Files</string>
@@ -136,6 +138,7 @@
     <string name="deep_clean_btn">Clean</string>
     <string name="app_uninstall_btn">Delete</string>
 
+    <string name="facebook_app_id" translatable="false">2867006886946987</string>
     <string name="junk_files_dialog">Exit without cleaning?</string>
     <string name="cpu_cooler_dialog">Exit without cooling?</string>
     <string name="phone_booster_dialog">Exit without boosting?</string>

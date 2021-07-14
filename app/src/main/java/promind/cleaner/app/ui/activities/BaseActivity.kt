@@ -112,7 +112,7 @@ open class BaseActivity : AppCompatActivity(), BillingProcessor.IBillingHandler 
     fun processBilling() {
         val isAvailable = BillingProcessor.isIabServiceAvailable(this)
         val isSubsUpdateSupported = bp?.isSubscriptionUpdateSupported
-
+        println("isAvailable $isAvailable isSubsUpdateSupported $isSubsUpdateSupported")
         if (isAvailable && isSubsUpdateSupported ?: false) {
             bp?.subscribe(this, "adfree")
         } else toast(R.string.billing_or_subscription_not_supported)
@@ -224,6 +224,10 @@ open class BaseActivity : AppCompatActivity(), BillingProcessor.IBillingHandler 
                             DeepScanActivity::class.java
                         )
                     )
+                }
+                FUNCTION.DEEP_CLEAN_JUNK -> try {
+                    JunkFileActivity.startActivityWithData(this@BaseActivity)
+                } catch (e: Exception) {
                 }
                 FUNCTION.PREMIUM -> startActivity(
                     Intent(
@@ -490,7 +494,7 @@ open class BaseActivity : AppCompatActivity(), BillingProcessor.IBillingHandler 
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<String>,
-        grantResults: IntArray
+        grantResults: IntArray,
     ) {
         when (requestCode) {
             Config.MY_PERMISSIONS_REQUEST_CLEAN_CACHE, Config.MY_PERMISSIONS_REQUEST_STORAGE -> if (grantResults.size > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {

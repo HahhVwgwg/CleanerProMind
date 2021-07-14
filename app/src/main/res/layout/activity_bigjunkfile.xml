@@ -87,7 +87,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/layout_padding"
+        android:background="@color/white"
         android:orientation="vertical">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
+            app:tabMode="fixed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.google.android.material.tabs.TabLayout>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -98,6 +111,7 @@
             <LinearLayout
                 android:id="@+id/extraPermission"
                 android:layout_width="match_parent"
+                android:visibility="gone"
                 android:layout_height="66dp"
                 android:gravity="center_vertical"
                 android:paddingHorizontal="16dp">
@@ -182,6 +196,7 @@
                     android:id="@+id/viewLoading"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:background="@color/white"
@@ -384,13 +399,6 @@
                     </LinearLayout>
                 </LinearLayout>
             </RelativeLayout>
-
-            <Button
-                android:id="@+id/btnCleanUp"
-                style="@style/button"
-                android:text="@string/op_clean"
-                android:visibility="gone"
-                tools:visibility="visible" />
         </LinearLayout>
     </LinearLayout>
 
@@ -416,4 +424,11 @@
         android:textColor="@color/white"
         android:textSize="@dimen/_10sdp" />
 
+    <Button
+        android:id="@+id/btnCleanUp"
+        style="@style/button"
+        android:layout_alignParentBottom="true"
+        android:text="@string/op_clean"
+        android:visibility="gone"
+        tools:visibility="visible" />
 </RelativeLayout>

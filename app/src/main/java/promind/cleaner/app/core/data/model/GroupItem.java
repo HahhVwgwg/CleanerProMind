@@ -3,6 +3,8 @@ package promind.cleaner.app.core.data.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,6 +46,18 @@ public class GroupItem implements Parcelable {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    @NotNull
+    @Override
+    public String toString() {
+        return "GroupItem{" +
+                "title='" + title + '\'' +
+                ", total=" + total +
+                ", isCheck=" + isCheck +
+                ", type=" + type +
+                ", items=" + items +
+                '}';
     }
 
     public long getTotal() {

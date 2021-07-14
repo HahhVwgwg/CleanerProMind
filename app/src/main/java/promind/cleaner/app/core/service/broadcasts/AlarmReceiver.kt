@@ -17,6 +17,7 @@ import android.app.ActivityManager
 import android.content.BroadcastReceiver
 import android.content.Context
 import androidx.core.content.ContextCompat
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import promind.cleaner.app.core.service.service.NotificationUtil
 import promind.cleaner.app.core.utils.PreferenceUtils
 import java.lang.Exception
@@ -42,9 +43,17 @@ class AlarmReceiver : BroadcastReceiver() {
                     }
                     val mIntent = Intent(context, ServiceManager::class.java)
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                        ContextCompat.startForegroundService(context, mIntent)
+                        try {
+                            ContextCompat.startForegroundService(context, mIntent)
+                        } catch (e: Exception) {
+                            FirebaseCrashlytics.getInstance().recordException(e)
+                        }
                     } else {
-                        context.startService(Intent(context, ServiceManager::class.java))
+                        try {
+                            context.startService(Intent(context, ServiceManager::class.java))
+                        } catch (e: Exception) {
+                            FirebaseCrashlytics.getInstance().recordException(e)
+                        }
                     }
                 }
                 if (extras.getBoolean(AlarmUtils.ALARM_PHONE_BOOOST)) {

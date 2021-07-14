@@ -1,13 +1,10 @@
-package promind.cleaner.app.ui.activities.junkfile
+package promind.cleaner.app.ui.deepcleanjunk
 
-import android.app.Activity
-import android.app.usage.StorageStatsManager
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.pm.IPackageStatsObserver
-import android.content.pm.PackageManager
-import android.content.pm.PackageStats
-import android.content.pm.ResolveInfo
+import android.graphics.PorterDuff
 import android.os.*
 import android.text.TextUtils
 import android.util.Log
@@ -17,12 +14,14 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
+import androidx.viewpager.widget.ViewPager
 import butterknife.BindView
 import butterknife.ButterKnife
 import butterknife.OnClick
 import com.airbnb.lottie.LottieAnimationView
 import com.daimajia.androidanimations.library.Techniques
 import com.daimajia.androidanimations.library.YoYo
+import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.activity_junkfile.*
 import promind.cleaner.app.R
 import promind.cleaner.app.core.adsControl.AdmobHelp
@@ -32,21 +31,28 @@ import promind.cleaner.app.core.data.model.GroupItem
 import promind.cleaner.app.core.service.listener.animation.AnimationListener
 import promind.cleaner.app.core.service.widgets.AnimatedExpandableListView
 import promind.cleaner.app.core.service.widgets.CleanJunkFileView
-import promind.cleaner.app.core.utils.*
+import promind.cleaner.app.core.utils.Config
 import promind.cleaner.app.core.utils.Constants.showAds
+import promind.cleaner.app.core.utils.PreferenceUtils
+import promind.cleaner.app.core.utils.SystemUtil
+import promind.cleaner.app.core.utils.Toolbox
 import promind.cleaner.app.core.utils.preferences.MyCache
 import promind.cleaner.app.ui.activities.BaseActivity
 import promind.cleaner.app.ui.activities.premium.loge
 import promind.cleaner.app.ui.adapter.CleanAdapter
+import promind.cleaner.app.ui.adapter.ViewPagerAdapter
 import promind.cleaner.app.ui.dialog.DialogConfirmCancel
 import java.io.File
 import java.io.IOException
 import java.lang.reflect.InvocationTargetException
-import java.lang.reflect.Method
 import java.util.*
 
 
-class JunkFileActivity : BaseActivity() {
+@SuppressLint("NonConstantResourceId")
+class BigJunkFileActivity : BaseActivity() {
+
+    private lateinit var adapter: ViewPagerAdapter
+
     @JvmField
     @BindView(R.id.recyclerView)
     var mRecyclerView: AnimatedExpandableListView? = null
@@ -62,6 +68,14 @@ class JunkFileActivity : BaseActivity() {
     @JvmField
     @BindView(R.id.tvNoJunk)
     var mTvNoJunk: TextView? = null
+
+    @JvmField
+    @BindView(R.id.tabs)
+    var tabLayout: TabLayout? = null
+
+    @JvmField
+    @BindView(R.id.viewPager)
+    var viewPager: ViewPager? = null
 
     @JvmField
     @BindView(R.id.btnCleanUp)
@@ -106,7 +120,7 @@ class JunkFileActivity : BaseActivity() {
     private var alreadyShown: Boolean = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_junkfile)
+        setContentView(R.layout.activity_bigjunkfile)
         ButterKnife.bind(this)
         initView()
         initData()
@@ -131,6 +145,7 @@ class JunkFileActivity : BaseActivity() {
             override fun onFinish() {
                 tvBoost?.visibility = View.GONE
                 if (showAds) AdmobHelp.getInstance().showInterstitialAdWithoutWaiting {
+                    Log.e("Reklama ", " is turned of")
                     finishAnimationDone()
                 }
             }
@@ -142,7 +157,6 @@ class JunkFileActivity : BaseActivity() {
             override fun onStop() {
                 for (i in lstChildItems.indices) {
                     if (i == lstChildItems.size - 1) {
-                        loge("bitti")
                         openScreenResult(Config.FUNCTION.JUNK_FILES)
                         finish()
                         return
@@ -150,7 +164,7 @@ class JunkFileActivity : BaseActivity() {
                     val mChildItem = lstChildItems[i]
                     if (mChildItem.type == ChildItem.TYPE_CACHE) {
                         TaskJunkClean(
-                            this@JunkFileActivity,
+                            this@BigJunkFileActivity,
                             mChildItem.packageName
                         ) {
                             run {
@@ -186,14 +200,7 @@ class JunkFileActivity : BaseActivity() {
                         }.execute()
 
                     } else {
-                        loge(mChildItem.path + " " + " real'no zhoq")
-                        val path = applicationContext.filesDir.absolutePath
                         val file = File(mChildItem.path)
-                        if (file.exists()) {
-                            loge("file is really exist")
-                        } else {
-                            loge("Qotaqbas $path")
-                        }
                         file.delete()
                         loge("start delete")
                         if (file.exists()) {
@@ -207,9 +214,6 @@ class JunkFileActivity : BaseActivity() {
                             } catch (e: IOException) {
                                 loge("Error Download: " + e.localizedMessage)
                             }
-                        } else {
-                            loge("not Found")
-                            loge(mChildItem.toString())
                         }
                     }
                 }
@@ -243,6 +247,7 @@ class JunkFileActivity : BaseActivity() {
         }
         tvBoost?.setOnClickListener {
             if (showAds && !alreadyShown) AdmobHelp.getInstance().showInterstitialAdWithoutWaiting {
+                Log.e("Reklama ", " is turned of")
                 finishAnimationDone()
             }
             alreadyShown = true
@@ -264,13 +269,51 @@ class JunkFileActivity : BaseActivity() {
             cleanUp(lstChildItems)
             MyCache.getCache().save(1, System.currentTimeMillis())
         } else Toast.makeText(
-            this@JunkFileActivity,
+            this@BigJunkFileActivity,
             getString(R.string.selcet_file_to_clean),
             Toast.LENGTH_LONG
         ).show()
     }
 
+    private val imageResId = intArrayOf(
+        R.drawable.ic_one,
+        R.drawable.ic_two,
+        R.drawable.ic_three)
+
     private fun initData() {
+        tabLayout!!.addTab(tabLayout!!.newTab())
+        tabLayout?.addTab(tabLayout!!.newTab())
+        tabLayout?.addTab(tabLayout!!.newTab())
+        tabLayout?.tabGravity = TabLayout.GRAVITY_FILL
+        adapter = ViewPagerAdapter(supportFragmentManager)
+        viewPager?.adapter = adapter
+        tabLayout?.setupWithViewPager(viewPager)
+        for (i in imageResId.indices) {
+            tabLayout!!.getTabAt(i)!!.setIcon(imageResId[i])
+        }
+        val tabIconColor =
+            ContextCompat.getColor(applicationContext, R.color.color_b26ff7)
+        val tabIconColorGrey =
+            ContextCompat.getColor(applicationContext, R.color.grey)
+        tabLayout!!.getTabAt(0)?.icon?.setColorFilter(tabIconColor, PorterDuff.Mode.SRC_IN);
+        tabLayout!!.setOnTabSelectedListener(
+            object : TabLayout.ViewPagerOnTabSelectedListener(viewPager) {
+                override fun onTabSelected(tab: TabLayout.Tab) {
+                    super.onTabSelected(tab)
+                    tab.icon?.setColorFilter(tabIconColor, PorterDuff.Mode.SRC_IN)
+                }
+
+                override fun onTabUnselected(tab: TabLayout.Tab) {
+                    super.onTabUnselected(tab)
+                    tab.icon?.setColorFilter(tabIconColorGrey, PorterDuff.Mode.SRC_IN)
+                }
+
+                override fun onTabReselected(tab: TabLayout.Tab) {
+                    super.onTabReselected(tab)
+                }
+            }
+        )
+
         mAdapter = CleanAdapter(this, mGroupItems, object : CleanAdapter.OnGroupClickListener {
             override fun onGroupClick(groupPosition: Int) {
                 if (mRecyclerView!!.isGroupExpanded(groupPosition)) {
@@ -293,7 +336,7 @@ class JunkFileActivity : BaseActivity() {
             Toolbox.setTextFromSize(0, mTvTotalCache, mTvType, btnCleanUp)
             mViewLoading!!.visibility = View.VISIBLE
             startImageLoading()
-            filesFromDirApkOld
+            largeFile
         } else {
             mAdapter!!.notifyDataSetChanged()
         }
@@ -348,101 +391,8 @@ class JunkFileActivity : BaseActivity() {
 
     }
 
-    private val filesFromDirApkOld: Unit
-        get() {
-            ScanApkFiles(object : OnScanApkFilesListener {
-                override fun onScanCompleted(result: List<File>?) {
-                    if (result != null && result.isNotEmpty()) {
-                        val groupItem = GroupItem()
-                        groupItem.title = getString(R.string.obsolete_apk)
-                        groupItem.setIsCheck(true)
-                        groupItem.type = GroupItem.TYPE_FILE
-                        val childItems: MutableList<ChildItem> = ArrayList()
-                        var size: Long = 0
-                        for (currentFile in result) {
-                            if (currentFile.name.endsWith(".apk")) {
-                                val childItem = ContextCompat.getDrawable(
-                                    this@JunkFileActivity,
-                                    R.drawable.ic_android_white_24dp
-                                )?.let {
-                                    ChildItem(
-                                        currentFile.name,
-                                        currentFile.name, it,
-                                        currentFile.length(), ChildItem.TYPE_APKS,
-                                        currentFile.path, true
-                                    )
-                                }
-                                childItem?.let { childItems.add(it) }
-                                size += currentFile.length()
-                            }
-                        }
-                        groupItem.total = size
-                        groupItem.items = childItems
-                        mGroupItems.add(groupItem)
-                    }
-
-                    cacheFile
-                }
-            }).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR)
-        }
-    private val cacheFile: Unit
-        get() {
-            TaskScan(this, object : OnActionListener {
-                override fun onScanCompleted(totalSize: Long, result: List<ChildItem>?) {
-                    Toolbox.setTextFromSize(totalSize, mTvTotalCache, mTvType, btnCleanUp)
-                    result?.let {
-                        if (result.isNotEmpty()) {
-                            val groupItem = GroupItem()
-                            groupItem.title = getString(R.string.system_cache)
-                            groupItem.total = totalSize
-                            groupItem.setIsCheck(true)
-                            groupItem.type = GroupItem.TYPE_CACHE
-                            groupItem.items = result
-                            mGroupItems.add(groupItem)
-                        }
-                    }
-
-                    filesFromDirFileDownload
-                }
-            }).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR)
-        }
-    val filesFromDirFileDownload: Unit
-        get() {
-            ScanDownLoadFiles(object : OnScanDownloadFilesListener {
-                override fun onScanCompleted(result: Array<File>?) {
-                    if (result != null && result.isNotEmpty()) {
-                        val groupItem = GroupItem()
-                        groupItem.title = getString(R.string.downloader_files)
-                        groupItem.setIsCheck(false)
-                        groupItem.type = GroupItem.TYPE_FILE
-                        val childItems: MutableList<ChildItem> = ArrayList()
-                        var size: Long = 0
-                        for (currentFile in result) {
-                            size += currentFile.length()
-                            val childItem = ContextCompat.getDrawable(
-                                this@JunkFileActivity,
-                                R.drawable.ic_android_white_24dp
-                            )?.let {
-                                ChildItem(
-                                    currentFile.name,
-                                    currentFile.name, it,
-                                    currentFile.length(), ChildItem.TYPE_DOWNLOAD_FILE,
-                                    currentFile.path, false
-                                )
-                            }
-                            childItem?.let { childItems.add(it) }
-                        }
-                        groupItem.total = size
-                        groupItem.items = childItems
-                        mGroupItems.add(groupItem)
-                    }
-
-                    largeFile
-                }
-            }).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR)
-        }
     private val largeFile: Unit
-        private get() {
+        get() {
             ScanLargeFiles(object : OnScanLargeFilesListener {
                 override fun onScanCompleted(result: List<File>?) {
                     loge(result?.size.toString() ?: "null")
@@ -455,7 +405,7 @@ class JunkFileActivity : BaseActivity() {
                         var size: Long = 0
                         for (currentFile in result) {
                             val childItem = ContextCompat.getDrawable(
-                                this@JunkFileActivity,
+                                this@BigJunkFileActivity,
                                 R.drawable.ic_android_white_24dp
                             )?.let {
                                 ChildItem(
@@ -479,6 +429,7 @@ class JunkFileActivity : BaseActivity() {
         }
 
     private fun updateAdapter() {
+        adapter.setData(mGroupItems)
         updateSizeTotal()
         if (mGroupItems.size != 0) {
             for (i in mGroupItems.indices) {
@@ -517,240 +468,6 @@ class JunkFileActivity : BaseActivity() {
     @OnClick(R.id.btnCleanUp)
     fun clickClean() {
         clean()
-    }
-
-    interface OnScanApkFilesListener {
-        fun onScanCompleted(result: List<File>?)
-    }
-
-    private open inner class ScanApkFiles(private val mOnScanLargeFilesListener: OnScanApkFilesListener?) :
-        AsyncTask<Void?, String?, List<File>>() {
-        override fun onProgressUpdate(vararg values: String?) {
-            super.onProgressUpdate(*values)
-            if (!TextUtils.isEmpty(values[0])) tvPkgName!!.text = values[0]
-        }
-
-        override fun doInBackground(vararg params: Void?): List<File> {
-            val filesResult: MutableList<File> = ArrayList()
-            val downloadDir = File(Environment.getExternalStorageDirectory().absolutePath)
-            val files = downloadDir.listFiles()
-            if (files != null) {
-                for (file in files) {
-                    publishProgress(file.name)
-                    if (file.name.endsWith(".apk")) {
-                        filesResult.add(file)
-                    }
-                    try {
-                        Thread.sleep(100)
-                    } catch (e: InterruptedException) {
-                        e.printStackTrace()
-                    }
-                }
-            }
-            return filesResult
-        }
-
-        override fun onPostExecute(result: List<File>) {
-            mOnScanLargeFilesListener?.onScanCompleted(result)
-        }
-    }
-
-    interface OnScanDownloadFilesListener {
-        fun onScanCompleted(result: Array<File>?)
-    }
-
-    private open inner class ScanDownLoadFiles(private val mOnScanLargeFilesListener: OnScanDownloadFilesListener?) :
-        AsyncTask<Void?, String?, Array<File>?>() {
-        override fun onProgressUpdate(vararg values: String?) {
-            super.onProgressUpdate(*values)
-            if (!TextUtils.isEmpty(values[0])) tvPkgName!!.text = values[0]
-        }
-
-        override fun doInBackground(vararg params: Void?): Array<File>? {
-            val downloadDir = File(
-                Environment.getExternalStoragePublicDirectory(
-                    Environment.DIRECTORY_DOWNLOADS
-                ).absolutePath
-            )
-            val lst = downloadDir.listFiles()
-            if (lst != null && lst.size != 0) {
-                for (mFile in lst) {
-                    publishProgress(mFile.path)
-                    try {
-                        Thread.sleep(100)
-                    } catch (e: InterruptedException) {
-                        e.printStackTrace()
-                    }
-                }
-            }
-            return lst
-        }
-
-        override fun onPostExecute(result: Array<File>?) {
-            mOnScanLargeFilesListener?.onScanCompleted(result)
-        }
-    }
-
-    interface OnActionListener {
-        fun onScanCompleted(totalSize: Long, result: List<ChildItem>?)
-    }
-
-    private inner class TaskScan(
-        private val activity: Activity,
-        private val mOnActionListener: OnActionListener?,
-    ) : AsyncTask<Void?, String?, List<ChildItem>>() {
-        private var mTotalSize: Long = 0
-        override fun onProgressUpdate(vararg values: String?) {
-            super.onProgressUpdate(*values)
-            if (!TextUtils.isEmpty(values[0])) tvPkgName!!.text = values[0]
-        }
-
-        override fun doInBackground(vararg params: Void?): List<ChildItem> {
-//            List<ApplicationInfo> packages = getPackageManager().getInstalledApplications(PackageManager.GET_META_DATA);
-            var mGetPackageSizeInfoMethod: Method? = null
-            try {
-                mGetPackageSizeInfoMethod = packageManager.javaClass.getMethod(
-                    "getPackageSizeInfo", String::class.java, IPackageStatsObserver::class.java
-                )
-            } catch (e: NoSuchMethodException) {
-                e.printStackTrace()
-            }
-            val mainIntent = Intent(Intent.ACTION_MAIN, null)
-            mainIntent.addCategory(Intent.CATEGORY_LAUNCHER)
-            var pkgAppsList: MutableList<ResolveInfo> =
-                packageManager.queryIntentActivities(mainIntent, 0)
-            pkgAppsList = pkgAppsList.filter {
-                it.activityInfo.packageName != activity.packageName
-                        && !it.activityInfo.packageName.startsWith("com.mi")
-                        && !it.activityInfo.packageName.startsWith("com.google")
-                        && !it.activityInfo.packageName.startsWith("com.android")
-            }.toMutableList()
-
-            val apps: MutableList<ChildItem> = ArrayList()
-            for (pkg in pkgAppsList) {
-                if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
-                    val storageStatsManager =
-                        getSystemService(STORAGE_STATS_SERVICE) as StorageStatsManager
-                    try {
-                        val mApplicationInfo =
-                            packageManager.getApplicationInfo(pkg.activityInfo.packageName, 0)
-                        val storageStats = storageStatsManager.queryStatsForUid(
-                            mApplicationInfo.storageUuid,
-                            mApplicationInfo.uid
-                        )
-                        val cacheSize = storageStats.cacheBytes
-//                        val cacheSize = getCacheSize(mApplicationInfo.packageName) // todo show real cleanable data size
-//                        loge(mApplicationInfo.loadLabel(activity.packageManager).toString() + " - " + cacheSize)
-                        addPackage(apps, cacheSize, pkg.activityInfo.packageName)
-                    } catch (e: Exception) {
-                        e.printStackTrace()
-                    }
-                } else {
-                    try {
-                        mGetPackageSizeInfoMethod!!.invoke(packageManager,
-                            pkg.activityInfo.packageName,
-                            object : IPackageStatsObserver.Stub() {
-                                override fun onGetStatsCompleted(
-                                    pStats: PackageStats,
-                                    succeeded: Boolean,
-                                ) {
-                                    val cacheSize =
-                                        pStats.cacheSize // todo show real cleanable data size
-//                                        val cacheSize = getCacheSize(pStats.packageName)
-                                    addPackage(apps, cacheSize, pkg.activityInfo.packageName)
-                                }
-                            }
-                        )
-                    } catch (e: IllegalAccessException) {
-                        e.printStackTrace()
-                    } catch (e: InvocationTargetException) {
-                        e.printStackTrace()
-                    }
-                }
-                publishProgress(pkg.activityInfo.packageName)
-            }
-            return apps
-        }
-
-        override fun onPostExecute(result: List<ChildItem>) {
-            Collections.sort(result) { o1: ChildItem, o2: ChildItem -> o2.cacheSize.compareTo(o1.cacheSize) }
-            mOnActionListener?.onScanCompleted(mTotalSize, result)
-        }
-
-        private fun getCacheSize(packageName: String): Long {
-            val absolutePath = Environment.getExternalStorageDirectory().absolutePath
-            val packageData = File(
-                String.format(
-                    Locale.US, "%s%sAndroid%sdata%s%s",
-                    absolutePath,
-                    File.separator,
-                    File.separator,
-                    File.separator,
-                    packageName
-                )
-            )
-            val dataSize: Pair<List<String>, Long>? = getFolderSize(packageData)
-
-            var size = 0L
-            dataSize?.first?.forEach {
-                val file = File(it)
-                size += file.length()
-            }
-            return size
-        }
-
-        private fun getFolderSize(file: File): Pair<List<String>, Long>? {
-            if (!file.exists()) {
-                return null
-            }
-            val tmpList: MutableList<String> = ArrayList()
-            if (!file.isDirectory) {
-                tmpList.add(file.absolutePath)
-                return Pair(tmpList, file.length())
-            }
-            val subFilesPatches = file.list() ?: return null
-            var length: Long = 0
-            var resultData: Pair<List<String>, Long>? = null
-            for (subFilePath in subFilesPatches) {
-                val subFile = File(file, subFilePath)
-                if (!subFile.isDirectory) {
-                    tmpList.add(subFile.absolutePath)
-                    length += subFile.length()
-                    resultData = Pair(tmpList, length)
-                } else {
-                    if (!subFile.isHidden) {
-                        resultData = getFolderSize(subFile)
-                        if (resultData != null) {
-                            length += resultData.second
-                            tmpList.addAll(resultData.first)
-                            resultData = Pair(tmpList, length)
-                        }
-                    }
-                }
-            }
-            return resultData
-        }
-
-        private fun addPackage(apps: MutableList<ChildItem>, cacheSize: Long, pgkName: String) {
-            try {
-                val packageManager = packageManager
-                val info = packageManager.getApplicationInfo(pgkName, PackageManager.GET_META_DATA)
-                val showFakeData = PreferenceUtils.isCleanCache(pgkName)
-                if (cacheSize > 1024 * 1000 && showFakeData) { // todo remove fake data
-                    mTotalSize += cacheSize
-                    apps.add(
-                        ChildItem(
-                            pgkName,
-                            packageManager.getApplicationLabel(info).toString(),
-                            info.loadIcon(packageManager),
-                            cacheSize, ChildItem.TYPE_CACHE, null.toString(), true
-                        )
-                    )
-                }
-            } catch (e: PackageManager.NameNotFoundException) {
-                e.printStackTrace()
-            }
-        }
     }
 
     fun cleanUp(listItem: List<ChildItem>) {
@@ -809,7 +526,7 @@ class JunkFileActivity : BaseActivity() {
 
     companion object {
         fun startActivityWithData(mContext: Context) {
-            val mIntent = Intent(mContext, JunkFileActivity::class.java)
+            val mIntent = Intent(mContext, BigJunkFileActivity::class.java)
             mContext.startActivity(mIntent)
         }
     }

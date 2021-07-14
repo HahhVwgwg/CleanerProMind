@@ -5,21 +5,22 @@ import android.content.Context
 import android.content.Intent
 import android.os.AsyncTask
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.view.View
 import android.widget.Toast
-import com.daimajia.androidanimations.library.Techniques
-import com.daimajia.androidanimations.library.YoYo
 import kotlinx.android.synthetic.main.activity_phone_boost.*
 import kotlinx.android.synthetic.main.layout_toolbar.*
 import promind.cleaner.app.R
-import promind.cleaner.app.core.data.data.TaskKillProgress
+import promind.cleaner.app.core.adsControl.AdmobHelp
 import promind.cleaner.app.core.data.data.TaskBoostApps
 import promind.cleaner.app.core.data.data.TaskForceStop
+import promind.cleaner.app.core.data.data.TaskKillProgress
 import promind.cleaner.app.core.data.model.TaskInfo
 import promind.cleaner.app.core.service.listener.animation.AnimationListener
 import promind.cleaner.app.core.service.service.ForceStopAccessibility
 import promind.cleaner.app.core.utils.Config
 import promind.cleaner.app.core.utils.Config.FUNCTION
+import promind.cleaner.app.core.utils.Constants.showAds
 import promind.cleaner.app.core.utils.preferences.MyCache.Companion.getCache
 import promind.cleaner.app.ui.activities.BaseActivity
 import promind.cleaner.app.ui.adapter.AppSelectAdapter
@@ -27,13 +28,15 @@ import promind.cleaner.app.ui.dialog.DialogConfirmCancel
 import java.util.*
 
 class PhoneBoostActivity : BaseActivity() {
+    private var alreadyShown: Boolean = false
+
     /**
      * This activity used for function:
      * - Phone boost
      * - CPU Cooler
      * - power saver
      */
-
+    private var activity: PhoneBoostActivity? = null
     private var anmationRunning = false
     private var mAppSelectAdapter: AppSelectAdapter? = null
     private var mFunction: FUNCTION? = null
@@ -44,7 +47,31 @@ class PhoneBoostActivity : BaseActivity() {
         mFunction = intent.getSerializableExtra(Config.DATA_OPEN_BOOST) as FUNCTION?
         initView()
         initData()
+        activity = this
         initClick()
+        initTimerForAds()
+    }
+
+    private fun initTimerForAds() {
+        object : CountDownTimer(3000, 1000) {
+
+            override fun onTick(millisUntilFinished: Long) {
+                tv_boost.text =
+                    String.format(applicationContext.getString(R.string.show_ads_format),
+                        millisUntilFinished / 1000 + 1)
+            }
+
+            override fun onFinish() {
+                tv_boost.visibility = View.GONE
+                println("MineMine 71")
+                if (showAds) AdmobHelp.getInstance().showInterstitialAdWithoutWaiting {
+                    println("MineMine 73")
+                    finishAnimationDone()
+                } else {
+                    println("MineMine 77")
+                }
+            }
+        }.start()
     }
 
     private fun initView() {
@@ -62,19 +89,19 @@ class PhoneBoostActivity : BaseActivity() {
         if (mFunction != null) tv_toolbar!!.text = getString(mFunction!!.title)
         when (mFunction) {
             FUNCTION.PHONE_BOOST -> {
-                tv_content_header!!.setText(R.string.memory_kill_found)
-                tv_boost!!.setText(R.string.boost)
+//                tv_content_header!!.setText(R.string.memory_kill_found)
+//                tv_boost!!.setText(R.string.boost)
                 rocketScanView!!.visibility = View.VISIBLE
                 rocketScanView!!.playAnimationStart()
             }
             FUNCTION.CPU_COOLER -> {
-                tv_content_header!!.setText(R.string.further_optimize_cpu)
-                tv_boost!!.setText(R.string.cool_down)
+//                tv_content_header!!.setText(R.string.further_optimize_cpu)
+//                tv_boost!!.setText(R.string.cool_down)
                 cpuScanView!!.visibility = View.VISIBLE
                 cpuScanView!!.playAnimationStart()
             }
             FUNCTION.POWER_SAVING -> {
-                tv_content_header!!.setText(R.string.secretly_consuming_battery)
+//                tv_content_header!!.setText(R.string.secretly_consuming_battery)
                 updateText()
                 powerScanView!!.visibility = View.VISIBLE
                 powerScanView!!.playAnimationStart()
@@ -90,16 +117,16 @@ class PhoneBoostActivity : BaseActivity() {
         }
         rcv_app!!.adapter = mAppSelectAdapter
         listAppRunning
-
-
+        progress_bar.max = lstApp.size
     }
 
     @SuppressLint("StringFormatInvalid")
     private fun updateText() {
-        if (mFunction == FUNCTION.POWER_SAVING)
-            tv_boost!!.text = getString(R.string.extend_battery_life, tv_num_appskill!!.text.toString())
-
+//        if (mFunction == FUNCTION.POWER_SAVING)
+//            tv_boost!!.text = getString(R.string.extend_battery_life, tv_num_appskill!!.text.toString())
     }
+
+    var progressIndicator = 0
 
     val listAppRunning: Unit
         get() {
@@ -121,12 +148,25 @@ class PhoneBoostActivity : BaseActivity() {
                         mAppSelectAdapter!!.notifyDataSetChanged()
                         tv_num_appskill!!.text = arrList.size.toString()
                         updateText()
-                        setViewAffterScan()
+//                        setViewAffterScan()
+                        boost()
+                        progress_bar.visibility = View.GONE
+                        tv_description.visibility = View.GONE
+                        tv_content.visibility = View.GONE
+                        tv_boost.visibility = View.GONE
                     }
                 }
 
                 override fun onProgress(appName: String) {
-                    rocketScanView!!.setContent("<b>" + getString(R.string.scaning) + "</b>" + appName)
+                    rocketScanView!!.setContent("")
+                    progress_bar.progress = progressIndicator++
+                    tv_description.text = appName
+                    val currentProgress = progressIndicator * 100 / progress_bar.max
+                    progress_tv.text = currentProgress.toString()
+                }
+
+                override fun size(size: Int) {
+                    progress_bar.max = size
                 }
             }).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR)
         }
@@ -143,7 +183,7 @@ class PhoneBoostActivity : BaseActivity() {
     private fun playAnimationDone() {
         when (mFunction) {
             FUNCTION.PHONE_BOOST -> {
-                YoYo.with(Techniques.FadeIn).duration(1000).playOn(rocketScanView)
+//                YoYo.with(Techniques.FadeIn).duration(1000).playOn(rocketScanView)
                 rocketScanView!!.playAnimationDone(object : AnimationListener {
                     override fun onStop() {
                         finishAnimationDone()
@@ -151,20 +191,20 @@ class PhoneBoostActivity : BaseActivity() {
                 })
             }
             FUNCTION.CPU_COOLER -> {
-                YoYo.with(Techniques.FadeIn).duration(1000).playOn(cpuScanView)
-                cpuScanView!!.playAnimationDone(object :AnimationListener{
+//                YoYo.with(Techniques.FadeIn).duration(1000).playOn(cpuScanView)
+                cpuScanView!!.playAnimationDone(object : AnimationListener {
                     override fun onStop() {
                         finishAnimationDone()
                     }
                 })
             }
             FUNCTION.POWER_SAVING -> {
-                YoYo.with(Techniques.FadeIn).duration(1000).playOn(powerScanView)
+//                YoYo.with(Techniques.FadeIn).duration(1000).playOn(powerScanView)
                 val lstSelect: MutableList<TaskInfo> = ArrayList()
                 for (mTaskInfo in lstApp) {
                     if (mTaskInfo.isChceked) lstSelect.add(mTaskInfo)
                 }
-                powerScanView!!.playAnimationDone(lstSelect, 300,object :AnimationListener{
+                powerScanView!!.playAnimationDone(lstSelect, 300, object : AnimationListener {
                     override fun onStop() {
                         finishAnimationDone()
                     }
@@ -182,7 +222,7 @@ class PhoneBoostActivity : BaseActivity() {
     private fun runkillApp() {
         anmationRunning = true
         TaskKillProgress(this, lstApp).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR)
-        playAnimationDone()
+//        playAnimationDone()
     }
 
     private fun setListStatusItem(status: Boolean) {
@@ -201,8 +241,12 @@ class PhoneBoostActivity : BaseActivity() {
 
     fun click(mView: View) {
         when (mView.id) {
-            R.id.tv_boost -> boost()
+            R.id.tv_boost -> if (showAds && !alreadyShown) AdmobHelp.getInstance()
+                .showInterstitialAd {
+                    finishAnimationDone()
+                }
         }
+        alreadyShown = true
     }
 
     private fun boost() {

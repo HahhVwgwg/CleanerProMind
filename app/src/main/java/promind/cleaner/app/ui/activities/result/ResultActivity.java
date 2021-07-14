@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -60,8 +61,11 @@ public class ResultActivity extends BaseActivity {
         ButterKnife.bind(this);
         initView();
         initData();
-        if (Constants.INSTANCE.getShowAds())
-            AdmobHelp.getInstance().loadNative(this);
+        Bundle params = new Bundle();
+        params.putString("showed", "result");
+        FirebaseAnalytics.getInstance(getApplicationContext()).logEvent("result_event", params);
+//        if (Constants.INSTANCE.getShowAds())
+//            AdmobHelp.getInstance().loadNative(this);
     }
 
     private void initView() {
@@ -84,7 +88,6 @@ public class ResultActivity extends BaseActivity {
         });
         if (mNeedInterstitial && Constants.INSTANCE.getShowAds())
             AdmobHelp.getInstance().showInterstitialAd(() -> {
-
                 YoYo.with(Techniques.SlideInUp).duration(1000).playOn(scvInfor);
                 YoYo.with(Techniques.FadeIn).duration(1000).playOn(llBackground);
                 YoYo.with(Techniques.FadeIn).duration(1000).playOn(llToolbar);

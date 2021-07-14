@@ -41,6 +41,7 @@ import java.time.format.DateTimeFormatter
 import java.util.*
 import java.util.concurrent.TimeUnit
 
+
 @SuppressLint("NonConstantResourceId", "UseRequireInsteadOfGet")
 class HomeScreen : Fragment(), ClickItemListener, ObserverInterface<Any?> {
     @JvmField
@@ -96,7 +97,7 @@ class HomeScreen : Fragment(), ClickItemListener, ObserverInterface<Any?> {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View? {
         val mView = inflater.inflate(R.layout.home_screen, container, false)
         ButterKnife.bind(this, mView)
@@ -212,7 +213,9 @@ class HomeScreen : Fragment(), ClickItemListener, ObserverInterface<Any?> {
         }
         val arr = arrayListOf<FUNCTION>()
         for (x in Config.LST_SLIDER) {
-            if (MyCache.getCache().get(x.id) < System.currentTimeMillis() - TimeUnit.HOURS.toMillis(3)) {
+            if (MyCache.getCache().get(x.id) < System.currentTimeMillis() - TimeUnit.HOURS.toMillis(
+                    3)
+            ) {
                 arr.add(x)
             }
         }
@@ -235,7 +238,7 @@ class HomeScreen : Fragment(), ClickItemListener, ObserverInterface<Any?> {
                 arr[0] == FUNCTION.POWER_SAVING -> {
                     mFunctionAdapterHorizontal?.setDot(4)
                 }
-                arr[0] == FUNCTION.DEEP_CLEAN -> {
+                arr[0] == FUNCTION.APP_UNINSTALL -> {
                     mFunctionAdapterHorizontal?.setDot(5)
                 }
                 else -> {
@@ -244,12 +247,13 @@ class HomeScreen : Fragment(), ClickItemListener, ObserverInterface<Any?> {
             }
         }
 //        arr.clear()
+        println("Size ${arr.toTypedArray().size}")
         pager?.adapter = PagerAdapter(arr.toTypedArray(), childFragmentManager)
-        pager?.addOnPageChangeListener(object: ViewPager.OnPageChangeListener {
+        pager?.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrolled(
                 position: Int,
                 positionOffset: Float,
-                positionOffsetPixels: Int
+                positionOffsetPixels: Int,
             ) {
             }
 
@@ -270,7 +274,7 @@ class HomeScreen : Fragment(), ClickItemListener, ObserverInterface<Any?> {
                     arr[position] == FUNCTION.POWER_SAVING -> {
                         mFunctionAdapterHorizontal?.setDot(4)
                     }
-                    arr[position] == FUNCTION.DEEP_CLEAN -> {
+                    arr[position] == FUNCTION.APP_UNINSTALL -> {
                         mFunctionAdapterHorizontal?.setDot(5)
                     }
                     else -> {

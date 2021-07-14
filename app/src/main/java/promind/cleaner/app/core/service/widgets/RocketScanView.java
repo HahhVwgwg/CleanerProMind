@@ -83,14 +83,14 @@ public class RocketScanView extends RelativeLayout {
     }
 
     public void setContent(String txt) {
-        tvContent.setVisibility(VISIBLE);
-        if (!TextUtils.isEmpty(txt)) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                tvContent.setText(Html.fromHtml(txt, Html.FROM_HTML_MODE_COMPACT));
-            } else {
-                tvContent.setText(Html.fromHtml(txt));
-            }
-        }
+//        tvContent.setVisibility(VISIBLE);
+//        if (!TextUtils.isEmpty(txt)) {
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+//                tvContent.setText(Html.fromHtml(txt, Html.FROM_HTML_MODE_COMPACT));
+//            } else {
+//                tvContent.setText(Html.fromHtml(txt));
+//            }
+//        }
     }
 
     public void stopAnimationStart() {

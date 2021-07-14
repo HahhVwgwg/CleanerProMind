@@ -38,27 +38,27 @@
                 app:lottie_fileName="virus_scan.json"
                 app:lottie_loop="true" />
 
-            <TextView
-                android:id="@+id/tv_progress"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="32dp"
-                android:text="0"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_30sdp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:id="@+id/tv_progress"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginBottom="32dp"-->
+<!--                android:text="0"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="@dimen/_30sdp"-->
+<!--                android:textStyle="bold" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/tv_progress"
-                android:layout_toRightOf="@+id/tv_progress"
-                android:text="@string/percent"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_13sdp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignBaseline="@+id/tv_progress"-->
+<!--                android:layout_toRightOf="@+id/tv_progress"-->
+<!--                android:text="@string/percent"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="@dimen/_13sdp"-->
+<!--                android:textStyle="bold" />-->
         </RelativeLayout>
 
         <TextView
@@ -68,6 +68,7 @@
             android:layout_marginTop="@dimen/_30sdp"
             android:layout_marginRight="@dimen/_20sdp"
             android:drawableLeft="@drawable/ic_debug"
+            android:visibility="gone"
             android:drawablePadding="@dimen/_10sdp"
             android:gravity="center_vertical"
             android:text="@string/safety_scanning"
@@ -81,38 +82,122 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginRight="@dimen/_30sdp">
 
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/av_progress"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:lottie_fileName="progress_bg.json"
-                app:lottie_imageAssetsFolder="progress_lottie"
-                app:lottie_loop="true" />
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+<!--                android:id="@+id/av_progress"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                app:lottie_fileName="progress_bg.json"-->
+<!--                app:lottie_imageAssetsFolder="progress_lottie"-->
+<!--                app:lottie_loop="true" />-->
 
-            <ProgressBar
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progress"-->
+<!--                style="?android:attr/progressBarStyleHorizontal"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:max="100"-->
+<!--                android:progress="0"-->
+<!--                android:progressTint="@color/white" />-->
+
+        </RelativeLayout>
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_description"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="@dimen/_30sdp"-->
+<!--            android:layout_marginTop="@dimen/_10sdp"-->
+<!--            android:ellipsize="end"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingEnd="@dimen/_30sdp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="@color/white_80"-->
+<!--            android:textSize="@dimen/_10sdp"-->
+<!--            tools:text="asdasdashdkashdkhasdahsldhalsdlasdhlaa;lsd;askd;laskd;askd" />-->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_marginBottom="@dimen/_65sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/safety_scanning"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/progress"
-                style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:max="100"
-                android:progress="0"
-                android:progressTint="@color/white" />
+                android:progress="2"
+                android:progressTint="@color/white"
+                app:trackCornerRadius="10dp"
+                app:trackThickness="10dp" />
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="%"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9sdp" />
+            </LinearLayout>
         </RelativeLayout>
 
         <TextView
             android:id="@+id/tv_appname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_30sdp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:ellipsize="end"
-            android:gravity="center_vertical"
-            android:paddingEnd="@dimen/_30sdp"
+            android:gravity="start"
             android:singleLine="true"
+            android:text="android/system"
             android:textColor="@color/white_80"
-            android:textSize="@dimen/_10sdp"
-            tools:text="asdasdashdkashdkhasdahsldhalsdlasdhlaa;lsd;askd;laskd;askd" />
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/tv_boost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:visibility="invisible"
+            android:text="Реклама (2) - во время ожидания"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
     </LinearLayout>
 
 </RelativeLayout>

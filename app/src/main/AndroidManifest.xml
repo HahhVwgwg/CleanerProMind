@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="promind.cleaner.app">
 
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -12,6 +13,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.vending.BILLING" />
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
     <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
@@ -21,7 +23,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.QUICKBOOT_POWERON" />
     <uses-permission
-        android:name="android.permission.CLEAR_APP_CACHE"
+        android:name="android.permission.CLEAR_Manifest.permission.READ_EXTERNAL_STORAGEAPP_CACHE"
         tools:ignore="ProtectedPermissions" />
     <uses-permission
         android:name="android.permission.WRITE_SETTINGS"
@@ -30,18 +32,18 @@
     <uses-permission
         android:name="android.permission.PACKAGE_USAGE_STATS"
         tools:ignore="ProtectedPermissions" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:name="promind.cleaner.app.core.app.Application"
-        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:requestLegacyExternalStorage="true"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Translucent">
+        android:theme="@style/Theme.AppCompat.Translucent"
+        android:allowBackup="true">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
         <activity
             android:name="promind.cleaner.app.ui.activities.premium.PremiumActivity"
             android:screenOrientation="portrait" />
@@ -94,6 +96,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="promind.cleaner.app.ui.activities.junkfile.JunkFileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="promind.cleaner.app.ui.deepcleanjunk.BigJunkFileActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="promind.cleaner.app.ui.activities.listAppSelect.AppSelectActivity"

@@ -130,6 +130,16 @@ public class AdmobHelp {
 
     }
 
+    public void showInterstitialAdWithoutWaiting(AdCloseListener adCloseListener) {
+        if (canShowInterstitialAd()) {
+            this.adCloseListener = adCloseListener;
+            mPublisherInterstitialAd.show();
+            timeLoad = System.currentTimeMillis();
+        } else {
+            adCloseListener.onAdClosed();
+        }
+    }
+
     private boolean canShowInterstitialAd() {
         return mPublisherInterstitialAd != null && mPublisherInterstitialAd.isLoaded();
     }

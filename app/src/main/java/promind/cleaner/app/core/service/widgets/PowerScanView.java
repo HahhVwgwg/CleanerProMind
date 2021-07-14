@@ -78,8 +78,8 @@ public class PowerScanView extends RelativeLayout {
     public void playAnimationStart() {
         llAnimationScan.setVisibility(VISIBLE);
         llAnimationScan.playAnimation();
-        tvContent.setVisibility(VISIBLE);
-        YoYo.with(Techniques.Flash).duration(2000).repeat(1000).playOn(tvContent);
+//        tvContent.setVisibility(VISIBLE);
+//        YoYo.with(Techniques.Flash).duration(2000).repeat(1000).playOn(tvContent);
     }
 
     public void stopAnimationStart() {

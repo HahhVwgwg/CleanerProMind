@@ -70,10 +70,10 @@
                     android:text="@string/issues_found" />
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/tv_resolve_all"
-                style="@style/button"
-                android:text="@string/resolve_all" />
+<!--            <TextView-->
+<!--                android:id="@+id/tv_resolve_all"-->
+<!--                style="@style/button"-->
+<!--                android:text="@string/resolve_all" />-->
         </LinearLayout>
     </LinearLayout>
 
@@ -88,5 +88,20 @@
         android:id="@+id/layout_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_resolve_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_marginBottom="@dimen/_65sdp"
+        android:singleLine="true"
+        android:text="Реклама (2) - во время ожидания"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10sdp" />
 
 </RelativeLayout>

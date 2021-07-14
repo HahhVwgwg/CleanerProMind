@@ -73,6 +73,11 @@ public class SmartChargerBoostActivity extends BaseActivity {
             public void onProgress(String appName) {
                 mPinChargerView.setContent("<b>" + getString(R.string.analyzing_battery_usage) + ": " + "</b>" + "  " + appName);
             }
+
+            @Override
+            public void size(int size) {
+
+            }
         }).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
 

@@ -51,6 +51,7 @@ public class FunctionAdapter extends RecyclerView.Adapter<FunctionAdapter.ViewHo
     public FunctionAdapter(Config.FUNCTION[] lstFunction, Config.TYPE_DISPLAY_ADAPTER typeDisplay) {
         this.lstFunction = lstFunction;
         this.typeDisplay = typeDisplay;
+        System.out.println("Size " + lstFunction.length);
     }
 
     public FunctionAdapter(Config.FUNCTION[] lstFunction, Config.TYPE_DISPLAY_ADAPTER typeDisplay, Boolean bindClick) {

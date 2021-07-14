@@ -9,6 +9,7 @@
 
     <!-- Use with black text -->
     <color name="gray">#8f8f8f</color>
+    <color name="grey">#CBCBCB</color>
     <color name="background">#fcfcfc</color>
 
     <color name="text_color">#ff666666</color>

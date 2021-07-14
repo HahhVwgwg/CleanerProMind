@@ -15,7 +15,7 @@
         android:adjustViewBounds="true"
         android:alpha="0.2"
         android:src="@drawable/bg_wave_blue"
-        android:tint="@color/white" />
+        app:tint="@color/white" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/ll_anmation_scan"
@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ll_anmation_scan"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="@dimen/_30sdp"
         android:layout_marginRight="@dimen/_30sdp"
         android:gravity="center"

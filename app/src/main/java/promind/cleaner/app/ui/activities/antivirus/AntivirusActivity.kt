@@ -1,9 +1,11 @@
 package promind.cleaner.app.ui.activities.antivirus
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.AsyncTask
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.view.MenuItem
 import android.view.View
 import android.widget.PopupMenu
@@ -13,16 +15,19 @@ import kotlinx.android.synthetic.main.activity_antivirus.*
 import kotlinx.android.synthetic.main.layout_animation_antivirus.*
 import kotlinx.android.synthetic.main.layout_toolbar.*
 import promind.cleaner.app.R
+import promind.cleaner.app.core.adsControl.AdmobHelp
 import promind.cleaner.app.core.data.data.TaskScanVirus
-import promind.cleaner.app.ui.dialog.DialogConfirmCancel
 import promind.cleaner.app.core.data.model.TaskInfo
-import promind.cleaner.app.ui.activities.BaseActivity
 import promind.cleaner.app.core.utils.Config
+import promind.cleaner.app.core.utils.Constants
 import promind.cleaner.app.core.utils.listener
 import promind.cleaner.app.core.utils.preferences.MyCache.Companion.getCache
+import promind.cleaner.app.ui.activities.BaseActivity
+import promind.cleaner.app.ui.dialog.DialogConfirmCancel
 import java.util.*
 
 class AntivirusActivity : BaseActivity() {
+    private var alreadyShown: Boolean = false
     private var isCanback = true
     private val lstAppDangerous: MutableList<TaskInfo> = ArrayList()
     private val lstAppVirus: MutableList<TaskInfo> = ArrayList()
@@ -32,7 +37,38 @@ class AntivirusActivity : BaseActivity() {
         setContentView(R.layout.activity_antivirus)
         initView()
         initData()
+        initTimerForAds()
         click()
+    }
+
+    private fun initTimerForAds() {
+        object : CountDownTimer(3000, 1000) {
+
+            override fun onTick(millisUntilFinished: Long) {
+                tv_resolve_all.text =
+                    String.format(applicationContext.getString(R.string.show_ads_format),
+                        millisUntilFinished / 1000 + 1)
+            }
+
+            override fun onFinish() {
+                tv_resolve_all.visibility = View.GONE
+                if (Constants.showAds) AdmobHelp.getInstance().showInterstitialAdWithoutWaiting {
+                    finishAnimationDone()
+                }
+            }
+        }.start()
+    }
+
+    private fun finishAnimationDone() {
+        if (!lstAppVirus.isEmpty()) {
+            startResolve = lstAppVirus.size - 1
+            uninstall(startResolve)
+        } else {
+            Objects.requireNonNull(listener)!!.invoke()
+            getCache().save(Config.FUNCTION.ANTIVIRUS.id, System.currentTimeMillis())
+            openScreenResult(Config.FUNCTION.ANTIVIRUS)
+            finish()
+        }
     }
 
     fun getLstAppVirus(): List<TaskInfo> {
@@ -76,7 +112,12 @@ class AntivirusActivity : BaseActivity() {
                 id_menu_toolbar.setVisibility(View.VISIBLE)
             }
 
-            override fun onProgress(appName: String, virusName: String, dangerousSize: String, progress: String) {
+            override fun onProgress(
+                appName: String,
+                virusName: String,
+                dangerousSize: String,
+                progress: String,
+            ) {
                 antivirusScanView.setContent(appName)
                 antivirusScanView.setProgress(progress.toFloat().toInt())
                 if (virusName != null && !virusName.isEmpty()) {
@@ -104,18 +145,15 @@ class AntivirusActivity : BaseActivity() {
                 }
                 popupMenu.show()
             }
-            R.id.tv_resolve_all -> if (!lstAppVirus.isEmpty()) {
-                startResolve = lstAppVirus.size - 1
-                uninstall(startResolve)
-            } else {
-                Objects.requireNonNull(listener)!!.invoke()
-                getCache().save(Config.FUNCTION.ANTIVIRUS.id, System.currentTimeMillis())
-                openScreenResult(Config.FUNCTION.ANTIVIRUS)
-                finish()
-            }
+            R.id.tv_resolve_all -> if (Constants.showAds) AdmobHelp.getInstance()
+                .showInterstitialAd {
+                    finishAnimationDone()
+                }
         }
+        alreadyShown = true
     }
 
+    @SuppressLint("StringFormatInvalid")
     fun updateData() {
         ll_virus.setVisibility(if (lstAppVirus.isEmpty()) View.GONE else View.VISIBLE)
         ll_dangerous.setVisibility(if (lstAppDangerous.isEmpty()) View.GONE else View.VISIBLE)

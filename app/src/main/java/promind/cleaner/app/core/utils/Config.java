@@ -40,6 +40,7 @@ public class Config {
         POWER_SAVING(5, R.drawable.ic_power_saving, R.string.power_saving, R.string.power_saving, R.string.power_saving_des, R.drawable.bg_func_power_saver, R.color.color_b365ff, R.string.save_now, "power_saving_result.json", R.string.sm_edge_device_optimized, R.string.power_saving_btn, R.string.power_saving_dialog),
         SMART_CHARGE(8, R.drawable.ic_power_saving, R.string.smart_charge, R.string.smart_charge, R.string.smart_charge_des, R.drawable.bg_func_smart_charge, R.color.color_00e3ad, R.string.try_it, "charge_result.json", R.string.fast_charger_boosted_result, R.string.smart_charge_btn, R.string.smart_charge_dialog),
         DEEP_CLEAN(9, R.drawable.ic_deep_clean, R.string.deep_clean, R.string.deep_clean, R.string.deep_clean_des, R.drawable.bg_func_deep_clean, R.color.color_ff7674, R.string.try_it, "heart.json", R.string.deep_clean_result, R.string.deep_clean_btn, R.string.deep_clean_dialog),
+        DEEP_CLEAN_JUNK(19, R.drawable.ic_deep_clean_junk, R.string.deep_clean_text, R.string.deep_clean_text, R.string.junk_files_des, R.drawable.bg_func_junkfile, R.color.color_00b6c5, R.string.clean, "trash_result.json", R.string.deep_clean_result, R.string.deep_clean_btn, R.string.deep_clean_dialog),
         APP_UNINSTALL(10, R.drawable.ic_app_uninstall, R.string.app_uninstall, R.string.app_uninstall, R.string.app_uninstall_des, R.drawable.bg_func_appmanager, R.color.color_3f7af8, R.string.try_it, "restult_like.json", R.string.sm_edge_device_optimized, R.string.app_uninstall_btn, R.string.app_uninstall_dialog),
         NOTIFICATION_MANAGER(12, R.drawable.ic_notification_manager, R.string.notification_manager, R.string.notification_manager, R.string.notification_manager_des, R.drawable.bg_func_notification_manager, R.color.color_b365ff, R.string.try_it, "trash_result.json", R.string.notification_manager_result, R.string.notification_manager_btn, R.string.notification_manager_dialog),
 
@@ -105,15 +106,15 @@ public class Config {
     }
 
     public static final FUNCTION[] LST_HOME_HORIZONTAL = new FUNCTION[]{
-            FUNCTION.JUNK_FILES, FUNCTION.PHONE_BOOST, FUNCTION.CPU_COOLER, FUNCTION.ANTIVIRUS, FUNCTION.POWER_SAVING, FUNCTION.DEEP_CLEAN
+            FUNCTION.JUNK_FILES, FUNCTION.PHONE_BOOST, FUNCTION.CPU_COOLER, FUNCTION.ANTIVIRUS, FUNCTION.POWER_SAVING, FUNCTION.APP_UNINSTALL
     };
 
     public static final FUNCTION[] LST_HOME_VERTICAL = new FUNCTION[]{
-            FUNCTION.APP_UNINSTALL, FUNCTION.SMART_CHARGE, FUNCTION.NOTIFICATION_MANAGER
+            FUNCTION.DEEP_CLEAN_JUNK, FUNCTION.SMART_CHARGE, FUNCTION.NOTIFICATION_MANAGER
     };
 
     public static final FUNCTION[] LST_SLIDER = new FUNCTION[]{
-            FUNCTION.JUNK_FILES, FUNCTION.PHONE_BOOST, FUNCTION.CPU_COOLER, FUNCTION.ANTIVIRUS, FUNCTION.POWER_SAVING, FUNCTION.DEEP_CLEAN,
+            FUNCTION.JUNK_FILES, FUNCTION.PHONE_BOOST, FUNCTION.CPU_COOLER, FUNCTION.ANTIVIRUS, FUNCTION.POWER_SAVING, FUNCTION.APP_UNINSTALL,
     };
 
     public static final FUNCTION[] LST_PREMIUM = new FUNCTION[]{

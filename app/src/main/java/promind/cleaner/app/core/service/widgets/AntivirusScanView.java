@@ -33,8 +33,8 @@ public class AntivirusScanView extends LinearLayout {
     ProgressBar mProgressBar;
     @BindView(R.id.av_scan)
     LottieAnimationView animationScan;
-    @BindView(R.id.av_progress)
-    LottieAnimationView animationProgress;
+//    @BindView(R.id.av_progress)
+//    ProgressBar animationProgress;
     @BindView(R.id.ll_virus)
     FrameLayout llVirus;
     @BindView(R.id.ll_dangerous)
@@ -57,12 +57,12 @@ public class AntivirusScanView extends LinearLayout {
 
     public void startAnimationScan() {
         animationScan.playAnimation();
-        animationProgress.playAnimation();
+//        animationProgress.playAnimation();
     }
 
     public void stopAnimationScan() {
         animationScan.pauseAnimation();
-        animationProgress.pauseAnimation();
+//        animationProgress.pauseAnimation();
         new Handler().postDelayed(() -> setVisibility(GONE), 1000);
     }
 

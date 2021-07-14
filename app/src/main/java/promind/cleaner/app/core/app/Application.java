@@ -8,6 +8,7 @@ import androidx.multidex.MultiDex;
 import com.appsflyer.AppsFlyerConversionListener;
 import com.appsflyer.AppsFlyerLib;
 import com.google.firebase.FirebaseApp;
+import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.onesignal.OneSignal;
 
 import org.litepal.LitePalApplication;
@@ -54,7 +55,6 @@ public class Application extends LitePalApplication {
         if (PreferenceUtils.getTimeInstallApp() == 0)
             PreferenceUtils.setTimeInstallApp(System.currentTimeMillis());
         activityList = new ArrayList<>();
-
         initAnalytics();
     }
 
@@ -108,7 +108,7 @@ public class Application extends LitePalApplication {
 
     private void initFirebase() {
         FirebaseApp.initializeApp(this);
-//        FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true);
+        FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true);
     }
 
     private void initAppsFlyer() {

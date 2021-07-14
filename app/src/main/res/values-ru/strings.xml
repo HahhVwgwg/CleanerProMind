@@ -368,6 +368,7 @@
     <string name="update">Обновить</string>
     <string name="pro">Купить PRO версию</string>
     <string name="found">Найдено</string>
+    <string name="show_ads_format">Реклама (%d) - во время ожидания</string>
     <string name="select_all">Выбрать все</string>
     <string name="deep_clean_text">Глубокая очистка</string>
     <string name="total_clean">Полная очистка мусора</string>

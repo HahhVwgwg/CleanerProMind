@@ -15,6 +15,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import com.google.android.gms.ads.AdListener
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.android.synthetic.main.activity_main.*
 import promind.cleaner.app.core.adsControl.UtilsApp
 import promind.cleaner.app.core.app.Application
@@ -51,9 +52,18 @@ class MainActivity : BaseActivity(), ObserverInterface<Any?> {
             override fun onAdClosed() {
                 val mIntent = Intent(this@MainActivity, ServiceManager::class.java)
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    ContextCompat.startForegroundService(this@MainActivity, mIntent)
+                    try {
+                        ContextCompat.startForegroundService(this@MainActivity, mIntent)
+                    } catch (e: Exception) {
+                        FirebaseCrashlytics.getInstance().recordException(e)
+                    }
                 } else {
-                    startService(mIntent)
+
+                    try {
+                        startService(mIntent)
+                    } catch (e: Exception) {
+                        FirebaseCrashlytics.getInstance().recordException(e)
+                    }
                 }
                 askPermissions()
             }
@@ -65,9 +75,17 @@ class MainActivity : BaseActivity(), ObserverInterface<Any?> {
         else {
             val mIntent = Intent(this@MainActivity, ServiceManager::class.java)
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                ContextCompat.startForegroundService(this@MainActivity, mIntent)
+                try {
+                    ContextCompat.startForegroundService(this@MainActivity, mIntent)
+                } catch (e: Exception) {
+                    FirebaseCrashlytics.getInstance().recordException(e)
+                }
             } else {
-                startService(mIntent)
+                try {
+                    startService(mIntent)
+                } catch (e: Exception) {
+                    FirebaseCrashlytics.getInstance().recordException(e)
+                }
             }
             askPermissions()
         }

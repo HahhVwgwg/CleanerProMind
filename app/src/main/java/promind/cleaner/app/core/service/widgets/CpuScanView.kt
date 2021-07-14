@@ -57,8 +57,8 @@ class CpuScanView : RelativeLayout {
     fun playAnimationStart() {
         llAnimationScan!!.visibility = VISIBLE
         llAnimationScan!!.playAnimation()
-        tvContent!!.visibility = VISIBLE
-        YoYo.with(Techniques.Flash).duration(2000).repeat(1000).playOn(tvContent)
+//        tvContent!!.visibility = VISIBLE
+//        YoYo.with(Techniques.Flash).duration(2000).repeat(1000).playOn(tvContent)
     }
 
     fun stopAnimationStart() {

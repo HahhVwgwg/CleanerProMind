@@ -16,7 +16,7 @@
         android:adjustViewBounds="true"
         android:alpha="0.2"
         android:src="@drawable/bg_wave_blue"
-        android:tint="@color/white" />
+        app:tint="@color/white" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/ll_anmation_scan"
@@ -37,6 +37,7 @@
         android:layout_marginRight="@dimen/_30sdp"
         android:gravity="center"
         android:singleLine="true"
+        android:layout_marginTop="10dp"
         android:text="@string/analyzing_battery_usage"
         android:textColor="@color/white"
         android:textSize="@dimen/_14sdp"

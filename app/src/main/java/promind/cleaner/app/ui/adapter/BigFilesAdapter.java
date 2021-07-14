@@ -28,14 +28,14 @@ import promind.cleaner.app.core.service.widgets.AnimatedExpandableListView;
 import promind.cleaner.app.core.utils.utilts.TypeOpen;
 import promind.cleaner.app.core.utils.utilts.Utils;
 
-public class CleanAdapter extends AnimatedExpandableListView.AnimatedExpandableListAdapter {
+public class BigFilesAdapter extends AnimatedExpandableListView.AnimatedExpandableListAdapter {
     private final LayoutInflater inflater;
     private final Context mContext;
     private final List<GroupItem> items;
     private final OnGroupClickListener mOnGroupClickListener;
 
-    public CleanAdapter(Context context, List<GroupItem> items,
-                        OnGroupClickListener onGroupClickListener) {
+    public BigFilesAdapter(Context context, List<GroupItem> items,
+                           OnGroupClickListener onGroupClickListener) {
         inflater = LayoutInflater.from(context);
         mContext = context;
         this.items = items;
@@ -55,7 +55,6 @@ public class CleanAdapter extends AnimatedExpandableListView.AnimatedExpandableL
     @Override
     public View getRealChildView(final int groupPosition, final int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
         final ChildHolder holder;
-        System.out.println("Qotaqbas");
         ChildItem item = getChild(groupPosition, childPosition);
         if (convertView == null) {
             holder = new ChildHolder();
@@ -187,7 +186,6 @@ public class CleanAdapter extends AnimatedExpandableListView.AnimatedExpandableL
     @Override
     public View getGroupView(final int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
         final GroupHolder holder;
-        System.out.println("Qotaqbas");
         GroupItem item = getGroup(groupPosition);
         if (convertView == null) {
             holder = new GroupHolder();

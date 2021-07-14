@@ -14,4 +14,8 @@ class ChildItem(
         const val TYPE_DOWNLOAD_FILE = 2
         const val TYPE_LARGE_FILES = 3
     }
+
+    override fun toString(): String {
+        return "ChildItem(packageName='$packageName', applicationName='$applicationName', applicationIcon=$applicationIcon, cacheSize=$cacheSize, type=$type, path=$path, isCheck=$isCheck)"
+    }
 }

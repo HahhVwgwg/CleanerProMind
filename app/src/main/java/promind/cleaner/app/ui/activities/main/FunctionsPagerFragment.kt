@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.android.synthetic.main.fragment_functions_pager.*
 import promind.cleaner.app.R
 import promind.cleaner.app.core.utils.Config
@@ -36,15 +37,19 @@ class FunctionsPagerFragment : Fragment() {
 
     @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        val dataId = requireArguments().getInt("dataId")
-        val data: Config.FUNCTION = getFunctionById(dataId)
-        data.apply {
-            btn.text = resources.getString(btnText)
-            funcTitle.text = resources.getString(title_slider)
-            funcDesc.text = "${resources.getString(description)}. ${resources.getString(title)}"
-            btn.setOnClickListener {
-                if (activity != null) (activity as BaseActivity?)!!.openScreenFunction(this)
+        try {
+            val dataId = requireArguments().getInt("dataId")
+            val data: Config.FUNCTION = getFunctionById(dataId)
+            data.apply {
+                btn.text = resources.getString(btnText)
+                funcTitle.text = resources.getString(title_slider)
+                funcDesc.text = "${resources.getString(description)}. ${resources.getString(title)}"
+                btn.setOnClickListener {
+                    if (activity != null) (activity as BaseActivity?)!!.openScreenFunction(this)
+                }
             }
+        } catch (e: Exception) {
+            FirebaseCrashlytics.getInstance().recordException(e)
         }
     }
 
@@ -91,6 +96,9 @@ class FunctionsPagerFragment : Fragment() {
             }
             17 -> {
                 return Config.FUNCTION.ALL_FUNCTIONS
+            }
+            19 -> {
+                return Config.FUNCTION.DEEP_CLEAN_JUNK
             }
             else -> return Config.FUNCTION.PREMIUM_SECURITY
         }

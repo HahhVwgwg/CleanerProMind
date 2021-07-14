@@ -220,8 +220,8 @@ public class DuplicateActivity extends AppCompatActivity {
             boolean f = false;
             if (data != null) {
                 Uri uri = data.getData();
-                if (Build.VERSION.SDK_INT >= 19 && getContext() != null) {
-                    getContentResolver().takePersistableUriPermission(uri, 3);
+                if (getContext() != null) {
+                    getContentResolver().takePersistableUriPermission(uri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
                 }
                 if (checkIfSDCardRoot(uri)) {
                     editor.putString("sdCardUri", uri.toString());
