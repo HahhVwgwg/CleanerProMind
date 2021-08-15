@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-login:8.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53169939e89bca7e0cbda6c0cc6210f5/jetified-facebook-login-8.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53169939e89bca7e0cbda6c0cc6210f5/jetified-facebook-login-8.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53169939e89bca7e0cbda6c0cc6210f5/jetified-facebook-login-8.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/91893896b3ea1d6988e8812c0d828e54/jetified-facebook-login-8.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/91893896b3ea1d6988e8812c0d828e54/jetified-facebook-login-8.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/91893896b3ea1d6988e8812c0d828e54/jetified-facebook-login-8.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-login/8.2.0/d279bc9f1dabf730b37c951d4c70a58587ded8a/facebook-login-8.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-login/8.2.0/3b27455754296a90f2e9d361297a31bd171c61af/facebook-login-8.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

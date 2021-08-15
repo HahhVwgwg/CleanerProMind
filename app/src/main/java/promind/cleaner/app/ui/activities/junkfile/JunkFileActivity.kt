@@ -99,6 +99,7 @@ class JunkFileActivity : BaseActivity() {
     @BindView(R.id.cleanJunkFileView)
     var mCleanJunkFileView: CleanJunkFileView? = null
     private var mTotalJunk: Long = 0
+    private lateinit var admobHelp: AdmobHelp
     private val mFileListLarge = ArrayList<File>()
     private val mGroupItems = ArrayList<GroupItem>()
     private var mAdapter: CleanAdapter? = null
@@ -110,6 +111,7 @@ class JunkFileActivity : BaseActivity() {
         ButterKnife.bind(this)
         initView()
         initData()
+        admobHelp = AdmobHelp(this@JunkFileActivity)
     }
 
     override fun onBackPressed() {
@@ -130,7 +132,7 @@ class JunkFileActivity : BaseActivity() {
 
             override fun onFinish() {
                 tvBoost?.visibility = View.GONE
-                if (showAds) AdmobHelp.getInstance().showInterstitialAdWithoutWaiting {
+                if (showAds) admobHelp.showInterstitialAdWithoutWaiting2 {
                     finishAnimationDone()
                 }
             }
@@ -220,29 +222,23 @@ class JunkFileActivity : BaseActivity() {
 
 
     private fun initView() {
-        extraPermission.showGone(!SystemUtil.isUsageAccessAllowed(this))
-
-        deepClean.setOnClickListener {
-            askPermissionUsageSetting {
-                extraPermission.gone()
-            }
-        }
-        imBack!!.visibility = View.VISIBLE
+        imBack!!.visibility = View.GONE
         imBack!!.setOnClickListener {
-            val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.JUNK_FILES.id)
-            dialogConfirmCancel.listener = object : DialogConfirmCancel.OnClickListener {
-                override fun onDo() {
-//                    clean()
-                }
-
-                override fun onCancel() {
-                    finish()
-                }
-            }
-            dialogConfirmCancel.show()
+//            val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.JUNK_FILES.id)
+//            dialogConfirmCancel.listener = object : DialogConfirmCancel.OnClickListener {
+//                override fun onDo() {
+////                    clean()
+//                }
+//
+//                override fun onCancel() {
+//                    finish()
+//                }
+//            }
+            finish()
+//            dialogConfirmCancel.show()
         }
         tvBoost?.setOnClickListener {
-            if (showAds && !alreadyShown) AdmobHelp.getInstance().showInterstitialAdWithoutWaiting {
+            if (showAds && !alreadyShown) admobHelp.showInterstitialAdWithoutWaiting2 {
                 finishAnimationDone()
             }
             alreadyShown = true

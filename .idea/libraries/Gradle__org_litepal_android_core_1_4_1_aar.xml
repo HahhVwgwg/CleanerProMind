@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: org.litepal.android:core:1.4.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abf18002c2aeeab2176fde1f9690b9c8/jetified-core-1.4.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abf18002c2aeeab2176fde1f9690b9c8/jetified-core-1.4.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abf18002c2aeeab2176fde1f9690b9c8/jetified-core-1.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc9a2defc6bf52d393d9b0af94374e45/jetified-core-1.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc9a2defc6bf52d393d9b0af94374e45/jetified-core-1.4.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc9a2defc6bf52d393d9b0af94374e45/jetified-core-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/808c5a4b8daf455f6d0a5358dad760c1/jetified-core-1.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/808c5a4b8daf455f6d0a5358dad760c1/jetified-core-1.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/808c5a4b8daf455f6d0a5358dad760c1/jetified-core-1.4.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.litepal.android/core/1.4.1/9ad996113c704874db420c3e1aab78b72ac7da45/core-1.4.1-javadoc.jar!/" />

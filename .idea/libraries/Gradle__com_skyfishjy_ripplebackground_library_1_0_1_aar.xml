@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.skyfishjy.ripplebackground:library:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/563e667832d0f29321bef8296ebb987d/jetified-library-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/563e667832d0f29321bef8296ebb987d/jetified-library-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/563e667832d0f29321bef8296ebb987d/jetified-library-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/335cf7da4c8aaf7bebaae15610356b86/jetified-library-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/335cf7da4c8aaf7bebaae15610356b86/jetified-library-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/335cf7da4c8aaf7bebaae15610356b86/jetified-library-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dccd421d633bd84263e055a41f03052f/jetified-library-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dccd421d633bd84263e055a41f03052f/jetified-library-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dccd421d633bd84263e055a41f03052f/jetified-library-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.skyfishjy.ripplebackground/library/1.0.1/95704f911824a114f450f4a143f2d755fc95eb6c/library-1.0.1-javadoc.jar!/" />

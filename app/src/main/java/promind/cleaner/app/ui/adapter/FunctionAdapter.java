@@ -36,10 +36,10 @@ public class FunctionAdapter extends RecyclerView.Adapter<FunctionAdapter.ViewHo
     }
 
     public void setDot(int position) {
-        for (Config.FUNCTION function : lstFunction) {
-            function.needDot = false;
-        }
-        lstFunction[position].needDot = true;
+//        for (Config.FUNCTION function : lstFunction) {
+//            function.needDot = false;
+//        }
+//        lstFunction[position].needDot = true;
         notifyDataSetChanged();
     }
 

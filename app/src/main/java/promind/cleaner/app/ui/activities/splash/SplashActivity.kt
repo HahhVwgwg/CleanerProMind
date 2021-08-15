@@ -16,6 +16,7 @@ import promind.cleaner.app.core.adsControl.AdmobHelp
 import promind.cleaner.app.core.utils.Constants.showAds
 import promind.cleaner.app.core.utils.mInterstitialAd
 import promind.cleaner.app.ui.activities.BaseActivity
+import promind.cleaner.app.ui.activities.junkfile.JunkFileActivity
 import promind.cleaner.app.ui.activities.main.MainActivity
 import java.util.*
 

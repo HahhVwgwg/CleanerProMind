@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.jpardogo.googleprogressbar:library:1.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8cdc82a0601270b43ac3bd98aafe01e/jetified-library-1.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8cdc82a0601270b43ac3bd98aafe01e/jetified-library-1.2.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8cdc82a0601270b43ac3bd98aafe01e/jetified-library-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97c7178113de47f6d4e84928c21b63bc/jetified-library-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97c7178113de47f6d4e84928c21b63bc/jetified-library-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97c7178113de47f6d4e84928c21b63bc/jetified-library-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/517b6d01641b1840dcfcbf5442ad57c9/jetified-library-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/517b6d01641b1840dcfcbf5442ad57c9/jetified-library-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/517b6d01641b1840dcfcbf5442ad57c9/jetified-library-1.2.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jpardogo.googleprogressbar/library/1.2.0/632cfb28134a7b940552908d902e325cc6df7e72/library-1.2.0-javadoc.jar!/" />

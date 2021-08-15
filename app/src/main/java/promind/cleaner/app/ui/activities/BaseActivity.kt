@@ -356,29 +356,6 @@ open class BaseActivity : AppCompatActivity(), BillingProcessor.IBillingHandler 
     }
 
     @Throws(Exception::class)
-    fun askPermissionUsageSetting(callable: Callable<Unit>) {
-        callables.clear()
-        callables.add(callable)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !SystemUtil.isUsageAccessAllowed(
-                this
-            )
-        ) {
-            DialogAskPermission.getInstance(Settings.ACTION_USAGE_ACCESS_SETTINGS) {
-                startActivityForResult(
-                    Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS),
-                    Config.PERMISSIONS_USAGE
-                )
-                GuildPermissionActivity.openActivityGuildPermission(
-                    this,
-                    Settings.ACTION_USAGE_ACCESS_SETTINGS
-                )
-            }.show(supportFragmentManager, DialogAskPermission::class.java.name)
-        } else {
-            callable.call()
-        }
-    }
-
-    @Throws(Exception::class)
     fun askPermissionWriteSetting(callable: Callable<Unit>) {
         callables.clear()
         callables.add(callable)

@@ -27,6 +27,7 @@ import promind.cleaner.app.ui.dialog.DialogConfirmCancel
 import java.util.*
 
 class AntivirusActivity : BaseActivity() {
+    private lateinit var admobHelp: AdmobHelp
     private var alreadyShown: Boolean = false
     private var isCanback = true
     private val lstAppDangerous: MutableList<TaskInfo> = ArrayList()
@@ -39,6 +40,7 @@ class AntivirusActivity : BaseActivity() {
         initData()
         initTimerForAds()
         click()
+        admobHelp = AdmobHelp(this@AntivirusActivity)
     }
 
     private fun initTimerForAds() {
@@ -52,7 +54,7 @@ class AntivirusActivity : BaseActivity() {
 
             override fun onFinish() {
                 tv_resolve_all.visibility = View.GONE
-                if (Constants.showAds) AdmobHelp.getInstance().showInterstitialAdWithoutWaiting {
+                if (Constants.showAds) admobHelp.showInterstitialAdWithoutWaiting2 {
                     finishAnimationDone()
                 }
             }
@@ -82,14 +84,15 @@ class AntivirusActivity : BaseActivity() {
     private fun initView() {
         im_back_toolbar.setVisibility(View.VISIBLE)
         im_back_toolbar.setOnClickListener { v ->
-            val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.ANTIVIRUS.id)
-            dialogConfirmCancel.listener = object : DialogConfirmCancel.OnClickListener {
-                override fun onDo() {}
-                override fun onCancel() {
-                    finish()
-                }
-            }
-            dialogConfirmCancel.show()
+//            val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.ANTIVIRUS.id)
+//            dialogConfirmCancel.listener = object : DialogConfirmCancel.OnClickListener {
+//                override fun onDo() {}
+//                override fun onCancel() {
+//                    finish()
+//                }
+//            }
+            finish()
+//            dialogConfirmCancel.show()
         }
         tv_toolbar.setText(getString(R.string.security))
     }
@@ -145,8 +148,8 @@ class AntivirusActivity : BaseActivity() {
                 }
                 popupMenu.show()
             }
-            R.id.tv_resolve_all -> if (Constants.showAds) AdmobHelp.getInstance()
-                .showInterstitialAd {
+            R.id.tv_resolve_all -> if (Constants.showAds) admobHelp
+                .showInterstitialAdWithoutWaiting2 {
                     finishAnimationDone()
                 }
         }

@@ -68,14 +68,15 @@ class AppManagerActivity : BaseActivity() {
         checkAll!!.setOnCheckedChangeListener { button: CompoundButton?, isChecked: Boolean -> mAdapter!!.setChecked(isChecked) }
         imBackToolbar!!.visibility = View.VISIBLE
         imBackToolbar!!.setOnClickListener { v: View? ->
-            val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.APP_UNINSTALL.id)
-            dialogConfirmCancel.listener = object : DialogConfirmCancel.OnClickListener {
-                override fun onDo() {}
-                override fun onCancel() {
-                    finish()
-                }
-            }
-            dialogConfirmCancel.show()
+//            val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.APP_UNINSTALL.id)
+//            dialogConfirmCancel.listener = object : DialogConfirmCancel.OnClickListener {
+//                override fun onDo() {}
+//                override fun onCancel() {
+//                    finish()
+//                }
+//            }
+//            dialogConfirmCancel.show()
+            finish()
         }
         delete!!.setOnClickListener { v: View? ->
             for (checkedItem in mAdapter!!.getCheckedItems()) {

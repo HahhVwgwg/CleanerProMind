@@ -11,6 +11,10 @@ import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.applovin.mediation.MaxAd;
+import com.applovin.mediation.MaxAdListener;
+import com.applovin.mediation.MaxError;
+import com.applovin.mediation.ads.MaxInterstitialAd;
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdLoader;
@@ -32,10 +36,13 @@ import promind.cleaner.app.R;
 public class AdmobHelp {
 
     private static AdmobHelp instance;
+    private Activity activity;
     PublisherInterstitialAd mPublisherInterstitialAd;
     private AdCloseListener adCloseListener;
     private boolean isReloaded = false;
     private UnifiedNativeAd nativeAd;
+    private MaxInterstitialAd interstitialAd;
+    private int retryAttempt;
 
     public static long timeLoad = 0;
     public static long TimeReload = 60 * 1000;
@@ -46,6 +53,60 @@ public class AdmobHelp {
         }
         return instance;
     }
+
+    public static AdmobHelp getInstance(Activity activity) {
+        if (instance == null) {
+            instance = new AdmobHelp(activity);
+        }
+        return instance;
+    }
+
+    public AdmobHelp(Activity activity) {
+        this.activity = activity;
+        interstitialAd = new MaxInterstitialAd("5918146f78aadbe4", activity);
+        interstitialAd.loadAd();
+    }
+
+    public void showInterstitialAdWithoutWaiting2(AdCloseListener adCloseListener) {
+        if (interstitialAd.isReady()) {
+            interstitialAd.showAd();
+            interstitialAd.setListener(new MaxAdListener() {
+                @Override
+                public void onAdLoaded(MaxAd ad) {
+
+                }
+
+                @Override
+                public void onAdDisplayed(MaxAd ad) {
+
+                }
+
+                @Override
+                public void onAdHidden(MaxAd ad) {
+                    adCloseListener.onAdClosed();
+                }
+
+                @Override
+                public void onAdClicked(MaxAd ad) {
+
+                }
+
+                @Override
+                public void onAdLoadFailed(String adUnitId, MaxError error) {
+
+                }
+
+                @Override
+                public void onAdDisplayFailed(MaxAd ad, MaxError error) {
+
+                }
+            });
+        } else {
+            adCloseListener.onAdClosed();
+        }
+
+    }
+
 
     private AdmobHelp() {
 

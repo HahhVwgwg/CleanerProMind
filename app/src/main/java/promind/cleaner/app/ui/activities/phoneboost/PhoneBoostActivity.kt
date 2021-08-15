@@ -29,6 +29,7 @@ import java.util.*
 
 class PhoneBoostActivity : BaseActivity() {
     private var alreadyShown: Boolean = false
+    private lateinit var admobHelp: AdmobHelp
 
     /**
      * This activity used for function:
@@ -50,6 +51,8 @@ class PhoneBoostActivity : BaseActivity() {
         activity = this
         initClick()
         initTimerForAds()
+        admobHelp = AdmobHelp(activity)
+
     }
 
     private fun initTimerForAds() {
@@ -64,7 +67,7 @@ class PhoneBoostActivity : BaseActivity() {
             override fun onFinish() {
                 tv_boost.visibility = View.GONE
                 println("MineMine 71")
-                if (showAds) AdmobHelp.getInstance().showInterstitialAdWithoutWaiting {
+                if (showAds) admobHelp.showInterstitialAdWithoutWaiting2 {
                     println("MineMine 73")
                     finishAnimationDone()
                 } else {
@@ -241,8 +244,8 @@ class PhoneBoostActivity : BaseActivity() {
 
     fun click(mView: View) {
         when (mView.id) {
-            R.id.tv_boost -> if (showAds && !alreadyShown) AdmobHelp.getInstance()
-                .showInterstitialAd {
+            R.id.tv_boost -> if (showAds && !alreadyShown) admobHelp
+                .showInterstitialAdWithoutWaiting2 {
                     finishAnimationDone()
                 }
         }

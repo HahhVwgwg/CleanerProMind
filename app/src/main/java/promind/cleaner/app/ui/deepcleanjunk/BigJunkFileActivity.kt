@@ -224,13 +224,6 @@ class BigJunkFileActivity : BaseActivity() {
 
 
     private fun initView() {
-        extraPermission.showGone(!SystemUtil.isUsageAccessAllowed(this))
-
-        deepClean.setOnClickListener {
-            askPermissionUsageSetting {
-                extraPermission.gone()
-            }
-        }
         imBack!!.visibility = View.VISIBLE
         imBack!!.setOnClickListener {
             val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.JUNK_FILES.id)

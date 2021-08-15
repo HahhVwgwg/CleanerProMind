@@ -14,24 +14,26 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
+import com.applovin.sdk.AppLovinSdk
+import com.applovin.sdk.AppLovinSdkConfiguration
 import com.google.android.gms.ads.AdListener
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.android.synthetic.main.activity_main.*
+import promind.cleaner.app.R
 import promind.cleaner.app.core.adsControl.UtilsApp
 import promind.cleaner.app.core.app.Application
-import promind.cleaner.app.core.utils.Constants
-import promind.cleaner.app.R
 import promind.cleaner.app.core.service.listener.observerPartener.ObserverInterface
 import promind.cleaner.app.core.service.listener.observerPartener.ObserverUtils
 import promind.cleaner.app.core.service.listener.observerPartener.eventModel.EvbCheckLoadAds
 import promind.cleaner.app.core.service.listener.observerPartener.eventModel.EvbOpenFunc
-import promind.cleaner.app.ui.activities.BaseActivity
-import promind.cleaner.app.ui.activities.premium.PremiumActivity
 import promind.cleaner.app.core.service.service.NotificationUtil
 import promind.cleaner.app.core.service.service.ServiceManager
 import promind.cleaner.app.core.utils.*
 import promind.cleaner.app.core.utils.Config.FUNCTION
+import promind.cleaner.app.ui.activities.BaseActivity
+import promind.cleaner.app.ui.activities.premium.PremiumActivity
 import java.util.*
+
 
 class MainActivity : BaseActivity(), ObserverInterface<Any?> {
 
@@ -42,12 +44,13 @@ class MainActivity : BaseActivity(), ObserverInterface<Any?> {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        showAds()
+//        showAds()
         setContentView(R.layout.activity_main)
         ObserverUtils.getInstance().registerObserver(this)
         initView()
         initControl()
         initShowPremiumLogic()
+        initAppLovin()
         mInterstitialAd?.adListener = object : AdListener() {
             override fun onAdClosed() {
                 val mIntent = Intent(this@MainActivity, ServiceManager::class.java)
@@ -67,6 +70,14 @@ class MainActivity : BaseActivity(), ObserverInterface<Any?> {
                 }
                 askPermissions()
             }
+        }
+    }
+
+    private fun initAppLovin() {
+        // Please make sure to set the mediation provider value to "max" to ensure proper functionality
+        AppLovinSdk.getInstance( this ).mediationProvider = "max"
+        AppLovinSdk.getInstance( this ).initializeSdk {
+            println("AppLovinSdk heeey")
         }
     }
 

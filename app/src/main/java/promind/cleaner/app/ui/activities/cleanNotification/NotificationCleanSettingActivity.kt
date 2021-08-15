@@ -41,14 +41,15 @@ class NotificationCleanSettingActivity : BaseActivity() {
     private fun initView() {
         imBack!!.visibility = View.VISIBLE
         imBack!!.setOnClickListener { v: View? ->
-            val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.NOTIFICATION_MANAGER.id)
-            dialogConfirmCancel.listener = object : DialogConfirmCancel.OnClickListener {
-                override fun onDo() {}
-                override fun onCancel() {
-                    finish()
-                }
-            }
-            dialogConfirmCancel.show()
+//            val dialogConfirmCancel = DialogConfirmCancel(this, Config.FUNCTION.NOTIFICATION_MANAGER.id)
+//            dialogConfirmCancel.listener = object : DialogConfirmCancel.OnClickListener {
+//                override fun onDo() {}
+//                override fun onCancel() {
+//                    finish()
+//                }
+//            }
+            finish()
+//            dialogConfirmCancel.show()
         }
         tvToolbar!!.text = getString(R.string.notification_manager)
         menuToolbar!!.handleViewAndClick()

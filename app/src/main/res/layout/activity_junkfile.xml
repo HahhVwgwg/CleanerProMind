@@ -95,58 +95,6 @@
             android:background="@color/white"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/extraPermission"
-                android:layout_width="match_parent"
-                android:layout_height="66dp"
-                android:gravity="center_vertical"
-                android:paddingHorizontal="16dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_junk_file"
-                    app:tint="@color/colorViolet"
-                    tools:ignore="ContentDescription" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ellipsize="end"
-                        android:singleLine="true"
-                        android:text="@string/deep_clean_text"
-                        android:textColor="#4B4C4D"
-                        android:textSize="14sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/tv_description"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:maxLines="2"
-                        android:text="@string/total_clean"
-                        android:textColor="@color/color_a8a8a8"
-                        android:textSize="10sp" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/deepClean"
-                    style="@style/button"
-                    android:layout_width="76dp"
-                    android:layout_height="25dp"
-                    android:layout_margin="0dp"
-                    android:text="Включить"
-                    android:textSize="10sp"
-                    tools:ignore="SmallSp" />
-            </LinearLayout>
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
